@@ -1,2 +1,0 @@
-# codigo-mamporras
-cositas
