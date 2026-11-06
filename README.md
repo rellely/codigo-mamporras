@@ -15,9 +15,12 @@ voz neuronal local, música y efectos sintetizados, subtítulos sincronizados.
 | Español | `renders/el-sexto-es.mp4` |
 | English | `renders/the-sixth-one-en.mp4` |
 
-### Serie (español, ~1 min por capítulo)
+### Serie (español + inglés, ~1 min por capítulo)
 
-| Parte | Título | Archivo | De qué va |
+Versión inglesa: `renders/the-sixth-one-part-N.mp4` (*THE SIXTH ONE*), con voz, subtítulos y
+textos en pantalla en inglés.
+
+| Parte | Título | Archivo (ES) | De qué va |
 |---|---|---|---|
 | 2 | La foto | `renders/el-sexto-parte-2.mp4` | En casa, Sara revisa las fotos: él aparece en todas, cada vez más cerca… y la última es de ella dormida. |
 | 3 | El miembro nuevo | `renders/el-sexto-parte-3.mp4` | «?» entra en el chat del grupo. Una noticia de 2006 revela quién es: Hugo, el chico que no volvió. |
@@ -71,6 +74,7 @@ src/scenes/S01…S12           Escenas independientes
 ```bash
 npm run audio:series     # voces + música + SFX de las partes 2-6
 npm run render:series    # renders/el-sexto-parte-N.mp4
+npm run render:series:en # renders/the-sixth-one-part-N.mp4
 ```
 
 ## Uso
