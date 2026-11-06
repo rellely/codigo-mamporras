@@ -7,7 +7,7 @@ export const FIRE = {x: 540, y: 1440};
 export const WALL_BASE = 1185;
 
 /** Seat positions around the fire (front view). */
-export const SEATS: Record<CharId, {x: number; y: number}> = {
+export const SEATS: Record<string, {x: number; y: number}> = {
 	leo: {x: 135, y: 1335},
 	marta: {x: 298, y: 1268},
 	dani: {x: 458, y: 1240},

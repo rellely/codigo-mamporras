@@ -514,6 +514,77 @@ def sfx_swipe():
     return sfx_whoosh(0.45)
 
 
+def sfx_splash():
+    n = int(1.6 * SR)
+    t = np.arange(n) / SR
+    body = bandpass(noise(n), 300, 5000) * np.exp(-t * 4)
+    drops = np.zeros(n)
+    for _ in range(40):
+        p0 = RNG.integers(int(0.1 * SR), n - 3000)
+        m = 1500
+        tt = np.arange(m) / SR
+        f = RNG.uniform(800, 2500)
+        drops[p0:p0 + m] += np.sin(2 * np.pi * (f + 3000 * tt) * tt) * env_ad(m, 0.001, 0.01) * RNG.uniform(0.1, 0.4)
+    thump = lowpass(noise(n), 200) * env_ad(n, 0.003, 0.12)
+    return norm(reverb(body + drops + thump, 1.0, 0.2), 0.85)
+
+
+def sfx_engine(dur):
+    t = t_axis(dur)
+    f = 32 + 2 * np.sin(2 * np.pi * 0.5 * t)
+    x = signal.sawtooth(2 * np.pi * np.cumsum(f) / SR) * 0.6 + bandpass(noise(len(t)), 80, 600) * 0.4
+    x *= 0.8 + 0.2 * np.sin(2 * np.pi * f * 0.5 * t)
+    return norm(lowpass(x, 700), 0.6)
+
+
+def sfx_powerdown():
+    n = int(2.2 * SR)
+    t = np.arange(n) / SR
+    f = 60 * np.exp(-t * 1.5) + 8
+    hum = np.sin(2 * np.pi * np.cumsum(f) / SR) + 0.5 * np.sin(2 * np.pi * np.cumsum(f * 2) / SR)
+    clunk = lowpass(noise(n), 400) * env_ad(n, 0.002, 0.08)
+    return norm(hum * np.exp(-t * 1.2) * 0.7 + clunk, 0.8)
+
+
+def sfx_static(dur=2.5):
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    x = bandpass(noise(n), 900, 4500) * (0.6 + 0.4 * (np.sin(2 * np.pi * 7 * t) > 0))
+    return norm(x * np.minimum(1, t / 0.05), 0.5)
+
+
+def sfx_breath(dur=3.0):
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    x = np.zeros(n)
+    period = 1.3
+    for k in range(int(dur / period) + 1):
+        for off, ln, amp in [(0.0, 0.55, 1.0), (0.62, 0.6, 0.8)]:
+            a = int((k * period + off) * SR)
+            m = int(ln * SR)
+            if a + m < n:
+                x[a:a + m] += bandpass(noise(m), 400, 2400) * np.sin(np.pi * np.arange(m) / m) ** 2 * amp
+    radio = bandpass(x, 500, 3000) + 0.15 * bandpass(noise(n), 1000, 4000)
+    return norm(radio, 0.7)
+
+
+def sfx_scrape(dur=1.8):
+    n = int(dur * SR)
+    t = np.arange(n) / SR
+    f = 900 + 300 * np.sin(2 * np.pi * 1.3 * t)
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.4 + bandpass(noise(n), 2000, 7000) * 0.5
+    x *= np.sin(np.pi * np.clip(t / dur, 0, 1)) * (0.7 + 0.3 * np.sin(2 * np.pi * 23 * t))
+    return norm(reverb(x, 1.5, 0.3), 0.7)
+
+
+def sfx_thud():
+    n = int(0.8 * SR)
+    t = np.arange(n) / SR
+    x = np.sin(2 * np.pi * (90 - 50 * t) * t) * env_ad(n, 0.002, 0.08) + highpass(noise(n), 2000) * env_ad(n, 0.001, 0.01) * 0.4
+    roll = bandpass(noise(n), 300, 1500) * (t > 0.1) * np.exp(-np.maximum(0, t - 0.1) * 3) * 0.25
+    return norm(x + roll, 0.8)
+
+
 SFX = {
     "boom": lambda d: sfx_boom(),
     "sting": lambda d: sfx_sting(),
@@ -539,6 +610,13 @@ SFX = {
     "owl": lambda d: sfx_owl(),
     "magic": lambda d: sfx_magic(),
     "swipe": lambda d: sfx_swipe(),
+    "splash": lambda d: sfx_splash(),
+    "engine": sfx_engine,
+    "powerdown": lambda d: sfx_powerdown(),
+    "static": lambda d: sfx_static(),
+    "breath": sfx_breath,
+    "scrape": lambda d: sfx_scrape(),
+    "thud": lambda d: sfx_thud(),
 }
 
 

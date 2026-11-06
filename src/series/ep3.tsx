@@ -16,7 +16,7 @@ import tlEs from '../generated/timeline_ep3_es.json';
 import tlEn from '../generated/timeline_ep3_en.json';
 
 const GY = 1470;
-const POS: Record<Exclude<CharId, 'sixth'>, number> = {leo: 170, marta: 340, dani: 540, sara: 740, iker: 910};
+const POS: Record<string, number> = {leo: 170, marta: 340, dani: 540, sara: 740, iker: 910};
 const FR: Exclude<CharId, 'sixth'>[] = ['leo', 'marta', 'dani', 'sara', 'iker'];
 
 /** The five friends gathered in the garage. */

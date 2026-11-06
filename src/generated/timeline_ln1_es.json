@@ -1,0 +1,992 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "LAGO NEGRO",
+ "part": "CAPÍTULO 1 · LA PRIMERA NOCHE",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 7.266666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "El Campamento Lago Negro cerró hace treinta años.",
+     "start": 0.4,
+     "end": 3.64,
+     "words": [
+      {
+       "w": "El",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.633
+      },
+      {
+       "w": "Campamento",
+       "hl": false,
+       "start": 0.633,
+       "end": 1.344
+      },
+      {
+       "w": "Lago",
+       "hl": false,
+       "start": 1.344,
+       "end": 1.673
+      },
+      {
+       "w": "Negro",
+       "hl": false,
+       "start": 1.673,
+       "end": 2.067
+      },
+      {
+       "w": "cerró",
+       "hl": false,
+       "start": 2.067,
+       "end": 2.46
+      },
+      {
+       "w": "hace",
+       "hl": false,
+       "start": 2.46,
+       "end": 2.79
+      },
+      {
+       "w": "treinta",
+       "hl": true,
+       "start": 2.79,
+       "end": 3.31
+      },
+      {
+       "w": "años.",
+       "hl": false,
+       "start": 3.31,
+       "end": 3.64
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Nadie volvió a hablar de por qué.",
+     "start": 4.04,
+     "end": 6.05,
+     "words": [
+      {
+       "w": "Nadie",
+       "hl": false,
+       "start": 4.07,
+       "end": 4.427
+      },
+      {
+       "w": "volvió",
+       "hl": false,
+       "start": 4.427,
+       "end": 4.841
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.841,
+       "end": 4.968
+      },
+      {
+       "w": "hablar",
+       "hl": false,
+       "start": 4.968,
+       "end": 5.382
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 5.382,
+       "end": 5.567
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 5.567,
+       "end": 5.808
+      },
+      {
+       "w": "qué.",
+       "hl": false,
+       "start": 5.808,
+       "end": 6.05
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "rise": 1.6,
+    "sting": 6.15
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.5,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "arrival",
+   "start": 7.2667,
+   "duration": 7.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Este verano, seis monitores llegaron para reabrirlo.",
+     "start": 0.4,
+     "end": 3.58,
+     "words": [
+      {
+       "w": "Este",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.711
+      },
+      {
+       "w": "verano,",
+       "hl": false,
+       "start": 0.711,
+       "end": 1.1
+      },
+      {
+       "w": "seis",
+       "hl": false,
+       "start": 1.22,
+       "end": 1.527
+      },
+      {
+       "w": "monitores",
+       "hl": false,
+       "start": 1.527,
+       "end": 2.129
+      },
+      {
+       "w": "llegaron",
+       "hl": false,
+       "start": 2.129,
+       "end": 2.671
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 2.671,
+       "end": 2.978
+      },
+      {
+       "w": "reabrirlo.",
+       "hl": true,
+       "start": 2.978,
+       "end": 3.58
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Mateo, Lucía, Carlos, Vera, Álex y Bea.",
+     "start": 3.98,
+     "end": 6.71,
+     "words": [
+      {
+       "w": "Mateo,",
+       "hl": false,
+       "start": 4.01,
+       "end": 4.47
+      },
+      {
+       "w": "Lucía,",
+       "hl": false,
+       "start": 4.47,
+       "end": 4.93
+      },
+      {
+       "w": "Carlos,",
+       "hl": false,
+       "start": 4.93,
+       "end": 5.464
+      },
+      {
+       "w": "Vera,",
+       "hl": false,
+       "start": 5.464,
+       "end": 5.85
+      },
+      {
+       "w": "Álex",
+       "hl": false,
+       "start": 5.85,
+       "end": 6.235
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 6.235,
+       "end": 6.398
+      },
+      {
+       "w": "Bea.",
+       "hl": false,
+       "start": 6.398,
+       "end": 6.71
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.2,
+    "steps": 0.2,
+    "birds": 0.3
+   },
+   "mood": {
+    "pluck": 1,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "lake",
+   "start": 14.5667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "El primer día fue perfecto.",
+     "start": 0.3,
+     "end": 2.22,
+     "words": [
+      {
+       "w": "El",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.546
+      },
+      {
+       "w": "primer",
+       "hl": false,
+       "start": 0.546,
+       "end": 1.032
+      },
+      {
+       "w": "día",
+       "hl": false,
+       "start": 1.032,
+       "end": 1.316
+      },
+      {
+       "w": "fue",
+       "hl": false,
+       "start": 1.316,
+       "end": 1.599
+      },
+      {
+       "w": "perfecto.",
+       "hl": true,
+       "start": 1.599,
+       "end": 2.22
+      }
+     ]
+    },
+    {
+     "speaker": "lucia",
+     "text": "¡Álex, que el agua está helada!",
+     "start": 2.62,
+     "end": 4.242,
+     "words": [
+      {
+       "w": "¡Álex,",
+       "hl": false,
+       "start": 2.661,
+       "end": 2.933
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 2.933,
+       "end": 3.153
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 3.153,
+       "end": 3.321
+      },
+      {
+       "w": "agua",
+       "hl": false,
+       "start": 3.321,
+       "end": 3.593
+      },
+      {
+       "w": "está",
+       "hl": false,
+       "start": 3.593,
+       "end": 3.865
+      },
+      {
+       "w": "helada!",
+       "hl": false,
+       "start": 3.865,
+       "end": 4.242
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.3,
+    "splash": 4.742,
+    "birds": 0.0
+   },
+   "mood": {
+    "pluck": 0.8,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "legend",
+   "start": 20.5667,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "vera",
+     "text": "Dicen que el guarda del lago sigue aquí...",
+     "start": 0.5,
+     "end": 2.605,
+     "words": [
+      {
+       "w": "Dicen",
+       "hl": false,
+       "start": 0.529,
+       "end": 0.838
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 0.838,
+       "end": 1.048
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.048,
+       "end": 1.207
+      },
+      {
+       "w": "guarda",
+       "hl": false,
+       "start": 1.207,
+       "end": 1.567
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 1.567,
+       "end": 1.776
+      },
+      {
+       "w": "lago",
+       "hl": false,
+       "start": 1.776,
+       "end": 2.036
+      },
+      {
+       "w": "sigue",
+       "hl": false,
+       "start": 2.036,
+       "end": 2.345
+      },
+      {
+       "w": "aquí...",
+       "hl": false,
+       "start": 2.345,
+       "end": 2.605
+      }
+     ]
+    },
+    {
+     "speaker": "vera",
+     "text": "Con su impermeable amarillo... y su gancho.",
+     "start": 3.005,
+     "end": 5.424,
+     "words": [
+      {
+       "w": "Con",
+       "hl": false,
+       "start": 3.043,
+       "end": 3.264
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 3.264,
+       "end": 3.432
+      },
+      {
+       "w": "impermeable",
+       "hl": false,
+       "start": 3.432,
+       "end": 4.073
+      },
+      {
+       "w": "amarillo...",
+       "hl": true,
+       "start": 4.073,
+       "end": 4.557
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 4.71,
+       "end": 4.834
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 4.834,
+       "end": 5.016
+      },
+      {
+       "w": "gancho.",
+       "hl": true,
+       "start": 5.016,
+       "end": 5.424
+      }
+     ]
+    },
+    {
+     "speaker": "mateo",
+     "text": "Uy, qué miedo, Vera.",
+     "start": 5.924,
+     "end": 7.142,
+     "words": [
+      {
+       "w": "Uy,",
+       "hl": false,
+       "start": 5.96,
+       "end": 6.161
+      },
+      {
+       "w": "qué",
+       "hl": false,
+       "start": 6.161,
+       "end": 6.425
+      },
+      {
+       "w": "miedo,",
+       "hl": false,
+       "start": 6.425,
+       "end": 6.815
+      },
+      {
+       "w": "Vera.",
+       "hl": false,
+       "start": 6.815,
+       "end": 7.142
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "crickets": 0.0,
+    "sting": 5.016
+   },
+   "mood": {
+    "drone": 0.4,
+    "pad": 0.4
+   }
+  },
+  {
+   "id": "blackout",
+   "start": 28.5667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "A medianoche, el generador se paró.",
+     "start": 0.4,
+     "end": 2.62,
+     "words": [
+      {
+       "w": "A",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.567
+      },
+      {
+       "w": "medianoche,",
+       "hl": false,
+       "start": 0.567,
+       "end": 1.264
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.264,
+       "end": 1.463
+      },
+      {
+       "w": "generador",
+       "hl": false,
+       "start": 1.463,
+       "end": 2.097
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 2.097,
+       "end": 2.296
+      },
+      {
+       "w": "paró.",
+       "hl": true,
+       "start": 2.296,
+       "end": 2.62
+      }
+     ]
+    },
+    {
+     "speaker": "carlos",
+     "text": "Tranquilos. Voy a mirarlo.",
+     "start": 3.32,
+     "end": 4.68,
+     "words": [
+      {
+       "w": "Tranquilos.",
+       "hl": false,
+       "start": 3.346,
+       "end": 3.925
+      },
+      {
+       "w": "Voy",
+       "hl": false,
+       "start": 3.925,
+       "end": 4.142
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.142,
+       "end": 4.256
+      },
+      {
+       "w": "mirarlo.",
+       "hl": false,
+       "start": 4.256,
+       "end": 4.68
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "engine": 0.0,
+    "off": 2.296
+   },
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.3
+   }
+  },
+  {
+   "id": "shed",
+   "start": 34.5667,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Carlos fue solo.",
+     "start": 0.4,
+     "end": 1.56,
+     "words": [
+      {
+       "w": "Carlos",
+       "hl": false,
+       "start": 0.47,
+       "end": 0.943
+      },
+      {
+       "w": "fue",
+       "hl": false,
+       "start": 0.943,
+       "end": 1.219
+      },
+      {
+       "w": "solo.",
+       "hl": true,
+       "start": 1.219,
+       "end": 1.56
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "crickets": 0.0,
+    "pull": 2.0,
+    "scrape": 3.4,
+    "turn": 4.6,
+    "drop": 6.6
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.6
+   }
+  },
+  {
+   "id": "waiting",
+   "start": 42.5667,
+   "duration": 9.833333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Pasaron diez minutos. Luego, veinte.",
+     "start": 0.4,
+     "end": 2.87,
+     "words": [
+      {
+       "w": "Pasaron",
+       "hl": false,
+       "start": 0.44,
+       "end": 1.009
+      },
+      {
+       "w": "diez",
+       "hl": false,
+       "start": 1.009,
+       "end": 1.37
+      },
+      {
+       "w": "minutos.",
+       "hl": false,
+       "start": 1.37,
+       "end": 1.94
+      },
+      {
+       "w": "Luego,",
+       "hl": false,
+       "start": 1.94,
+       "end": 2.37
+      },
+      {
+       "w": "veinte.",
+       "hl": true,
+       "start": 2.37,
+       "end": 2.87
+      }
+     ]
+    },
+    {
+     "speaker": "mateo",
+     "text": "¿Carlos? ¿Me oyes?",
+     "start": 3.37,
+     "end": 4.425,
+     "words": [
+      {
+       "w": "¿Carlos?",
+       "hl": false,
+       "start": 3.406,
+       "end": 3.876
+      },
+      {
+       "w": "¿Me",
+       "hl": false,
+       "start": 3.876,
+       "end": 4.085
+      },
+      {
+       "w": "oyes?",
+       "hl": false,
+       "start": 4.085,
+       "end": 4.425
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Alguien respiraba al otro lado.",
+     "start": 7.025,
+     "end": 9.035,
+     "words": [
+      {
+       "w": "Alguien",
+       "hl": false,
+       "start": 7.055,
+       "end": 7.562
+      },
+      {
+       "w": "respiraba",
+       "hl": true,
+       "start": 7.562,
+       "end": 8.193
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 8.193,
+       "end": 8.391
+      },
+      {
+       "w": "otro",
+       "hl": false,
+       "start": 8.391,
+       "end": 8.713
+      },
+      {
+       "w": "lado.",
+       "hl": false,
+       "start": 8.713,
+       "end": 9.035
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "static": 4.525,
+    "breath": 4.925
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "reveal",
+   "start": 52.4,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Y entonces... lo vieron.",
+     "start": 2.6,
+     "end": 4.2,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.63,
+       "end": 2.788
+      },
+      {
+       "w": "entonces...",
+       "hl": false,
+       "start": 2.788,
+       "end": 3.451
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 3.451,
+       "end": 3.681
+      },
+      {
+       "w": "vieron.",
+       "hl": true,
+       "start": 3.681,
+       "end": 4.2
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "roll": 0.4,
+    "boom": 3.681,
+    "sting": 3.681
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 1
+   }
+  },
+  {
+   "id": "choice",
+   "start": 58.4,
+   "duration": 11.966666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Qué deben hacer?",
+     "start": 0.6,
+     "end": 1.78,
+     "words": [
+      {
+       "w": "¿Qué",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.928
+      },
+      {
+       "w": "deben",
+       "hl": false,
+       "start": 0.928,
+       "end": 1.354
+      },
+      {
+       "w": "hacer?",
+       "hl": true,
+       "start": 1.354,
+       "end": 1.78
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "A: huir por el bosque hasta la carretera.",
+     "start": 2.38,
+     "end": 4.7,
+     "words": [
+      {
+       "w": "A:",
+       "hl": false,
+       "start": 2.41,
+       "end": 2.531
+      },
+      {
+       "w": "huir",
+       "hl": false,
+       "start": 2.531,
+       "end": 2.817
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 2.817,
+       "end": 3.049
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 3.049,
+       "end": 3.225
+      },
+      {
+       "w": "bosque",
+       "hl": false,
+       "start": 3.225,
+       "end": 3.621
+      },
+      {
+       "w": "hasta",
+       "hl": false,
+       "start": 3.621,
+       "end": 3.962
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 3.962,
+       "end": 4.139
+      },
+      {
+       "w": "carretera.",
+       "hl": true,
+       "start": 4.139,
+       "end": 4.7
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "B: encerrarse en la cabaña principal.",
+     "start": 5.2,
+     "end": 7.53,
+     "words": [
+      {
+       "w": "B:",
+       "hl": false,
+       "start": 5.23,
+       "end": 5.366
+      },
+      {
+       "w": "encerrarse",
+       "hl": false,
+       "start": 5.366,
+       "end": 6.058
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 6.058,
+       "end": 6.256
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 6.256,
+       "end": 6.454
+      },
+      {
+       "w": "cabaña",
+       "hl": true,
+       "start": 6.454,
+       "end": 6.899
+      },
+      {
+       "w": "principal.",
+       "hl": false,
+       "start": 6.899,
+       "end": 7.53
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Tú decides. Comenta A o B.",
+     "start": 8.13,
+     "end": 9.97,
+     "words": [
+      {
+       "w": "Tú",
+       "hl": false,
+       "start": 8.17,
+       "end": 8.39
+      },
+      {
+       "w": "decides.",
+       "hl": false,
+       "start": 8.39,
+       "end": 8.953
+      },
+      {
+       "w": "Comenta",
+       "hl": false,
+       "start": 8.953,
+       "end": 9.517
+      },
+      {
+       "w": "A",
+       "hl": true,
+       "start": 9.517,
+       "end": 9.668
+      },
+      {
+       "w": "o",
+       "hl": false,
+       "start": 9.668,
+       "end": 9.819
+      },
+      {
+       "w": "B.",
+       "hl": true,
+       "start": 9.819,
+       "end": 9.97
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "a": 2.38,
+    "b": 5.2,
+    "end": 10.27
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   }
+  }
+ ],
+ "durationInFrames": 2111
+}

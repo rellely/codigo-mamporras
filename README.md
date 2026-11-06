@@ -93,3 +93,31 @@ en `src/scenes/` registrándolas en `SCENES` dentro de `src/Video.tsx`.
 
 El navegador usado para renderizar se configura en `remotion.config.ts`
 (variable `REMOTION_BROWSER`).
+
+---
+
+# LAGO NEGRO (serie interactiva de terror)
+
+Mini-serie *slasher* de 10–15 capítulos en la que **el público elige** cómo sigue la
+historia: cada capítulo termina con dos opciones (A/B) y el siguiente arranca desde la
+opción ganadora.
+
+- **Asesino original:** *El Guarda del Lago* — impermeable amarillo, máscara de madera
+  tallada y gancho de barca. Personaje propio (no usa IP de terceros).
+- **Reparto:** Mateo, Lucía, Carlos, Vera, Álex y Bea (`src/components/Character.tsx`,
+  hoja de modelo en la composición `LagoNegro-Cast`).
+- **Sets:** `src/components/sets/LakeCamp.tsx` (lago con muelle, entrada del campamento,
+  hoguera junto al lago con cabañas y guirnalda de luces, caseta del generador).
+- **Tarjeta de decisión:** `src/lagonegro/ChoiceCard.tsx`.
+
+| Capítulo | Archivo | Final abierto |
+|---|---|---|
+| 1 · La primera noche | `renders/lago-negro-capitulo-1.mp4` | **A:** huir por el bosque hasta la carretera · **B:** encerrarse en la cabaña principal |
+
+### Añadir el siguiente capítulo
+
+1. Añade `ln2` a `CHAPTERS` en `story/lagonegro/make.py` y ejecútalo.
+2. `python3 scripts/build_audio.py story/lagonegro/ln2.json es`
+3. Crea `src/lagonegro/ln2.tsx` (reutiliza sets y personajes) y regístralo en
+   `src/lagonegro/registry.ts`.
+4. `npx remotion render LagoNegro-CAP2 out/lago-negro-cap-2.mp4`

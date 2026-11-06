@@ -1,7 +1,9 @@
 import React, {useId} from 'react';
 import {useCurrentFrame} from 'remotion';
 
-export type CharId = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth';
+export type CharId = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'mateo' | 'lucia' | 'carlos' | 'vera' | 'alex' | 'bea' | 'masked';
+/** Head/hair style families (several characters can share one with different colours). */
+type Style = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'bea' | 'masked';
 export type Mouth = 'smile' | 'grin' | 'open' | 'flat' | 'worried' | 'creepy' | 'o';
 export type Brows = 'neutral' | 'worried' | 'angry' | 'raised';
 
@@ -16,6 +18,7 @@ type Look = {
 	accent: string;
 	width: number;
 	name: string;
+	style?: Style;
 };
 
 /** The cast. Colours are fixed so every scene stays on-model. */
@@ -26,6 +29,14 @@ export const CAST: Record<CharId, Look> = {
 	sara: {name: 'Sara', skin: '#e3ae72', skinShade: '#c48f55', jacket: '#8c57d9', jacketDark: '#6538a8', pants: '#2b2b38', shoes: '#262626', hair: '#24182f', accent: '#38b2ac', width: 0.95},
 	iker: {name: 'Iker', skin: '#8d5524', skinShade: '#6e3f17', jacket: '#1f9e95', jacketDark: '#15736c', pants: '#3a3a44', shoes: '#1a1a1a', hair: '#120d0a', accent: '#2d6cdf', width: 1.18},
 	sixth: {name: '?', skin: '#dcdcd2', skinShade: '#b4b5ad', jacket: '#62666e', jacketDark: '#44474e', pants: '#26282d', shoes: '#141414', hair: '#4e5158', accent: '#4e5158', width: 1},
+	// --- LAGO NEGRO cast ---
+	mateo: {name: 'Mateo', style: 'leo', skin: '#f0c08a', skinShade: '#d39f66', jacket: '#8a5a3a', jacketDark: '#64402a', pants: '#2f3a4a', shoes: '#2a2320', hair: '#4a2e1a', accent: '#2f8f5b', width: 1},
+	lucia: {name: 'Lucía', style: 'marta', skin: '#ffd7b5', skinShade: '#e8b690', jacket: '#2f6fd1', jacketDark: '#1f4f9a', pants: '#2a2f3a', shoes: '#3a2a22', hair: '#b5402a', accent: '#e85d3a', width: 0.95},
+	carlos: {name: 'Carlos', style: 'dani', skin: '#d09060', skinShade: '#b07444', jacket: '#e36b2c', jacketDark: '#a84a18', pants: '#3a3a3a', shoes: '#1f1f1f', hair: '#2a1a10', accent: '#2d6cdf', width: 1.05},
+	vera: {name: 'Vera', style: 'sara', skin: '#f5d0b0', skinShade: '#dcae8a', jacket: '#e25d8f', jacketDark: '#a83a66', pants: '#2b2b38', shoes: '#262626', hair: '#e8c25a', accent: '#38b2ac', width: 0.95},
+	alex: {name: 'Álex', style: 'iker', skin: '#6f4320', skinShade: '#55320f', jacket: '#6a3fb5', jacketDark: '#4a2a85', pants: '#3a3a44', shoes: '#1a1a1a', hair: '#120d0a', accent: '#d63a3a', width: 1.1},
+	bea: {name: 'Bea', style: 'bea', skin: '#c98b5a', skinShade: '#a86d40', jacket: '#ece8dc', jacketDark: '#bdb6a4', pants: '#3a4a5a', shoes: '#2a2a2a', hair: '#2a1830', accent: '#8e5bd6', width: 0.95},
+	masked: {name: 'El Guarda', style: 'masked', skin: '#2a2620', skinShade: '#1a1612', jacket: '#d9b32a', jacketDark: '#a8861a', pants: '#2a2a26', shoes: '#1a1a1a', hair: '#d9b32a', accent: '#a8861a', width: 1.25},
 };
 
 export type Pose = {
@@ -44,7 +55,7 @@ export type Pose = {
 	mouth?: Mouth;
 	brows?: Brows;
 	back?: boolean;
-	item?: 'phone' | 'flashlight' | null;
+	item?: 'phone' | 'flashlight' | 'hook' | 'walkie' | null;
 	itemHand?: 'L' | 'R';
 	phoneLit?: number;
 	backpack?: boolean;
@@ -67,7 +78,7 @@ const limb = (sx: number, sy: number, a1: number, a2: number, l1: number, l2: nu
 	return {ex, ey, hx, hy};
 };
 
-const SEEDS: Record<CharId, number> = {leo: 0, marta: 23, dani: 51, sara: 77, iker: 13, sixth: 999};
+const SEEDS: Record<CharId, number> = {leo: 0, marta: 23, dani: 51, sara: 77, iker: 13, sixth: 999, mateo: 5, lucia: 31, carlos: 57, vera: 83, alex: 19, bea: 41, masked: 777};
 
 export const Character: React.FC<{
 	id: CharId;
@@ -81,6 +92,7 @@ export const Character: React.FC<{
 	const frame = useCurrentFrame();
 	const uid = useId().replace(/:/g, '');
 	const L = pose.colors ? {...CAST[id], ...pose.colors} : CAST[id];
+	const st: Style = L.style ?? (id as Style);
 	const sil = pose.silhouette;
 	const c = (col: string) => (sil ? sil : col);
 	const seed = SEEDS[id];
@@ -202,22 +214,39 @@ export const Character: React.FC<{
 
 	// ---- hair / headwear (behind head) ----
 	const behindHead = () => {
-		if (id === 'marta') {
+		if (st === 'marta') {
 			const sway = Math.sin(frame / 9 + seed) * 6;
 			return <path d={`M ${-turn * 30 + 30} ${headCY - 40} q ${40 + sway} 30 ${20 + sway} 105 q -18 -25 -40 -95 z`} fill={c(L.hair)} />;
 		}
-		if (id === 'sara') return <path d={`M -70 ${headCY - 10} Q -74 ${headCY + 52} -44 ${headCY + 56} L 44 ${headCY + 56} Q 74 ${headCY + 52} 70 ${headCY - 10} Z`} fill={c(L.hair)} />;
-		if (id === 'sixth') return <ellipse cx={0} cy={headCY + 4} rx={82} ry={84} fill={c(L.jacketDark)} />;
+		if (st === 'sara') return <path d={`M -70 ${headCY - 10} Q -74 ${headCY + 52} -44 ${headCY + 56} L 44 ${headCY + 56} Q 74 ${headCY + 52} 70 ${headCY - 10} Z`} fill={c(L.hair)} />;
+		if (st === 'sixth') return <ellipse cx={0} cy={headCY + 4} rx={82} ry={84} fill={c(L.jacketDark)} />;
+		if (st === 'masked') return <ellipse cx={0} cy={headCY + 8} rx={88} ry={90} fill={c(L.jacketDark)} />;
+		if (st === 'bea')
+			return (
+				<g fill={c(L.hair)}>
+					<circle cx={-58} cy={headCY - 58} r={30} />
+					<circle cx={58} cy={headCY - 58} r={30} />
+				</g>
+			);
 		return null;
 	};
 
 	const overHead = () => {
-		switch (id) {
+		switch (st) {
+			case 'bea':
+				return <path d={`M -66 ${headCY - 2} Q -70 ${headCY - 72} 0 ${headCY - 70} Q 70 ${headCY - 72} 66 ${headCY - 2} Q 50 ${headCY - 40} ${10 + fx} ${headCY - 44} Q -50 ${headCY - 40} -66 ${headCY - 2} Z`} fill={c(L.hair)} />;
+			case 'masked':
+				return (
+					<g>
+						<path d={`M -86 ${headCY + 30} Q -92 ${headCY - 92} 0 ${headCY - 94} Q 92 ${headCY - 92} 86 ${headCY + 30} Q 66 ${headCY - 56} 0 ${headCY - 58} Q -66 ${headCY - 56} -86 ${headCY + 30} Z`} fill={c(L.jacket)} />
+						{!sil && <path d={`M -70 ${headCY - 40} Q 0 ${headCY - 76} 70 ${headCY - 40}`} stroke={L.jacketDark} strokeWidth={5} fill="none" opacity={0.6} />}
+					</g>
+				);
 			case 'leo':
 				return (
 					<g>
 						<path d={`M -66 ${headCY - 8} Q -64 ${headCY - 74} 0 ${headCY - 76} Q 64 ${headCY - 74} 66 ${headCY - 8} Z`} fill={c(L.accent)} />
-						<rect x={-68} y={headCY - 22} width={136} height={20} rx={9} fill={c('#b02b2b')} />
+						<rect x={-68} y={headCY - 22} width={136} height={20} rx={9} fill={c(id === 'leo' ? '#b02b2b' : L.hair)} />
 						<circle cx={0} cy={headCY - 80} r={14} fill={c('#f3f0e8')} />
 					</g>
 				);
@@ -239,7 +268,7 @@ export const Character: React.FC<{
 				return (
 					<g>
 						<path d={`M -64 ${headCY - 14} Q -62 ${headCY - 74} 0 ${headCY - 74} Q 62 ${headCY - 74} 64 ${headCY - 14} Z`} fill={c(L.accent)} />
-						{!back && <path d={`M ${-30 + fx * 1.4} ${headCY - 22} Q ${fx * 1.4 + 20} ${headCY - 38} ${86 + fx * 1.6} ${headCY - 16} Q ${fx * 1.4 + 20} ${headCY - 6} ${-30 + fx * 1.4} ${headCY - 12} Z`} fill={c('#1f4fa8')} />}
+						{!back && <path d={`M ${-30 + fx * 1.4} ${headCY - 22} Q ${fx * 1.4 + 20} ${headCY - 38} ${86 + fx * 1.6} ${headCY - 16} Q ${fx * 1.4 + 20} ${headCY - 6} ${-30 + fx * 1.4} ${headCY - 12} Z`} fill={c(id === 'iker' ? '#1f4fa8' : '#8a1f1f')} />}
 					</g>
 				);
 			case 'sixth':
@@ -302,6 +331,19 @@ export const Character: React.FC<{
 						{!sil && <rect x={-12} y={-31} width={24} height={44} rx={4} fill="#9fd4ff" opacity={pose.phoneLit ?? 0.15} />}
 					</g>
 				)}
+				{pose.item === 'hook' && (
+					<g>
+						<line x1={ia.hx} y1={ia.hy + 70} x2={ia.hx} y2={ia.hy - 330} stroke={c('#5a3e26')} strokeWidth={11} strokeLinecap="round" />
+						<path d={`M ${ia.hx} ${ia.hy - 320} l 0 -40 q 0 -38 34 -38 q 30 0 30 30 q 0 18 -18 26`} stroke={c('#7d7a74')} strokeWidth={9} fill="none" strokeLinecap="round" />
+					</g>
+				)}
+				{pose.item === 'walkie' && (
+					<g transform={`translate(${ia.hx} ${ia.hy}) rotate(${-iAng * 0.3})`}>
+						<rect x={-14} y={-40} width={28} height={50} rx={5} fill={c('#2a2e36')} />
+						<line x1={8} y1={-40} x2={8} y2={-70} stroke={c('#2a2e36')} strokeWidth={5} strokeLinecap="round" />
+						{!sil && <rect x={-9} y={-32} width={18} height={10} rx={2} fill="#7CFF8A" opacity={pose.phoneLit ?? 0.5} />}
+					</g>
+				)}
 				{pose.item === 'flashlight' && (
 					<g transform={`translate(${ia.hx} ${ia.hy}) rotate(${-iAng})`}>
 						<rect x={-8} y={-6} width={16} height={46} rx={5} fill={c('#2b2f36')} />
@@ -315,7 +357,27 @@ export const Character: React.FC<{
 					{behindHead()}
 					<circle cx={0} cy={headCY} r={64} fill={sil ? sil : `url(#hd${uid})`} />
 					{back && !sil && <circle cx={0} cy={headCY} r={64} fill={L.hair} />}
-					{!back && (
+					{!back && st === 'masked' && !sil && (
+						<g transform={`translate(${fx} 0)`}>
+							<ellipse cx={0} cy={headCY + 4} rx={50} ry={60} fill="#cdb38a" />
+							<ellipse cx={-14} cy={headCY - 6} rx={30} ry={40} fill="#e2cda6" opacity={0.6} />
+							{[0, 1, 2].map((k) => (
+								<path key={k} d={`M ${-40 + k * 30} ${headCY - 50} q 6 50 -2 104`} stroke="#a48a62" strokeWidth={2.5} fill="none" opacity={0.7} />
+							))}
+							<path d={`M 18 ${headCY - 52} l -8 26 l 10 14 l -6 22`} stroke="#5a4630" strokeWidth={3} fill="none" />
+							{[-1, 1].map((sd) => (
+								<g key={sd}>
+									<path d={`M ${sd * 22 - 15} ${headCY - 10} Q ${sd * 22} ${headCY - 26} ${sd * 22 + 15} ${headCY - 10} Q ${sd * 22} ${headCY + 2} ${sd * 22 - 15} ${headCY - 10} Z`} fill="#0b0806" />
+									{(pose.glowEyes ?? 0) > 0 && <circle cx={sd * 22 + lookX * 0.5} cy={headCY - 11} r={3} fill="#f4e7c8" opacity={pose.glowEyes} />}
+								</g>
+							))}
+							<path d={`M -26 ${headCY + 28} Q -6 ${headCY + 40} 4 ${headCY + 30} Q 16 ${headCY + 42} 28 ${headCY + 26}`} stroke="#0b0806" strokeWidth={6} fill="none" strokeLinecap="round" />
+							{[-14, 0, 14].map((dx) => (
+								<line key={dx} x1={dx} x2={dx} y1={headCY + 28} y2={headCY + 40} stroke="#0b0806" strokeWidth={3} />
+							))}
+						</g>
+					)}
+					{!back && st !== 'masked' && (
 						<g>
 							{id === 'sixth' && !sil && (
 								<>
@@ -335,7 +397,7 @@ export const Character: React.FC<{
 							{!sil && brow(-1)}
 							{!sil && brow(1)}
 							{!sil && mouthEl()}
-							{id === 'dani' && !sil && (
+							{st === 'dani' && !sil && (
 								<g stroke="#1c1c1c" strokeWidth={4.5} fill="none">
 									<circle cx={-23 + fx} cy={headCY - 6} r={21} />
 									<circle cx={23 + fx} cy={headCY - 6} r={21} />
@@ -345,7 +407,7 @@ export const Character: React.FC<{
 						</g>
 					)}
 					{overHead()}
-					{(pose.glowEyes ?? 0) > 0 && (
+					{(pose.glowEyes ?? 0) > 0 && st !== 'masked' && (
 						<g opacity={pose.glowEyes}>
 							{[-1, 1].map((s) => (
 								<g key={s}>

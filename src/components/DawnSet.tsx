@@ -7,7 +7,7 @@ import {useCurrentFrame} from 'remotion';
 export const LINE_Y = 1330;
 export const DAWN_SCALE = 0.95;
 /** Standing line at dawn. Note the slightly larger gap where nobody stands... */
-export const DAWN_POS: Record<CharId, number> = {leo: 130, marta: 290, dani: 450, sara: 615, sixth: 790, iker: 955};
+export const DAWN_POS: Record<string, number> = {leo: 130, marta: 290, dani: 450, sara: 615, sixth: 790, iker: 955};
 export const FRIENDS: CharId[] = ['leo', 'marta', 'dani', 'sara', 'iker'];
 /** Sun behind camera: projection about a far point below the frame. */
 export const SUN = {x: 470, y: 2700, k: 1.12};

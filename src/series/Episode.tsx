@@ -6,7 +6,7 @@ import {Subtitles} from '../components/Subtitles';
 import {Lang, SceneProvider, sceneFrames, Timeline} from '../lib/timeline';
 
 export type SceneDef = {C: React.FC<any>; fadeIn?: number; fadeOut?: number; vignette?: number};
-export type EpisodeDef = {slug: string; timelines: Record<Lang, Timeline>; scenes: Record<string, SceneDef>; next?: Record<Lang, string>};
+export type EpisodeDef = {slug: string; timelines: Partial<Record<Lang, Timeline>>; scenes: Record<string, SceneDef>; next?: Record<Lang, string>};
 
 const useFont = () => {
 	const [handle] = useState(() => delayRender('font'));
@@ -50,7 +50,7 @@ const PartBadge: React.FC<{part: string; title: string}> = ({part, title}) => {
 
 export const Episode: React.FC<{ep: EpisodeDef; lang: Lang}> = ({ep, lang}) => {
 	useFont();
-	const tl = ep.timelines[lang];
+	const tl = ep.timelines[lang]!;
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
 			<Audio src={staticFile(`audio/mix_${ep.slug}_${lang}.wav`)} />

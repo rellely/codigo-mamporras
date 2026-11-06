@@ -1,0 +1,499 @@
+{
+ "slug": "ln1",
+ "title": {
+  "es": "LAGO NEGRO"
+ },
+ "part": {
+  "es": "CAPÍTULO 1 · LA PRIMERA NOCHE"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "vera": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.92
+   },
+   "lucia": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 0.98,
+    "speed": 1.0
+   },
+   "mateo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "carlos": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.14,
+    "speed": 0.92
+   },
+   "radio": {
+    "voice": "em_alex",
+    "fx": "phone",
+    "pitch": 1.1,
+    "speed": 0.95
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 6.5,
+   "tail": 1.2,
+   "mood": {
+    "drone": 1,
+    "pulse": 0.5,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "El Campamento Lago Negro cerró hace *treinta* años.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Nadie volvió a hablar de por qué.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    },
+    {
+     "id": "rise",
+     "sound": "splash",
+     "ref": "start",
+     "offset": 1.6,
+     "gain": 0.7
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line1.end",
+     "offset": 0.1,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "arrival",
+   "minSeconds": 7.0,
+   "tail": 0.6,
+   "mood": {
+    "pluck": 1,
+    "pad": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Este verano, seis monitores llegaron para *reabrirlo*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Mateo, Lucía, Carlos, Vera, Álex y Bea.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "whoosh",
+     "sound": "whoosh",
+     "ref": "start",
+     "offset": -0.2,
+     "gain": 0.5
+    },
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "birds",
+     "sound": "birds",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.35,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "lake",
+   "minSeconds": 6.0,
+   "tail": 1.2,
+   "mood": {
+    "pluck": 0.8,
+    "pad": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "El primer día fue *perfecto*.",
+     "at": 0.3
+    },
+    {
+     "speaker": "lucia",
+     "es": "¡Álex, que el agua está helada!",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.4
+    },
+    {
+     "id": "splash",
+     "sound": "splash",
+     "ref": "line1.end",
+     "offset": 0.5,
+     "gain": 0.9
+    },
+    {
+     "id": "birds",
+     "sound": "birds",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.25,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "legend",
+   "minSeconds": 8.0,
+   "tail": 0.8,
+   "mood": {
+    "drone": 0.4,
+    "pad": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "vera",
+     "es": "Dicen que el guarda del lago sigue aquí...",
+     "at": 0.5
+    },
+    {
+     "speaker": "vera",
+     "es": "Con su impermeable *amarillo*... y su *gancho*.",
+     "gap": 0.4
+    },
+    {
+     "speaker": "mateo",
+     "es": "Uy, qué miedo, Vera.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.45,
+     "span": "scene"
+    },
+    {
+     "id": "crickets",
+     "sound": "crickets",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.2,
+     "span": "scene"
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:gancho",
+     "offset": 0.0,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "id": "blackout",
+   "minSeconds": 6.0,
+   "tail": 1.2,
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "A medianoche, el generador se *paró*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "carlos",
+     "es": "Tranquilos. Voy a mirarlo.",
+     "gap": 0.7
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "engine",
+     "sound": "engine",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.25
+    },
+    {
+     "id": "off",
+     "sound": "powerdown",
+     "ref": "word:paró",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "shed",
+   "minSeconds": 8.0,
+   "tail": 0.4,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Carlos fue *solo*.",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "crickets",
+     "sound": "crickets",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.15,
+     "span": "scene"
+    },
+    {
+     "id": "pull",
+     "sound": "engine",
+     "ref": "start",
+     "offset": 2.0,
+     "gain": 0.35
+    },
+    {
+     "id": "scrape",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 3.4,
+     "gain": 0.8
+    },
+    {
+     "id": "turn",
+     "sound": "sting",
+     "ref": "start",
+     "offset": 4.6,
+     "gain": 0.8
+    },
+    {
+     "id": "drop",
+     "sound": "thud",
+     "ref": "start",
+     "offset": 6.6,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "waiting",
+   "minSeconds": 9.0,
+   "tail": 0.8,
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Pasaron diez minutos. Luego, *veinte*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "mateo",
+     "es": "¿Carlos? ¿Me oyes?",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Alguien *respiraba* al otro lado.",
+     "gap": 2.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35,
+     "span": "scene"
+    },
+    {
+     "id": "static",
+     "sound": "static",
+     "ref": "line1.end",
+     "offset": 0.1,
+     "gain": 0.6
+    },
+    {
+     "id": "breath",
+     "sound": "breath",
+     "ref": "line1.end",
+     "offset": 0.5,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "reveal",
+   "minSeconds": 6.0,
+   "tail": 1.6,
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 1
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Y entonces... lo *vieron*.",
+     "at": 2.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35,
+     "span": "scene"
+    },
+    {
+     "id": "roll",
+     "sound": "thud",
+     "ref": "start",
+     "offset": 0.4,
+     "gain": 0.6
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:vieron",
+     "offset": 0.0,
+     "gain": 1.0
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:vieron",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "choice",
+   "minSeconds": 10.0,
+   "tail": 2.0,
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Qué deben *hacer*?",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "A: huir por el bosque hasta la *carretera*.",
+     "gap": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "B: encerrarse en la *cabaña* principal.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Tú decides. Comenta *A* o *B*.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "a",
+     "sound": "tick",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "b",
+     "sound": "tick",
+     "ref": "line2.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "end",
+     "sound": "boom",
+     "ref": "line3.end",
+     "offset": 0.3,
+     "gain": 0.7
+    }
+   ]
+  }
+ ]
+}
