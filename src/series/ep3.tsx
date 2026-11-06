@@ -9,10 +9,11 @@ import {Garage, GARAGE_WINDOW} from '../components/sets/Worlds';
 import {Stage, talkMouth} from '../components/Stage';
 import {EASE_OUT, kf} from '../lib/anim';
 import {useCam} from '../lib/Camera';
-import {Timeline, useScene} from '../lib/timeline';
+import {Timeline, useScene, useTr} from '../lib/timeline';
 import type {EpisodeDef} from './Episode';
 import {SeriesEnd} from './SeriesEnd';
-import tl from '../generated/timeline_ep3_es.json';
+import tlEs from '../generated/timeline_ep3_es.json';
+import tlEn from '../generated/timeline_ep3_en.json';
 
 const GY = 1470;
 const POS: Record<Exclude<CharId, 'sixth'>, number> = {leo: 170, marta: 340, dani: 540, sara: 740, iker: 910};
@@ -30,6 +31,7 @@ const Gang: React.FC<{poses?: Partial<Record<CharId, Pose>>}> = ({poses = {}}) =
 const LaptopOnBench: React.FC<{zoom?: number}> = ({zoom = 0}) => <Laptop x={540} y={1180} s={0.2} photoZoom={zoom} />;
 
 const Hook: React.FC = () => {
+	const t = useTr();
 	const frame = useCurrentFrame();
 	const {dur} = useScene();
 	const cam = useCam([{f: 0, x: 540, y: 1000, z: 0.95}, {f: dur, x: 540, y: 1250, z: 1.35}], 2);
@@ -37,7 +39,7 @@ const Hook: React.FC = () => {
 		<AbsoluteFill style={{background: '#04050a'}}>
 			<Stage cam={cam} bg="transparent">
 				<Phone x={540} y={980} s={1.15} hand="leo">
-					<ChatScreen msgs={[{from: 'system', text: '? se ha unido al grupo', at: 8}]} />
+					<ChatScreen title={t('ACAMPADA', 'CAMPING TRIP')} msgs={[{from: 'system', text: t('? se ha unido al grupo', '? joined the group'), at: 8}]} />
 				</Phone>
 			</Stage>
 			{void frame}
@@ -46,6 +48,7 @@ const Hook: React.FC = () => {
 };
 
 const Chat: React.FC = () => {
+	const t = useTr();
 	const {cue, lineStart, dur} = useScene();
 	const m3 = cue('m3');
 	const cam = useCam([
@@ -60,12 +63,13 @@ const Chat: React.FC = () => {
 				<Stage cam={cam} bg="transparent">
 					<Phone x={540} y={980} s={1.15} hand="leo">
 						<ChatScreen
+							title={t('ACAMPADA', 'CAMPING TRIP')}
 							msgs={[
-								{from: 'system', text: '? se ha unido al grupo', at: -100},
-								{from: 'leo', text: '¿Quién ha metido a ese?', at: cue('m1')},
-								{from: 'marta', text: 'Yo no', at: cue('m2')},
-								{from: 'dani', text: 'Ni yo', at: cue('m2') + 14},
-								{from: 'sixth', text: '¿Cuándo volvemos?', at: m3},
+								{from: 'system', text: t('? se ha unido al grupo', '? joined the group'), at: -100},
+								{from: 'leo', text: t('¿Quién ha metido a ese?', 'Who added this guy?'), at: cue('m1')},
+								{from: 'marta', text: t('Yo no', 'Not me'), at: cue('m2')},
+								{from: 'dani', text: t('Ni yo', 'Me neither'), at: cue('m2') + 14},
+								{from: 'sixth', text: t('¿Cuándo volvemos?', 'When are we going back?'), at: m3},
 							]}
 							typing={{from: 'sixth', at: lineStart(1), until: m3}}
 						/>
@@ -184,6 +188,7 @@ const OutsidePhoto: React.FC = () => {
 };
 
 const NewPhoto: React.FC = () => {
+	const t = useTr();
 	const {cue, dur} = useScene();
 	const boom = cue('boom');
 	const cam = useCam([{f: 0, x: 540, y: 960, z: 1.0}, {f: boom - 2, x: 540, y: 940, z: 1.12}, {f: boom + 6, x: 540, y: 880, z: 1.8, ease: EASE_OUT}, {f: dur, x: 540, y: 880, z: 1.9}], 3);
@@ -192,7 +197,7 @@ const NewPhoto: React.FC = () => {
 			<Glitch at={boom} len={10}>
 				<Stage cam={cam} bg="transparent">
 					<Phone x={540} y={900} s={1.18} hand="leo">
-						<GalleryScreen photo={<OutsidePhoto />} date="? te ha enviado una foto" index="hace 1 segundo" time="19:06" />
+						<GalleryScreen photo={<OutsidePhoto />} date={t('? te ha enviado una foto', '? sent you a photo')} index={t('hace 1 segundo', '1 second ago')} time="19:06" />
 					</Phone>
 				</Stage>
 			</Glitch>
@@ -235,8 +240,8 @@ const End: React.FC<{title: string; part: string; next?: string}> = (p) => <Seri
 
 export const EP3: EpisodeDef = {
 	slug: 'ep3',
-	timeline: tl as unknown as Timeline,
-	next: 'Sigue en la PARTE 4',
+	timelines: {es: tlEs as unknown as Timeline, en: tlEn as unknown as Timeline},
+	next: {es: 'Sigue en la PARTE 4', en: 'Continues in PART 4'},
 	scenes: {
 		hook: {C: Hook, vignette: 0.7},
 		chat: {C: Chat, vignette: 0.7},

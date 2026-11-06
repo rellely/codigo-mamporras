@@ -1,0 +1,1049 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "part": "PART 4 · GOING BACK",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 6.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They went back to the woods. At night.",
+     "start": 0.3,
+     "end": 2.77,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.59
+      },
+      {
+       "w": "went",
+       "hl": false,
+       "start": 0.59,
+       "end": 0.85
+      },
+      {
+       "w": "back",
+       "hl": false,
+       "start": 0.85,
+       "end": 1.11
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 1.11,
+       "end": 1.27
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.27,
+       "end": 1.48
+      },
+      {
+       "w": "woods.",
+       "hl": false,
+       "start": 1.48,
+       "end": 1.79
+      },
+      {
+       "w": "At",
+       "hl": false,
+       "start": 2.06,
+       "end": 2.302
+      },
+      {
+       "w": "night.",
+       "hl": true,
+       "start": 2.302,
+       "end": 2.77
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "It was the only way to end this.",
+     "start": 3.07,
+     "end": 5.36,
+     "words": [
+      {
+       "w": "It",
+       "hl": false,
+       "start": 3.1,
+       "end": 3.315
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 3.315,
+       "end": 3.598
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 3.598,
+       "end": 3.88
+      },
+      {
+       "w": "only",
+       "hl": false,
+       "start": 3.88,
+       "end": 4.23
+      },
+      {
+       "w": "way",
+       "hl": false,
+       "start": 4.23,
+       "end": 4.512
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 4.512,
+       "end": 4.728
+      },
+      {
+       "w": "end",
+       "hl": false,
+       "start": 4.728,
+       "end": 5.01
+      },
+      {
+       "w": "this.",
+       "hl": false,
+       "start": 5.01,
+       "end": 5.36
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "click": 0.6,
+    "owl": 3.07
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "path",
+   "start": 6.3,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "Stay together.",
+     "start": 0.4,
+     "end": 1.136,
+     "words": [
+      {
+       "w": "Stay",
+       "hl": false,
+       "start": 0.428,
+       "end": 0.684
+      },
+      {
+       "w": "together.",
+       "hl": false,
+       "start": 0.684,
+       "end": 1.136
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Iker was at the back. Quieter and quieter.",
+     "start": 1.536,
+     "end": 4.706,
+     "words": [
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 1.576,
+       "end": 1.902
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 1.902,
+       "end": 2.165
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 2.165,
+       "end": 2.366
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.366,
+       "end": 2.63
+      },
+      {
+       "w": "back.",
+       "hl": false,
+       "start": 2.63,
+       "end": 2.956
+      },
+      {
+       "w": "Quieter",
+       "hl": false,
+       "start": 3.256,
+       "end": 3.833
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 3.833,
+       "end": 4.129
+      },
+      {
+       "w": "quieter.",
+       "hl": true,
+       "start": 4.129,
+       "end": 4.706
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "crickets": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.3
+   }
+  },
+  {
+   "id": "carvings",
+   "start": 12.8,
+   "duration": 9.666666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Six names were still carved into the rock.",
+     "start": 0.4,
+     "end": 3.55,
+     "words": [
+      {
+       "w": "Six",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.74
+      },
+      {
+       "w": "names",
+       "hl": false,
+       "start": 0.74,
+       "end": 1.182
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 1.182,
+       "end": 1.553
+      },
+      {
+       "w": "still",
+       "hl": false,
+       "start": 1.553,
+       "end": 1.995
+      },
+      {
+       "w": "carved",
+       "hl": false,
+       "start": 1.995,
+       "end": 2.509
+      },
+      {
+       "w": "into",
+       "hl": false,
+       "start": 2.509,
+       "end": 2.879
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.879,
+       "end": 3.179
+      },
+      {
+       "w": "rock.",
+       "hl": false,
+       "start": 3.179,
+       "end": 3.55
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "One was crossed out: Hugo.",
+     "start": 3.95,
+     "end": 6.15,
+     "words": [
+      {
+       "w": "One",
+       "hl": false,
+       "start": 3.97,
+       "end": 4.237
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 4.237,
+       "end": 4.503
+      },
+      {
+       "w": "crossed",
+       "hl": false,
+       "start": 4.503,
+       "end": 5.023
+      },
+      {
+       "w": "out:",
+       "hl": false,
+       "start": 5.023,
+       "end": 5.29
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 5.52,
+       "end": 6.15
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "Those are the names of that group.",
+     "start": 6.65,
+     "end": 8.514,
+     "words": [
+      {
+       "w": "Those",
+       "hl": false,
+       "start": 6.677,
+       "end": 6.999
+      },
+      {
+       "w": "are",
+       "hl": false,
+       "start": 6.999,
+       "end": 7.217
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 7.217,
+       "end": 7.435
+      },
+      {
+       "w": "names",
+       "hl": false,
+       "start": 7.435,
+       "end": 7.756
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 7.756,
+       "end": 7.922
+      },
+      {
+       "w": "that",
+       "hl": false,
+       "start": 7.922,
+       "end": 8.192
+      },
+      {
+       "w": "group.",
+       "hl": false,
+       "start": 8.192,
+       "end": 8.514
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": 0.0,
+    "sting": 5.52
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "fire",
+   "start": 22.4667,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They lit the fire in the same spot as last time.",
+     "start": 0.4,
+     "end": 4.05,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.814
+      },
+      {
+       "w": "lit",
+       "hl": false,
+       "start": 0.814,
+       "end": 1.116
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.116,
+       "end": 1.418
+      },
+      {
+       "w": "fire",
+       "hl": false,
+       "start": 1.418,
+       "end": 1.792
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.792,
+       "end": 2.022
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.022,
+       "end": 2.324
+      },
+      {
+       "w": "same",
+       "hl": false,
+       "start": 2.324,
+       "end": 2.698
+      },
+      {
+       "w": "spot",
+       "hl": false,
+       "start": 2.698,
+       "end": 3.072
+      },
+      {
+       "w": "as",
+       "hl": false,
+       "start": 3.072,
+       "end": 3.302
+      },
+      {
+       "w": "last",
+       "hl": false,
+       "start": 3.302,
+       "end": 3.676
+      },
+      {
+       "w": "time.",
+       "hl": false,
+       "start": 3.676,
+       "end": 4.05
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.4,
+    "whoosh": 0.3
+   },
+   "mood": {
+    "drone": 0.6,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "count",
+   "start": 27.5667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "One, two, three, four, five.",
+     "start": 0.3,
+     "end": 1.706,
+     "words": [
+      {
+       "w": "One,",
+       "hl": false,
+       "start": 0.328,
+       "end": 0.56
+      },
+      {
+       "w": "two,",
+       "hl": false,
+       "start": 0.56,
+       "end": 0.791
+      },
+      {
+       "w": "three,",
+       "hl": false,
+       "start": 0.791,
+       "end": 1.133
+      },
+      {
+       "w": "four,",
+       "hl": false,
+       "start": 1.133,
+       "end": 1.419
+      },
+      {
+       "w": "five.",
+       "hl": false,
+       "start": 1.419,
+       "end": 1.706
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Five. All good.",
+     "start": 2.106,
+     "end": 3.576,
+     "words": [
+      {
+       "w": "Five.",
+       "hl": false,
+       "start": 2.146,
+       "end": 2.636
+      },
+      {
+       "w": "All",
+       "hl": false,
+       "start": 2.756,
+       "end": 3.122
+      },
+      {
+       "w": "good.",
+       "hl": false,
+       "start": 3.122,
+       "end": 3.576
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 0.328,
+    "c2": 0.56,
+    "c3": 0.791,
+    "c4": 1.133,
+    "c5": 1.419
+   },
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "shadows",
+   "start": 33.5667,
+   "duration": 7.3,
+   "lines": [
+    {
+     "speaker": "sara",
+     "text": "Look at the rock...",
+     "start": 0.3,
+     "end": 1.444,
+     "words": [
+      {
+       "w": "Look",
+       "hl": false,
+       "start": 0.338,
+       "end": 0.661
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 0.661,
+       "end": 0.86
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.86,
+       "end": 1.121
+      },
+      {
+       "w": "rock...",
+       "hl": false,
+       "start": 1.121,
+       "end": 1.444
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "There were five of them. But on the rock there were only four shadows.",
+     "start": 1.844,
+     "end": 6.154,
+     "words": [
+      {
+       "w": "There",
+       "hl": false,
+       "start": 1.864,
+       "end": 2.159
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 2.159,
+       "end": 2.407
+      },
+      {
+       "w": "five",
+       "hl": false,
+       "start": 2.407,
+       "end": 2.654
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 2.654,
+       "end": 2.807
+      },
+      {
+       "w": "them.",
+       "hl": false,
+       "start": 2.807,
+       "end": 3.054
+      },
+      {
+       "w": "But",
+       "hl": false,
+       "start": 3.454,
+       "end": 3.697
+      },
+      {
+       "w": "on",
+       "hl": false,
+       "start": 3.697,
+       "end": 3.881
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 3.881,
+       "end": 4.123
+      },
+      {
+       "w": "rock",
+       "hl": false,
+       "start": 4.123,
+       "end": 4.423
+      },
+      {
+       "w": "there",
+       "hl": false,
+       "start": 4.423,
+       "end": 4.781
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 4.781,
+       "end": 5.081
+      },
+      {
+       "w": "only",
+       "hl": false,
+       "start": 5.081,
+       "end": 5.381
+      },
+      {
+       "w": "four",
+       "hl": true,
+       "start": 5.381,
+       "end": 5.681
+      },
+      {
+       "w": "shadows.",
+       "hl": false,
+       "start": 5.681,
+       "end": 6.154
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "sting": 5.381
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "iker",
+   "start": 40.8667,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Iker's was missing.",
+     "start": 0.3,
+     "end": 1.98,
+     "words": [
+      {
+       "w": "Iker's",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.942
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 0.942,
+       "end": 1.294
+      },
+      {
+       "w": "missing.",
+       "hl": true,
+       "start": 1.294,
+       "end": 1.98
+      }
+     ]
+    },
+    {
+     "speaker": "iker",
+     "text": "Why are you looking at me like that?",
+     "start": 2.48,
+     "end": 4.14,
+     "words": [
+      {
+       "w": "Why",
+       "hl": false,
+       "start": 2.519,
+       "end": 2.7
+      },
+      {
+       "w": "are",
+       "hl": false,
+       "start": 2.7,
+       "end": 2.881
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 2.881,
+       "end": 3.062
+      },
+      {
+       "w": "looking",
+       "hl": false,
+       "start": 3.062,
+       "end": 3.416
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 3.416,
+       "end": 3.554
+      },
+      {
+       "w": "me",
+       "hl": false,
+       "start": 3.554,
+       "end": 3.692
+      },
+      {
+       "w": "like",
+       "hl": false,
+       "start": 3.692,
+       "end": 3.916
+      },
+      {
+       "w": "that?",
+       "hl": false,
+       "start": 3.916,
+       "end": 4.14
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "heart": 0.0
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "hugo",
+   "start": 46.3667,
+   "duration": 8.133333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hugo was sitting in his seat. And for the first time... he had a shadow.",
+     "start": 0.5,
+     "end": 5.1,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.55,
+       "end": 0.843
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 0.843,
+       "end": 1.079
+      },
+      {
+       "w": "sitting",
+       "hl": false,
+       "start": 1.079,
+       "end": 1.541
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.541,
+       "end": 1.721
+      },
+      {
+       "w": "his",
+       "hl": false,
+       "start": 1.721,
+       "end": 1.957
+      },
+      {
+       "w": "seat.",
+       "hl": false,
+       "start": 1.957,
+       "end": 2.25
+      },
+      {
+       "w": "And",
+       "hl": false,
+       "start": 2.57,
+       "end": 2.794
+      },
+      {
+       "w": "for",
+       "hl": false,
+       "start": 2.794,
+       "end": 3.018
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 3.018,
+       "end": 3.242
+      },
+      {
+       "w": "first",
+       "hl": false,
+       "start": 3.242,
+       "end": 3.573
+      },
+      {
+       "w": "time...",
+       "hl": false,
+       "start": 3.573,
+       "end": 3.85
+      },
+      {
+       "w": "he",
+       "hl": false,
+       "start": 4.17,
+       "end": 4.347
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 4.347,
+       "end": 4.58
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.58,
+       "end": 4.701
+      },
+      {
+       "w": "shadow.",
+       "hl": true,
+       "start": 4.701,
+       "end": 5.1
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Iker's shadow.",
+     "start": 5.6,
+     "end": 6.97,
+     "words": [
+      {
+       "w": "Iker's",
+       "hl": true,
+       "start": 5.64,
+       "end": 6.305
+      },
+      {
+       "w": "shadow.",
+       "hl": false,
+       "start": 6.305,
+       "end": 6.97
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "whoosh": 0.2,
+    "sting": 4.701,
+    "boom": 5.64
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.6
+   }
+  },
+  {
+   "id": "talk",
+   "start": 54.5,
+   "duration": 5.0,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "Now it's my turn to go home.",
+     "start": 0.5,
+     "end": 2.733,
+     "words": [
+      {
+       "w": "Now",
+       "hl": false,
+       "start": 0.558,
+       "end": 0.869
+      },
+      {
+       "w": "it's",
+       "hl": false,
+       "start": 0.869,
+       "end": 1.253
+      },
+      {
+       "w": "my",
+       "hl": false,
+       "start": 1.253,
+       "end": 1.49
+      },
+      {
+       "w": "turn",
+       "hl": false,
+       "start": 1.49,
+       "end": 1.875
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 1.875,
+       "end": 2.111
+      },
+      {
+       "w": "go",
+       "hl": false,
+       "start": 2.111,
+       "end": 2.348
+      },
+      {
+       "w": "home.",
+       "hl": true,
+       "start": 2.348,
+       "end": 2.733
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "riser": 0.0
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "end",
+   "start": 59.5,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "How would you save Iker?",
+     "start": 0.4,
+     "end": 2.15,
+     "words": [
+      {
+       "w": "How",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.719
+      },
+      {
+       "w": "would",
+       "hl": false,
+       "start": 0.719,
+       "end": 1.146
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 1.146,
+       "end": 1.434
+      },
+      {
+       "w": "save",
+       "hl": false,
+       "start": 1.434,
+       "end": 1.792
+      },
+      {
+       "w": "Iker?",
+       "hl": true,
+       "start": 1.792,
+       "end": 2.15
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1920
+}

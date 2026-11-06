@@ -57,4 +57,9 @@ export const useScene = () => {
 };
 
 export const useLangText = () => useContext(SceneCtx)?.lang ?? 'es';
+/** Pick the string for the current scene language. */
+export const useTr = () => {
+	const lang = useLangText();
+	return (es: string, en: string) => (lang === 'en' ? en : es);
+};
 export {React};

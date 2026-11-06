@@ -1,6 +1,7 @@
 import React from 'react';
 import {CAST, Character, CharId} from '../Character';
 import {RockWall, Sky, Ground} from '../env/Nature';
+import {useTr} from '../../lib/timeline';
 
 const BOYS: {id: CharId; x: number; colors: any}[] = [
 	{id: 'leo', x: 150, colors: {jacket: '#7a6a5a', jacketDark: '#5a4a3a', accent: '#6a5040', pants: '#3a3a3a'}},
@@ -25,6 +26,7 @@ export const OldPhoto: React.FC = () => (
 
 /** Laptop showing a 2006 local newspaper article. Origin = screen centre (screen 900x560). */
 export const Laptop: React.FC<{x: number; y: number; s?: number; photoZoom?: number}> = ({x, y, s = 1, photoZoom = 0}) => {
+	const t = useTr();
 	// photo viewBox zooms into Hugo
 	const vx = 0 + photoZoom * 770;
 	const vy = 700 + photoZoom * 300;
@@ -35,17 +37,17 @@ export const Laptop: React.FC<{x: number; y: number; s?: number; photoZoom?: num
 			<rect x={-480} y={-310} width={960} height={620} rx={24} fill="#1c1d22" />
 			<rect x={-450} y={-280} width={900} height={560} fill="#efe9dc" />
 			<text x={-420} y={-232} fontFamily="Georgia, serif" fontWeight={700} fontSize={36} fill="#222">
-				EL DIARIO DE LA SIERRA
+				{t('EL DIARIO DE LA SIERRA', 'THE SIERRA DAILY')}
 			</text>
 			<text x={420} y={-232} textAnchor="end" fontFamily="Georgia, serif" fontSize={22} fill="#555">
-				14 de agosto de 2006
+				{t('14 de agosto de 2006', 'August 14, 2006')}
 			</text>
 			<line x1={-420} x2={420} y1={-216} y2={-216} stroke="#222" strokeWidth={3} />
 			<text x={-420} y={-170} fontFamily="Georgia, serif" fontWeight={700} fontSize={34} fill="#111">
-				Desaparece un joven de 15 años
+				{t('Desaparece un joven de 15 años', 'Boy, 15, goes missing')}
 			</text>
 			<text x={-420} y={-130} fontFamily="Georgia, serif" fontWeight={700} fontSize={34} fill="#111">
-				durante una acampada
+				{t('durante una acampada', 'on a camping trip')}
 			</text>
 			<g style={{filter: 'sepia(0.85) contrast(1.05)'}}>
 				<svg x={-420} y={-105} width={520} height={322} viewBox={`${vx} ${vy} ${vw} ${vh}`} preserveAspectRatio="xMidYMid slice">
@@ -54,7 +56,7 @@ export const Laptop: React.FC<{x: number; y: number; s?: number; photoZoom?: num
 			</g>
 			<rect x={-420} y={-105} width={520} height={322} fill="none" stroke="#333" strokeWidth={3} />
 			<text x={-420} y={248} fontFamily="Georgia, serif" fontStyle="italic" fontSize={20} fill="#333">
-				Hugo M. (dcha.), junto a sus amigos en la roca.
+				{t('Hugo M. (dcha.), junto a sus amigos en la roca.', 'Hugo M. (right), with his friends at the rock.')}
 			</text>
 			{[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => (
 				<rect key={i} x={130} y={-100 + i * 32} width={290 - (i % 3) * 40} height={12} fill="#9a9488" />

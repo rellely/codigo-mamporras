@@ -1,0 +1,907 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "part": "PART 2 · THE PHOTO",
+ "scenes": [
+  {
+   "id": "recap",
+   "start": 0.0,
+   "duration": 5.566666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Five of them came back from the woods.",
+     "start": 0.3,
+     "end": 2.77,
+     "words": [
+      {
+       "w": "Five",
+       "hl": true,
+       "start": 0.35,
+       "end": 0.668
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 0.668,
+       "end": 0.863
+      },
+      {
+       "w": "them",
+       "hl": false,
+       "start": 0.863,
+       "end": 1.181
+      },
+      {
+       "w": "came",
+       "hl": false,
+       "start": 1.181,
+       "end": 1.499
+      },
+      {
+       "w": "back",
+       "hl": false,
+       "start": 1.499,
+       "end": 1.817
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 1.817,
+       "end": 2.134
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.134,
+       "end": 2.391
+      },
+      {
+       "w": "woods.",
+       "hl": false,
+       "start": 2.391,
+       "end": 2.77
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Or so they thought.",
+     "start": 3.12,
+     "end": 4.62,
+     "words": [
+      {
+       "w": "Or",
+       "hl": false,
+       "start": 3.16,
+       "end": 3.396
+      },
+      {
+       "w": "so",
+       "hl": false,
+       "start": 3.396,
+       "end": 3.632
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 3.632,
+       "end": 4.015
+      },
+      {
+       "w": "thought.",
+       "hl": false,
+       "start": 4.015,
+       "end": 4.62
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "sting": 3.12
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.6,
+    "cluster": 0.3
+   }
+  },
+  {
+   "id": "bedroom",
+   "start": 5.5667,
+   "duration": 8.6,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "That night, at home, Sara couldn't sleep.",
+     "start": 0.4,
+     "end": 3.12,
+     "words": [
+      {
+       "w": "That",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.776
+      },
+      {
+       "w": "night,",
+       "hl": false,
+       "start": 0.776,
+       "end": 1.189
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 1.189,
+       "end": 1.402
+      },
+      {
+       "w": "home,",
+       "hl": false,
+       "start": 1.402,
+       "end": 1.748
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.748,
+       "end": 2.095
+      },
+      {
+       "w": "couldn't",
+       "hl": false,
+       "start": 2.095,
+       "end": 2.707
+      },
+      {
+       "w": "sleep.",
+       "hl": true,
+       "start": 2.707,
+       "end": 3.12
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Every time she closed her eyes, she saw that smile again.",
+     "start": 3.62,
+     "end": 7.45,
+     "words": [
+      {
+       "w": "Every",
+       "hl": false,
+       "start": 3.64,
+       "end": 4.01
+      },
+      {
+       "w": "time",
+       "hl": false,
+       "start": 4.01,
+       "end": 4.32
+      },
+      {
+       "w": "she",
+       "hl": false,
+       "start": 4.32,
+       "end": 4.57
+      },
+      {
+       "w": "closed",
+       "hl": false,
+       "start": 4.57,
+       "end": 5.0
+      },
+      {
+       "w": "her",
+       "hl": false,
+       "start": 5.0,
+       "end": 5.25
+      },
+      {
+       "w": "eyes,",
+       "hl": false,
+       "start": 5.25,
+       "end": 5.56
+      },
+      {
+       "w": "she",
+       "hl": false,
+       "start": 5.88,
+       "end": 6.134
+      },
+      {
+       "w": "saw",
+       "hl": false,
+       "start": 6.134,
+       "end": 6.387
+      },
+      {
+       "w": "that",
+       "hl": false,
+       "start": 6.387,
+       "end": 6.701
+      },
+      {
+       "w": "smile",
+       "hl": true,
+       "start": 6.701,
+       "end": 7.076
+      },
+      {
+       "w": "again.",
+       "hl": false,
+       "start": 7.076,
+       "end": 7.45
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "clock": 0.0
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "gallery",
+   "start": 14.1667,
+   "duration": 4.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "She opened the photos from the trip. One by one.",
+     "start": 0.3,
+     "end": 3.83,
+     "words": [
+      {
+       "w": "She",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.553
+      },
+      {
+       "w": "opened",
+       "hl": false,
+       "start": 0.553,
+       "end": 0.937
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.937,
+       "end": 1.16
+      },
+      {
+       "w": "photos",
+       "hl": false,
+       "start": 1.16,
+       "end": 1.543
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 1.543,
+       "end": 1.82
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.82,
+       "end": 2.043
+      },
+      {
+       "w": "trip.",
+       "hl": false,
+       "start": 2.043,
+       "end": 2.32
+      },
+      {
+       "w": "One",
+       "hl": false,
+       "start": 2.7,
+       "end": 3.109
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 3.109,
+       "end": 3.421
+      },
+      {
+       "w": "one.",
+       "hl": false,
+       "start": 3.421,
+       "end": 3.83
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe1": 3.93
+   },
+   "mood": {
+    "pad": 0.4,
+    "drone": 0.4
+   }
+  },
+  {
+   "id": "trailphoto",
+   "start": 19.0667,
+   "duration": 5.666666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "In the one on the trail, between the trees... someone was watching.",
+     "start": 0.3,
+     "end": 4.53,
+     "words": [
+      {
+       "w": "In",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.498
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.498,
+       "end": 0.718
+      },
+      {
+       "w": "one",
+       "hl": false,
+       "start": 0.718,
+       "end": 0.938
+      },
+      {
+       "w": "on",
+       "hl": false,
+       "start": 0.938,
+       "end": 1.105
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.105,
+       "end": 1.325
+      },
+      {
+       "w": "trail,",
+       "hl": false,
+       "start": 1.325,
+       "end": 1.65
+      },
+      {
+       "w": "between",
+       "hl": false,
+       "start": 1.81,
+       "end": 2.286
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.286,
+       "end": 2.53
+      },
+      {
+       "w": "trees...",
+       "hl": false,
+       "start": 2.53,
+       "end": 2.89
+      },
+      {
+       "w": "someone",
+       "hl": true,
+       "start": 3.24,
+       "end": 3.73
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 3.73,
+       "end": 3.981
+      },
+      {
+       "w": "watching.",
+       "hl": false,
+       "start": 3.981,
+       "end": 4.53
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "glitch": 3.24,
+    "sting": 3.24
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "tentphoto",
+   "start": 24.7333,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "In the one with the tents, he was closer.",
+     "start": 0.4,
+     "end": 3.12,
+     "words": [
+      {
+       "w": "In",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.607
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.607,
+       "end": 0.826
+      },
+      {
+       "w": "one",
+       "hl": false,
+       "start": 0.826,
+       "end": 1.046
+      },
+      {
+       "w": "with",
+       "hl": false,
+       "start": 1.046,
+       "end": 1.317
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.317,
+       "end": 1.536
+      },
+      {
+       "w": "tents,",
+       "hl": false,
+       "start": 1.536,
+       "end": 1.86
+      },
+      {
+       "w": "he",
+       "hl": false,
+       "start": 2.14,
+       "end": 2.355
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 2.355,
+       "end": 2.637
+      },
+      {
+       "w": "closer.",
+       "hl": true,
+       "start": 2.637,
+       "end": 3.12
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "sting": 2.637
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "firephoto",
+   "start": 29.2333,
+   "duration": 5.633333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "And in the one by the fire... his hand was on Sara's shoulder.",
+     "start": 0.4,
+     "end": 4.38,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.662
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 0.662,
+       "end": 0.839
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.839,
+       "end": 1.071
+      },
+      {
+       "w": "one",
+       "hl": false,
+       "start": 1.071,
+       "end": 1.303
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 1.303,
+       "end": 1.48
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.48,
+       "end": 1.713
+      },
+      {
+       "w": "fire...",
+       "hl": false,
+       "start": 1.713,
+       "end": 2.0
+      },
+      {
+       "w": "his",
+       "hl": false,
+       "start": 2.4,
+       "end": 2.65
+      },
+      {
+       "w": "hand",
+       "hl": false,
+       "start": 2.65,
+       "end": 2.961
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 2.961,
+       "end": 3.211
+      },
+      {
+       "w": "on",
+       "hl": false,
+       "start": 3.211,
+       "end": 3.402
+      },
+      {
+       "w": "Sara's",
+       "hl": false,
+       "start": 3.402,
+       "end": 3.831
+      },
+      {
+       "w": "shoulder.",
+       "hl": true,
+       "start": 3.831,
+       "end": 4.38
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "heart": 0.3,
+    "sting": 3.831
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "lastphoto",
+   "start": 34.8667,
+   "duration": 7.066666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "But the last photo was from that night.",
+     "start": 0.4,
+     "end": 3.05,
+     "words": [
+      {
+       "w": "But",
+       "hl": false,
+       "start": 0.42,
+       "end": 0.692
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.692,
+       "end": 0.964
+      },
+      {
+       "w": "last",
+       "hl": false,
+       "start": 0.964,
+       "end": 1.301
+      },
+      {
+       "w": "photo",
+       "hl": false,
+       "start": 1.301,
+       "end": 1.703
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 1.703,
+       "end": 1.975
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 1.975,
+       "end": 2.312
+      },
+      {
+       "w": "that",
+       "hl": true,
+       "start": 2.312,
+       "end": 2.648
+      },
+      {
+       "w": "night.",
+       "hl": true,
+       "start": 2.648,
+       "end": 3.05
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Sara, asleep. In her bed.",
+     "start": 3.45,
+     "end": 5.72,
+     "words": [
+      {
+       "w": "Sara,",
+       "hl": false,
+       "start": 3.48,
+       "end": 3.965
+      },
+      {
+       "w": "asleep.",
+       "hl": false,
+       "start": 3.965,
+       "end": 4.637
+      },
+      {
+       "w": "In",
+       "hl": false,
+       "start": 4.637,
+       "end": 4.936
+      },
+      {
+       "w": "her",
+       "hl": false,
+       "start": 4.936,
+       "end": 5.328
+      },
+      {
+       "w": "bed.",
+       "hl": true,
+       "start": 5.328,
+       "end": 5.72
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "glitch": 2.312,
+    "boom": 5.328
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "corner",
+   "start": 41.9333,
+   "duration": 6.733333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Someone had taken it... from inside her room.",
+     "start": 0.6,
+     "end": 3.64,
+     "words": [
+      {
+       "w": "Someone",
+       "hl": false,
+       "start": 0.64,
+       "end": 1.133
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 1.133,
+       "end": 1.385
+      },
+      {
+       "w": "taken",
+       "hl": false,
+       "start": 1.385,
+       "end": 1.758
+      },
+      {
+       "w": "it...",
+       "hl": false,
+       "start": 1.758,
+       "end": 1.95
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 2.25,
+       "end": 2.582
+      },
+      {
+       "w": "inside",
+       "hl": true,
+       "start": 2.582,
+       "end": 3.041
+      },
+      {
+       "w": "her",
+       "hl": false,
+       "start": 3.041,
+       "end": 3.308
+      },
+      {
+       "w": "room.",
+       "hl": false,
+       "start": 3.308,
+       "end": 3.64
+      }
+     ]
+    },
+    {
+     "speaker": "sara",
+     "text": "Is... anyone there?",
+     "start": 4.54,
+     "end": 5.79,
+     "words": [
+      {
+       "w": "Is...",
+       "hl": false,
+       "start": 4.559,
+       "end": 4.934
+      },
+      {
+       "w": "anyone",
+       "hl": false,
+       "start": 5.059,
+       "end": 5.452
+      },
+      {
+       "w": "there?",
+       "hl": false,
+       "start": 5.452,
+       "end": 5.79
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "heart": 0.0,
+    "riser": 0.5
+   },
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "flash",
+   "start": 48.6667,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "Smile.",
+     "start": 1.4,
+     "end": 2.26,
+     "words": [
+      {
+       "w": "Smile.",
+       "hl": false,
+       "start": 1.447,
+       "end": 2.26
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "shutter": 2.61,
+    "boom": 2.61
+   },
+   "mood": {
+    "drone": 0.2
+   }
+  },
+  {
+   "id": "end",
+   "start": 53.7667,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Did you see him... in the flash?",
+     "start": 0.4,
+     "end": 2.45,
+     "words": [
+      {
+       "w": "Did",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.68
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 0.68,
+       "end": 0.92
+      },
+      {
+       "w": "see",
+       "hl": false,
+       "start": 0.92,
+       "end": 1.16
+      },
+      {
+       "w": "him...",
+       "hl": false,
+       "start": 1.16,
+       "end": 1.4
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.59,
+       "end": 1.792
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.792,
+       "end": 2.058
+      },
+      {
+       "w": "flash?",
+       "hl": true,
+       "start": 2.058,
+       "end": 2.45
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1748
+}

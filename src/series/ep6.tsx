@@ -8,10 +8,11 @@ import {Flash} from '../components/Overlays';
 import {aimAngle, Stage, talkMouth} from '../components/Stage';
 import {EASE, EASE_OUT, kf, pop, rand} from '../lib/anim';
 import {useCam} from '../lib/Camera';
-import {Timeline, useScene} from '../lib/timeline';
+import {Timeline, useScene, useTr} from '../lib/timeline';
 import type {EpisodeDef} from './Episode';
 import {SeriesEnd} from './SeriesEnd';
-import tl from '../generated/timeline_ep6_es.json';
+import tlEs from '../generated/timeline_ep6_es.json';
+import tlEn from '../generated/timeline_ep6_en.json';
 
 const PALE: Pose = {humanEyes: true, colors: {skin: '#e6d0b6', skinShade: '#c9ad8f'}};
 const WARM: Pose = {humanEyes: true, colors: {skin: '#efc9a0', skinShade: '#d6a97c', jacket: '#7a7f88'}};
@@ -239,12 +240,13 @@ const Epilogue: React.FC = () => {
 
 const End: React.FC<{title: string; part: string}> = (p) => {
 	const frame = useCurrentFrame();
-	return <SeriesEnd title={p.title} part={p.part} next="FIN" warm figure={{...WARM, mouth: 'smile', armR: [150 + Math.sin(frame / 6) * 15, 20], colors: {...WARM.colors, jacket: '#3a3d44', jacketDark: '#2a2c32', skin: '#6a5a4a', skinShade: '#5a4a3a', pants: '#1a1a1e'}}} />;
+	const t = useTr();
+	return <SeriesEnd title={p.title} part={p.part} next={t('FIN', 'THE END')} warm figure={{...WARM, mouth: 'smile', armR: [150 + Math.sin(frame / 6) * 15, 20], colors: {...WARM.colors, jacket: '#3a3d44', jacketDark: '#2a2c32', skin: '#6a5a4a', skinShade: '#5a4a3a', pants: '#1a1a1e'}}} />;
 };
 
 export const EP6: EpisodeDef = {
 	slug: 'ep6',
-	timeline: tl as unknown as Timeline,
+	timelines: {es: tlEs as unknown as Timeline, en: tlEn as unknown as Timeline},
 	scenes: {
 		hook: {C: Hook, vignette: 0.75},
 		count: {C: Count, vignette: 0.75},

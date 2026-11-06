@@ -14,6 +14,7 @@ export const SeriesEnd: React.FC<{title: string; part: string; next?: string; fi
 	const s = spring({frame: frame - 2, fps, config: {damping: 10, stiffness: 120}});
 	const flicker = !warm && rand(Math.floor(frame / 2), 3) > 0.9 ? 0.4 : 1;
 	const accent = warm ? '#ffcf5a' : '#ff2d3a';
+	const long = title.length > 9;
 	return (
 		<AbsoluteFill style={{background: warm ? '#0a0806' : '#030308'}}>
 			<Stage cam={{x: 540, y: 960 - frame * 0.4, z: 1 + frame * 0.002, r: 0}} bg="transparent">
@@ -26,9 +27,9 @@ export const SeriesEnd: React.FC<{title: string; part: string; next?: string; fi
 				<div
 					style={{
 						fontFamily: 'InterBlack',
-						fontSize: 150,
+						fontSize: long ? 104 : 150,
 						color: '#fff',
-						letterSpacing: kf(frame, [[0, 40], [dur, 6]]),
+						letterSpacing: long ? kf(frame, [[0, 16], [dur, 2]]) : kf(frame, [[0, 40], [dur, 6]]),
 						transform: `scale(${0.6 + 0.4 * s})`,
 						opacity: s * flicker,
 						WebkitTextStroke: '10px #000',

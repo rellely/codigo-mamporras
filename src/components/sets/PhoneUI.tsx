@@ -2,6 +2,7 @@ import React from 'react';
 import {useCurrentFrame} from 'remotion';
 import {CAST, CharId} from '../Character';
 import {pop} from '../../lib/anim';
+import {useTr} from '../../lib/timeline';
 
 export const SCREEN = {w: 600, h: 1180};
 
@@ -105,6 +106,7 @@ export const ChatScreen: React.FC<{msgs: ChatMsg[]; typing?: {from: CharId; at: 
 	members = 'Leo, Marta, Dani, Sara, Iker, ?',
 }) => {
 	const frame = useCurrentFrame();
+	const t = useTr();
 	const visible = msgs.filter((m) => frame >= m.at);
 	let y = 1010;
 	const placed: {m: ChatMsg; y: number; h: number; lines: string[]}[] = [];
@@ -173,7 +175,7 @@ export const ChatScreen: React.FC<{msgs: ChatMsg[]; typing?: {from: CharId; at: 
 						<circle key={i} cx={90 + i * 40} cy={975 - Math.max(0, Math.sin(frame / 3 - i)) * 10} r={10} fill="#c8ccd6" />
 					))}
 					<text x={300} y={985} fontFamily="InterBlack" fontSize={22} fill="#9aa">
-						? está escribiendo...
+						{t('? está escribiendo...', '? is typing...')}
 					</text>
 				</g>
 			)}

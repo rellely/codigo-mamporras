@@ -5,14 +5,17 @@ import {TIMELINES} from './lib/timeline';
 import {Episode} from './series/Episode';
 import {EPISODES} from './series/registry';
 
-const EpisodeBySlug: React.FC<{slug: string}> = ({slug}) => <Episode ep={EPISODES.find((e) => e.slug === slug)!} />;
+const EpisodeBySlug: React.FC<{slug: string; lang: 'es' | 'en'}> = ({slug, lang}) => <Episode ep={EPISODES.find((e) => e.slug === slug)!} lang={lang} />;
 
 export const RemotionRoot: React.FC = () => (
 	<>
 		<Composition id="ElSexto-ES" component={Video} durationInFrames={TIMELINES.es.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{lang: 'es' as const}} />
 		<Composition id="TheSixthOne-EN" component={Video} durationInFrames={TIMELINES.en.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{lang: 'en' as const}} />
 		{EPISODES.map((ep) => (
-			<Composition key={ep.slug} id={`ElSexto-${ep.slug.toUpperCase()}`} component={EpisodeBySlug} durationInFrames={ep.timeline.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{slug: ep.slug}} />
+			<Composition key={ep.slug} id={`ElSexto-${ep.slug.toUpperCase()}`} component={EpisodeBySlug} durationInFrames={ep.timelines.es.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{slug: ep.slug, lang: 'es' as const}} />
+		))}
+		{EPISODES.map((ep) => (
+			<Composition key={ep.slug + '-en'} id={`TheSixthOne-${ep.slug.toUpperCase()}`} component={EpisodeBySlug} durationInFrames={ep.timelines.en.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{slug: ep.slug, lang: 'en' as const}} />
 		))}
 	</>
 );

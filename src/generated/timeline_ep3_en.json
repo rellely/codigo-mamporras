@@ -1,0 +1,974 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "part": "PART 3 · THE NEW MEMBER",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "The next day, someone joined the camping group chat.",
+     "start": 0.6,
+     "end": 3.77,
+     "words": [
+      {
+       "w": "The",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.875
+      },
+      {
+       "w": "next",
+       "hl": false,
+       "start": 0.875,
+       "end": 1.165
+      },
+      {
+       "w": "day,",
+       "hl": false,
+       "start": 1.165,
+       "end": 1.4
+      },
+      {
+       "w": "someone",
+       "hl": false,
+       "start": 1.65,
+       "end": 2.093
+      },
+      {
+       "w": "joined",
+       "hl": false,
+       "start": 2.093,
+       "end": 2.483
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.483,
+       "end": 2.71
+      },
+      {
+       "w": "camping",
+       "hl": true,
+       "start": 2.71,
+       "end": 3.153
+      },
+      {
+       "w": "group",
+       "hl": false,
+       "start": 3.153,
+       "end": 3.489
+      },
+      {
+       "w": "chat.",
+       "hl": false,
+       "start": 3.489,
+       "end": 3.77
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "ping": 0.0,
+    "boom": 3.77
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.4
+   }
+  },
+  {
+   "id": "chat",
+   "start": 5.1,
+   "duration": 8.166666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Nobody had added him.",
+     "start": 2.4,
+     "end": 4.25,
+     "words": [
+      {
+       "w": "Nobody",
+       "hl": false,
+       "start": 2.43,
+       "end": 3.031
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 3.031,
+       "end": 3.382
+      },
+      {
+       "w": "added",
+       "hl": false,
+       "start": 3.382,
+       "end": 3.899
+      },
+      {
+       "w": "him.",
+       "hl": false,
+       "start": 3.899,
+       "end": 4.25
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "And then... he typed.",
+     "start": 4.75,
+     "end": 6.22,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 4.79,
+       "end": 5.109
+      },
+      {
+       "w": "then...",
+       "hl": false,
+       "start": 5.109,
+       "end": 5.505
+      },
+      {
+       "w": "he",
+       "hl": false,
+       "start": 5.505,
+       "end": 5.748
+      },
+      {
+       "w": "typed.",
+       "hl": true,
+       "start": 5.748,
+       "end": 6.22
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "m1": 0.3,
+    "m2": 1.3,
+    "typing": 4.75,
+    "m3": 6.72,
+    "sting": 6.72
+   },
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "garage",
+   "start": 13.2667,
+   "duration": 7.266666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They met in Leo's garage. Dani had been digging all night.",
+     "start": 0.4,
+     "end": 4.46,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.806
+      },
+      {
+       "w": "met",
+       "hl": false,
+       "start": 0.806,
+       "end": 1.11
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.11,
+       "end": 1.341
+      },
+      {
+       "w": "Leo's",
+       "hl": false,
+       "start": 1.341,
+       "end": 1.789
+      },
+      {
+       "w": "garage.",
+       "hl": false,
+       "start": 1.789,
+       "end": 2.31
+      },
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 2.66,
+       "end": 2.942
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 2.942,
+       "end": 3.17
+      },
+      {
+       "w": "been",
+       "hl": false,
+       "start": 3.17,
+       "end": 3.452
+      },
+      {
+       "w": "digging",
+       "hl": true,
+       "start": 3.452,
+       "end": 3.896
+      },
+      {
+       "w": "all",
+       "hl": false,
+       "start": 3.896,
+       "end": 4.124
+      },
+      {
+       "w": "night.",
+       "hl": false,
+       "start": 4.124,
+       "end": 4.46
+      }
+     ]
+    },
+    {
+     "speaker": "leo",
+     "text": "This isn't funny anymore, guys.",
+     "start": 4.86,
+     "end": 6.332,
+     "words": [
+      {
+       "w": "This",
+       "hl": false,
+       "start": 4.898,
+       "end": 5.138
+      },
+      {
+       "w": "isn't",
+       "hl": false,
+       "start": 5.138,
+       "end": 5.425
+      },
+      {
+       "w": "funny",
+       "hl": false,
+       "start": 5.425,
+       "end": 5.712
+      },
+      {
+       "w": "anymore,",
+       "hl": false,
+       "start": 5.712,
+       "end": 6.091
+      },
+      {
+       "w": "guys.",
+       "hl": false,
+       "start": 6.091,
+       "end": 6.332
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.2
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "news",
+   "start": 20.5333,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "dani",
+     "text": "Look at this. It's from twenty years ago.",
+     "start": 0.3,
+     "end": 2.464,
+     "words": [
+      {
+       "w": "Look",
+       "hl": false,
+       "start": 0.336,
+       "end": 0.602
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 0.602,
+       "end": 0.766
+      },
+      {
+       "w": "this.",
+       "hl": false,
+       "start": 0.766,
+       "end": 1.032
+      },
+      {
+       "w": "It's",
+       "hl": false,
+       "start": 1.032,
+       "end": 1.298
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 1.298,
+       "end": 1.564
+      },
+      {
+       "w": "twenty",
+       "hl": false,
+       "start": 1.564,
+       "end": 1.932
+      },
+      {
+       "w": "years",
+       "hl": false,
+       "start": 1.932,
+       "end": 2.249
+      },
+      {
+       "w": "ago.",
+       "hl": false,
+       "start": 2.249,
+       "end": 2.464
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Six boys camped by the same rock. Only five came back.",
+     "start": 2.864,
+     "end": 6.954,
+     "words": [
+      {
+       "w": "Six",
+       "hl": false,
+       "start": 2.894,
+       "end": 3.154
+      },
+      {
+       "w": "boys",
+       "hl": false,
+       "start": 3.154,
+       "end": 3.476
+      },
+      {
+       "w": "camped",
+       "hl": false,
+       "start": 3.476,
+       "end": 3.921
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 3.921,
+       "end": 4.12
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 4.12,
+       "end": 4.38
+      },
+      {
+       "w": "same",
+       "hl": false,
+       "start": 4.38,
+       "end": 4.702
+      },
+      {
+       "w": "rock.",
+       "hl": false,
+       "start": 4.702,
+       "end": 5.024
+      },
+      {
+       "w": "Only",
+       "hl": false,
+       "start": 5.424,
+       "end": 5.806
+      },
+      {
+       "w": "five",
+       "hl": true,
+       "start": 5.806,
+       "end": 6.189
+      },
+      {
+       "w": "came",
+       "hl": false,
+       "start": 6.189,
+       "end": 6.571
+      },
+      {
+       "w": "back.",
+       "hl": false,
+       "start": 6.571,
+       "end": 6.954
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "typing": 0.0,
+    "sting": 5.806
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   }
+  },
+  {
+   "id": "hugo",
+   "start": 28.5333,
+   "duration": 6.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "The one who never came back was called Hugo.",
+     "start": 0.3,
+     "end": 3.27,
+     "words": [
+      {
+       "w": "The",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.609
+      },
+      {
+       "w": "one",
+       "hl": false,
+       "start": 0.609,
+       "end": 0.877
+      },
+      {
+       "w": "who",
+       "hl": false,
+       "start": 0.877,
+       "end": 1.146
+      },
+      {
+       "w": "never",
+       "hl": false,
+       "start": 1.146,
+       "end": 1.543
+      },
+      {
+       "w": "came",
+       "hl": false,
+       "start": 1.543,
+       "end": 1.875
+      },
+      {
+       "w": "back",
+       "hl": false,
+       "start": 1.875,
+       "end": 2.208
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 2.208,
+       "end": 2.477
+      },
+      {
+       "w": "called",
+       "hl": false,
+       "start": 2.477,
+       "end": 2.937
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 2.937,
+       "end": 3.27
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "He wore a grey hoodie.",
+     "start": 3.57,
+     "end": 5.16,
+     "words": [
+      {
+       "w": "He",
+       "hl": false,
+       "start": 3.61,
+       "end": 3.826
+      },
+      {
+       "w": "wore",
+       "hl": false,
+       "start": 3.826,
+       "end": 4.176
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.176,
+       "end": 4.324
+      },
+      {
+       "w": "grey",
+       "hl": true,
+       "start": 4.324,
+       "end": 4.675
+      },
+      {
+       "w": "hoodie.",
+       "hl": false,
+       "start": 4.675,
+       "end": 5.16
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "glitch": 2.937,
+    "boom": 4.324
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "discuss",
+   "start": 34.8333,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "dani",
+     "text": "His friends said they counted themselves before leaving... and got five.",
+     "start": 0.3,
+     "end": 3.809,
+     "words": [
+      {
+       "w": "His",
+       "hl": false,
+       "start": 0.345,
+       "end": 0.522
+      },
+      {
+       "w": "friends",
+       "hl": false,
+       "start": 0.522,
+       "end": 0.868
+      },
+      {
+       "w": "said",
+       "hl": false,
+       "start": 0.868,
+       "end": 1.087
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 1.087,
+       "end": 1.306
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 1.306,
+       "end": 1.652
+      },
+      {
+       "w": "themselves",
+       "hl": false,
+       "start": 1.652,
+       "end": 2.124
+      },
+      {
+       "w": "before",
+       "hl": false,
+       "start": 2.124,
+       "end": 2.427
+      },
+      {
+       "w": "leaving...",
+       "hl": false,
+       "start": 2.427,
+       "end": 2.773
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 3.045,
+       "end": 3.281
+      },
+      {
+       "w": "got",
+       "hl": false,
+       "start": 3.281,
+       "end": 3.517
+      },
+      {
+       "w": "five.",
+       "hl": false,
+       "start": 3.517,
+       "end": 3.809
+      }
+     ]
+    },
+    {
+     "speaker": "marta",
+     "text": "They forgot about him.",
+     "start": 4.209,
+     "end": 5.299,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 4.249,
+       "end": 4.489
+      },
+      {
+       "w": "forgot",
+       "hl": false,
+       "start": 4.489,
+       "end": 4.82
+      },
+      {
+       "w": "about",
+       "hl": false,
+       "start": 4.82,
+       "end": 5.106
+      },
+      {
+       "w": "him.",
+       "hl": true,
+       "start": 5.106,
+       "end": 5.299
+      }
+     ]
+    }
+   ],
+   "cues": {},
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.2
+   }
+  },
+  {
+   "id": "newphoto",
+   "start": 41.3333,
+   "duration": 7.233333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Then, Hugo sent another photo.",
+     "start": 0.9,
+     "end": 3.6,
+     "words": [
+      {
+       "w": "Then,",
+       "hl": false,
+       "start": 0.94,
+       "end": 2.22
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 2.5,
+       "end": 2.731
+      },
+      {
+       "w": "sent",
+       "hl": false,
+       "start": 2.731,
+       "end": 2.961
+      },
+      {
+       "w": "another",
+       "hl": false,
+       "start": 2.961,
+       "end": 3.325
+      },
+      {
+       "w": "photo.",
+       "hl": false,
+       "start": 3.325,
+       "end": 3.6
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Of the garage. From outside.",
+     "start": 4.0,
+     "end": 6.27,
+     "words": [
+      {
+       "w": "Of",
+       "hl": false,
+       "start": 4.04,
+       "end": 4.257
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 4.257,
+       "end": 4.542
+      },
+      {
+       "w": "garage.",
+       "hl": false,
+       "start": 4.542,
+       "end": 5.03
+      },
+      {
+       "w": "From",
+       "hl": false,
+       "start": 5.25,
+       "end": 5.646
+      },
+      {
+       "w": "outside.",
+       "hl": true,
+       "start": 5.646,
+       "end": 6.27
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "buzz": 0.2,
+    "ping": 0.3,
+    "boom": 5.646
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "window",
+   "start": 48.5667,
+   "duration": 11.066666666666666,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "This time... count me right.",
+     "start": 1.6,
+     "end": 3.867,
+     "words": [
+      {
+       "w": "This",
+       "hl": false,
+       "start": 1.647,
+       "end": 2.507
+      },
+      {
+       "w": "time...",
+       "hl": false,
+       "start": 2.507,
+       "end": 3.367
+      },
+      {
+       "w": "count",
+       "hl": false,
+       "start": 3.856,
+       "end": 3.86
+      },
+      {
+       "w": "me",
+       "hl": false,
+       "start": 3.86,
+       "end": 3.863
+      },
+      {
+       "w": "right.",
+       "hl": true,
+       "start": 3.863,
+       "end": 3.867
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "When they went out to look, nobody was there. Just the smell of a campfire.",
+     "start": 4.667,
+     "end": 9.517,
+     "words": [
+      {
+       "w": "When",
+       "hl": false,
+       "start": 4.697,
+       "end": 4.911
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 4.911,
+       "end": 5.125
+      },
+      {
+       "w": "went",
+       "hl": false,
+       "start": 5.125,
+       "end": 5.339
+      },
+      {
+       "w": "out",
+       "hl": false,
+       "start": 5.339,
+       "end": 5.512
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 5.512,
+       "end": 5.644
+      },
+      {
+       "w": "look,",
+       "hl": false,
+       "start": 5.644,
+       "end": 5.857
+      },
+      {
+       "w": "nobody",
+       "hl": false,
+       "start": 6.107,
+       "end": 6.582
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 6.582,
+       "end": 6.859
+      },
+      {
+       "w": "there.",
+       "hl": false,
+       "start": 6.859,
+       "end": 7.267
+      },
+      {
+       "w": "Just",
+       "hl": false,
+       "start": 7.677,
+       "end": 7.994
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 7.994,
+       "end": 8.25
+      },
+      {
+       "w": "smell",
+       "hl": false,
+       "start": 8.25,
+       "end": 8.628
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 8.628,
+       "end": 8.823
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 8.823,
+       "end": 8.957
+      },
+      {
+       "w": "campfire.",
+       "hl": true,
+       "start": 8.957,
+       "end": 9.517
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": 0.3,
+    "sting": 1.4
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1
+   }
+  },
+  {
+   "id": "end",
+   "start": 59.6333,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "What do you think Hugo wants?",
+     "start": 0.4,
+     "end": 2.13,
+     "words": [
+      {
+       "w": "What",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.723
+      },
+      {
+       "w": "do",
+       "hl": false,
+       "start": 0.723,
+       "end": 0.903
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 0.903,
+       "end": 1.139
+      },
+      {
+       "w": "think",
+       "hl": false,
+       "start": 1.139,
+       "end": 1.488
+      },
+      {
+       "w": "Hugo",
+       "hl": true,
+       "start": 1.488,
+       "end": 1.781
+      },
+      {
+       "w": "wants?",
+       "hl": false,
+       "start": 1.781,
+       "end": 2.13
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1924
+}

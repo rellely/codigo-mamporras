@@ -1,10 +1,12 @@
 {
  "slug": "ep6",
  "title": {
-  "es": "EL SEXTO"
+  "es": "EL SEXTO",
+  "en": "THE SIXTH ONE"
  },
  "part": {
-  "es": "PARTE 6 · SEIS"
+  "es": "PARTE 6 · SEIS",
+  "en": "PART 6 · SIX"
  },
  "voices": {
   "es": {
@@ -54,10 +56,59 @@
     "pitch": 1.05,
     "speed": 0.95
    }
+  },
+  "en": {
+   "narrator": {
+    "voice": "bm_george",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "am_onyx",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "am_onyx",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "af_heart",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "af_sky",
+    "fx": "room",
+    "pitch": 1.04,
+    "speed": 0.96
+   },
+   "leo": {
+    "voice": "am_puck",
+    "fx": "room",
+    "pitch": 1.06,
+    "speed": 0.96
+   },
+   "dani": {
+    "voice": "am_echo",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.94
+   },
+   "iker": {
+    "voice": "am_liam",
+    "fx": "room",
+    "pitch": 1.03,
+    "speed": 0.96
+   }
   }
  },
  "langCodes": {
-  "es": "es"
+  "es": "es",
+  "en": "en-us"
  },
  "scenes": [
   {
@@ -72,7 +123,8 @@
     {
      "speaker": "narrator",
      "es": "Se sentaron alrededor del fuego. Los *seis*.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "They sat around the fire. All *six* of them."
     }
    ],
    "cues": [
@@ -106,13 +158,15 @@
      "speaker": "leo",
      "es": "Uno, dos, tres, cuatro, cinco...",
      "at": 0.3,
-     "slow": 0.88
+     "slow": 0.88,
+     "en": "One, two, three, four, five..."
     },
     {
      "speaker": "leo",
      "es": "y seis. *Hugo*.",
      "gap": 0.8,
-     "slow": 0.9
+     "slow": 0.9,
+     "en": "and six. *Hugo*."
     }
    ],
    "cues": [
@@ -127,42 +181,42 @@
     {
      "id": "c1",
      "sound": "tick",
-     "ref": "word:uno",
+     "ref": "word:uno|one",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c2",
      "sound": "tick",
-     "ref": "word:dos",
+     "ref": "word:dos|two",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c3",
      "sound": "tick",
-     "ref": "word:tres",
+     "ref": "word:tres|three",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c4",
      "sound": "tick",
-     "ref": "word:cuatro",
+     "ref": "word:cuatro|four",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c5",
      "sound": "tick",
-     "ref": "word:cinco",
+     "ref": "word:cinco|five",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c6",
      "sound": "chime",
-     "ref": "word:hugo",
+     "ref": "word:hugo|hugo",
      "offset": 0.0,
      "gain": 0.7
     }
@@ -180,12 +234,14 @@
     {
      "speaker": "narrator",
      "es": "Por primera vez en veinte años, alguien le había *contado*.",
-     "at": 0.5
+     "at": 0.5,
+     "en": "For the first time in twenty years, someone had *counted* him."
     },
     {
      "speaker": "narrator",
      "es": "Sus ojos cambiaron. Ya no daban *miedo*.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "His eyes changed. They weren't *scary* anymore."
     }
    ],
    "cues": [
@@ -218,12 +274,14 @@
     {
      "speaker": "narrator",
      "es": "La sombra de Iker volvió a su sitio.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Iker's shadow went back where it belonged."
     },
     {
      "speaker": "narrator",
      "es": "Y Hugo, por fin, tuvo la *suya*.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "And Hugo, at last, had his *own*."
     }
    ],
    "cues": [
@@ -245,7 +303,7 @@
     {
      "id": "chime",
      "sound": "chime",
-     "ref": "word:suya",
+     "ref": "word:suya|own",
      "offset": 0.0,
      "gain": 0.6
     }
@@ -263,12 +321,14 @@
     {
      "speaker": "hugo",
      "es": "Gracias por *contarme*.",
-     "at": 0.5
+     "at": 0.5,
+     "en": "Thank you for *counting* me."
     },
     {
      "speaker": "narrator",
      "es": "Y se deshizo en luz, como las chispas del fuego.",
-     "gap": 0.6
+     "gap": 0.6,
+     "en": "And he dissolved into light, like sparks from the fire."
     }
    ],
    "cues": [
@@ -301,12 +361,14 @@
     {
      "speaker": "narrator",
      "es": "Al amanecer eran cinco. Cinco personas. *Cinco* sombras.",
-     "at": 0.6
+     "at": 0.6,
+     "en": "At dawn there were five. Five people. *Five* shadows."
     },
     {
      "speaker": "narrator",
      "es": "Esta vez, nadie se quedó *atrás*.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "This time, nobody was left *behind*."
     }
    ],
    "cues": [
@@ -321,7 +383,7 @@
     {
      "id": "chime",
      "sound": "chime",
-     "ref": "word:cinco@0",
+     "ref": "word:cinco|five@0",
      "offset": 0.0,
      "gain": 0.0
     }
@@ -340,12 +402,14 @@
     {
      "speaker": "narrator",
      "es": "Desde entonces, cada vez que acampan, dejan un sitio libre junto al fuego.",
-     "at": 0.5
+     "at": 0.5,
+     "en": "Since then, every time they go camping, they leave a free seat by the fire."
     },
     {
      "speaker": "narrator",
      "es": "Por si alguien necesita que le *cuenten*.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "Just in case someone needs to be *counted*."
     }
    ],
    "cues": [
@@ -386,7 +450,8 @@
     {
      "speaker": "narrator",
      "es": "¿Le habrías contado *tú*?",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Would *you* have counted him?"
     }
    ],
    "cues": [

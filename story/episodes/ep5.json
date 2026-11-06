@@ -1,10 +1,12 @@
 {
  "slug": "ep5",
  "title": {
-  "es": "EL SEXTO"
+  "es": "EL SEXTO",
+  "en": "THE SIXTH ONE"
  },
  "part": {
-  "es": "PARTE 5 · EL INTERCAMBIO"
+  "es": "PARTE 5 · EL INTERCAMBIO",
+  "en": "PART 5 · THE SWAP"
  },
  "voices": {
   "es": {
@@ -54,10 +56,59 @@
     "pitch": 1.05,
     "speed": 0.95
    }
+  },
+  "en": {
+   "narrator": {
+    "voice": "bm_george",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "am_onyx",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "am_onyx",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "af_heart",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "af_sky",
+    "fx": "room",
+    "pitch": 1.04,
+    "speed": 0.96
+   },
+   "leo": {
+    "voice": "am_puck",
+    "fx": "room",
+    "pitch": 1.06,
+    "speed": 0.96
+   },
+   "dani": {
+    "voice": "am_echo",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.94
+   },
+   "iker": {
+    "voice": "am_liam",
+    "fx": "room",
+    "pitch": 1.03,
+    "speed": 0.96
+   }
   }
  },
  "langCodes": {
-  "es": "es"
+  "es": "es",
+  "en": "en-us"
  },
  "scenes": [
   {
@@ -73,12 +124,14 @@
     {
      "speaker": "narrator",
      "es": "Iker se estaba *borrando*.",
-     "at": 0.3
+     "at": 0.3,
+     "en": "Iker was *fading*."
     },
     {
      "speaker": "narrator",
      "es": "Y Hugo era cada vez más *real*.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "And Hugo was getting more and more *real*."
     }
    ],
    "cues": [
@@ -100,7 +153,7 @@
     {
      "id": "glitch",
      "sound": "glitch",
-     "ref": "word:borrando",
+     "ref": "word:borrando|fading",
      "offset": 0.0,
      "gain": 0.5
     }
@@ -118,12 +171,14 @@
     {
      "speaker": "narrator",
      "es": "Hugo se levantó... y caminó hacia él.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Hugo stood up... and walked towards him."
     },
     {
      "speaker": "narrator",
      "es": "A cada paso, Iker se volvía más *transparente*.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "With every step, Iker became more *transparent*."
     }
    ],
    "cues": [
@@ -158,12 +213,14 @@
     {
      "speaker": "leo",
      "es": "¡No te lo vas a *llevar*!",
-     "at": 0.3
+     "at": 0.3,
+     "en": "You're not *taking* him!"
     },
     {
      "speaker": "narrator",
      "es": "Los cuatro se pusieron delante de Iker.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "The four of them stood in front of Iker."
     }
    ],
    "cues": [
@@ -196,12 +253,14 @@
     {
      "speaker": "narrator",
      "es": "Pero Hugo no parecía enfadado. Parecía... *triste*.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "But Hugo didn't look angry. He looked... *sad*."
     },
     {
      "speaker": "hugo",
      "es": "Yo también estaba aquí... y se fueron *sin mí*.",
-     "gap": 0.6
+     "gap": 0.6,
+     "en": "I was here too... and they left *without me*."
     }
    ],
    "cues": [
@@ -227,12 +286,14 @@
     {
      "speaker": "narrator",
      "es": "Hace veinte años, sus amigos se contaron con *prisas*... y se marcharon.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Twenty years ago, his friends counted themselves in a *hurry*... and left."
     },
     {
      "speaker": "narrator",
      "es": "Hugo se quedó junto al fuego. *Esperando*.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "Hugo stayed by the fire. *Waiting*."
     }
    ],
    "cues": [
@@ -264,12 +325,14 @@
     {
      "speaker": "narrator",
      "es": "Dani lo entendió de golpe.",
-     "at": 0.3
+     "at": 0.3,
+     "en": "Suddenly, Dani understood."
     },
     {
      "speaker": "dani",
      "es": "No quiere a Iker. Quiere que le *cuenten*.",
-     "gap": 0.3
+     "gap": 0.3,
+     "en": "He doesn't want Iker. He wants to be *counted*."
     }
    ],
    "cues": [
@@ -284,7 +347,7 @@
     {
      "id": "chime",
      "sound": "chime",
-     "ref": "word:cuenten",
+     "ref": "word:cuenten|counted",
      "offset": 0.0,
      "gain": 0.5
     }
@@ -303,17 +366,20 @@
     {
      "speaker": "iker",
      "es": "Chicos... no me siento las *manos*.",
-     "at": 0.3
+     "at": 0.3,
+     "en": "Guys... I can't feel my *hands*."
     },
     {
      "speaker": "marta",
      "es": "¡Rápido! Sentaos todos alrededor del *fuego*.",
-     "gap": 0.3
+     "gap": 0.3,
+     "en": "Quick! Everyone sit around the *fire*."
     },
     {
      "speaker": "dani",
      "es": "Y dejad un sitio *libre*.",
-     "gap": 0.3
+     "gap": 0.3,
+     "en": "And leave a seat *free*."
     }
    ],
    "cues": [
@@ -354,7 +420,8 @@
     {
      "speaker": "narrator",
      "es": "¿Llegarán a *tiempo*?",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Will they make it in *time*?"
     }
    ],
    "cues": [

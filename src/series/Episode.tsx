@@ -3,10 +3,10 @@ import {AbsoluteFill, Audio, continueRender, delayRender, interpolate, Sequence,
 import {Fade, Grain} from '../components/Overlays';
 import {Vignette} from '../components/env/Camp';
 import {Subtitles} from '../components/Subtitles';
-import {SceneProvider, sceneFrames, Timeline} from '../lib/timeline';
+import {Lang, SceneProvider, sceneFrames, Timeline} from '../lib/timeline';
 
 export type SceneDef = {C: React.FC<any>; fadeIn?: number; fadeOut?: number; vignette?: number};
-export type EpisodeDef = {slug: string; timeline: Timeline; scenes: Record<string, SceneDef>; next?: string};
+export type EpisodeDef = {slug: string; timelines: Record<Lang, Timeline>; scenes: Record<string, SceneDef>; next?: Record<Lang, string>};
 
 const useFont = () => {
 	const [handle] = useState(() => delayRender('font'));
@@ -23,7 +23,7 @@ const useFont = () => {
 };
 
 /** Series badge shown during the first seconds (continuity between parts). */
-const PartBadge: React.FC<{part: string}> = ({part}) => {
+const PartBadge: React.FC<{part: string; title: string}> = ({part, title}) => {
 	const frame = useCurrentFrame();
 	const o = interpolate(frame, [4, 14, 95, 110], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
 	if (o <= 0) return null;
@@ -42,26 +42,26 @@ const PartBadge: React.FC<{part: string}> = ({part}) => {
 					transform: `translateY(${(1 - o) * -20}px)`,
 				}}
 			>
-				EL SEXTO · {part.split('·')[0].trim()}
+				{title} · {part.split('·')[0].trim()}
 			</div>
 		</div>
 	);
 };
 
-export const Episode: React.FC<{ep: EpisodeDef}> = ({ep}) => {
+export const Episode: React.FC<{ep: EpisodeDef; lang: Lang}> = ({ep, lang}) => {
 	useFont();
-	const tl = ep.timeline;
+	const tl = ep.timelines[lang];
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
-			<Audio src={staticFile(`audio/mix_${ep.slug}_es.wav`)} />
+			<Audio src={staticFile(`audio/mix_${ep.slug}_${lang}.wav`)} />
 			{tl.scenes.map((s) => {
 				const def = ep.scenes[s.id];
 				if (!def) return null;
 				const {from, duration} = sceneFrames(s);
 				return (
 					<Sequence key={s.id} from={from} durationInFrames={duration} name={s.id}>
-						<SceneProvider value={{scene: s, lang: 'es'}}>
-							<def.C title={tl.title} part={tl.part ?? ''} next={ep.next} />
+						<SceneProvider value={{scene: s, lang}}>
+							<def.C title={tl.title} part={tl.part ?? ''} next={ep.next?.[lang]} />
 							<Vignette strength={def.vignette ?? 0.65} />
 							<Fade dur={duration} inF={def.fadeIn} outF={def.fadeOut} />
 						</SceneProvider>
@@ -69,7 +69,7 @@ export const Episode: React.FC<{ep: EpisodeDef}> = ({ep}) => {
 				);
 			})}
 			<Grain opacity={0.1} />
-			<PartBadge part={tl.part ?? ''} />
+			<PartBadge part={tl.part ?? ''} title={tl.title} />
 			<Subtitles tl={tl} />
 		</AbsoluteFill>
 	);

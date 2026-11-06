@@ -10,11 +10,12 @@ import {TentsWorld, TrailWorld} from '../components/sets/Worlds';
 import {Stage, talkMouth} from '../components/Stage';
 import {EASE_OUT, kf} from '../lib/anim';
 import {useCam} from '../lib/Camera';
-import {useScene} from '../lib/timeline';
+import {useScene, useTr} from '../lib/timeline';
 import type {EpisodeDef} from './Episode';
 import {SeriesEnd} from './SeriesEnd';
 import {Crop, PhonePhoto, photoPoint} from './shots';
-import tl from '../generated/timeline_ep2_es.json';
+import tlEs from '../generated/timeline_ep2_es.json';
+import tlEn from '../generated/timeline_ep2_en.json';
 import {Timeline} from '../lib/timeline';
 
 const SPOT = {x: 540, y: 900, s: 1.18};
@@ -78,7 +79,7 @@ const Recap: React.FC = () => {
 const BedroomScene: React.FC = () => {
 	const frame = useCurrentFrame();
 	const {scene, f, lineStart, dur} = useScene();
-	const smileW = scene.lines[1]?.words.find((w) => /sonrisa/i.test(w.w));
+	const smileW = scene.lines[1]?.words.find((w) => /sonrisa|smile/i.test(w.w));
 	const flashAt = smileW ? f(smileW.start) : lineStart(1) + 30;
 	const closed = frame >= lineStart(1) + 8 && frame < flashAt;
 	const cam = useCam([
@@ -114,13 +115,14 @@ const BedroomScene: React.FC = () => {
 };
 
 const Gallery: React.FC = () => {
+	const t = useTr();
 	const frame = useCurrentFrame();
 	const {cue, dur} = useScene();
 	const cam = useCam([{f: 0, x: 540, y: 980, z: 1.0}, {f: dur, x: 540, y: 960, z: 1.06}], 2);
 	return (
 		<AbsoluteFill style={{background: '#05060c'}}>
 			<Stage cam={cam} bg="transparent">
-				<PhonePhoto spot={SPOT} photo={<TrailWorld />} crop={TRAIL_CROP} prev={{photo: <TentsWorld badges />, crop: TENTS_CROP}} swipeAt={cue('swipe1')} date="12 AGO" index="1 de 4" time="02:58" />
+				<PhonePhoto spot={SPOT} photo={<TrailWorld />} crop={TRAIL_CROP} prev={{photo: <TentsWorld badges />, crop: TENTS_CROP}} swipeAt={cue('swipe1')} date={t('12 AGO', 'AUG 12')} index={t('1 de 4', '1 of 4')} time="02:58" />
 			</Stage>
 			<AbsoluteFill style={{background: 'radial-gradient(circle at 50% 45%, rgba(120,170,255,0.12), transparent 60%)'}} />
 			{void frame}
@@ -143,6 +145,7 @@ const usePhotoZoom = (target: {x: number; y: number}, at: number, z = 3.2) => {
 };
 
 const TrailPhoto: React.FC = () => {
+	const t = useTr();
 	const {cue} = useScene();
 	const at = cue('glitch');
 	const p = photoPoint(TRAIL_SIXTH.x, TRAIL_SIXTH.y - 230 * TRAIL_SIXTH.s, TRAIL_CROP, SPOT);
@@ -151,7 +154,7 @@ const TrailPhoto: React.FC = () => {
 		<AbsoluteFill style={{background: '#05060c'}}>
 			<Glitch at={at} len={10}>
 				<Stage cam={cam} bg="transparent">
-					<PhonePhoto spot={SPOT} photo={<TrailWorld sixth={TRAIL_SIXTH} />} crop={TRAIL_CROP} date="12 AGO" index="2 de 4" time="02:59" />
+					<PhonePhoto spot={SPOT} photo={<TrailWorld sixth={TRAIL_SIXTH} />} crop={TRAIL_CROP} date={t('12 AGO', 'AUG 12')} index={t('2 de 4', '2 of 4')} time="02:59" />
 				</Stage>
 			</Glitch>
 		</AbsoluteFill>
@@ -159,6 +162,7 @@ const TrailPhoto: React.FC = () => {
 };
 
 const TentPhoto: React.FC = () => {
+	const t = useTr();
 	const {cue} = useScene();
 	const at = cue('sting');
 	const p = photoPoint(TENT_SIXTH.x, TENT_SIXTH.y - 230 * TENT_SIXTH.s, TENTS_CROP, SPOT);
@@ -173,8 +177,8 @@ const TentPhoto: React.FC = () => {
 						crop={TENTS_CROP}
 						prev={{photo: <TrailWorld sixth={TRAIL_SIXTH} />, crop: TRAIL_CROP}}
 						swipeAt={cue('swipe')}
-						date="12 AGO"
-						index="3 de 4"
+						date={t('12 AGO', 'AUG 12')}
+						index={t('3 de 4', '3 of 4')}
 						time="03:00"
 					/>
 				</Stage>
@@ -184,6 +188,7 @@ const TentPhoto: React.FC = () => {
 };
 
 const FirePhoto: React.FC = () => {
+	const t = useTr();
 	const frame = useCurrentFrame();
 	const {cue, dur} = useScene();
 	const at = cue('sting');
@@ -194,7 +199,7 @@ const FirePhoto: React.FC = () => {
 		<AbsoluteFill style={{background: '#05060c'}}>
 			<Glitch at={at} len={8}>
 				<Stage cam={cam} bg="transparent">
-					<PhonePhoto spot={SPOT} photo={firePhoto} crop={FIRE_CROP} prev={{photo: <TentsWorld sixth={TENT_SIXTH} />, crop: TENTS_CROP}} swipeAt={cue('swipe')} date="12 AGO" index="4 de 4" time="03:01" />
+					<PhonePhoto spot={SPOT} photo={firePhoto} crop={FIRE_CROP} prev={{photo: <TentsWorld sixth={TENT_SIXTH} />, crop: TENTS_CROP}} swipeAt={cue('swipe')} date={t('12 AGO', 'AUG 12')} index={t('4 de 4', '4 of 4')} time="03:01" />
 				</Stage>
 			</Glitch>
 			{react && (
@@ -207,6 +212,7 @@ const FirePhoto: React.FC = () => {
 };
 
 const LastPhoto: React.FC = () => {
+	const t = useTr();
 	const {cue, dur} = useScene();
 	const boom = cue('boom');
 	const p = photoPoint(BED_HEAD.x, BED_HEAD.y, BED_CROP, SPOT);
@@ -224,7 +230,7 @@ const LastPhoto: React.FC = () => {
 		<AbsoluteFill style={{background: '#05060c'}}>
 			<Glitch at={cue('glitch')} len={10}>
 				<Stage cam={cam} bg="transparent">
-					<PhonePhoto spot={SPOT} photo={bedPhoto} crop={BED_CROP} prev={{photo: firePhoto, crop: FIRE_CROP}} swipeAt={cue('swipe')} date="HOY · 03:12" index="5 de 5" time="03:12" />
+					<PhonePhoto spot={SPOT} photo={bedPhoto} crop={BED_CROP} prev={{photo: firePhoto, crop: FIRE_CROP}} swipeAt={cue('swipe')} date={t('HOY · 03:12', 'TODAY · 03:12')} index={t('5 de 5', '5 of 5')} time="03:12" />
 				</Stage>
 			</Glitch>
 			<Flash at={boom} len={8} color="#ff2d3a" peak={0.3} />
@@ -283,8 +289,8 @@ const End: React.FC<{title: string; part: string; next?: string}> = (p) => <Seri
 
 export const EP2: EpisodeDef = {
 	slug: 'ep2',
-	timeline: tl as unknown as Timeline,
-	next: 'Sigue en la PARTE 3',
+	timelines: {es: tlEs as unknown as Timeline, en: tlEn as unknown as Timeline},
+	next: {es: 'Sigue en la PARTE 3', en: 'Continues in PART 3'},
 	scenes: {
 		recap: {C: Recap, vignette: 0.7},
 		bedroom: {C: BedroomScene, fadeIn: 10, vignette: 0.8},

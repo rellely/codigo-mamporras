@@ -1,0 +1,890 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "part": "PART 6 · SIX",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 4.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They sat around the fire. All six of them.",
+     "start": 0.4,
+     "end": 3.23,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.712
+      },
+      {
+       "w": "sat",
+       "hl": false,
+       "start": 0.712,
+       "end": 0.94
+      },
+      {
+       "w": "around",
+       "hl": false,
+       "start": 0.94,
+       "end": 1.33
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.33,
+       "end": 1.558
+      },
+      {
+       "w": "fire.",
+       "hl": false,
+       "start": 1.558,
+       "end": 1.84
+      },
+      {
+       "w": "All",
+       "hl": false,
+       "start": 2.14,
+       "end": 2.412
+      },
+      {
+       "w": "six",
+       "hl": true,
+       "start": 2.412,
+       "end": 2.685
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 2.685,
+       "end": 2.893
+      },
+      {
+       "w": "them.",
+       "hl": false,
+       "start": 2.893,
+       "end": 3.23
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "fire": 0.0
+   },
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "count",
+   "start": 4.9,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "One, two, three, four, five...",
+     "start": 0.3,
+     "end": 1.847,
+     "words": [
+      {
+       "w": "One,",
+       "hl": false,
+       "start": 0.338,
+       "end": 0.591
+      },
+      {
+       "w": "two,",
+       "hl": false,
+       "start": 0.591,
+       "end": 0.845
+      },
+      {
+       "w": "three,",
+       "hl": false,
+       "start": 0.845,
+       "end": 1.219
+      },
+      {
+       "w": "four,",
+       "hl": false,
+       "start": 1.219,
+       "end": 1.533
+      },
+      {
+       "w": "five...",
+       "hl": false,
+       "start": 1.533,
+       "end": 1.847
+      }
+     ]
+    },
+    {
+     "speaker": "leo",
+     "text": "and six. Hugo.",
+     "start": 2.647,
+     "end": 3.713,
+     "words": [
+      {
+       "w": "and",
+       "hl": false,
+       "start": 2.685,
+       "end": 3.002
+      },
+      {
+       "w": "six.",
+       "hl": false,
+       "start": 3.002,
+       "end": 3.32
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 3.32,
+       "end": 3.713
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 0.338,
+    "c2": 0.591,
+    "c3": 0.845,
+    "c4": 1.219,
+    "c5": 1.533,
+    "c6": 3.32
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "reaction",
+   "start": 11.4,
+   "duration": 9.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "For the first time in twenty years, someone had counted him.",
+     "start": 0.5,
+     "end": 4.27,
+     "words": [
+      {
+       "w": "For",
+       "hl": false,
+       "start": 0.55,
+       "end": 0.78
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.78,
+       "end": 1.009
+      },
+      {
+       "w": "first",
+       "hl": false,
+       "start": 1.009,
+       "end": 1.348
+      },
+      {
+       "w": "time",
+       "hl": false,
+       "start": 1.348,
+       "end": 1.632
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.632,
+       "end": 1.807
+      },
+      {
+       "w": "twenty",
+       "hl": false,
+       "start": 1.807,
+       "end": 2.201
+      },
+      {
+       "w": "years,",
+       "hl": false,
+       "start": 2.201,
+       "end": 2.54
+      },
+      {
+       "w": "someone",
+       "hl": false,
+       "start": 2.85,
+       "end": 3.32
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 3.32,
+       "end": 3.56
+      },
+      {
+       "w": "counted",
+       "hl": true,
+       "start": 3.56,
+       "end": 4.03
+      },
+      {
+       "w": "him.",
+       "hl": false,
+       "start": 4.03,
+       "end": 4.27
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "His eyes changed. They weren't scary anymore.",
+     "start": 4.77,
+     "end": 7.84,
+     "words": [
+      {
+       "w": "His",
+       "hl": false,
+       "start": 4.82,
+       "end": 5.149
+      },
+      {
+       "w": "eyes",
+       "hl": false,
+       "start": 5.149,
+       "end": 5.557
+      },
+      {
+       "w": "changed.",
+       "hl": false,
+       "start": 5.557,
+       "end": 6.2
+      },
+      {
+       "w": "They",
+       "hl": false,
+       "start": 6.51,
+       "end": 6.759
+      },
+      {
+       "w": "weren't",
+       "hl": false,
+       "start": 6.759,
+       "end": 7.151
+      },
+      {
+       "w": "scary",
+       "hl": true,
+       "start": 7.151,
+       "end": 7.448
+      },
+      {
+       "w": "anymore.",
+       "hl": false,
+       "start": 7.448,
+       "end": 7.84
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "magic": 0.3
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "shadows",
+   "start": 20.4,
+   "duration": 7.266666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Iker's shadow went back where it belonged.",
+     "start": 0.4,
+     "end": 3.25,
+     "words": [
+      {
+       "w": "Iker's",
+       "hl": false,
+       "start": 0.42,
+       "end": 0.889
+      },
+      {
+       "w": "shadow",
+       "hl": false,
+       "start": 0.889,
+       "end": 1.359
+      },
+      {
+       "w": "went",
+       "hl": false,
+       "start": 1.359,
+       "end": 1.698
+      },
+      {
+       "w": "back",
+       "hl": false,
+       "start": 1.698,
+       "end": 2.037
+      },
+      {
+       "w": "where",
+       "hl": false,
+       "start": 2.037,
+       "end": 2.441
+      },
+      {
+       "w": "it",
+       "hl": false,
+       "start": 2.441,
+       "end": 2.65
+      },
+      {
+       "w": "belonged.",
+       "hl": false,
+       "start": 2.65,
+       "end": 3.25
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "And Hugo, at last, had his own.",
+     "start": 3.65,
+     "end": 6.13,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 3.69,
+       "end": 4.027
+      },
+      {
+       "w": "Hugo,",
+       "hl": false,
+       "start": 4.027,
+       "end": 4.444
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 4.444,
+       "end": 4.701
+      },
+      {
+       "w": "last,",
+       "hl": false,
+       "start": 4.701,
+       "end": 5.119
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 5.119,
+       "end": 5.456
+      },
+      {
+       "w": "his",
+       "hl": false,
+       "start": 5.456,
+       "end": 5.793
+      },
+      {
+       "w": "own.",
+       "hl": true,
+       "start": 5.793,
+       "end": 6.13
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "whoosh": 0.6,
+    "chime": 5.793
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "goodbye",
+   "start": 27.6667,
+   "duration": 7.833333333333333,
+   "lines": [
+    {
+     "speaker": "hugo",
+     "text": "Thank you for counting me.",
+     "start": 0.5,
+     "end": 2.223,
+     "words": [
+      {
+       "w": "Thank",
+       "hl": false,
+       "start": 0.638,
+       "end": 1.002
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 1.002,
+       "end": 1.249
+      },
+      {
+       "w": "for",
+       "hl": false,
+       "start": 1.249,
+       "end": 1.495
+      },
+      {
+       "w": "counting",
+       "hl": true,
+       "start": 1.495,
+       "end": 2.036
+      },
+      {
+       "w": "me.",
+       "hl": false,
+       "start": 2.036,
+       "end": 2.223
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "And he dissolved into light, like sparks from the fire.",
+     "start": 2.823,
+     "end": 6.473,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 2.843,
+       "end": 3.091
+      },
+      {
+       "w": "he",
+       "hl": false,
+       "start": 3.091,
+       "end": 3.28
+      },
+      {
+       "w": "dissolved",
+       "hl": false,
+       "start": 3.28,
+       "end": 3.881
+      },
+      {
+       "w": "into",
+       "hl": false,
+       "start": 3.881,
+       "end": 4.188
+      },
+      {
+       "w": "light,",
+       "hl": false,
+       "start": 4.188,
+       "end": 4.553
+      },
+      {
+       "w": "like",
+       "hl": false,
+       "start": 4.873,
+       "end": 5.182
+      },
+      {
+       "w": "sparks",
+       "hl": false,
+       "start": 5.182,
+       "end": 5.608
+      },
+      {
+       "w": "from",
+       "hl": false,
+       "start": 5.608,
+       "end": 5.916
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 5.916,
+       "end": 6.165
+      },
+      {
+       "w": "fire.",
+       "hl": false,
+       "start": 6.165,
+       "end": 6.473
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "magic": 2.823
+   },
+   "mood": {
+    "pad": 1.0,
+    "pluck": 0.4
+   }
+  },
+  {
+   "id": "dawn",
+   "start": 35.5,
+   "duration": 8.766666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "At dawn there were five. Five people. Five shadows.",
+     "start": 0.6,
+     "end": 4.47,
+     "words": [
+      {
+       "w": "At",
+       "hl": false,
+       "start": 0.62,
+       "end": 0.797
+      },
+      {
+       "w": "dawn",
+       "hl": false,
+       "start": 0.797,
+       "end": 1.084
+      },
+      {
+       "w": "there",
+       "hl": false,
+       "start": 1.084,
+       "end": 1.426
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 1.426,
+       "end": 1.713
+      },
+      {
+       "w": "five.",
+       "hl": false,
+       "start": 1.713,
+       "end": 2.0
+      },
+      {
+       "w": "Five",
+       "hl": false,
+       "start": 2.32,
+       "end": 2.676
+      },
+      {
+       "w": "people.",
+       "hl": false,
+       "start": 2.676,
+       "end": 3.17
+      },
+      {
+       "w": "Five",
+       "hl": true,
+       "start": 3.39,
+       "end": 3.809
+      },
+      {
+       "w": "shadows.",
+       "hl": false,
+       "start": 3.809,
+       "end": 4.47
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "This time, nobody was left behind.",
+     "start": 4.97,
+     "end": 7.62,
+     "words": [
+      {
+       "w": "This",
+       "hl": false,
+       "start": 5.01,
+       "end": 5.35
+      },
+      {
+       "w": "time,",
+       "hl": false,
+       "start": 5.35,
+       "end": 5.69
+      },
+      {
+       "w": "nobody",
+       "hl": false,
+       "start": 5.85,
+       "end": 6.385
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 6.385,
+       "end": 6.698
+      },
+      {
+       "w": "left",
+       "hl": false,
+       "start": 6.698,
+       "end": 7.085
+      },
+      {
+       "w": "behind.",
+       "hl": true,
+       "start": 7.085,
+       "end": 7.62
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "birds": 0.2,
+    "chime": 1.713
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "epilogue",
+   "start": 44.2667,
+   "duration": 10.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Since then, every time they go camping, they leave a free seat by the fire.",
+     "start": 0.5,
+     "end": 5.35,
+     "words": [
+      {
+       "w": "Since",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.932
+      },
+      {
+       "w": "then,",
+       "hl": false,
+       "start": 0.932,
+       "end": 1.27
+      },
+      {
+       "w": "every",
+       "hl": false,
+       "start": 1.43,
+       "end": 1.78
+      },
+      {
+       "w": "time",
+       "hl": false,
+       "start": 1.78,
+       "end": 2.073
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 2.073,
+       "end": 2.367
+      },
+      {
+       "w": "go",
+       "hl": false,
+       "start": 2.367,
+       "end": 2.547
+      },
+      {
+       "w": "camping,",
+       "hl": false,
+       "start": 2.547,
+       "end": 3.01
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 3.4,
+       "end": 3.677
+      },
+      {
+       "w": "leave",
+       "hl": false,
+       "start": 3.677,
+       "end": 4.007
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.007,
+       "end": 4.125
+      },
+      {
+       "w": "free",
+       "hl": false,
+       "start": 4.125,
+       "end": 4.402
+      },
+      {
+       "w": "seat",
+       "hl": false,
+       "start": 4.402,
+       "end": 4.679
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 4.679,
+       "end": 4.849
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 4.849,
+       "end": 5.073
+      },
+      {
+       "w": "fire.",
+       "hl": false,
+       "start": 5.073,
+       "end": 5.35
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Just in case someone needs to be counted.",
+     "start": 5.85,
+     "end": 8.75,
+     "words": [
+      {
+       "w": "Just",
+       "hl": false,
+       "start": 5.88,
+       "end": 6.23
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 6.23,
+       "end": 6.446
+      },
+      {
+       "w": "case",
+       "hl": false,
+       "start": 6.446,
+       "end": 6.796
+      },
+      {
+       "w": "someone",
+       "hl": false,
+       "start": 6.796,
+       "end": 7.349
+      },
+      {
+       "w": "needs",
+       "hl": false,
+       "start": 7.349,
+       "end": 7.766
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 7.766,
+       "end": 7.982
+      },
+      {
+       "w": "be",
+       "hl": false,
+       "start": 7.982,
+       "end": 8.198
+      },
+      {
+       "w": "counted.",
+       "hl": true,
+       "start": 8.198,
+       "end": 8.75
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "crickets": 0.0,
+    "chime": 9.05
+   },
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.5,
+    "cluster": 0.2
+   }
+  },
+  {
+   "id": "end",
+   "start": 54.5667,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Would you have counted him?",
+     "start": 0.4,
+     "end": 2.02,
+     "words": [
+      {
+       "w": "Would",
+       "hl": false,
+       "start": 0.42,
+       "end": 0.774
+      },
+      {
+       "w": "you",
+       "hl": true,
+       "start": 0.774,
+       "end": 1.014
+      },
+      {
+       "w": "have",
+       "hl": false,
+       "start": 1.014,
+       "end": 1.311
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 1.311,
+       "end": 1.78
+      },
+      {
+       "w": "him?",
+       "hl": false,
+       "start": 1.78,
+       "end": 2.02
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "pad": 0.6,
+    "drone": 0.3
+   }
+  }
+ ],
+ "durationInFrames": 1772
+}

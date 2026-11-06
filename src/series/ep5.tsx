@@ -6,10 +6,11 @@ import {Glitch} from '../components/Overlays';
 import {Stage, talkMouth} from '../components/Stage';
 import {EASE, EASE_OUT, kf, rand} from '../lib/anim';
 import {useCam} from '../lib/Camera';
-import {Timeline, useScene} from '../lib/timeline';
+import {Timeline, useScene, useTr} from '../lib/timeline';
 import type {EpisodeDef} from './Episode';
 import {SeriesEnd} from './SeriesEnd';
-import tl from '../generated/timeline_ep5_es.json';
+import tlEs from '../generated/timeline_ep5_es.json';
+import tlEn from '../generated/timeline_ep5_en.json';
 
 /** Hugo regaining colour (more "real"). */
 const HUGO_REAL = {skin: '#e6d0b6', skinShade: '#c9ad8f'};
@@ -249,11 +250,14 @@ const Hurry: React.FC = () => {
 	);
 };
 
-const End: React.FC<{title: string; part: string}> = (p) => <SeriesEnd title={p.title} part={p.part} next="Último capítulo: PARTE 6" />;
+const End: React.FC<{title: string; part: string}> = (p) => {
+	const t = useTr();
+	return <SeriesEnd title={p.title} part={p.part} next={t('Último capítulo: PARTE 6', 'Final chapter: PART 6')} />;
+};
 
 export const EP5: EpisodeDef = {
 	slug: 'ep5',
-	timeline: tl as unknown as Timeline,
+	timelines: {es: tlEs as unknown as Timeline, en: tlEn as unknown as Timeline},
 	scenes: {
 		hook: {C: Hook, vignette: 0.8},
 		approach: {C: Approach, vignette: 0.8},

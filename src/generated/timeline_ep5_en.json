@@ -1,0 +1,908 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "part": "PART 5 · THE SWAP",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 6.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Iker was fading.",
+     "start": 0.3,
+     "end": 1.89,
+     "words": [
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.826
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 0.826,
+       "end": 1.218
+      },
+      {
+       "w": "fading.",
+       "hl": true,
+       "start": 1.218,
+       "end": 1.89
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "And Hugo was getting more and more real.",
+     "start": 2.29,
+     "end": 5.36,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 2.33,
+       "end": 2.636
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 2.636,
+       "end": 3.015
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 3.015,
+       "end": 3.321
+      },
+      {
+       "w": "getting",
+       "hl": false,
+       "start": 3.321,
+       "end": 3.918
+      },
+      {
+       "w": "more",
+       "hl": false,
+       "start": 3.918,
+       "end": 4.297
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 4.297,
+       "end": 4.603
+      },
+      {
+       "w": "more",
+       "hl": false,
+       "start": 4.603,
+       "end": 4.981
+      },
+      {
+       "w": "real.",
+       "hl": true,
+       "start": 4.981,
+       "end": 5.36
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "fire": 0.0,
+    "glitch": 1.218
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.6,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "approach",
+   "start": 6.3,
+   "duration": 7.733333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hugo stood up... and walked towards him.",
+     "start": 0.4,
+     "end": 3.02,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.45,
+       "end": 0.831
+      },
+      {
+       "w": "stood",
+       "hl": false,
+       "start": 0.831,
+       "end": 1.285
+      },
+      {
+       "w": "up...",
+       "hl": false,
+       "start": 1.285,
+       "end": 1.52
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 1.78,
+       "end": 1.999
+      },
+      {
+       "w": "walked",
+       "hl": false,
+       "start": 1.999,
+       "end": 2.374
+      },
+      {
+       "w": "towards",
+       "hl": false,
+       "start": 2.374,
+       "end": 2.801
+      },
+      {
+       "w": "him.",
+       "hl": false,
+       "start": 2.801,
+       "end": 3.02
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "With every step, Iker became more transparent.",
+     "start": 3.42,
+     "end": 6.78,
+     "words": [
+      {
+       "w": "With",
+       "hl": false,
+       "start": 3.46,
+       "end": 3.767
+      },
+      {
+       "w": "every",
+       "hl": false,
+       "start": 3.767,
+       "end": 4.133
+      },
+      {
+       "w": "step,",
+       "hl": false,
+       "start": 4.133,
+       "end": 4.44
+      },
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 4.77,
+       "end": 5.121
+      },
+      {
+       "w": "became",
+       "hl": false,
+       "start": 5.121,
+       "end": 5.606
+      },
+      {
+       "w": "more",
+       "hl": false,
+       "start": 5.606,
+       "end": 5.957
+      },
+      {
+       "w": "transparent.",
+       "hl": true,
+       "start": 5.957,
+       "end": 6.78
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "steps": 1.0
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.8
+   }
+  },
+  {
+   "id": "protect",
+   "start": 14.0333,
+   "duration": 5.533333333333333,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "You're not taking him!",
+     "start": 0.3,
+     "end": 1.253,
+     "words": [
+      {
+       "w": "You're",
+       "hl": false,
+       "start": 0.328,
+       "end": 0.62
+      },
+      {
+       "w": "not",
+       "hl": false,
+       "start": 0.62,
+       "end": 0.791
+      },
+      {
+       "w": "taking",
+       "hl": true,
+       "start": 0.791,
+       "end": 1.083
+      },
+      {
+       "w": "him!",
+       "hl": false,
+       "start": 1.083,
+       "end": 1.253
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "The four of them stood in front of Iker.",
+     "start": 1.653,
+     "end": 4.373,
+     "words": [
+      {
+       "w": "The",
+       "hl": false,
+       "start": 1.693,
+       "end": 1.962
+      },
+      {
+       "w": "four",
+       "hl": false,
+       "start": 1.962,
+       "end": 2.296
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 2.296,
+       "end": 2.501
+      },
+      {
+       "w": "them",
+       "hl": false,
+       "start": 2.501,
+       "end": 2.834
+      },
+      {
+       "w": "stood",
+       "hl": false,
+       "start": 2.834,
+       "end": 3.232
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 3.232,
+       "end": 3.437
+      },
+      {
+       "w": "front",
+       "hl": false,
+       "start": 3.437,
+       "end": 3.834
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 3.834,
+       "end": 4.039
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 4.039,
+       "end": 4.373
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "boom": 0.3
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9,
+    "pulse": 1
+   }
+  },
+  {
+   "id": "sad",
+   "start": 19.5667,
+   "duration": 7.8,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "But Hugo didn't look angry. He looked... sad.",
+     "start": 0.4,
+     "end": 3.43,
+     "words": [
+      {
+       "w": "But",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.651
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.651,
+       "end": 0.924
+      },
+      {
+       "w": "didn't",
+       "hl": false,
+       "start": 0.924,
+       "end": 1.301
+      },
+      {
+       "w": "look",
+       "hl": false,
+       "start": 1.301,
+       "end": 1.574
+      },
+      {
+       "w": "angry.",
+       "hl": false,
+       "start": 1.574,
+       "end": 1.9
+      },
+      {
+       "w": "He",
+       "hl": false,
+       "start": 2.05,
+       "end": 2.228
+      },
+      {
+       "w": "looked...",
+       "hl": false,
+       "start": 2.228,
+       "end": 2.63
+      },
+      {
+       "w": "sad.",
+       "hl": true,
+       "start": 2.88,
+       "end": 3.43
+      }
+     ]
+    },
+    {
+     "speaker": "hugo",
+     "text": "I was here too... and they left without me.",
+     "start": 4.03,
+     "end": 6.456,
+     "words": [
+      {
+       "w": "I",
+       "hl": false,
+       "start": 4.094,
+       "end": 4.218
+      },
+      {
+       "w": "was",
+       "hl": false,
+       "start": 4.218,
+       "end": 4.455
+      },
+      {
+       "w": "here",
+       "hl": false,
+       "start": 4.455,
+       "end": 4.749
+      },
+      {
+       "w": "too...",
+       "hl": false,
+       "start": 4.749,
+       "end": 4.987
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 4.987,
+       "end": 5.224
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 5.224,
+       "end": 5.518
+      },
+      {
+       "w": "left",
+       "hl": false,
+       "start": 5.518,
+       "end": 5.811
+      },
+      {
+       "w": "without",
+       "hl": true,
+       "start": 5.811,
+       "end": 6.275
+      },
+      {
+       "w": "me.",
+       "hl": true,
+       "start": 6.275,
+       "end": 6.456
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0
+   },
+   "mood": {
+    "pad": 0.5,
+    "drone": 0.4
+   }
+  },
+  {
+   "id": "flashback",
+   "start": 27.3667,
+   "duration": 9.7,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Twenty years ago, his friends counted themselves in a hurry... and left.",
+     "start": 0.4,
+     "end": 5.25,
+     "words": [
+      {
+       "w": "Twenty",
+       "hl": false,
+       "start": 0.42,
+       "end": 0.833
+      },
+      {
+       "w": "years",
+       "hl": false,
+       "start": 0.833,
+       "end": 1.189
+      },
+      {
+       "w": "ago,",
+       "hl": false,
+       "start": 1.189,
+       "end": 1.43
+      },
+      {
+       "w": "his",
+       "hl": false,
+       "start": 1.68,
+       "end": 1.92
+      },
+      {
+       "w": "friends",
+       "hl": false,
+       "start": 1.92,
+       "end": 2.389
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 2.389,
+       "end": 2.857
+      },
+      {
+       "w": "themselves",
+       "hl": false,
+       "start": 2.857,
+       "end": 3.497
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 3.497,
+       "end": 3.68
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 3.68,
+       "end": 3.806
+      },
+      {
+       "w": "hurry...",
+       "hl": true,
+       "start": 3.806,
+       "end": 4.16
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 4.55,
+       "end": 4.863
+      },
+      {
+       "w": "left.",
+       "hl": false,
+       "start": 4.863,
+       "end": 5.25
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Hugo stayed by the fire. Waiting.",
+     "start": 5.75,
+     "end": 8.35,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 5.79,
+       "end": 6.144
+      },
+      {
+       "w": "stayed",
+       "hl": false,
+       "start": 6.144,
+       "end": 6.633
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 6.633,
+       "end": 6.851
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 6.851,
+       "end": 7.136
+      },
+      {
+       "w": "fire.",
+       "hl": false,
+       "start": 7.136,
+       "end": 7.49
+      },
+      {
+       "w": "Waiting.",
+       "hl": true,
+       "start": 7.78,
+       "end": 8.35
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.2,
+    "steps": 1.5
+   },
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.3
+   }
+  },
+  {
+   "id": "realize",
+   "start": 37.0667,
+   "duration": 6.033333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Suddenly, Dani understood.",
+     "start": 0.3,
+     "end": 2.42,
+     "words": [
+      {
+       "w": "Suddenly,",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.99
+      },
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 1.15,
+       "end": 1.553
+      },
+      {
+       "w": "understood.",
+       "hl": false,
+       "start": 1.553,
+       "end": 2.42
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "He doesn't want Iker. He wants to be counted.",
+     "start": 2.72,
+     "end": 5.075,
+     "words": [
+      {
+       "w": "He",
+       "hl": false,
+       "start": 2.784,
+       "end": 2.938
+      },
+      {
+       "w": "doesn't",
+       "hl": false,
+       "start": 2.938,
+       "end": 3.335
+      },
+      {
+       "w": "want",
+       "hl": false,
+       "start": 3.335,
+       "end": 3.587
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 3.587,
+       "end": 3.838
+      },
+      {
+       "w": "He",
+       "hl": false,
+       "start": 3.993,
+       "end": 4.137
+      },
+      {
+       "w": "wants",
+       "hl": false,
+       "start": 4.137,
+       "end": 4.416
+      },
+      {
+       "w": "to",
+       "hl": false,
+       "start": 4.416,
+       "end": 4.561
+      },
+      {
+       "w": "be",
+       "hl": false,
+       "start": 4.561,
+       "end": 4.705
+      },
+      {
+       "w": "counted.",
+       "hl": true,
+       "start": 4.705,
+       "end": 5.075
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "chime": 4.705
+   },
+   "mood": {
+    "drone": 0.6,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "hurry",
+   "start": 43.1,
+   "duration": 6.966666666666667,
+   "lines": [
+    {
+     "speaker": "iker",
+     "text": "Guys... I can't feel my hands.",
+     "start": 0.3,
+     "end": 2.067,
+     "words": [
+      {
+       "w": "Guys...",
+       "hl": false,
+       "start": 0.339,
+       "end": 0.658
+      },
+      {
+       "w": "I",
+       "hl": false,
+       "start": 0.658,
+       "end": 0.792
+      },
+      {
+       "w": "can't",
+       "hl": false,
+       "start": 0.792,
+       "end": 1.172
+      },
+      {
+       "w": "feel",
+       "hl": false,
+       "start": 1.172,
+       "end": 1.491
+      },
+      {
+       "w": "my",
+       "hl": false,
+       "start": 1.491,
+       "end": 1.687
+      },
+      {
+       "w": "hands.",
+       "hl": true,
+       "start": 1.687,
+       "end": 2.067
+      }
+     ]
+    },
+    {
+     "speaker": "marta",
+     "text": "Quick! Everyone sit around the fire.",
+     "start": 2.367,
+     "end": 4.147,
+     "words": [
+      {
+       "w": "Quick!",
+       "hl": false,
+       "start": 2.387,
+       "end": 2.737
+      },
+      {
+       "w": "Everyone",
+       "hl": false,
+       "start": 2.847,
+       "end": 3.246
+      },
+      {
+       "w": "sit",
+       "hl": false,
+       "start": 3.246,
+       "end": 3.428
+      },
+      {
+       "w": "around",
+       "hl": false,
+       "start": 3.428,
+       "end": 3.74
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 3.74,
+       "end": 3.922
+      },
+      {
+       "w": "fire.",
+       "hl": true,
+       "start": 3.922,
+       "end": 4.147
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "And leave a seat free.",
+     "start": 4.447,
+     "end": 5.82,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 4.483,
+       "end": 4.727
+      },
+      {
+       "w": "leave",
+       "hl": false,
+       "start": 4.727,
+       "end": 5.088
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.088,
+       "end": 5.215
+      },
+      {
+       "w": "seat",
+       "hl": false,
+       "start": 5.215,
+       "end": 5.518
+      },
+      {
+       "w": "free.",
+       "hl": true,
+       "start": 5.518,
+       "end": 5.82
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "heart": 0.0,
+    "riser": 2.367
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "end",
+   "start": 50.0667,
+   "duration": 4.4,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Will they make it in time?",
+     "start": 0.4,
+     "end": 2.65,
+     "words": [
+      {
+       "w": "Will",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.862
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 0.862,
+       "end": 1.285
+      },
+      {
+       "w": "make",
+       "hl": false,
+       "start": 1.285,
+       "end": 1.708
+      },
+      {
+       "w": "it",
+       "hl": false,
+       "start": 1.708,
+       "end": 1.968
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 1.968,
+       "end": 2.228
+      },
+      {
+       "w": "time?",
+       "hl": true,
+       "start": 2.228,
+       "end": 2.65
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1634
+}

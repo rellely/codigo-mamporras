@@ -11,7 +11,8 @@ import {useCam} from '../lib/Camera';
 import {Timeline, useScene} from '../lib/timeline';
 import type {EpisodeDef} from './Episode';
 import {SeriesEnd} from './SeriesEnd';
-import tl from '../generated/timeline_ep4_es.json';
+import tlEs from '../generated/timeline_ep4_es.json';
+import tlEn from '../generated/timeline_ep4_en.json';
 
 const FIVE: CharId[] = ['leo', 'marta', 'dani', 'sara', 'iker'];
 const CARVE = {x: 540, y: 660};
@@ -300,8 +301,8 @@ const End: React.FC<{title: string; part: string; next?: string}> = (p) => <Seri
 
 export const EP4: EpisodeDef = {
 	slug: 'ep4',
-	timeline: tl as unknown as Timeline,
-	next: 'Sigue en la PARTE 5',
+	timelines: {es: tlEs as unknown as Timeline, en: tlEn as unknown as Timeline},
+	next: {es: 'Sigue en la PARTE 5', en: 'Continues in PART 5'},
 	scenes: {
 		hook: {C: Hook, vignette: 0.8},
 		path: {C: Path, vignette: 0.8},

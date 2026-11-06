@@ -1,10 +1,12 @@
 {
  "slug": "ep4",
  "title": {
-  "es": "EL SEXTO"
+  "es": "EL SEXTO",
+  "en": "THE SIXTH ONE"
  },
  "part": {
-  "es": "PARTE 4 · LA VUELTA"
+  "es": "PARTE 4 · LA VUELTA",
+  "en": "PART 4 · GOING BACK"
  },
  "voices": {
   "es": {
@@ -54,10 +56,59 @@
     "pitch": 1.05,
     "speed": 0.95
    }
+  },
+  "en": {
+   "narrator": {
+    "voice": "bm_george",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "am_onyx",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "am_onyx",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "af_heart",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "af_sky",
+    "fx": "room",
+    "pitch": 1.04,
+    "speed": 0.96
+   },
+   "leo": {
+    "voice": "am_puck",
+    "fx": "room",
+    "pitch": 1.06,
+    "speed": 0.96
+   },
+   "dani": {
+    "voice": "am_echo",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.94
+   },
+   "iker": {
+    "voice": "am_liam",
+    "fx": "room",
+    "pitch": 1.03,
+    "speed": 0.96
+   }
   }
  },
  "langCodes": {
-  "es": "es"
+  "es": "es",
+  "en": "en-us"
  },
  "scenes": [
   {
@@ -72,12 +123,14 @@
     {
      "speaker": "narrator",
      "es": "Volvieron al bosque. De *noche*.",
-     "at": 0.3
+     "at": 0.3,
+     "en": "They went back to the woods. At *night*."
     },
     {
      "speaker": "narrator",
      "es": "Era la única forma de acabar con esto.",
-     "gap": 0.3
+     "gap": 0.3,
+     "en": "It was the only way to end this."
     }
    ],
    "cues": [
@@ -116,12 +169,14 @@
     {
      "speaker": "leo",
      "es": "No os separéis.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Stay together."
     },
     {
      "speaker": "narrator",
      "es": "Iker iba el último. Cada vez más *callado*.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "Iker was at the back. Quieter and *quieter*."
     }
    ],
    "cues": [
@@ -155,17 +210,20 @@
     {
      "speaker": "narrator",
      "es": "En la roca seguían grabados seis nombres.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "Six names were still carved into the rock."
     },
     {
      "speaker": "narrator",
      "es": "Uno estaba tachado: *Hugo*.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "One was crossed out: *Hugo*."
     },
     {
      "speaker": "dani",
      "es": "Son los nombres de aquel grupo.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "Those are the names of that group."
     }
    ],
    "cues": [
@@ -179,7 +237,7 @@
     {
      "id": "sting",
      "sound": "sting",
-     "ref": "word:hugo",
+     "ref": "word:hugo|hugo",
      "offset": 0.0,
      "gain": 0.8
     }
@@ -197,7 +255,8 @@
     {
      "speaker": "narrator",
      "es": "Encendieron el fuego en el mismo sitio que la otra vez.",
-     "at": 0.4
+     "at": 0.4,
+     "en": "They lit the fire in the same spot as last time."
     }
    ],
    "cues": [
@@ -231,12 +290,14 @@
      "speaker": "leo",
      "es": "Uno, dos, tres, cuatro, cinco.",
      "at": 0.3,
-     "slow": 0.9
+     "slow": 0.9,
+     "en": "One, two, three, four, five."
     },
     {
      "speaker": "narrator",
      "es": "Cinco. Todo en orden.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "Five. All good."
     }
    ],
    "cues": [
@@ -251,35 +312,35 @@
     {
      "id": "c1",
      "sound": "tick",
-     "ref": "word:uno",
+     "ref": "word:uno|one",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c2",
      "sound": "tick",
-     "ref": "word:dos",
+     "ref": "word:dos|two",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c3",
      "sound": "tick",
-     "ref": "word:tres",
+     "ref": "word:tres|three",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c4",
      "sound": "tick",
-     "ref": "word:cuatro",
+     "ref": "word:cuatro|four",
      "offset": 0.0,
      "gain": 0.5
     },
     {
      "id": "c5",
      "sound": "tick",
-     "ref": "word:cinco@0",
+     "ref": "word:cinco|five@0",
      "offset": 0.0,
      "gain": 0.5
     }
@@ -298,12 +359,14 @@
     {
      "speaker": "sara",
      "es": "Mirad la roca...",
-     "at": 0.3
+     "at": 0.3,
+     "en": "Look at the rock..."
     },
     {
      "speaker": "narrator",
      "es": "Eran cinco. Pero en la roca solo había *cuatro* sombras.",
-     "gap": 0.4
+     "gap": 0.4,
+     "en": "There were five of them. But on the rock there were only *four* shadows."
     }
    ],
    "cues": [
@@ -318,7 +381,7 @@
     {
      "id": "sting",
      "sound": "sting",
-     "ref": "word:cuatro",
+     "ref": "word:cuatro|four",
      "offset": 0.0,
      "gain": 0.9
     }
@@ -336,12 +399,14 @@
     {
      "speaker": "narrator",
      "es": "A Iker le faltaba la *suya*.",
-     "at": 0.3
+     "at": 0.3,
+     "en": "Iker's was *missing*."
     },
     {
      "speaker": "iker",
      "es": "¿Por qué me miráis así?",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "Why are you looking at me like that?"
     }
    ],
    "cues": [
@@ -376,12 +441,14 @@
     {
      "speaker": "narrator",
      "es": "Hugo estaba sentado en su sitio. Y por primera vez... tenía *sombra*.",
-     "at": 0.5
+     "at": 0.5,
+     "en": "Hugo was sitting in his seat. And for the first time... he had a *shadow*."
     },
     {
      "speaker": "narrator",
      "es": "La sombra de *Iker*.",
-     "gap": 0.5
+     "gap": 0.5,
+     "en": "*Iker's* shadow."
     }
    ],
    "cues": [
@@ -403,14 +470,14 @@
     {
      "id": "sting",
      "sound": "sting",
-     "ref": "word:sombra",
+     "ref": "word:sombra|shadow",
      "offset": 0.0,
      "gain": 0.8
     },
     {
      "id": "boom",
      "sound": "boom",
-     "ref": "word:iker",
+     "ref": "word:iker|iker's",
      "offset": 0.0,
      "gain": 1.0
     }
@@ -428,7 +495,8 @@
     {
      "speaker": "sixth",
      "es": "Ahora me toca a mí volver a *casa*.",
-     "at": 0.5
+     "at": 0.5,
+     "en": "Now it's my turn to go *home*."
     }
    ],
    "cues": [
@@ -461,7 +529,8 @@
     {
      "speaker": "narrator",
      "es": "¿Cómo salvarías tú a *Iker*?",
-     "at": 0.4
+     "at": 0.4,
+     "en": "How would you save *Iker*?"
     }
    ],
    "cues": [

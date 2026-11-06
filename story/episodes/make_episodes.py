@@ -151,9 +151,129 @@ EPISODES = {
     ]),
 }
 
+VOICES_EN = {
+    "narrator": {"voice": "bm_george", "fx": "narrator", "speed": 0.92},
+    "sixth": {"voice": "am_onyx", "fx": "sixth", "pitch": 0.86, "speed": 0.95},
+    "hugo": {"voice": "am_onyx", "fx": "hugo", "pitch": 0.94, "speed": 0.92},
+    "marta": {"voice": "af_heart", "fx": "room", "speed": 1.0},
+    "sara": {"voice": "af_sky", "fx": "room", "pitch": 1.04, "speed": 0.96},
+    "leo": {"voice": "am_puck", "fx": "room", "pitch": 1.06, "speed": 0.96},
+    "dani": {"voice": "am_echo", "fx": "room", "pitch": 1.1, "speed": 0.94},
+    "iker": {"voice": "am_liam", "fx": "room", "pitch": 1.03, "speed": 0.96},
+}
+
+# Spanish line -> English line (same *highlight* convention)
+EN = {
+    # ep2
+    "Volvieron *cinco* del bosque.": "*Five* of them came back from the woods.",
+    "O eso creían.": "Or so they thought.",
+    "Esa noche, en casa, Sara no podía *dormir*.": "That night, at home, Sara couldn't *sleep*.",
+    "Cada vez que cerraba los ojos, volvía a ver aquella *sonrisa*.": "Every time she closed her eyes, she saw that *smile* again.",
+    "Abrió las fotos de la acampada. Una por una.": "She opened the photos from the trip. One by one.",
+    "En la del camino, entre los árboles... había *alguien* mirando.": "In the one on the trail, between the trees... *someone* was watching.",
+    "En la de las tiendas, estaba *más cerca*.": "In the one with the tents, he was *closer*.",
+    "Y en la del fuego... tenía la mano en el *hombro* de Sara.": "And in the one by the fire... his hand was on Sara's *shoulder*.",
+    "Pero la última foto era de *esa noche*.": "But the last photo was from *that night*.",
+    "Sara, dormida. En su *cama*.": "Sara, asleep. In her *bed*.",
+    "Alguien la había hecho... desde *dentro* de su habitación.": "Someone had taken it... from *inside* her room.",
+    "¿Hay... alguien ahí?": "Is... anyone there?",
+    "Sonríe.": "Smile.",
+    "¿Le has visto tú... en el *flash*?": "Did you see him... in the *flash*?",
+    # ep3
+    "Al día siguiente, alguien se unió al grupo de la *acampada*.": "The next day, someone joined the *camping* group chat.",
+    "Nadie lo había añadido.": "Nobody had added him.",
+    "Y entonces... *escribió*.": "And then... he *typed*.",
+    "Quedaron en el garaje de Leo. Dani llevaba toda la noche *investigando*.": "They met in Leo's garage. Dani had been *digging* all night.",
+    "Esto ya no tiene gracia, chicos.": "This isn't funny anymore, guys.",
+    "Mirad esto. Es de hace veinte años.": "Look at this. It's from twenty years ago.",
+    "Seis chicos acamparon junto a la misma roca. Solo volvieron *cinco*.": "Six boys camped by the same rock. Only *five* came back.",
+    "El que no volvió se llamaba *Hugo*.": "The one who never came back was called *Hugo*.",
+    "Llevaba una sudadera *gris*.": "He wore a *grey* hoodie.",
+    "Sus amigos dijeron que se contaron antes de irse... y les salían cinco.": "His friends said they counted themselves before leaving... and got five.",
+    "Se olvidaron de *él*.": "They forgot about *him*.",
+    "Entonces, Hugo envió otra foto.": "Then, Hugo sent another photo.",
+    "Del garaje. Desde *fuera*.": "Of the garage. From *outside*.",
+    "Esta vez... contadme *bien*.": "This time... count me *right*.",
+    "Cuando salieron a mirar, no había nadie. Solo olía a *hoguera*.": "When they went out to look, nobody was there. Just the smell of a *campfire*.",
+    "¿Qué crees que quiere *Hugo*?": "What do you think *Hugo* wants?",
+    # ep4
+    "Volvieron al bosque. De *noche*.": "They went back to the woods. At *night*.",
+    "Era la única forma de acabar con esto.": "It was the only way to end this.",
+    "No os separéis.": "Stay together.",
+    "Iker iba el último. Cada vez más *callado*.": "Iker was at the back. Quieter and *quieter*.",
+    "En la roca seguían grabados seis nombres.": "Six names were still carved into the rock.",
+    "Uno estaba tachado: *Hugo*.": "One was crossed out: *Hugo*.",
+    "Son los nombres de aquel grupo.": "Those are the names of that group.",
+    "Encendieron el fuego en el mismo sitio que la otra vez.": "They lit the fire in the same spot as last time.",
+    "Uno, dos, tres, cuatro, cinco.": "One, two, three, four, five.",
+    "Cinco. Todo en orden.": "Five. All good.",
+    "Mirad la roca...": "Look at the rock...",
+    "Eran cinco. Pero en la roca solo había *cuatro* sombras.": "There were five of them. But on the rock there were only *four* shadows.",
+    "A Iker le faltaba la *suya*.": "Iker's was *missing*.",
+    "¿Por qué me miráis así?": "Why are you looking at me like that?",
+    "Hugo estaba sentado en su sitio. Y por primera vez... tenía *sombra*.": "Hugo was sitting in his seat. And for the first time... he had a *shadow*.",
+    "La sombra de *Iker*.": "*Iker's* shadow.",
+    "Ahora me toca a mí volver a *casa*.": "Now it's my turn to go *home*.",
+    "¿Cómo salvarías tú a *Iker*?": "How would you save *Iker*?",
+    # ep5
+    "Iker se estaba *borrando*.": "Iker was *fading*.",
+    "Y Hugo era cada vez más *real*.": "And Hugo was getting more and more *real*.",
+    "Hugo se levantó... y caminó hacia él.": "Hugo stood up... and walked towards him.",
+    "A cada paso, Iker se volvía más *transparente*.": "With every step, Iker became more *transparent*.",
+    "¡No te lo vas a *llevar*!": "You're not *taking* him!",
+    "Los cuatro se pusieron delante de Iker.": "The four of them stood in front of Iker.",
+    "Pero Hugo no parecía enfadado. Parecía... *triste*.": "But Hugo didn't look angry. He looked... *sad*.",
+    "Yo también estaba aquí... y se fueron *sin mí*.": "I was here too... and they left *without me*.",
+    "Hace veinte años, sus amigos se contaron con *prisas*... y se marcharon.": "Twenty years ago, his friends counted themselves in a *hurry*... and left.",
+    "Hugo se quedó junto al fuego. *Esperando*.": "Hugo stayed by the fire. *Waiting*.",
+    "Dani lo entendió de golpe.": "Suddenly, Dani understood.",
+    "No quiere a Iker. Quiere que le *cuenten*.": "He doesn't want Iker. He wants to be *counted*.",
+    "Chicos... no me siento las *manos*.": "Guys... I can't feel my *hands*.",
+    "¡Rápido! Sentaos todos alrededor del *fuego*.": "Quick! Everyone sit around the *fire*.",
+    "Y dejad un sitio *libre*.": "And leave a seat *free*.",
+    "¿Llegarán a *tiempo*?": "Will they make it in *time*?",
+    # ep6
+    "Se sentaron alrededor del fuego. Los *seis*.": "They sat around the fire. All *six* of them.",
+    "Uno, dos, tres, cuatro, cinco...": "One, two, three, four, five...",
+    "y seis. *Hugo*.": "and six. *Hugo*.",
+    "Por primera vez en veinte años, alguien le había *contado*.": "For the first time in twenty years, someone had *counted* him.",
+    "Sus ojos cambiaron. Ya no daban *miedo*.": "His eyes changed. They weren't *scary* anymore.",
+    "La sombra de Iker volvió a su sitio.": "Iker's shadow went back where it belonged.",
+    "Y Hugo, por fin, tuvo la *suya*.": "And Hugo, at last, had his *own*.",
+    "Gracias por *contarme*.": "Thank you for *counting* me.",
+    "Y se deshizo en luz, como las chispas del fuego.": "And he dissolved into light, like sparks from the fire.",
+    "Al amanecer eran cinco. Cinco personas. *Cinco* sombras.": "At dawn there were five. Five people. *Five* shadows.",
+    "Esta vez, nadie se quedó *atrás*.": "This time, nobody was left *behind*.",
+    "Desde entonces, cada vez que acampan, dejan un sitio libre junto al fuego.": "Since then, every time they go camping, they leave a free seat by the fire.",
+    "Por si alguien necesita que le *cuenten*.": "Just in case someone needs to be *counted*.",
+    "¿Le habrías contado *tú*?": "Would *you* have counted him?",
+}
+
+# Spanish cue word -> English equivalent (cue refs accept "a|b")
+EN_WORD = {"alguien": "someone", "más": "closer", "hombro": "shoulder", "esa": "that", "cama": "bed", "cinco": "five", "hugo": "hugo",
+           "gris": "grey", "fuera": "outside", "uno": "one", "dos": "two", "tres": "three", "cuatro": "four", "iker": "iker's",
+           "sombra": "shadow", "borrando": "fading", "cuenten": "counted", "suya": "own"}
+
+TITLES_EN = {"LA FOTO": "THE PHOTO", "EL MIEMBRO NUEVO": "THE NEW MEMBER", "LA VUELTA": "GOING BACK", "EL INTERCAMBIO": "THE SWAP", "SEIS": "SIX"}
+
+
+def add_english(scenes):
+    import re as _re
+    for sc in scenes:
+        for ln in sc["lines"]:
+            ln["en"] = EN[ln["es"]]
+        for c in sc["cues"]:
+            m = _re.match(r"word:([^@|]+)(@\d+)?$", c["ref"])
+            if m:
+                c["ref"] = f"word:{m.group(1)}|{EN_WORD[m.group(1)]}{m.group(2) or ''}"
+    return scenes
+
+
 for slug, (part, subtitle, scenes) in EPISODES.items():
-    data = {"slug": slug, "title": {"es": "EL SEXTO"}, "part": {"es": f"{part} · {subtitle}"}, "voices": {"es": VOICES},
-            "langCodes": {"es": "es"}, "scenes": scenes}
+    part_en = part.replace("PARTE", "PART")
+    data = {"slug": slug, "title": {"es": "EL SEXTO", "en": "THE SIXTH ONE"},
+            "part": {"es": f"{part} · {subtitle}", "en": f"{part_en} · {TITLES_EN[subtitle]}"},
+            "voices": {"es": VOICES, "en": VOICES_EN}, "langCodes": {"es": "es", "en": "en-us"}, "scenes": add_english(scenes)}
     with open(os.path.join(HERE, f"{slug}.json"), "w") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("wrote", slug)
