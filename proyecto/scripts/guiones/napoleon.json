@@ -1,0 +1,39 @@
+{
+  "id": "napoleon",
+  "titulo": "¿Y si Napoleón hubiera ganado?",
+  "voice": "em_alex", "speed": 1.08,
+  "scenes": [
+    {"id": "s1_waterloo", "lines": [
+      {"t": "18 de junio de 1815.", "say": "Dieciocho de junio de mil ochocientos quince."},
+      {"t": "*Napoleón* está a *una batalla* de recuperar Europa."},
+      {"t": "¿Y si la hubiera *ganado*?"}]},
+    {"id": "s2_ascenso", "lines": [
+      {"t": "Diez años antes parecía *invencible*."},
+      {"t": "En 1804 se corona *emperador*,", "say": "En mil ochocientos cuatro se corona emperador,"},
+      {"t": "y en *Austerlitz* derrota a Austria y Rusia en un solo día."}]},
+    {"id": "s3_mapa", "lines": [
+      {"t": "En 1812 domina casi toda la Europa continental,", "say": "En mil ochocientos doce domina casi toda la Europa continental,"},
+      {"t": "de *Madrid* a *Varsovia*."}]},
+    {"id": "s4_rusia", "lines": [
+      {"t": "Pero entonces invade *Rusia* con unos *600.000 hombres*.", "say": "Pero entonces invade Rusia con unos seiscientos mil hombres."},
+      {"t": "El *invierno*, el hambre y las enfermedades los destrozan."},
+      {"t": "Solo regresa una *pequeña parte*."}]},
+    {"id": "s5_batalla", "lines": [
+      {"t": "Tras escapar de su exilio en *Elba*, vuelve al poder."},
+      {"t": "En *Waterloo* se enfrenta a *Wellington* y a los prusianos de *Blücher*."},
+      {"t": "La *lluvia* retrasa su ataque... y los prusianos llegan a tiempo."}]},
+    {"id": "s6_giro", "lines": [
+      {"t": "Pero imagina que el suelo se seca *antes*,"},
+      {"t": "los prusianos se retrasan... y Napoleón *gana*."}]},
+    {"id": "s7_twist", "lines": [
+      {"t": "Sorpresa: muchos historiadores creen que *ni así* habría durado."},
+      {"t": "*Austria* y *Rusia* ya movilizaban a *cientos de miles* de soldados contra él."}]},
+    {"id": "s8_imperio", "lines": [
+      {"t": "Ahora bien, ¿y si hubiera ganado en *Rusia*?"},
+      {"t": "Europa sería un *imperio francés*, con el *Código Napoleónico* y el sistema métrico en todo el continente."},
+      {"t": "Una especie de *Unión Europea*... siglo y medio antes."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "En la realidad, murió desterrado en *Santa Elena* en 1821.", "say": "En la realidad, murió desterrado en Santa Elena en mil ochocientos veintiuno."},
+      {"t": "¿Fue Napoleón un *libertador*... o un *tirano*? Te leo en comentarios."}]}
+  ]
+}

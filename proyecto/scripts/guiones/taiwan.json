@@ -1,0 +1,36 @@
+{
+  "id": "taiwan",
+  "titulo": "¿Y si China invadiera Taiwán hoy?",
+  "voice": "em_alex", "speed": 1.1,
+  "scenes": [
+    {"id": "s1_estrecho", "lines": [
+      {"t": "Unos *130 kilómetros* de mar separan China de Taiwán.", "say": "Unos ciento treinta kilómetros de mar separan China de Taiwán."},
+      {"t": "Y podrían decidir el *futuro del planeta*."}]},
+    {"id": "s2_contexto", "lines": [
+      {"t": "Desde *1949*, Taiwán se gobierna por separado.", "say": "Desde mil novecientos cuarenta y nueve, Taiwán se gobierna por separado."},
+      {"t": "*Pekín* la considera parte de China y no descarta usar la *fuerza*."}]},
+    {"id": "s3_chips", "lines": [
+      {"t": "¿Por qué importa tanto? Por esto:"},
+      {"t": "Taiwán fabrica *más del 90%* de los chips *más avanzados* del mundo.", "say": "Taiwán fabrica más del noventa por ciento de los chips más avanzados del mundo."},
+      {"t": "Tu *móvil*, tu *coche*, la *inteligencia artificial*... dependen de esta isla."}]},
+    {"id": "s4_bloqueo", "lines": [
+      {"t": "Supongamos que China decide *invadir*."},
+      {"t": "Primero llegaría un *bloqueo*: buques y misiles rodean la isla y el comercio se detiene."}]},
+    {"id": "s5_desembarco", "lines": [
+      {"t": "Después, la mayor operación *anfibia* desde *Normandía*:"},
+      {"t": "cientos de buques cruzando el estrecho bajo el fuego enemigo."}]},
+    {"id": "s6_fortaleza", "lines": [
+      {"t": "Pero Taiwán es una *fortaleza natural*:"},
+      {"t": "montañas, pocas playas aptas y un mar tan *bravo* que solo permite cruzar en pocas épocas del año."}]},
+    {"id": "s7_simulacion", "lines": [
+      {"t": "Si *Estados Unidos* y *Japón* intervienen, la guerra se vuelve global."},
+      {"t": "En 2023, el centro de estudios *CSIS* simuló esta guerra *24 veces*.", "say": "En dos mil veintitrés, el centro de estudios C S I S simuló esta guerra veinticuatro veces."},
+      {"t": "En la mayoría, la invasión *fracasaba*... pero con decenas de barcos y cientos de aviones *perdidos*."}]},
+    {"id": "s8_economia", "lines": [
+      {"t": "Según *Bloomberg Economics*, el PIB mundial podría caer cerca de un *10%*.", "say": "Según Bloomberg Economics, el producto interior bruto mundial podría caer cerca de un diez por ciento."},
+      {"t": "Un golpe mayor que la crisis de *2008* y la *pandemia*.", "say": "Un golpe mayor que la crisis de dos mil ocho y la pandemia."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "En esta guerra, probablemente *nadie ganaría*."},
+      {"t": "¿Crees que llegará a *ocurrir*? Te leo en comentarios."}]}
+  ]
+}

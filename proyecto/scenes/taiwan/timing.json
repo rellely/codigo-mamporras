@@ -1,0 +1,1422 @@
+{
+ "id": "taiwan",
+ "titulo": "¿Y si China invadiera Taiwán hoy?",
+ "total": 83.704,
+ "scenes": [
+  {
+   "id": "s1_estrecho",
+   "s": 0.0,
+   "e": 6.81,
+   "lines": [
+    {
+     "text": "Unos *130 kilómetros* de mar separan China de Taiwán.",
+     "s": 0.25,
+     "e": 3.72,
+     "words": [
+      {
+       "w": "Unos",
+       "s": 0.25,
+       "e": 0.517,
+       "hl": false
+      },
+      {
+       "w": "130",
+       "s": 0.517,
+       "e": 1.318,
+       "hl": true
+      },
+      {
+       "w": "kilómetros",
+       "s": 1.318,
+       "e": 1.876,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 1.876,
+       "e": 2.045,
+       "hl": false
+      },
+      {
+       "w": "mar",
+       "s": 2.045,
+       "e": 2.264,
+       "hl": false
+      },
+      {
+       "w": "separan",
+       "s": 2.264,
+       "e": 2.676,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 2.676,
+       "e": 2.992,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 2.992,
+       "e": 3.162,
+       "hl": false
+      },
+      {
+       "w": "Taiwán.",
+       "s": 3.162,
+       "e": 3.72,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Y podrían decidir el *futuro del planeta*.",
+     "s": 4.02,
+     "e": 6.31,
+     "words": [
+      {
+       "w": "Y",
+       "s": 4.02,
+       "e": 4.14,
+       "hl": false
+      },
+      {
+       "w": "podrían",
+       "s": 4.14,
+       "e": 4.55,
+       "hl": false
+      },
+      {
+       "w": "decidir",
+       "s": 4.55,
+       "e": 4.96,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 4.96,
+       "e": 5.129,
+       "hl": false
+      },
+      {
+       "w": "futuro",
+       "s": 5.129,
+       "e": 5.49,
+       "hl": true
+      },
+      {
+       "w": "del",
+       "s": 5.49,
+       "e": 5.707,
+       "hl": true
+      },
+      {
+       "w": "planeta.",
+       "s": 5.707,
+       "e": 6.31,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_contexto",
+   "s": 6.81,
+   "e": 15.368,
+   "lines": [
+    {
+     "text": "Desde *1949*, Taiwán se gobierna por separado.",
+     "s": 7.06,
+     "e": 10.98,
+     "words": [
+      {
+       "w": "Desde",
+       "s": 7.06,
+       "e": 7.426,
+       "hl": false
+      },
+      {
+       "w": "1949,",
+       "s": 7.426,
+       "e": 8.809,
+       "hl": true
+      },
+      {
+       "w": "Taiwán",
+       "s": 8.809,
+       "e": 9.232,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 9.232,
+       "e": 9.429,
+       "hl": false
+      },
+      {
+       "w": "gobierna",
+       "s": 9.429,
+       "e": 9.965,
+       "hl": false
+      },
+      {
+       "w": "por",
+       "s": 9.965,
+       "e": 10.219,
+       "hl": false
+      },
+      {
+       "w": "separado.",
+       "s": 10.219,
+       "e": 10.98,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Pekín* la considera parte de China y no descarta usar la *fuerza*.",
+     "s": 11.28,
+     "e": 14.868,
+     "words": [
+      {
+       "w": "Pekín",
+       "s": 11.28,
+       "e": 11.6,
+       "hl": true
+      },
+      {
+       "w": "la",
+       "s": 11.6,
+       "e": 11.772,
+       "hl": false
+      },
+      {
+       "w": "considera",
+       "s": 11.772,
+       "e": 12.288,
+       "hl": false
+      },
+      {
+       "w": "parte",
+       "s": 12.288,
+       "e": 12.608,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 12.608,
+       "e": 12.78,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 12.78,
+       "e": 13.099,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 13.099,
+       "e": 13.222,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 13.222,
+       "e": 13.394,
+       "hl": false
+      },
+      {
+       "w": "descarta",
+       "s": 13.394,
+       "e": 13.861,
+       "hl": false
+      },
+      {
+       "w": "usar",
+       "s": 13.861,
+       "e": 14.131,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 14.131,
+       "e": 14.303,
+       "hl": false
+      },
+      {
+       "w": "fuerza.",
+       "s": 14.303,
+       "e": 14.868,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_chips",
+   "s": 15.368,
+   "e": 26.723,
+   "lines": [
+    {
+     "text": "¿Por qué importa tanto? Por esto:",
+     "s": 15.618,
+     "e": 17.384,
+     "words": [
+      {
+       "w": "¿Por",
+       "s": 15.618,
+       "e": 15.812,
+       "hl": false
+      },
+      {
+       "w": "qué",
+       "s": 15.812,
+       "e": 16.006,
+       "hl": false
+      },
+      {
+       "w": "importa",
+       "s": 16.006,
+       "e": 16.372,
+       "hl": false
+      },
+      {
+       "w": "tanto?",
+       "s": 16.372,
+       "e": 16.824,
+       "hl": false
+      },
+      {
+       "w": "Por",
+       "s": 16.824,
+       "e": 17.018,
+       "hl": false
+      },
+      {
+       "w": "esto:",
+       "s": 17.018,
+       "e": 17.384,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Taiwán fabrica *más del 90%* de los chips *más avanzados* del mundo.",
+     "s": 17.684,
+     "e": 21.972,
+     "words": [
+      {
+       "w": "Taiwán",
+       "s": 17.684,
+       "e": 18.076,
+       "hl": false
+      },
+      {
+       "w": "fabrica",
+       "s": 18.076,
+       "e": 18.521,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 18.521,
+       "e": 18.756,
+       "hl": true
+      },
+      {
+       "w": "del",
+       "s": 18.756,
+       "e": 18.991,
+       "hl": true
+      },
+      {
+       "w": "90%",
+       "s": 18.991,
+       "e": 19.645,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 19.645,
+       "e": 19.828,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 19.828,
+       "e": 20.064,
+       "hl": false
+      },
+      {
+       "w": "chips",
+       "s": 20.064,
+       "e": 20.404,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 20.404,
+       "e": 20.639,
+       "hl": true
+      },
+      {
+       "w": "avanzados",
+       "s": 20.639,
+       "e": 21.188,
+       "hl": true
+      },
+      {
+       "w": "del",
+       "s": 21.188,
+       "e": 21.423,
+       "hl": false
+      },
+      {
+       "w": "mundo.",
+       "s": 21.423,
+       "e": 21.972,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Tu *móvil*, tu *coche*, la *inteligencia artificial*... dependen de esta isla.",
+     "s": 22.272,
+     "e": 26.223,
+     "words": [
+      {
+       "w": "Tu",
+       "s": 22.272,
+       "e": 22.432,
+       "hl": false
+      },
+      {
+       "w": "móvil,",
+       "s": 22.432,
+       "e": 22.866,
+       "hl": true
+      },
+      {
+       "w": "tu",
+       "s": 22.866,
+       "e": 23.026,
+       "hl": false
+      },
+      {
+       "w": "coche,",
+       "s": 23.026,
+       "e": 23.46,
+       "hl": true
+      },
+      {
+       "w": "la",
+       "s": 23.46,
+       "e": 23.62,
+       "hl": false
+      },
+      {
+       "w": "inteligencia",
+       "s": 23.62,
+       "e": 24.236,
+       "hl": true
+      },
+      {
+       "w": "artificial...",
+       "s": 24.236,
+       "e": 24.944,
+       "hl": true
+      },
+      {
+       "w": "dependen",
+       "s": 24.944,
+       "e": 25.378,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 25.378,
+       "e": 25.538,
+       "hl": false
+      },
+      {
+       "w": "esta",
+       "s": 25.538,
+       "e": 25.789,
+       "hl": false
+      },
+      {
+       "w": "isla.",
+       "s": 25.789,
+       "e": 26.223,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_bloqueo",
+   "s": 26.723,
+   "e": 34.78,
+   "lines": [
+    {
+     "text": "Supongamos que China decide *invadir*.",
+     "s": 26.973,
+     "e": 29.155,
+     "words": [
+      {
+       "w": "Supongamos",
+       "s": 26.973,
+       "e": 27.563,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 27.563,
+       "e": 27.794,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 27.794,
+       "e": 28.128,
+       "hl": false
+      },
+      {
+       "w": "decide",
+       "s": 28.128,
+       "e": 28.513,
+       "hl": false
+      },
+      {
+       "w": "invadir.",
+       "s": 28.513,
+       "e": 29.155,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Primero llegaría un *bloqueo*: buques y misiles rodean la isla y el comercio se detiene.",
+     "s": 29.455,
+     "e": 34.28,
+     "words": [
+      {
+       "w": "Primero",
+       "s": 29.455,
+       "e": 29.867,
+       "hl": false
+      },
+      {
+       "w": "llegaría",
+       "s": 29.867,
+       "e": 30.328,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 30.328,
+       "e": 30.498,
+       "hl": false
+      },
+      {
+       "w": "bloqueo:",
+       "s": 30.498,
+       "e": 31.055,
+       "hl": true
+      },
+      {
+       "w": "buques",
+       "s": 31.055,
+       "e": 31.419,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 31.419,
+       "e": 31.54,
+       "hl": false
+      },
+      {
+       "w": "misiles",
+       "s": 31.54,
+       "e": 31.953,
+       "hl": false
+      },
+      {
+       "w": "rodean",
+       "s": 31.953,
+       "e": 32.316,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 32.316,
+       "e": 32.486,
+       "hl": false
+      },
+      {
+       "w": "isla",
+       "s": 32.486,
+       "e": 32.753,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 32.753,
+       "e": 32.874,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 32.874,
+       "e": 33.044,
+       "hl": false
+      },
+      {
+       "w": "comercio",
+       "s": 33.044,
+       "e": 33.504,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 33.504,
+       "e": 33.674,
+       "hl": false
+      },
+      {
+       "w": "detiene.",
+       "s": 33.674,
+       "e": 34.28,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_desembarco",
+   "s": 34.78,
+   "e": 41.812,
+   "lines": [
+    {
+     "text": "Después, la mayor operación *anfibia* desde *Normandía*:",
+     "s": 35.03,
+     "e": 37.957,
+     "words": [
+      {
+       "w": "Después,",
+       "s": 35.03,
+       "e": 35.587,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 35.587,
+       "e": 35.756,
+       "hl": false
+      },
+      {
+       "w": "mayor",
+       "s": 35.756,
+       "e": 36.07,
+       "hl": false
+      },
+      {
+       "w": "operación",
+       "s": 36.07,
+       "e": 36.578,
+       "hl": false
+      },
+      {
+       "w": "anfibia",
+       "s": 36.578,
+       "e": 36.989,
+       "hl": true
+      },
+      {
+       "w": "desde",
+       "s": 36.989,
+       "e": 37.304,
+       "hl": false
+      },
+      {
+       "w": "Normandía:",
+       "s": 37.304,
+       "e": 37.957,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "cientos de buques cruzando el estrecho bajo el fuego enemigo.",
+     "s": 38.257,
+     "e": 41.312,
+     "words": [
+      {
+       "w": "cientos",
+       "s": 38.257,
+       "e": 38.628,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 38.628,
+       "e": 38.781,
+       "hl": false
+      },
+      {
+       "w": "buques",
+       "s": 38.781,
+       "e": 39.108,
+       "hl": false
+      },
+      {
+       "w": "cruzando",
+       "s": 39.108,
+       "e": 39.523,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 39.523,
+       "e": 39.675,
+       "hl": false
+      },
+      {
+       "w": "estrecho",
+       "s": 39.675,
+       "e": 40.09,
+       "hl": false
+      },
+      {
+       "w": "bajo",
+       "s": 40.09,
+       "e": 40.33,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 40.33,
+       "e": 40.483,
+       "hl": false
+      },
+      {
+       "w": "fuego",
+       "s": 40.483,
+       "e": 40.766,
+       "hl": false
+      },
+      {
+       "w": "enemigo.",
+       "s": 40.766,
+       "e": 41.312,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_fortaleza",
+   "s": 41.812,
+   "e": 50.673,
+   "lines": [
+    {
+     "text": "Pero Taiwán es una *fortaleza natural*:",
+     "s": 42.062,
+     "e": 44.391,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 42.062,
+       "e": 42.36,
+       "hl": false
+      },
+      {
+       "w": "Taiwán",
+       "s": 42.36,
+       "e": 42.766,
+       "hl": false
+      },
+      {
+       "w": "es",
+       "s": 42.766,
+       "e": 42.956,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 42.956,
+       "e": 43.199,
+       "hl": false
+      },
+      {
+       "w": "fortaleza",
+       "s": 43.199,
+       "e": 43.768,
+       "hl": true
+      },
+      {
+       "w": "natural:",
+       "s": 43.768,
+       "e": 44.391,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "montañas, pocas playas aptas y un mar tan *bravo* que solo permite cruzar en pocas épocas del año.",
+     "s": 44.691,
+     "e": 50.173,
+     "words": [
+      {
+       "w": "montañas,",
+       "s": 44.691,
+       "e": 45.308,
+       "hl": false
+      },
+      {
+       "w": "pocas",
+       "s": 45.308,
+       "e": 45.629,
+       "hl": false
+      },
+      {
+       "w": "playas",
+       "s": 45.629,
+       "e": 46.0,
+       "hl": false
+      },
+      {
+       "w": "aptas",
+       "s": 46.0,
+       "e": 46.321,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 46.321,
+       "e": 46.444,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 46.444,
+       "e": 46.617,
+       "hl": false
+      },
+      {
+       "w": "mar",
+       "s": 46.617,
+       "e": 46.839,
+       "hl": false
+      },
+      {
+       "w": "tan",
+       "s": 46.839,
+       "e": 47.062,
+       "hl": false
+      },
+      {
+       "w": "bravo",
+       "s": 47.062,
+       "e": 47.383,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 47.383,
+       "e": 47.605,
+       "hl": false
+      },
+      {
+       "w": "solo",
+       "s": 47.605,
+       "e": 47.877,
+       "hl": false
+      },
+      {
+       "w": "permite",
+       "s": 47.877,
+       "e": 48.296,
+       "hl": false
+      },
+      {
+       "w": "cruzar",
+       "s": 48.296,
+       "e": 48.667,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 48.667,
+       "e": 48.84,
+       "hl": false
+      },
+      {
+       "w": "pocas",
+       "s": 48.84,
+       "e": 49.161,
+       "hl": false
+      },
+      {
+       "w": "épocas",
+       "s": 49.161,
+       "e": 49.531,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 49.531,
+       "e": 49.753,
+       "hl": false
+      },
+      {
+       "w": "año.",
+       "s": 49.753,
+       "e": 50.173,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_simulacion",
+   "s": 50.673,
+   "e": 66.069,
+   "lines": [
+    {
+     "text": "Si *Estados Unidos* y *Japón* intervienen, la guerra se vuelve global.",
+     "s": 50.923,
+     "e": 54.556,
+     "words": [
+      {
+       "w": "Si",
+       "s": 50.923,
+       "e": 51.087,
+       "hl": false
+      },
+      {
+       "w": "Estados",
+       "s": 51.087,
+       "e": 51.486,
+       "hl": true
+      },
+      {
+       "w": "Unidos",
+       "s": 51.486,
+       "e": 51.837,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 51.837,
+       "e": 51.955,
+       "hl": false
+      },
+      {
+       "w": "Japón",
+       "s": 51.955,
+       "e": 52.259,
+       "hl": true
+      },
+      {
+       "w": "intervienen,",
+       "s": 52.259,
+       "e": 52.986,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 52.986,
+       "e": 53.15,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 53.15,
+       "e": 53.502,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 53.502,
+       "e": 53.666,
+       "hl": false
+      },
+      {
+       "w": "vuelve",
+       "s": 53.666,
+       "e": 54.017,
+       "hl": false
+      },
+      {
+       "w": "global.",
+       "s": 54.017,
+       "e": 54.556,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "En 2023, el centro de estudios *CSIS* simuló esta guerra *24 veces*.",
+     "s": 54.856,
+     "e": 60.06,
+     "words": [
+      {
+       "w": "En",
+       "s": 54.856,
+       "e": 55.038,
+       "hl": false
+      },
+      {
+       "w": "2023,",
+       "s": 55.038,
+       "e": 56.313,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 56.313,
+       "e": 56.496,
+       "hl": false
+      },
+      {
+       "w": "centro",
+       "s": 56.496,
+       "e": 56.886,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 56.886,
+       "e": 57.068,
+       "hl": false
+      },
+      {
+       "w": "estudios",
+       "s": 57.068,
+       "e": 57.562,
+       "hl": false
+      },
+      {
+       "w": "CSIS",
+       "s": 57.562,
+       "e": 57.849,
+       "hl": true
+      },
+      {
+       "w": "simuló",
+       "s": 57.849,
+       "e": 58.239,
+       "hl": false
+      },
+      {
+       "w": "esta",
+       "s": 58.239,
+       "e": 58.525,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 58.525,
+       "e": 58.916,
+       "hl": false
+      },
+      {
+       "w": "24",
+       "s": 58.916,
+       "e": 59.514,
+       "hl": true
+      },
+      {
+       "w": "veces.",
+       "s": 59.514,
+       "e": 60.06,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "En la mayoría, la invasión *fracasaba*... pero con decenas de barcos y cientos de aviones *perdidos*.",
+     "s": 60.36,
+     "e": 65.569,
+     "words": [
+      {
+       "w": "En",
+       "s": 60.36,
+       "e": 60.523,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 60.523,
+       "e": 60.686,
+       "hl": false
+      },
+      {
+       "w": "mayoría,",
+       "s": 60.686,
+       "e": 61.221,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 61.221,
+       "e": 61.384,
+       "hl": false
+      },
+      {
+       "w": "invasión",
+       "s": 61.384,
+       "e": 61.825,
+       "hl": false
+      },
+      {
+       "w": "fracasaba...",
+       "s": 61.825,
+       "e": 62.5,
+       "hl": true
+      },
+      {
+       "w": "pero",
+       "s": 62.5,
+       "e": 62.755,
+       "hl": false
+      },
+      {
+       "w": "con",
+       "s": 62.755,
+       "e": 62.965,
+       "hl": false
+      },
+      {
+       "w": "decenas",
+       "s": 62.965,
+       "e": 63.36,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 63.36,
+       "e": 63.523,
+       "hl": false
+      },
+      {
+       "w": "barcos",
+       "s": 63.523,
+       "e": 63.872,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 63.872,
+       "e": 63.988,
+       "hl": false
+      },
+      {
+       "w": "cientos",
+       "s": 63.988,
+       "e": 64.383,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 64.383,
+       "e": 64.546,
+       "hl": false
+      },
+      {
+       "w": "aviones",
+       "s": 64.546,
+       "e": 64.941,
+       "hl": false
+      },
+      {
+       "w": "perdidos.",
+       "s": 64.941,
+       "e": 65.569,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_economia",
+   "s": 66.069,
+   "e": 75.818,
+   "lines": [
+    {
+     "text": "Según *Bloomberg Economics*, el PIB mundial podría caer cerca de un *10%*.",
+     "s": 66.319,
+     "e": 71.964,
+     "words": [
+      {
+       "w": "Según",
+       "s": 66.319,
+       "e": 66.727,
+       "hl": false
+      },
+      {
+       "w": "Bloomberg",
+       "s": 66.727,
+       "e": 67.385,
+       "hl": true
+      },
+      {
+       "w": "Economics,",
+       "s": 67.385,
+       "e": 68.232,
+       "hl": true
+      },
+      {
+       "w": "el",
+       "s": 68.232,
+       "e": 68.451,
+       "hl": false
+      },
+      {
+       "w": "PIB",
+       "s": 68.451,
+       "e": 68.734,
+       "hl": false
+      },
+      {
+       "w": "mundial",
+       "s": 68.734,
+       "e": 69.267,
+       "hl": false
+      },
+      {
+       "w": "podría",
+       "s": 69.267,
+       "e": 69.737,
+       "hl": false
+      },
+      {
+       "w": "caer",
+       "s": 69.737,
+       "e": 70.082,
+       "hl": false
+      },
+      {
+       "w": "cerca",
+       "s": 70.082,
+       "e": 70.49,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 70.49,
+       "e": 70.709,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 70.709,
+       "e": 70.929,
+       "hl": false
+      },
+      {
+       "w": "10%.",
+       "s": 70.929,
+       "e": 71.964,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Un golpe mayor que la crisis de *2008* y la *pandemia*.",
+     "s": 72.264,
+     "e": 75.318,
+     "words": [
+      {
+       "w": "Un",
+       "s": 72.264,
+       "e": 72.404,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 72.404,
+       "e": 72.663,
+       "hl": false
+      },
+      {
+       "w": "mayor",
+       "s": 72.663,
+       "e": 72.923,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 72.923,
+       "e": 73.102,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 73.102,
+       "e": 73.242,
+       "hl": false
+      },
+      {
+       "w": "crisis",
+       "s": 73.242,
+       "e": 73.542,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 73.542,
+       "e": 73.681,
+       "hl": false
+      },
+      {
+       "w": "2008",
+       "s": 73.681,
+       "e": 74.54,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 74.54,
+       "e": 74.64,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 74.64,
+       "e": 74.779,
+       "hl": false
+      },
+      {
+       "w": "pandemia.",
+       "s": 74.779,
+       "e": 75.318,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 75.818,
+   "e": 83.703,
+   "lines": [
+    {
+     "text": "En esta guerra, probablemente *nadie ganaría*.",
+     "s": 76.068,
+     "e": 78.526,
+     "words": [
+      {
+       "w": "En",
+       "s": 76.068,
+       "e": 76.231,
+       "hl": false
+      },
+      {
+       "w": "esta",
+       "s": 76.231,
+       "e": 76.486,
+       "hl": false
+      },
+      {
+       "w": "guerra,",
+       "s": 76.486,
+       "e": 76.973,
+       "hl": false
+      },
+      {
+       "w": "probablemente",
+       "s": 76.973,
+       "e": 77.645,
+       "hl": false
+      },
+      {
+       "w": "nadie",
+       "s": 77.645,
+       "e": 77.946,
+       "hl": true
+      },
+      {
+       "w": "ganaría.",
+       "s": 77.946,
+       "e": 78.526,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "¿Crees que llegará a *ocurrir*? Te leo en comentarios.",
+     "s": 78.826,
+     "e": 81.503,
+     "words": [
+      {
+       "w": "¿Crees",
+       "s": 78.826,
+       "e": 79.104,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 79.104,
+       "e": 79.297,
+       "hl": false
+      },
+      {
+       "w": "llegará",
+       "s": 79.297,
+       "e": 79.661,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 79.661,
+       "e": 79.768,
+       "hl": false
+      },
+      {
+       "w": "ocurrir?",
+       "s": 79.768,
+       "e": 80.304,
+       "hl": true
+      },
+      {
+       "w": "Te",
+       "s": 80.304,
+       "e": 80.454,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 80.454,
+       "e": 80.647,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 80.647,
+       "e": 80.797,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 80.797,
+       "e": 81.503,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

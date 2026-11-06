@@ -1,0 +1,1425 @@
+{
+ "id": "napoleon",
+ "titulo": "¿Y si Napoleón hubiera ganado?",
+ "total": 81.2,
+ "scenes": [
+  {
+   "id": "s1_waterloo",
+   "s": 0.0,
+   "e": 8.077,
+   "lines": [
+    {
+     "text": "18 de junio de 1815.",
+     "s": 0.25,
+     "e": 2.899,
+     "words": [
+      {
+       "w": "18",
+       "s": 0.25,
+       "e": 0.853,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 0.853,
+       "e": 1.037,
+       "hl": false
+      },
+      {
+       "w": "junio",
+       "s": 1.037,
+       "e": 1.378,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 1.378,
+       "e": 1.561,
+       "hl": false
+      },
+      {
+       "w": "1815.",
+       "s": 1.561,
+       "e": 2.899,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Napoleón* está a *una batalla* de recuperar Europa.",
+     "s": 3.199,
+     "e": 5.889,
+     "words": [
+      {
+       "w": "Napoleón",
+       "s": 3.199,
+       "e": 3.655,
+       "hl": true
+      },
+      {
+       "w": "está",
+       "s": 3.655,
+       "e": 3.919,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 3.919,
+       "e": 4.039,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 4.039,
+       "e": 4.256,
+       "hl": true
+      },
+      {
+       "w": "batalla",
+       "s": 4.256,
+       "e": 4.664,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 4.664,
+       "e": 4.832,
+       "hl": false
+      },
+      {
+       "w": "recuperar",
+       "s": 4.832,
+       "e": 5.336,
+       "hl": false
+      },
+      {
+       "w": "Europa.",
+       "s": 5.336,
+       "e": 5.889,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Y si la hubiera *ganado*?",
+     "s": 6.189,
+     "e": 7.577,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 6.189,
+       "e": 6.306,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 6.306,
+       "e": 6.471,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 6.471,
+       "e": 6.636,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 6.636,
+       "e": 7.036,
+       "hl": false
+      },
+      {
+       "w": "ganado?",
+       "s": 7.036,
+       "e": 7.577,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_ascenso",
+   "s": 8.077,
+   "e": 17.512,
+   "lines": [
+    {
+     "text": "Diez años antes parecía *invencible*.",
+     "s": 8.327,
+     "e": 10.568,
+     "words": [
+      {
+       "w": "Diez",
+       "s": 8.327,
+       "e": 8.624,
+       "hl": false
+      },
+      {
+       "w": "años",
+       "s": 8.624,
+       "e": 8.921,
+       "hl": false
+      },
+      {
+       "w": "antes",
+       "s": 8.921,
+       "e": 9.272,
+       "hl": false
+      },
+      {
+       "w": "parecía",
+       "s": 9.272,
+       "e": 9.731,
+       "hl": false
+      },
+      {
+       "w": "invencible.",
+       "s": 9.731,
+       "e": 10.568,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "En 1804 se corona *emperador*,",
+     "s": 10.868,
+     "e": 13.508,
+     "words": [
+      {
+       "w": "En",
+       "s": 10.868,
+       "e": 11.055,
+       "hl": false
+      },
+      {
+       "w": "1804",
+       "s": 11.055,
+       "e": 12.201,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 12.201,
+       "e": 12.388,
+       "hl": false
+      },
+      {
+       "w": "corona",
+       "s": 12.388,
+       "e": 12.788,
+       "hl": false
+      },
+      {
+       "w": "emperador,",
+       "s": 12.788,
+       "e": 13.508,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "y en *Austerlitz* derrota a Austria y Rusia en un solo día.",
+     "s": 13.808,
+     "e": 17.012,
+     "words": [
+      {
+       "w": "y",
+       "s": 13.808,
+       "e": 13.927,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 13.927,
+       "e": 14.095,
+       "hl": false
+      },
+      {
+       "w": "Austerlitz",
+       "s": 14.095,
+       "e": 14.645,
+       "hl": true
+      },
+      {
+       "w": "derrota",
+       "s": 14.645,
+       "e": 15.051,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 15.051,
+       "e": 15.171,
+       "hl": false
+      },
+      {
+       "w": "Austria",
+       "s": 15.171,
+       "e": 15.577,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 15.577,
+       "e": 15.697,
+       "hl": false
+      },
+      {
+       "w": "Rusia",
+       "s": 15.697,
+       "e": 16.008,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 16.008,
+       "e": 16.175,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 16.175,
+       "e": 16.342,
+       "hl": false
+      },
+      {
+       "w": "solo",
+       "s": 16.342,
+       "e": 16.605,
+       "hl": false
+      },
+      {
+       "w": "día.",
+       "s": 16.605,
+       "e": 17.012,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_mapa",
+   "s": 17.512,
+   "e": 23.742,
+   "lines": [
+    {
+     "text": "En 1812 domina casi toda la Europa continental,",
+     "s": 17.762,
+     "e": 21.495,
+     "words": [
+      {
+       "w": "En",
+       "s": 17.762,
+       "e": 17.948,
+       "hl": false
+      },
+      {
+       "w": "1812",
+       "s": 17.948,
+       "e": 19.095,
+       "hl": false
+      },
+      {
+       "w": "domina",
+       "s": 19.095,
+       "e": 19.495,
+       "hl": false
+      },
+      {
+       "w": "casi",
+       "s": 19.495,
+       "e": 19.788,
+       "hl": false
+      },
+      {
+       "w": "toda",
+       "s": 19.788,
+       "e": 20.082,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 20.082,
+       "e": 20.268,
+       "hl": false
+      },
+      {
+       "w": "Europa",
+       "s": 20.268,
+       "e": 20.668,
+       "hl": false
+      },
+      {
+       "w": "continental,",
+       "s": 20.668,
+       "e": 21.495,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "de *Madrid* a *Varsovia*.",
+     "s": 21.795,
+     "e": 23.242,
+     "words": [
+      {
+       "w": "de",
+       "s": 21.795,
+       "e": 21.982,
+       "hl": false
+      },
+      {
+       "w": "Madrid",
+       "s": 21.982,
+       "e": 22.384,
+       "hl": true
+      },
+      {
+       "w": "a",
+       "s": 22.384,
+       "e": 22.519,
+       "hl": false
+      },
+      {
+       "w": "Varsovia.",
+       "s": 22.519,
+       "e": 23.242,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_rusia",
+   "s": 23.742,
+   "e": 33.518,
+   "lines": [
+    {
+     "text": "Pero entonces invade *Rusia* con unos *600.000 hombres*.",
+     "s": 23.992,
+     "e": 27.346,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 23.992,
+       "e": 24.215,
+       "hl": false
+      },
+      {
+       "w": "entonces",
+       "s": 24.215,
+       "e": 24.598,
+       "hl": false
+      },
+      {
+       "w": "invade",
+       "s": 24.598,
+       "e": 24.901,
+       "hl": false
+      },
+      {
+       "w": "Rusia",
+       "s": 24.901,
+       "e": 25.164,
+       "hl": true
+      },
+      {
+       "w": "con",
+       "s": 25.164,
+       "e": 25.346,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 25.346,
+       "e": 25.568,
+       "hl": false
+      },
+      {
+       "w": "600.000",
+       "s": 25.568,
+       "e": 26.841,
+       "hl": true
+      },
+      {
+       "w": "hombres.",
+       "s": 26.841,
+       "e": 27.346,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "El *invierno*, el hambre y las enfermedades los destrozan.",
+     "s": 27.646,
+     "e": 30.684,
+     "words": [
+      {
+       "w": "El",
+       "s": 27.646,
+       "e": 27.806,
+       "hl": false
+      },
+      {
+       "w": "invierno,",
+       "s": 27.806,
+       "e": 28.377,
+       "hl": true
+      },
+      {
+       "w": "el",
+       "s": 28.377,
+       "e": 28.537,
+       "hl": false
+      },
+      {
+       "w": "hambre",
+       "s": 28.537,
+       "e": 28.879,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 28.879,
+       "e": 28.994,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 28.994,
+       "e": 29.199,
+       "hl": false
+      },
+      {
+       "w": "enfermedades",
+       "s": 29.199,
+       "e": 29.816,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 29.816,
+       "e": 30.022,
+       "hl": false
+      },
+      {
+       "w": "destrozan.",
+       "s": 30.022,
+       "e": 30.684,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Solo regresa una *pequeña parte*.",
+     "s": 30.984,
+     "e": 33.018,
+     "words": [
+      {
+       "w": "Solo",
+       "s": 30.984,
+       "e": 31.283,
+       "hl": false
+      },
+      {
+       "w": "regresa",
+       "s": 31.283,
+       "e": 31.744,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 31.744,
+       "e": 31.988,
+       "hl": false
+      },
+      {
+       "w": "pequeña",
+       "s": 31.988,
+       "e": 32.449,
+       "hl": true
+      },
+      {
+       "w": "parte.",
+       "s": 32.449,
+       "e": 33.018,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_batalla",
+   "s": 33.518,
+   "e": 44.544,
+   "lines": [
+    {
+     "text": "Tras escapar de su exilio en *Elba*, vuelve al poder.",
+     "s": 33.768,
+     "e": 36.482,
+     "words": [
+      {
+       "w": "Tras",
+       "s": 33.768,
+       "e": 34.009,
+       "hl": false
+      },
+      {
+       "w": "escapar",
+       "s": 34.009,
+       "e": 34.381,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 34.381,
+       "e": 34.534,
+       "hl": false
+      },
+      {
+       "w": "su",
+       "s": 34.534,
+       "e": 34.687,
+       "hl": false
+      },
+      {
+       "w": "exilio",
+       "s": 34.687,
+       "e": 35.016,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 35.016,
+       "e": 35.169,
+       "hl": false
+      },
+      {
+       "w": "Elba,",
+       "s": 35.169,
+       "e": 35.541,
+       "hl": true
+      },
+      {
+       "w": "vuelve",
+       "s": 35.541,
+       "e": 35.869,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 35.869,
+       "e": 36.022,
+       "hl": false
+      },
+      {
+       "w": "poder.",
+       "s": 36.022,
+       "e": 36.482,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "En *Waterloo* se enfrenta a *Wellington* y a los prusianos de *Blücher*.",
+     "s": 36.782,
+     "e": 40.306,
+     "words": [
+      {
+       "w": "En",
+       "s": 36.782,
+       "e": 36.944,
+       "hl": false
+      },
+      {
+       "w": "Waterloo",
+       "s": 36.944,
+       "e": 37.384,
+       "hl": true
+      },
+      {
+       "w": "se",
+       "s": 37.384,
+       "e": 37.547,
+       "hl": false
+      },
+      {
+       "w": "enfrenta",
+       "s": 37.547,
+       "e": 37.987,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 37.987,
+       "e": 38.103,
+       "hl": false
+      },
+      {
+       "w": "Wellington",
+       "s": 38.103,
+       "e": 38.636,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 38.636,
+       "e": 38.752,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 38.752,
+       "e": 38.868,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 38.868,
+       "e": 39.077,
+       "hl": false
+      },
+      {
+       "w": "prusianos",
+       "s": 39.077,
+       "e": 39.564,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 39.564,
+       "e": 39.726,
+       "hl": false
+      },
+      {
+       "w": "Blücher.",
+       "s": 39.726,
+       "e": 40.306,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "La *lluvia* retrasa su ataque... y los prusianos llegan a tiempo.",
+     "s": 40.606,
+     "e": 44.044,
+     "words": [
+      {
+       "w": "La",
+       "s": 40.606,
+       "e": 40.769,
+       "hl": false
+      },
+      {
+       "w": "lluvia",
+       "s": 40.769,
+       "e": 41.12,
+       "hl": true
+      },
+      {
+       "w": "retrasa",
+       "s": 41.12,
+       "e": 41.518,
+       "hl": false
+      },
+      {
+       "w": "su",
+       "s": 41.518,
+       "e": 41.682,
+       "hl": false
+      },
+      {
+       "w": "ataque...",
+       "s": 41.682,
+       "e": 42.22,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 42.22,
+       "e": 42.337,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 42.337,
+       "e": 42.547,
+       "hl": false
+      },
+      {
+       "w": "prusianos",
+       "s": 42.547,
+       "e": 43.038,
+       "hl": false
+      },
+      {
+       "w": "llegan",
+       "s": 43.038,
+       "e": 43.389,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 43.389,
+       "e": 43.506,
+       "hl": false
+      },
+      {
+       "w": "tiempo.",
+       "s": 43.506,
+       "e": 44.044,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_giro",
+   "s": 44.544,
+   "e": 50.439,
+   "lines": [
+    {
+     "text": "Pero imagina que el suelo se seca *antes*,",
+     "s": 44.794,
+     "e": 47.123,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 44.794,
+       "e": 45.067,
+       "hl": false
+      },
+      {
+       "w": "imagina",
+       "s": 45.067,
+       "e": 45.488,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 45.488,
+       "e": 45.711,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 45.711,
+       "e": 45.885,
+       "hl": false
+      },
+      {
+       "w": "suelo",
+       "s": 45.885,
+       "e": 46.207,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 46.207,
+       "e": 46.38,
+       "hl": false
+      },
+      {
+       "w": "seca",
+       "s": 46.38,
+       "e": 46.653,
+       "hl": false
+      },
+      {
+       "w": "antes,",
+       "s": 46.653,
+       "e": 47.123,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "los prusianos se retrasan... y Napoleón *gana*.",
+     "s": 47.423,
+     "e": 49.939,
+     "words": [
+      {
+       "w": "los",
+       "s": 47.423,
+       "e": 47.635,
+       "hl": false
+      },
+      {
+       "w": "prusianos",
+       "s": 47.635,
+       "e": 48.129,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 48.129,
+       "e": 48.293,
+       "hl": false
+      },
+      {
+       "w": "retrasan...",
+       "s": 48.293,
+       "e": 48.928,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 48.928,
+       "e": 49.046,
+       "hl": false
+      },
+      {
+       "w": "Napoleón",
+       "s": 49.046,
+       "e": 49.492,
+       "hl": false
+      },
+      {
+       "w": "gana.",
+       "s": 49.492,
+       "e": 49.939,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_twist",
+   "s": 50.439,
+   "e": 59.086,
+   "lines": [
+    {
+     "text": "Sorpresa: muchos historiadores creen que *ni así* habría durado.",
+     "s": 50.689,
+     "e": 54.092,
+     "words": [
+      {
+       "w": "Sorpresa:",
+       "s": 50.689,
+       "e": 51.276,
+       "hl": false
+      },
+      {
+       "w": "muchos",
+       "s": 51.276,
+       "e": 51.628,
+       "hl": false
+      },
+      {
+       "w": "historiadores",
+       "s": 51.628,
+       "e": 52.308,
+       "hl": false
+      },
+      {
+       "w": "creen",
+       "s": 52.308,
+       "e": 52.613,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 52.613,
+       "e": 52.824,
+       "hl": false
+      },
+      {
+       "w": "ni",
+       "s": 52.824,
+       "e": 52.989,
+       "hl": true
+      },
+      {
+       "w": "así",
+       "s": 52.989,
+       "e": 53.2,
+       "hl": true
+      },
+      {
+       "w": "habría",
+       "s": 53.2,
+       "e": 53.552,
+       "hl": false
+      },
+      {
+       "w": "durado.",
+       "s": 53.552,
+       "e": 54.092,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Austria* y *Rusia* ya movilizaban a *cientos de miles* de soldados contra él.",
+     "s": 54.392,
+     "e": 58.586,
+     "words": [
+      {
+       "w": "Austria",
+       "s": 54.392,
+       "e": 54.824,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 54.824,
+       "e": 54.951,
+       "hl": false
+      },
+      {
+       "w": "Rusia",
+       "s": 54.951,
+       "e": 55.281,
+       "hl": true
+      },
+      {
+       "w": "ya",
+       "s": 55.281,
+       "e": 55.459,
+       "hl": false
+      },
+      {
+       "w": "movilizaban",
+       "s": 55.459,
+       "e": 56.095,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 56.095,
+       "e": 56.222,
+       "hl": false
+      },
+      {
+       "w": "cientos",
+       "s": 56.222,
+       "e": 56.654,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 56.654,
+       "e": 56.832,
+       "hl": true
+      },
+      {
+       "w": "miles",
+       "s": 56.832,
+       "e": 57.163,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 57.163,
+       "e": 57.341,
+       "hl": false
+      },
+      {
+       "w": "soldados",
+       "s": 57.341,
+       "e": 57.824,
+       "hl": false
+      },
+      {
+       "w": "contra",
+       "s": 57.824,
+       "e": 58.205,
+       "hl": false
+      },
+      {
+       "w": "él.",
+       "s": 58.205,
+       "e": 58.586,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_imperio",
+   "s": 59.086,
+   "e": 70.98,
+   "lines": [
+    {
+     "text": "Ahora bien, ¿y si hubiera ganado en *Rusia*?",
+     "s": 59.336,
+     "e": 61.388,
+     "words": [
+      {
+       "w": "Ahora",
+       "s": 59.336,
+       "e": 59.598,
+       "hl": false
+      },
+      {
+       "w": "bien,",
+       "s": 59.598,
+       "e": 59.94,
+       "hl": false
+      },
+      {
+       "w": "¿y",
+       "s": 59.94,
+       "e": 60.04,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 60.04,
+       "e": 60.181,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 60.181,
+       "e": 60.523,
+       "hl": false
+      },
+      {
+       "w": "ganado",
+       "s": 60.523,
+       "e": 60.825,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 60.825,
+       "e": 60.966,
+       "hl": false
+      },
+      {
+       "w": "Rusia?",
+       "s": 60.966,
+       "e": 61.388,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Europa sería un *imperio francés*, con el *Código Napoleónico* y el sistema métrico en todo el continente.",
+     "s": 61.688,
+     "e": 67.345,
+     "words": [
+      {
+       "w": "Europa",
+       "s": 61.688,
+       "e": 62.052,
+       "hl": false
+      },
+      {
+       "w": "sería",
+       "s": 62.052,
+       "e": 62.368,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 62.368,
+       "e": 62.538,
+       "hl": false
+      },
+      {
+       "w": "imperio",
+       "s": 62.538,
+       "e": 62.951,
+       "hl": true
+      },
+      {
+       "w": "francés,",
+       "s": 62.951,
+       "e": 63.509,
+       "hl": true
+      },
+      {
+       "w": "con",
+       "s": 63.509,
+       "e": 63.728,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 63.728,
+       "e": 63.898,
+       "hl": false
+      },
+      {
+       "w": "Código",
+       "s": 63.898,
+       "e": 64.262,
+       "hl": true
+      },
+      {
+       "w": "Napoleónico",
+       "s": 64.262,
+       "e": 64.869,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 64.869,
+       "e": 64.99,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 64.99,
+       "e": 65.16,
+       "hl": false
+      },
+      {
+       "w": "sistema",
+       "s": 65.16,
+       "e": 65.573,
+       "hl": false
+      },
+      {
+       "w": "métrico",
+       "s": 65.573,
+       "e": 65.986,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 65.986,
+       "e": 66.156,
+       "hl": false
+      },
+      {
+       "w": "todo",
+       "s": 66.156,
+       "e": 66.423,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 66.423,
+       "e": 66.593,
+       "hl": false
+      },
+      {
+       "w": "continente.",
+       "s": 66.593,
+       "e": 67.345,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Una especie de *Unión Europea*... siglo y medio antes.",
+     "s": 67.645,
+     "e": 70.48,
+     "words": [
+      {
+       "w": "Una",
+       "s": 67.645,
+       "e": 67.853,
+       "hl": false
+      },
+      {
+       "w": "especie",
+       "s": 67.853,
+       "e": 68.244,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 68.244,
+       "e": 68.406,
+       "hl": false
+      },
+      {
+       "w": "Unión",
+       "s": 68.406,
+       "e": 68.705,
+       "hl": true
+      },
+      {
+       "w": "Europea...",
+       "s": 68.705,
+       "e": 69.281,
+       "hl": true
+      },
+      {
+       "w": "siglo",
+       "s": 69.281,
+       "e": 69.581,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 69.581,
+       "e": 69.696,
+       "hl": false
+      },
+      {
+       "w": "medio",
+       "s": 69.696,
+       "e": 69.996,
+       "hl": false
+      },
+      {
+       "w": "antes.",
+       "s": 69.996,
+       "e": 70.48,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 70.98,
+   "e": 81.2,
+   "lines": [
+    {
+     "text": "En la realidad, murió desterrado en *Santa Elena* en 1821.",
+     "s": 71.23,
+     "e": 75.358,
+     "words": [
+      {
+       "w": "En",
+       "s": 71.23,
+       "e": 71.404,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 71.404,
+       "e": 71.578,
+       "hl": false
+      },
+      {
+       "w": "realidad,",
+       "s": 71.578,
+       "e": 72.199,
+       "hl": false
+      },
+      {
+       "w": "murió",
+       "s": 72.199,
+       "e": 72.523,
+       "hl": false
+      },
+      {
+       "w": "desterrado",
+       "s": 72.523,
+       "e": 73.095,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 73.095,
+       "e": 73.269,
+       "hl": false
+      },
+      {
+       "w": "Santa",
+       "s": 73.269,
+       "e": 73.592,
+       "hl": true
+      },
+      {
+       "w": "Elena",
+       "s": 73.592,
+       "e": 73.916,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 73.916,
+       "e": 74.09,
+       "hl": false
+      },
+      {
+       "w": "1821.",
+       "s": 74.09,
+       "e": 75.358,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Fue Napoleón un *libertador*... o un *tirano*? Te leo en comentarios.",
+     "s": 75.658,
+     "e": 79.0,
+     "words": [
+      {
+       "w": "¿Fue",
+       "s": 75.658,
+       "e": 75.85,
+       "hl": false
+      },
+      {
+       "w": "Napoleón",
+       "s": 75.85,
+       "e": 76.254,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 76.254,
+       "e": 76.403,
+       "hl": false
+      },
+      {
+       "w": "libertador...",
+       "s": 76.403,
+       "e": 77.063,
+       "hl": true
+      },
+      {
+       "w": "o",
+       "s": 77.063,
+       "e": 77.17,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 77.17,
+       "e": 77.319,
+       "hl": false
+      },
+      {
+       "w": "tirano?",
+       "s": 77.319,
+       "e": 77.808,
+       "hl": true
+      },
+      {
+       "w": "Te",
+       "s": 77.808,
+       "e": 77.957,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 77.957,
+       "e": 78.149,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 78.149,
+       "e": 78.298,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 78.298,
+       "e": 79.0,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

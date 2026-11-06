@@ -1,0 +1,41 @@
+{
+  "id": "urss",
+  "titulo": "¿Y si la URSS no hubiera caído?",
+  "voice": "em_alex", "speed": 1.08,
+  "scenes": [
+    {"id": "s1_kremlin", "lines": [
+      {"t": "25 de diciembre de 1991.", "say": "Veinticinco de diciembre de mil novecientos noventa y uno."},
+      {"t": "La bandera *roja* se arría del *Kremlin* por última vez."},
+      {"t": "¿Pero y si *nunca* hubiera bajado?"}]},
+    {"id": "s2_mapa", "lines": [
+      {"t": "La Unión Soviética era el país *más grande* del mundo:"},
+      {"t": "*15 repúblicas*, más de *22 millones* de kilómetros cuadrados", "say": "quince repúblicas, más de veintidós millones de kilómetros cuadrados"},
+      {"t": "y unos *290 millones* de habitantes.", "say": "y unos doscientos noventa millones de habitantes."}]},
+    {"id": "s3_gorbachov", "lines": [
+      {"t": "En 1985 llega al poder *Mijaíl Gorbachov*.", "say": "En mil novecientos ochenta y cinco llega al poder Mijaíl Gorbachov."},
+      {"t": "Quiere salvar el sistema con dos palabras: *perestroika* y *glásnost*."},
+      {"t": "Pero la economía está *estancada*, el petróleo se *desploma*"},
+      {"t": "y la guerra de *Afganistán* desangra al país."}]},
+    {"id": "s4_muro", "lines": [
+      {"t": "En 1989 cae el *Muro de Berlín*,", "say": "En mil novecientos ochenta y nueve cae el Muro de Berlín,"},
+      {"t": "y el bloque del Este se desmorona como un *castillo de naipes*."}]},
+    {"id": "s5_golpe", "lines": [
+      {"t": "Agosto de 1991. Los comunistas de línea dura dan un *golpe de Estado*.", "say": "Agosto de mil novecientos noventa y uno. Los comunistas de línea dura dan un golpe de Estado."},
+      {"t": "Los *tanques* entran en Moscú..."},
+      {"t": "pero *Borís Yeltsin* se sube a uno de ellos y planta cara."},
+      {"t": "En *tres días*, el golpe fracasa."}]},
+    {"id": "s6_giro", "lines": [
+      {"t": "Ahora imagina que el golpe *triunfa*."},
+      {"t": "Las protestas son aplastadas y las repúblicas que querían irse, como las *bálticas*, vuelven al redil."}]},
+    {"id": "s7_china", "lines": [
+      {"t": "Quizá Moscú copiaría la receta de *China*:"},
+      {"t": "*mercado* en la economía y *mano de hierro* en la política."}]},
+    {"id": "s8_mundo", "lines": [
+      {"t": "La *Guerra Fría* nunca habría terminado."},
+      {"t": "Sin una *Ucrania* independiente ni ampliación de la *OTAN* hacia el este, el mapa de Europa sería irreconocible."},
+      {"t": "Y el transbordador *Burán*, que solo voló una vez en 1988, quizá seguiría despegando.", "say": "Y el transbordador Burán, que solo voló una vez en mil novecientos ochenta y ocho, quizá seguiría despegando."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Dos superpotencias. Un planeta *partido en dos*."},
+      {"t": "¿Sería hoy el mundo *más seguro*... o *más peligroso*? Te leo en comentarios."}]}
+  ]
+}

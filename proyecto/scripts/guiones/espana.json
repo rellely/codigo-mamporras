@@ -1,0 +1,36 @@
+{
+  "id": "espana",
+  "titulo": "¿Y si España nunca hubiera perdido América?",
+  "voice": "em_alex", "speed": 1.08,
+  "scenes": [
+    {"id": "s1_imperio", "lines": [
+      {"t": "Hacia 1790, el Imperio español se extendía de *California* a la *Patagonia*.", "say": "Hacia mil setecientos noventa, el Imperio español se extendía de California a la Patagonia."},
+      {"t": "¿Y si *nunca* lo hubiera perdido?"}]},
+    {"id": "s2_virreinatos", "lines": [
+      {"t": "Cuatro *virreinatos*: Nueva España, Perú, Nueva Granada y el Río de la Plata."},
+      {"t": "*Plata*, galeones y rutas comerciales que cruzaban *dos océanos*."}]},
+    {"id": "s3_aranda", "lines": [
+      {"t": "En 1783, un documento atribuido al *conde de Aranda* propuso algo revolucionario:", "say": "En mil setecientos ochenta y tres, un documento atribuido al conde de Aranda propuso algo revolucionario:"},
+      {"t": "dividir América en *tres reinos* con príncipes españoles, unidos bajo un mismo rey."},
+      {"t": "Su autenticidad se *discute*, y el plan nunca se aplicó."}]},
+    {"id": "s4_napoleon", "lines": [
+      {"t": "En 1808, *Napoleón* invade España", "say": "En mil ochocientos ocho, Napoleón invade España"},
+      {"t": "y obliga a la familia real a *abdicar* en *Bayona*."}]},
+    {"id": "s5_libertadores", "lines": [
+      {"t": "En América, el vacío de poder lo cambia todo."},
+      {"t": "Surgen juntas de gobierno, y líderes como *Simón Bolívar* y *José de San Martín* inician las guerras de *independencia*."}]},
+    {"id": "s6_ayacucho", "lines": [
+      {"t": "En 1824, la batalla de *Ayacucho* sella el final.", "say": "En mil ochocientos veinticuatro, la batalla de Ayacucho sella el final."},
+      {"t": "Solo quedan *Cuba* y *Puerto Rico*, que se pierden en *1898*.", "say": "Solo quedan Cuba y Puerto Rico, que se pierden en mil ochocientos noventa y ocho."}]},
+    {"id": "s7_giro", "lines": [
+      {"t": "Ahora imagina que el plan de Aranda se aplica *a tiempo*."},
+      {"t": "Una *comunidad hispánica* de reinos hermanos, al estilo de la británica."}]},
+    {"id": "s8_bloque", "lines": [
+      {"t": "Un bloque de más de *11 millones* de kilómetros cuadrados", "say": "Un bloque de más de once millones de kilómetros cuadrados"},
+      {"t": "y hoy, cerca de *480 millones* de personas.", "say": "y hoy, cerca de cuatrocientos ochenta millones de personas."},
+      {"t": "Y quizá *California* o *Texas* nunca habrían pasado a Estados Unidos."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "¿Sería hoy una *superpotencia*..."},
+      {"t": "o se habría *roto* igualmente? Te leo en comentarios."}]}
+  ]
+}

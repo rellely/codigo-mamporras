@@ -1,0 +1,1643 @@
+{
+ "id": "urss",
+ "titulo": "¿Y si la URSS no hubiera caído?",
+ "total": 95.68,
+ "scenes": [
+  {
+   "id": "s1_kremlin",
+   "s": 0.0,
+   "e": 9.299,
+   "lines": [
+    {
+     "text": "25 de diciembre de 1991.",
+     "s": 0.25,
+     "e": 3.578,
+     "words": [
+      {
+       "w": "25",
+       "s": 0.25,
+       "e": 0.952,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 0.952,
+       "e": 1.166,
+       "hl": false
+      },
+      {
+       "w": "diciembre",
+       "s": 1.166,
+       "e": 1.807,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 1.807,
+       "e": 2.021,
+       "hl": false
+      },
+      {
+       "w": "1991.",
+       "s": 2.021,
+       "e": 3.578,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "La bandera *roja* se arría del *Kremlin* por última vez.",
+     "s": 3.878,
+     "e": 6.762,
+     "words": [
+      {
+       "w": "La",
+       "s": 3.878,
+       "e": 4.043,
+       "hl": false
+      },
+      {
+       "w": "bandera",
+       "s": 4.043,
+       "e": 4.445,
+       "hl": false
+      },
+      {
+       "w": "roja",
+       "s": 4.445,
+       "e": 4.705,
+       "hl": true
+      },
+      {
+       "w": "se",
+       "s": 4.705,
+       "e": 4.871,
+       "hl": false
+      },
+      {
+       "w": "arría",
+       "s": 4.871,
+       "e": 5.178,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 5.178,
+       "e": 5.391,
+       "hl": false
+      },
+      {
+       "w": "Kremlin",
+       "s": 5.391,
+       "e": 5.793,
+       "hl": true
+      },
+      {
+       "w": "por",
+       "s": 5.793,
+       "e": 6.006,
+       "hl": false
+      },
+      {
+       "w": "última",
+       "s": 6.006,
+       "e": 6.36,
+       "hl": false
+      },
+      {
+       "w": "vez.",
+       "s": 6.36,
+       "e": 6.762,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Pero y si *nunca* hubiera bajado?",
+     "s": 7.062,
+     "e": 8.799,
+     "words": [
+      {
+       "w": "¿Pero",
+       "s": 7.062,
+       "e": 7.313,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 7.313,
+       "e": 7.428,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 7.428,
+       "e": 7.588,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 7.588,
+       "e": 7.885,
+       "hl": true
+      },
+      {
+       "w": "hubiera",
+       "s": 7.885,
+       "e": 8.273,
+       "hl": false
+      },
+      {
+       "w": "bajado?",
+       "s": 8.273,
+       "e": 8.799,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_mapa",
+   "s": 9.299,
+   "e": 20.335,
+   "lines": [
+    {
+     "text": "La Unión Soviética era el país *más grande* del mundo:",
+     "s": 9.549,
+     "e": 12.582,
+     "words": [
+      {
+       "w": "La",
+       "s": 9.549,
+       "e": 9.726,
+       "hl": false
+      },
+      {
+       "w": "Unión",
+       "s": 9.726,
+       "e": 10.055,
+       "hl": false
+      },
+      {
+       "w": "Soviética",
+       "s": 10.055,
+       "e": 10.585,
+       "hl": false
+      },
+      {
+       "w": "era",
+       "s": 10.585,
+       "e": 10.813,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 10.813,
+       "e": 10.99,
+       "hl": false
+      },
+      {
+       "w": "país",
+       "s": 10.99,
+       "e": 11.268,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 11.268,
+       "e": 11.495,
+       "hl": true
+      },
+      {
+       "w": "grande",
+       "s": 11.495,
+       "e": 11.875,
+       "hl": true
+      },
+      {
+       "w": "del",
+       "s": 11.875,
+       "e": 12.102,
+       "hl": false
+      },
+      {
+       "w": "mundo:",
+       "s": 12.102,
+       "e": 12.582,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*15 repúblicas*, más de *22 millones* de kilómetros cuadrados",
+     "s": 12.882,
+     "e": 16.7,
+     "words": [
+      {
+       "w": "15",
+       "s": 12.882,
+       "e": 13.428,
+       "hl": true
+      },
+      {
+       "w": "repúblicas,",
+       "s": 13.428,
+       "e": 14.115,
+       "hl": true
+      },
+      {
+       "w": "más",
+       "s": 14.115,
+       "e": 14.329,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 14.329,
+       "e": 14.495,
+       "hl": false
+      },
+      {
+       "w": "22",
+       "s": 14.495,
+       "e": 15.04,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 15.04,
+       "e": 15.491,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 15.491,
+       "e": 15.656,
+       "hl": false
+      },
+      {
+       "w": "kilómetros",
+       "s": 15.656,
+       "e": 16.202,
+       "hl": false
+      },
+      {
+       "w": "cuadrados",
+       "s": 16.202,
+       "e": 16.7,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y unos *290 millones* de habitantes.",
+     "s": 17.0,
+     "e": 19.835,
+     "words": [
+      {
+       "w": "y",
+       "s": 17.0,
+       "e": 17.133,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 17.133,
+       "e": 17.428,
+       "hl": false
+      },
+      {
+       "w": "290",
+       "s": 17.428,
+       "e": 18.31,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 18.31,
+       "e": 18.818,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 18.818,
+       "e": 19.006,
+       "hl": false
+      },
+      {
+       "w": "habitantes.",
+       "s": 19.006,
+       "e": 19.835,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_gorbachov",
+   "s": 20.335,
+   "e": 35.333,
+   "lines": [
+    {
+     "text": "En 1985 llega al poder *Mijaíl Gorbachov*.",
+     "s": 20.585,
+     "e": 24.57,
+     "words": [
+      {
+       "w": "En",
+       "s": 20.585,
+       "e": 20.805,
+       "hl": false
+      },
+      {
+       "w": "1985",
+       "s": 20.805,
+       "e": 22.154,
+       "hl": false
+      },
+      {
+       "w": "llega",
+       "s": 22.154,
+       "e": 22.562,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 22.562,
+       "e": 22.782,
+       "hl": false
+      },
+      {
+       "w": "poder",
+       "s": 22.782,
+       "e": 23.19,
+       "hl": false
+      },
+      {
+       "w": "Mijaíl",
+       "s": 23.19,
+       "e": 23.66,
+       "hl": true
+      },
+      {
+       "w": "Gorbachov.",
+       "s": 23.66,
+       "e": 24.57,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Quiere salvar el sistema con dos palabras: *perestroika* y *glásnost*.",
+     "s": 24.87,
+     "e": 28.536,
+     "words": [
+      {
+       "w": "Quiere",
+       "s": 24.87,
+       "e": 25.227,
+       "hl": false
+      },
+      {
+       "w": "salvar",
+       "s": 25.227,
+       "e": 25.584,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 25.584,
+       "e": 25.751,
+       "hl": false
+      },
+      {
+       "w": "sistema",
+       "s": 25.751,
+       "e": 26.156,
+       "hl": false
+      },
+      {
+       "w": "con",
+       "s": 26.156,
+       "e": 26.37,
+       "hl": false
+      },
+      {
+       "w": "dos",
+       "s": 26.37,
+       "e": 26.584,
+       "hl": false
+      },
+      {
+       "w": "palabras:",
+       "s": 26.584,
+       "e": 27.179,
+       "hl": false
+      },
+      {
+       "w": "perestroika",
+       "s": 27.179,
+       "e": 27.774,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 27.774,
+       "e": 27.893,
+       "hl": false
+      },
+      {
+       "w": "glásnost.",
+       "s": 27.893,
+       "e": 28.536,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Pero la economía está *estancada*, el petróleo se *desploma*",
+     "s": 28.836,
+     "e": 32.033,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 28.836,
+       "e": 29.113,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 29.113,
+       "e": 29.289,
+       "hl": false
+      },
+      {
+       "w": "economía",
+       "s": 29.289,
+       "e": 29.767,
+       "hl": false
+      },
+      {
+       "w": "está",
+       "s": 29.767,
+       "e": 30.044,
+       "hl": false
+      },
+      {
+       "w": "estancada,",
+       "s": 30.044,
+       "e": 30.724,
+       "hl": true
+      },
+      {
+       "w": "el",
+       "s": 30.724,
+       "e": 30.9,
+       "hl": false
+      },
+      {
+       "w": "petróleo",
+       "s": 30.9,
+       "e": 31.379,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 31.379,
+       "e": 31.555,
+       "hl": false
+      },
+      {
+       "w": "desploma",
+       "s": 31.555,
+       "e": 32.033,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "y la guerra de *Afganistán* desangra al país.",
+     "s": 32.333,
+     "e": 34.833,
+     "words": [
+      {
+       "w": "y",
+       "s": 32.333,
+       "e": 32.456,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 32.456,
+       "e": 32.627,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 32.627,
+       "e": 32.995,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 32.995,
+       "e": 33.166,
+       "hl": false
+      },
+      {
+       "w": "Afganistán",
+       "s": 33.166,
+       "e": 33.73,
+       "hl": true
+      },
+      {
+       "w": "desangra",
+       "s": 33.73,
+       "e": 34.196,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 34.196,
+       "e": 34.367,
+       "hl": false
+      },
+      {
+       "w": "país.",
+       "s": 34.367,
+       "e": 34.833,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_muro",
+   "s": 35.333,
+   "e": 42.571,
+   "lines": [
+    {
+     "text": "En 1989 cae el *Muro de Berlín*,",
+     "s": 35.583,
+     "e": 38.546,
+     "words": [
+      {
+       "w": "En",
+       "s": 35.583,
+       "e": 35.78,
+       "hl": false
+      },
+      {
+       "w": "1989",
+       "s": 35.78,
+       "e": 36.994,
+       "hl": false
+      },
+      {
+       "w": "cae",
+       "s": 36.994,
+       "e": 37.248,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 37.248,
+       "e": 37.446,
+       "hl": false
+      },
+      {
+       "w": "Muro",
+       "s": 37.446,
+       "e": 37.756,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 37.756,
+       "e": 37.954,
+       "hl": true
+      },
+      {
+       "w": "Berlín,",
+       "s": 37.954,
+       "e": 38.546,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "y el bloque del Este se desmorona como un *castillo de naipes*.",
+     "s": 38.846,
+     "e": 42.071,
+     "words": [
+      {
+       "w": "y",
+       "s": 38.846,
+       "e": 38.96,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 38.96,
+       "e": 39.119,
+       "hl": false
+      },
+      {
+       "w": "bloque",
+       "s": 39.119,
+       "e": 39.459,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 39.459,
+       "e": 39.664,
+       "hl": false
+      },
+      {
+       "w": "Este",
+       "s": 39.664,
+       "e": 39.914,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 39.914,
+       "e": 40.073,
+       "hl": false
+      },
+      {
+       "w": "desmorona",
+       "s": 40.073,
+       "e": 40.55,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 40.55,
+       "e": 40.799,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 40.799,
+       "e": 40.958,
+       "hl": false
+      },
+      {
+       "w": "castillo",
+       "s": 40.958,
+       "e": 41.39,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 41.39,
+       "e": 41.549,
+       "hl": true
+      },
+      {
+       "w": "naipes.",
+       "s": 41.549,
+       "e": 42.071,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_golpe",
+   "s": 42.571,
+   "e": 56.371,
+   "lines": [
+    {
+     "text": "Agosto de 1991. Los comunistas de línea dura dan un *golpe de Estado*.",
+     "s": 42.821,
+     "e": 47.998,
+     "words": [
+      {
+       "w": "Agosto",
+       "s": 42.821,
+       "e": 43.219,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 43.219,
+       "e": 43.405,
+       "hl": false
+      },
+      {
+       "w": "1991.",
+       "s": 43.405,
+       "e": 44.759,
+       "hl": false
+      },
+      {
+       "w": "Los",
+       "s": 44.759,
+       "e": 44.998,
+       "hl": false
+      },
+      {
+       "w": "comunistas",
+       "s": 44.998,
+       "e": 45.609,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 45.609,
+       "e": 45.795,
+       "hl": false
+      },
+      {
+       "w": "línea",
+       "s": 45.795,
+       "e": 46.14,
+       "hl": false
+      },
+      {
+       "w": "dura",
+       "s": 46.14,
+       "e": 46.432,
+       "hl": false
+      },
+      {
+       "w": "dan",
+       "s": 46.432,
+       "e": 46.671,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 46.671,
+       "e": 46.857,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 46.857,
+       "e": 47.202,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 47.202,
+       "e": 47.388,
+       "hl": true
+      },
+      {
+       "w": "Estado.",
+       "s": 47.388,
+       "e": 47.998,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Los *tanques* entran en Moscú...",
+     "s": 48.298,
+     "e": 50.012,
+     "words": [
+      {
+       "w": "Los",
+       "s": 48.298,
+       "e": 48.522,
+       "hl": false
+      },
+      {
+       "w": "tanques",
+       "s": 48.522,
+       "e": 48.944,
+       "hl": true
+      },
+      {
+       "w": "entran",
+       "s": 48.944,
+       "e": 49.317,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 49.317,
+       "e": 49.491,
+       "hl": false
+      },
+      {
+       "w": "Moscú...",
+       "s": 49.491,
+       "e": 50.012,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "pero *Borís Yeltsin* se sube a uno de ellos y planta cara.",
+     "s": 50.312,
+     "e": 53.495,
+     "words": [
+      {
+       "w": "pero",
+       "s": 50.312,
+       "e": 50.578,
+       "hl": false
+      },
+      {
+       "w": "Borís",
+       "s": 50.578,
+       "e": 50.891,
+       "hl": true
+      },
+      {
+       "w": "Yeltsin",
+       "s": 50.891,
+       "e": 51.301,
+       "hl": true
+      },
+      {
+       "w": "se",
+       "s": 51.301,
+       "e": 51.47,
+       "hl": false
+      },
+      {
+       "w": "sube",
+       "s": 51.47,
+       "e": 51.735,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 51.735,
+       "e": 51.855,
+       "hl": false
+      },
+      {
+       "w": "uno",
+       "s": 51.855,
+       "e": 52.072,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 52.072,
+       "e": 52.241,
+       "hl": false
+      },
+      {
+       "w": "ellos",
+       "s": 52.241,
+       "e": 52.554,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 52.554,
+       "e": 52.675,
+       "hl": false
+      },
+      {
+       "w": "planta",
+       "s": 52.675,
+       "e": 53.037,
+       "hl": false
+      },
+      {
+       "w": "cara.",
+       "s": 53.037,
+       "e": 53.495,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "En *tres días*, el golpe fracasa.",
+     "s": 53.795,
+     "e": 55.871,
+     "words": [
+      {
+       "w": "En",
+       "s": 53.795,
+       "e": 53.976,
+       "hl": false
+      },
+      {
+       "w": "tres",
+       "s": 53.976,
+       "e": 54.262,
+       "hl": true
+      },
+      {
+       "w": "días,",
+       "s": 54.262,
+       "e": 54.703,
+       "hl": true
+      },
+      {
+       "w": "el",
+       "s": 54.703,
+       "e": 54.885,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 54.885,
+       "e": 55.222,
+       "hl": false
+      },
+      {
+       "w": "fracasa.",
+       "s": 55.222,
+       "e": 55.871,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_giro",
+   "s": 56.371,
+   "e": 64.874,
+   "lines": [
+    {
+     "text": "Ahora imagina que el golpe *triunfa*.",
+     "s": 56.621,
+     "e": 58.608,
+     "words": [
+      {
+       "w": "Ahora",
+       "s": 56.621,
+       "e": 56.928,
+       "hl": false
+      },
+      {
+       "w": "imagina",
+       "s": 56.928,
+       "e": 57.331,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 57.331,
+       "e": 57.544,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 57.544,
+       "e": 57.709,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 57.709,
+       "e": 58.017,
+       "hl": false
+      },
+      {
+       "w": "triunfa.",
+       "s": 58.017,
+       "e": 58.608,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Las protestas son aplastadas y las repúblicas que querían irse, como las *bálticas*, vuelven al redil.",
+     "s": 58.908,
+     "e": 64.374,
+     "words": [
+      {
+       "w": "Las",
+       "s": 58.908,
+       "e": 59.121,
+       "hl": false
+      },
+      {
+       "w": "protestas",
+       "s": 59.121,
+       "e": 59.615,
+       "hl": false
+      },
+      {
+       "w": "son",
+       "s": 59.615,
+       "e": 59.827,
+       "hl": false
+      },
+      {
+       "w": "aplastadas",
+       "s": 59.827,
+       "e": 60.369,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 60.369,
+       "e": 60.487,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 60.487,
+       "e": 60.699,
+       "hl": false
+      },
+      {
+       "w": "repúblicas",
+       "s": 60.699,
+       "e": 61.241,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 61.241,
+       "e": 61.453,
+       "hl": false
+      },
+      {
+       "w": "querían",
+       "s": 61.453,
+       "e": 61.853,
+       "hl": false
+      },
+      {
+       "w": "irse,",
+       "s": 61.853,
+       "e": 62.254,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 62.254,
+       "e": 62.513,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 62.513,
+       "e": 62.725,
+       "hl": false
+      },
+      {
+       "w": "bálticas,",
+       "s": 62.725,
+       "e": 63.314,
+       "hl": true
+      },
+      {
+       "w": "vuelven",
+       "s": 63.314,
+       "e": 63.714,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 63.714,
+       "e": 63.879,
+       "hl": false
+      },
+      {
+       "w": "redil.",
+       "s": 63.879,
+       "e": 64.374,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_china",
+   "s": 64.874,
+   "e": 71.168,
+   "lines": [
+    {
+     "text": "Quizá Moscú copiaría la receta de *China*:",
+     "s": 65.124,
+     "e": 67.441,
+     "words": [
+      {
+       "w": "Quizá",
+       "s": 65.124,
+       "e": 65.448,
+       "hl": false
+      },
+      {
+       "w": "Moscú",
+       "s": 65.448,
+       "e": 65.772,
+       "hl": false
+      },
+      {
+       "w": "copiaría",
+       "s": 65.772,
+       "e": 66.245,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 66.245,
+       "e": 66.42,
+       "hl": false
+      },
+      {
+       "w": "receta",
+       "s": 66.42,
+       "e": 66.793,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 66.793,
+       "e": 66.968,
+       "hl": false
+      },
+      {
+       "w": "China:",
+       "s": 66.968,
+       "e": 67.441,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "*mercado* en la economía y *mano de hierro* en la política.",
+     "s": 67.741,
+     "e": 70.668,
+     "words": [
+      {
+       "w": "mercado",
+       "s": 67.741,
+       "e": 68.127,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 68.127,
+       "e": 68.286,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 68.286,
+       "e": 68.445,
+       "hl": false
+      },
+      {
+       "w": "economía",
+       "s": 68.445,
+       "e": 68.876,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 68.876,
+       "e": 68.989,
+       "hl": false
+      },
+      {
+       "w": "mano",
+       "s": 68.989,
+       "e": 69.239,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 69.239,
+       "e": 69.397,
+       "hl": true
+      },
+      {
+       "w": "hierro",
+       "s": 69.397,
+       "e": 69.738,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 69.738,
+       "e": 69.897,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 69.897,
+       "e": 70.055,
+       "hl": false
+      },
+      {
+       "w": "política.",
+       "s": 70.055,
+       "e": 70.668,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_mundo",
+   "s": 71.168,
+   "e": 86.333,
+   "lines": [
+    {
+     "text": "La *Guerra Fría* nunca habría terminado.",
+     "s": 71.418,
+     "e": 73.598,
+     "words": [
+      {
+       "w": "La",
+       "s": 71.418,
+       "e": 71.588,
+       "hl": false
+      },
+      {
+       "w": "Guerra",
+       "s": 71.588,
+       "e": 71.951,
+       "hl": true
+      },
+      {
+       "w": "Fría",
+       "s": 71.951,
+       "e": 72.217,
+       "hl": true
+      },
+      {
+       "w": "nunca",
+       "s": 72.217,
+       "e": 72.532,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 72.532,
+       "e": 72.895,
+       "hl": false
+      },
+      {
+       "w": "terminado.",
+       "s": 72.895,
+       "e": 73.598,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Sin una *Ucrania* independiente ni ampliación de la *OTAN* hacia el este, el mapa de Europa sería irreconocible.",
+     "s": 73.898,
+     "e": 79.656,
+     "words": [
+      {
+       "w": "Sin",
+       "s": 73.898,
+       "e": 74.109,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 74.109,
+       "e": 74.319,
+       "hl": false
+      },
+      {
+       "w": "Ucrania",
+       "s": 74.319,
+       "e": 74.717,
+       "hl": true
+      },
+      {
+       "w": "independiente",
+       "s": 74.717,
+       "e": 75.396,
+       "hl": false
+      },
+      {
+       "w": "ni",
+       "s": 75.396,
+       "e": 75.56,
+       "hl": false
+      },
+      {
+       "w": "ampliación",
+       "s": 75.56,
+       "e": 76.098,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 76.098,
+       "e": 76.262,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 76.262,
+       "e": 76.426,
+       "hl": false
+      },
+      {
+       "w": "OTAN",
+       "s": 76.426,
+       "e": 76.683,
+       "hl": true
+      },
+      {
+       "w": "hacia",
+       "s": 76.683,
+       "e": 76.988,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 76.988,
+       "e": 77.152,
+       "hl": false
+      },
+      {
+       "w": "este,",
+       "s": 77.152,
+       "e": 77.55,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 77.55,
+       "e": 77.713,
+       "hl": false
+      },
+      {
+       "w": "mapa",
+       "s": 77.713,
+       "e": 77.971,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 77.971,
+       "e": 78.135,
+       "hl": false
+      },
+      {
+       "w": "Europa",
+       "s": 78.135,
+       "e": 78.486,
+       "hl": false
+      },
+      {
+       "w": "sería",
+       "s": 78.486,
+       "e": 78.79,
+       "hl": false
+      },
+      {
+       "w": "irreconocible.",
+       "s": 78.79,
+       "e": 79.656,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Y el transbordador *Burán*, que solo voló una vez en 1988, quizá seguiría despegando.",
+     "s": 79.956,
+     "e": 85.833,
+     "words": [
+      {
+       "w": "Y",
+       "s": 79.956,
+       "e": 80.085,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 80.085,
+       "e": 80.266,
+       "hl": false
+      },
+      {
+       "w": "transbordador",
+       "s": 80.266,
+       "e": 81.013,
+       "hl": false
+      },
+      {
+       "w": "Burán,",
+       "s": 81.013,
+       "e": 81.503,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 81.503,
+       "e": 81.735,
+       "hl": false
+      },
+      {
+       "w": "solo",
+       "s": 81.735,
+       "e": 82.018,
+       "hl": false
+      },
+      {
+       "w": "voló",
+       "s": 82.018,
+       "e": 82.302,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 82.302,
+       "e": 82.534,
+       "hl": false
+      },
+      {
+       "w": "vez",
+       "s": 82.534,
+       "e": 82.766,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 82.766,
+       "e": 82.946,
+       "hl": false
+      },
+      {
+       "w": "1988,",
+       "s": 82.946,
+       "e": 84.209,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 84.209,
+       "e": 84.545,
+       "hl": false
+      },
+      {
+       "w": "seguiría",
+       "s": 84.545,
+       "e": 85.034,
+       "hl": false
+      },
+      {
+       "w": "despegando.",
+       "s": 85.034,
+       "e": 85.833,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 86.333,
+   "e": 95.68,
+   "lines": [
+    {
+     "text": "Dos superpotencias. Un planeta *partido en dos*.",
+     "s": 86.583,
+     "e": 89.318,
+     "words": [
+      {
+       "w": "Dos",
+       "s": 86.583,
+       "e": 86.801,
+       "hl": false
+      },
+      {
+       "w": "superpotencias.",
+       "s": 86.801,
+       "e": 87.745,
+       "hl": false
+      },
+      {
+       "w": "Un",
+       "s": 87.745,
+       "e": 87.914,
+       "hl": false
+      },
+      {
+       "w": "planeta",
+       "s": 87.914,
+       "e": 88.326,
+       "hl": false
+      },
+      {
+       "w": "partido",
+       "s": 88.326,
+       "e": 88.737,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 88.737,
+       "e": 88.907,
+       "hl": true
+      },
+      {
+       "w": "dos.",
+       "s": 88.907,
+       "e": 89.318,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "¿Sería hoy el mundo *más seguro*... o *más peligroso*? Te leo en comentarios.",
+     "s": 89.618,
+     "e": 93.48,
+     "words": [
+      {
+       "w": "¿Sería",
+       "s": 89.618,
+       "e": 89.908,
+       "hl": false
+      },
+      {
+       "w": "hoy",
+       "s": 89.908,
+       "e": 90.109,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 90.109,
+       "e": 90.265,
+       "hl": false
+      },
+      {
+       "w": "mundo",
+       "s": 90.265,
+       "e": 90.556,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 90.556,
+       "e": 90.756,
+       "hl": true
+      },
+      {
+       "w": "seguro...",
+       "s": 90.756,
+       "e": 91.27,
+       "hl": true
+      },
+      {
+       "w": "o",
+       "s": 91.27,
+       "e": 91.381,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 91.381,
+       "e": 91.582,
+       "hl": true
+      },
+      {
+       "w": "peligroso?",
+       "s": 91.582,
+       "e": 92.23,
+       "hl": true
+      },
+      {
+       "w": "Te",
+       "s": 92.23,
+       "e": 92.386,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 92.386,
+       "e": 92.587,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 92.587,
+       "e": 92.743,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 92.743,
+       "e": 93.48,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

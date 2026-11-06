@@ -1,0 +1,37 @@
+{
+  "id": "ww2",
+  "titulo": "¿Y si nunca hubiera existido la Segunda Guerra Mundial?",
+  "voice": "em_alex", "speed": 1.06,
+  "scenes": [
+    {"id": "s1_viena", "lines": [
+      {"t": "Viena, 1907. Un joven de 18 años suspende el examen de la *Academia de Bellas Artes*.", "say": "Viena, mil novecientos siete. Un joven de dieciocho años suspende el examen de la Academia de Bellas Artes."},
+      {"t": "Se llamaba *Adolf Hitler*."},
+      {"t": "¿Y si lo hubieran *admitido*?"}]},
+    {"id": "s2_guerra", "lines": [
+      {"t": "La Segunda Guerra Mundial, de *1939 a 1945*,", "say": "La Segunda Guerra Mundial, de mil novecientos treinta y nueve a mil novecientos cuarenta y cinco,"},
+      {"t": "mató a entre *70 y 85 millones* de personas.", "say": "mató a entre setenta y ochenta y cinco millones de personas."},
+      {"t": "Cerca del *3%* de la humanidad.", "say": "Cerca del tres por ciento de la humanidad."}]},
+    {"id": "s3_causas", "lines": [
+      {"t": "Pero ojo: no fue cosa de *un solo hombre*."},
+      {"t": "El Tratado de *Versalles*, la crisis de *1929* y la expansión de *Japón* e *Italia* ya preparaban el terreno.", "say": "El Tratado de Versalles, la crisis de mil novecientos veintinueve y la expansión de Japón e Italia ya preparaban el terreno."}]},
+    {"id": "s4_munich", "lines": [
+      {"t": "Imagina que no hay guerra."},
+      {"t": "Que la paz firmada en *Múnich* en 1938 se mantiene *de verdad*.", "say": "Que la paz firmada en Múnich en mil novecientos treinta y ocho se mantiene de verdad."}]},
+    {"id": "s5_holocausto", "lines": [
+      {"t": "No habría *Holocausto*:"},
+      {"t": "*seis millones* de judíos asesinados que habrían podido vivir."}]},
+    {"id": "s6_tecnologia", "lines": [
+      {"t": "Pero muchas cosas llegarían *más tarde*."},
+      {"t": "La guerra aceleró el *radar*, los motores a *reacción*, los primeros *ordenadores* y la *penicilina* a gran escala."},
+      {"t": "Y quizá nunca se habría lanzado una *bomba atómica*."}]},
+    {"id": "s7_imperios", "lines": [
+      {"t": "Los imperios *británico* y *francés* aguantarían más tiempo."},
+      {"t": "La independencia de la *India*, en 1947, quizá se habría retrasado.", "say": "La independencia de la India, en mil novecientos cuarenta y siete, quizá se habría retrasado."}]},
+    {"id": "s8_guerrafria", "lines": [
+      {"t": "El ejército de *Stalin* nunca habría llegado a *Berlín*."},
+      {"t": "Sin *Guerra Fría* ni *ONU* tal y como las conocemos, el siglo XX sería otro.", "say": "Sin Guerra Fría ni ONU tal y como las conocemos, el siglo veinte sería otro."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Decenas de millones de vidas más... y un mundo *irreconocible*."},
+      {"t": "¿Tú qué crees que habría pasado? Te leo en comentarios."}]}
+  ]
+}

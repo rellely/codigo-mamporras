@@ -1,0 +1,10 @@
+import {bundle} from '@remotion/bundler';
+import {renderFrames, selectComposition} from '@remotion/renderer';
+import path from 'path';
+const [,, id, start, end, gl] = process.argv;
+const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts'), publicDir: path.resolve('assets')});
+const browserExecutable = '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell';
+const composition = await selectComposition({serveUrl, id, browserExecutable, chromiumOptions: gl === 'none' ? {} : {gl}});
+const t = Date.now();
+await renderFrames({composition, serveUrl, outputDir: '/tmp/claude-0/-home-user-codigo-mamporras/335b272d-4935-5f4d-b6c3-3f4782c84cc6/scratchpad/bench', frameRange: [Number(start), Number(end)], imageFormat: 'jpeg', concurrency: 4, browserExecutable, chromiumOptions: gl === 'none' ? {} : {gl}, onStart: () => {}, onFrameUpdate: () => {}, inputProps: {}});
+console.log(id, gl, start, end, ((Date.now() - t) / (Number(end) - Number(start) + 1)).toFixed(0), 'ms/frame');

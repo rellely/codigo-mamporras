@@ -1,0 +1,1422 @@
+{
+ "id": "espana",
+ "titulo": "¿Y si España nunca hubiera perdido América?",
+ "total": 84.323,
+ "scenes": [
+  {
+   "id": "s1_imperio",
+   "s": 0.0,
+   "e": 7.798,
+   "lines": [
+    {
+     "text": "Hacia 1790, el Imperio español se extendía de *California* a la *Patagonia*.",
+     "s": 0.25,
+     "e": 5.263,
+     "words": [
+      {
+       "w": "Hacia",
+       "s": 0.25,
+       "e": 0.576,
+       "hl": false
+      },
+      {
+       "w": "1790,",
+       "s": 0.576,
+       "e": 1.804,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 1.804,
+       "e": 1.98,
+       "hl": false
+      },
+      {
+       "w": "Imperio",
+       "s": 1.98,
+       "e": 2.406,
+       "hl": false
+      },
+      {
+       "w": "español",
+       "s": 2.406,
+       "e": 2.832,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 2.832,
+       "e": 3.007,
+       "hl": false
+      },
+      {
+       "w": "extendía",
+       "s": 3.007,
+       "e": 3.483,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 3.483,
+       "e": 3.659,
+       "hl": false
+      },
+      {
+       "w": "California",
+       "s": 3.659,
+       "e": 4.235,
+       "hl": true
+      },
+      {
+       "w": "a",
+       "s": 4.235,
+       "e": 4.361,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 4.361,
+       "e": 4.536,
+       "hl": false
+      },
+      {
+       "w": "Patagonia.",
+       "s": 4.536,
+       "e": 5.263,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "¿Y si *nunca* lo hubiera perdido?",
+     "s": 5.563,
+     "e": 7.298,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 5.563,
+       "e": 5.68,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 5.68,
+       "e": 5.844,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 5.844,
+       "e": 6.149,
+       "hl": true
+      },
+      {
+       "w": "lo",
+       "s": 6.149,
+       "e": 6.313,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 6.313,
+       "e": 6.712,
+       "hl": false
+      },
+      {
+       "w": "perdido?",
+       "s": 6.712,
+       "e": 7.298,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_virreinatos",
+   "s": 7.798,
+   "e": 16.704,
+   "lines": [
+    {
+     "text": "Cuatro *virreinatos*: Nueva España, Perú, Nueva Granada y el Río de la Plata.",
+     "s": 8.048,
+     "e": 12.127,
+     "words": [
+      {
+       "w": "Cuatro",
+       "s": 8.048,
+       "e": 8.382,
+       "hl": false
+      },
+      {
+       "w": "virreinatos:",
+       "s": 8.382,
+       "e": 9.073,
+       "hl": true
+      },
+      {
+       "w": "Nueva",
+       "s": 9.073,
+       "e": 9.363,
+       "hl": false
+      },
+      {
+       "w": "España,",
+       "s": 9.363,
+       "e": 9.831,
+       "hl": false
+      },
+      {
+       "w": "Perú,",
+       "s": 9.831,
+       "e": 10.21,
+       "hl": false
+      },
+      {
+       "w": "Nueva",
+       "s": 10.21,
+       "e": 10.5,
+       "hl": false
+      },
+      {
+       "w": "Granada",
+       "s": 10.5,
+       "e": 10.878,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 10.878,
+       "e": 10.99,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 10.99,
+       "e": 11.146,
+       "hl": false
+      },
+      {
+       "w": "Río",
+       "s": 11.146,
+       "e": 11.346,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 11.346,
+       "e": 11.503,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 11.503,
+       "e": 11.659,
+       "hl": false
+      },
+      {
+       "w": "Plata.",
+       "s": 11.659,
+       "e": 12.127,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Plata*, galeones y rutas comerciales que cruzaban *dos océanos*.",
+     "s": 12.427,
+     "e": 16.204,
+     "words": [
+      {
+       "w": "Plata,",
+       "s": 12.427,
+       "e": 12.928,
+       "hl": true
+      },
+      {
+       "w": "galeones",
+       "s": 12.928,
+       "e": 13.43,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 13.43,
+       "e": 13.563,
+       "hl": false
+      },
+      {
+       "w": "rutas",
+       "s": 13.563,
+       "e": 13.906,
+       "hl": false
+      },
+      {
+       "w": "comerciales",
+       "s": 13.906,
+       "e": 14.566,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 14.566,
+       "e": 14.804,
+       "hl": false
+      },
+      {
+       "w": "cruzaban",
+       "s": 14.804,
+       "e": 15.306,
+       "hl": false
+      },
+      {
+       "w": "dos",
+       "s": 15.306,
+       "e": 15.544,
+       "hl": true
+      },
+      {
+       "w": "océanos.",
+       "s": 15.544,
+       "e": 16.204,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_aranda",
+   "s": 16.704,
+   "e": 31.702,
+   "lines": [
+    {
+     "text": "En 1783, un documento atribuido al *conde de Aranda* propuso algo revolucionario:",
+     "s": 16.954,
+     "e": 22.974,
+     "words": [
+      {
+       "w": "En",
+       "s": 16.954,
+       "e": 17.153,
+       "hl": false
+      },
+      {
+       "w": "1783,",
+       "s": 17.153,
+       "e": 18.544,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 18.544,
+       "e": 18.743,
+       "hl": false
+      },
+      {
+       "w": "documento",
+       "s": 18.743,
+       "e": 19.34,
+       "hl": false
+      },
+      {
+       "w": "atribuido",
+       "s": 19.34,
+       "e": 19.936,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 19.936,
+       "e": 20.135,
+       "hl": false
+      },
+      {
+       "w": "conde",
+       "s": 20.135,
+       "e": 20.504,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 20.504,
+       "e": 20.703,
+       "hl": true
+      },
+      {
+       "w": "Aranda",
+       "s": 20.703,
+       "e": 21.128,
+       "hl": true
+      },
+      {
+       "w": "propuso",
+       "s": 21.128,
+       "e": 21.611,
+       "hl": false
+      },
+      {
+       "w": "algo",
+       "s": 21.611,
+       "e": 21.924,
+       "hl": false
+      },
+      {
+       "w": "revolucionario:",
+       "s": 21.924,
+       "e": 22.974,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "dividir América en *tres reinos* con príncipes españoles, unidos bajo un mismo rey.",
+     "s": 23.274,
+     "e": 27.869,
+     "words": [
+      {
+       "w": "dividir",
+       "s": 23.274,
+       "e": 23.692,
+       "hl": false
+      },
+      {
+       "w": "América",
+       "s": 23.692,
+       "e": 24.11,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 24.11,
+       "e": 24.282,
+       "hl": false
+      },
+      {
+       "w": "tres",
+       "s": 24.282,
+       "e": 24.552,
+       "hl": true
+      },
+      {
+       "w": "reinos",
+       "s": 24.552,
+       "e": 24.92,
+       "hl": true
+      },
+      {
+       "w": "con",
+       "s": 24.92,
+       "e": 25.141,
+       "hl": false
+      },
+      {
+       "w": "príncipes",
+       "s": 25.141,
+       "e": 25.657,
+       "hl": false
+      },
+      {
+       "w": "españoles,",
+       "s": 25.657,
+       "e": 26.321,
+       "hl": false
+      },
+      {
+       "w": "unidos",
+       "s": 26.321,
+       "e": 26.689,
+       "hl": false
+      },
+      {
+       "w": "bajo",
+       "s": 26.689,
+       "e": 26.96,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 26.96,
+       "e": 27.131,
+       "hl": false
+      },
+      {
+       "w": "mismo",
+       "s": 27.131,
+       "e": 27.451,
+       "hl": false
+      },
+      {
+       "w": "rey.",
+       "s": 27.451,
+       "e": 27.869,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Su autenticidad se *discute*, y el plan nunca se aplicó.",
+     "s": 28.169,
+     "e": 31.202,
+     "words": [
+      {
+       "w": "Su",
+       "s": 28.169,
+       "e": 28.332,
+       "hl": false
+      },
+      {
+       "w": "autenticidad",
+       "s": 28.332,
+       "e": 28.962,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 28.962,
+       "e": 29.125,
+       "hl": false
+      },
+      {
+       "w": "discute,",
+       "s": 29.125,
+       "e": 29.662,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 29.662,
+       "e": 29.779,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 29.779,
+       "e": 29.942,
+       "hl": false
+      },
+      {
+       "w": "plan",
+       "s": 29.942,
+       "e": 30.199,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 30.199,
+       "e": 30.502,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 30.502,
+       "e": 30.665,
+       "hl": false
+      },
+      {
+       "w": "aplicó.",
+       "s": 30.665,
+       "e": 31.202,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_napoleon",
+   "s": 31.702,
+   "e": 38.199,
+   "lines": [
+    {
+     "text": "En 1808, *Napoleón* invade España",
+     "s": 31.952,
+     "e": 34.665,
+     "words": [
+      {
+       "w": "En",
+       "s": 31.952,
+       "e": 32.133,
+       "hl": false
+      },
+      {
+       "w": "1808,",
+       "s": 32.133,
+       "e": 33.399,
+       "hl": false
+      },
+      {
+       "w": "Napoleón",
+       "s": 33.399,
+       "e": 33.89,
+       "hl": true
+      },
+      {
+       "w": "invade",
+       "s": 33.89,
+       "e": 34.277,
+       "hl": false
+      },
+      {
+       "w": "España",
+       "s": 34.277,
+       "e": 34.665,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y obliga a la familia real a *abdicar* en *Bayona*.",
+     "s": 34.965,
+     "e": 37.699,
+     "words": [
+      {
+       "w": "y",
+       "s": 34.965,
+       "e": 35.087,
+       "hl": false
+      },
+      {
+       "w": "obliga",
+       "s": 35.087,
+       "e": 35.453,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 35.453,
+       "e": 35.575,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 35.575,
+       "e": 35.746,
+       "hl": false
+      },
+      {
+       "w": "familia",
+       "s": 35.746,
+       "e": 36.161,
+       "hl": false
+      },
+      {
+       "w": "real",
+       "s": 36.161,
+       "e": 36.43,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 36.43,
+       "e": 36.552,
+       "hl": false
+      },
+      {
+       "w": "abdicar",
+       "s": 36.552,
+       "e": 36.967,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 36.967,
+       "e": 37.138,
+       "hl": false
+      },
+      {
+       "w": "Bayona.",
+       "s": 37.138,
+       "e": 37.699,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_libertadores",
+   "s": 38.199,
+   "e": 48.319,
+   "lines": [
+    {
+     "text": "En América, el vacío de poder lo cambia todo.",
+     "s": 38.449,
+     "e": 41.035,
+     "words": [
+      {
+       "w": "En",
+       "s": 38.449,
+       "e": 38.612,
+       "hl": false
+      },
+      {
+       "w": "América,",
+       "s": 38.612,
+       "e": 39.148,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 39.148,
+       "e": 39.311,
+       "hl": false
+      },
+      {
+       "w": "vacío",
+       "s": 39.311,
+       "e": 39.614,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 39.614,
+       "e": 39.777,
+       "hl": false
+      },
+      {
+       "w": "poder",
+       "s": 39.777,
+       "e": 40.08,
+       "hl": false
+      },
+      {
+       "w": "lo",
+       "s": 40.08,
+       "e": 40.243,
+       "hl": false
+      },
+      {
+       "w": "cambia",
+       "s": 40.243,
+       "e": 40.592,
+       "hl": false
+      },
+      {
+       "w": "todo.",
+       "s": 40.592,
+       "e": 41.035,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Surgen juntas de gobierno, y líderes como *Simón Bolívar* y *José de San Martín* inician las guerras de *independencia*.",
+     "s": 41.335,
+     "e": 47.819,
+     "words": [
+      {
+       "w": "Surgen",
+       "s": 41.335,
+       "e": 41.71,
+       "hl": false
+      },
+      {
+       "w": "juntas",
+       "s": 41.71,
+       "e": 42.086,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 42.086,
+       "e": 42.261,
+       "hl": false
+      },
+      {
+       "w": "gobierno,",
+       "s": 42.261,
+       "e": 42.887,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 42.887,
+       "e": 43.012,
+       "hl": false
+      },
+      {
+       "w": "líderes",
+       "s": 43.012,
+       "e": 43.438,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 43.438,
+       "e": 43.713,
+       "hl": false
+      },
+      {
+       "w": "Simón",
+       "s": 43.713,
+       "e": 44.038,
+       "hl": true
+      },
+      {
+       "w": "Bolívar",
+       "s": 44.038,
+       "e": 44.464,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 44.464,
+       "e": 44.589,
+       "hl": false
+      },
+      {
+       "w": "José",
+       "s": 44.589,
+       "e": 44.865,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 44.865,
+       "e": 45.04,
+       "hl": true
+      },
+      {
+       "w": "San",
+       "s": 45.04,
+       "e": 45.265,
+       "hl": true
+      },
+      {
+       "w": "Martín",
+       "s": 45.265,
+       "e": 45.641,
+       "hl": true
+      },
+      {
+       "w": "inician",
+       "s": 45.641,
+       "e": 46.066,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 46.066,
+       "e": 46.292,
+       "hl": false
+      },
+      {
+       "w": "guerras",
+       "s": 46.292,
+       "e": 46.717,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 46.717,
+       "e": 46.892,
+       "hl": false
+      },
+      {
+       "w": "independencia.",
+       "s": 46.892,
+       "e": 47.819,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_ayacucho",
+   "s": 48.319,
+   "e": 57.743,
+   "lines": [
+    {
+     "text": "En 1824, la batalla de *Ayacucho* sella el final.",
+     "s": 48.569,
+     "e": 52.438,
+     "words": [
+      {
+       "w": "En",
+       "s": 48.569,
+       "e": 48.753,
+       "hl": false
+      },
+      {
+       "w": "1824,",
+       "s": 48.753,
+       "e": 50.043,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 50.043,
+       "e": 50.227,
+       "hl": false
+      },
+      {
+       "w": "batalla",
+       "s": 50.227,
+       "e": 50.674,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 50.674,
+       "e": 50.859,
+       "hl": false
+      },
+      {
+       "w": "Ayacucho",
+       "s": 50.859,
+       "e": 51.359,
+       "hl": true
+      },
+      {
+       "w": "sella",
+       "s": 51.359,
+       "e": 51.701,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 51.701,
+       "e": 51.885,
+       "hl": false
+      },
+      {
+       "w": "final.",
+       "s": 51.885,
+       "e": 52.438,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Solo quedan *Cuba* y *Puerto Rico*, que se pierden en *1898*.",
+     "s": 52.738,
+     "e": 57.243,
+     "words": [
+      {
+       "w": "Solo",
+       "s": 52.738,
+       "e": 53.038,
+       "hl": false
+      },
+      {
+       "w": "quedan",
+       "s": 53.038,
+       "e": 53.448,
+       "hl": false
+      },
+      {
+       "w": "Cuba",
+       "s": 53.448,
+       "e": 53.748,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 53.748,
+       "e": 53.885,
+       "hl": false
+      },
+      {
+       "w": "Puerto",
+       "s": 53.885,
+       "e": 54.294,
+       "hl": true
+      },
+      {
+       "w": "Rico,",
+       "s": 54.294,
+       "e": 54.758,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 54.758,
+       "e": 55.004,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 55.004,
+       "e": 55.195,
+       "hl": false
+      },
+      {
+       "w": "pierden",
+       "s": 55.195,
+       "e": 55.659,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 55.659,
+       "e": 55.85,
+       "hl": false
+      },
+      {
+       "w": "1898.",
+       "s": 55.85,
+       "e": 57.243,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_giro",
+   "s": 57.743,
+   "e": 65.369,
+   "lines": [
+    {
+     "text": "Ahora imagina que el plan de Aranda se aplica *a tiempo*.",
+     "s": 57.993,
+     "e": 60.855,
+     "words": [
+      {
+       "w": "Ahora",
+       "s": 57.993,
+       "e": 58.281,
+       "hl": false
+      },
+      {
+       "w": "imagina",
+       "s": 58.281,
+       "e": 58.659,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 58.659,
+       "e": 58.858,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 58.858,
+       "e": 59.014,
+       "hl": false
+      },
+      {
+       "w": "plan",
+       "s": 59.014,
+       "e": 59.258,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 59.258,
+       "e": 59.413,
+       "hl": false
+      },
+      {
+       "w": "Aranda",
+       "s": 59.413,
+       "e": 59.746,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 59.746,
+       "e": 59.901,
+       "hl": false
+      },
+      {
+       "w": "aplica",
+       "s": 59.901,
+       "e": 60.234,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 60.234,
+       "e": 60.345,
+       "hl": true
+      },
+      {
+       "w": "tiempo.",
+       "s": 60.345,
+       "e": 60.856,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Una *comunidad hispánica* de reinos hermanos, al estilo de la británica.",
+     "s": 61.155,
+     "e": 64.869,
+     "words": [
+      {
+       "w": "Una",
+       "s": 61.155,
+       "e": 61.361,
+       "hl": false
+      },
+      {
+       "w": "comunidad",
+       "s": 61.361,
+       "e": 61.839,
+       "hl": true
+      },
+      {
+       "w": "hispánica",
+       "s": 61.839,
+       "e": 62.317,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 62.317,
+       "e": 62.477,
+       "hl": false
+      },
+      {
+       "w": "reinos",
+       "s": 62.477,
+       "e": 62.819,
+       "hl": false
+      },
+      {
+       "w": "hermanos,",
+       "s": 62.819,
+       "e": 63.388,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 63.388,
+       "e": 63.548,
+       "hl": false
+      },
+      {
+       "w": "estilo",
+       "s": 63.548,
+       "e": 63.889,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 63.889,
+       "e": 64.049,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 64.049,
+       "e": 64.208,
+       "hl": false
+      },
+      {
+       "w": "británica.",
+       "s": 64.208,
+       "e": 64.869,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_bloque",
+   "s": 65.369,
+   "e": 76.937,
+   "lines": [
+    {
+     "text": "Un bloque de más de *11 millones* de kilómetros cuadrados",
+     "s": 65.619,
+     "e": 68.811,
+     "words": [
+      {
+       "w": "Un",
+       "s": 65.619,
+       "e": 65.781,
+       "hl": false
+      },
+      {
+       "w": "bloque",
+       "s": 65.781,
+       "e": 66.128,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 66.128,
+       "e": 66.29,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 66.29,
+       "e": 66.498,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 66.498,
+       "e": 66.66,
+       "hl": false
+      },
+      {
+       "w": "11",
+       "s": 66.66,
+       "e": 67.192,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 67.192,
+       "e": 67.632,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 67.632,
+       "e": 67.794,
+       "hl": false
+      },
+      {
+       "w": "kilómetros",
+       "s": 67.794,
+       "e": 68.326,
+       "hl": false
+      },
+      {
+       "w": "cuadrados",
+       "s": 68.326,
+       "e": 68.811,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y hoy, cerca de *480 millones* de personas.",
+     "s": 69.111,
+     "e": 72.336,
+     "words": [
+      {
+       "w": "y",
+       "s": 69.111,
+       "e": 69.239,
+       "hl": false
+      },
+      {
+       "w": "hoy,",
+       "s": 69.239,
+       "e": 69.623,
+       "hl": false
+      },
+      {
+       "w": "cerca",
+       "s": 69.623,
+       "e": 69.956,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 69.956,
+       "e": 70.135,
+       "hl": false
+      },
+      {
+       "w": "480",
+       "s": 70.135,
+       "e": 70.98,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 70.98,
+       "e": 71.466,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 71.466,
+       "e": 71.645,
+       "hl": false
+      },
+      {
+       "w": "personas.",
+       "s": 71.645,
+       "e": 72.336,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Y quizá *California* o *Texas* nunca habrían pasado a Estados Unidos.",
+     "s": 72.636,
+     "e": 76.437,
+     "words": [
+      {
+       "w": "Y",
+       "s": 72.636,
+       "e": 72.764,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 72.764,
+       "e": 73.096,
+       "hl": false
+      },
+      {
+       "w": "California",
+       "s": 73.096,
+       "e": 73.682,
+       "hl": true
+      },
+      {
+       "w": "o",
+       "s": 73.682,
+       "e": 73.81,
+       "hl": false
+      },
+      {
+       "w": "Texas",
+       "s": 73.81,
+       "e": 74.142,
+       "hl": true
+      },
+      {
+       "w": "nunca",
+       "s": 74.142,
+       "e": 74.473,
+       "hl": false
+      },
+      {
+       "w": "habrían",
+       "s": 74.473,
+       "e": 74.907,
+       "hl": false
+      },
+      {
+       "w": "pasado",
+       "s": 74.907,
+       "e": 75.29,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 75.29,
+       "e": 75.417,
+       "hl": false
+      },
+      {
+       "w": "Estados",
+       "s": 75.417,
+       "e": 75.851,
+       "hl": false
+      },
+      {
+       "w": "Unidos.",
+       "s": 75.851,
+       "e": 76.437,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 76.937,
+   "e": 84.323,
+   "lines": [
+    {
+     "text": "¿Sería hoy una *superpotencia*...",
+     "s": 77.187,
+     "e": 79.008,
+     "words": [
+      {
+       "w": "¿Sería",
+       "s": 77.187,
+       "e": 77.536,
+       "hl": false
+      },
+      {
+       "w": "hoy",
+       "s": 77.536,
+       "e": 77.776,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 77.776,
+       "e": 78.017,
+       "hl": false
+      },
+      {
+       "w": "superpotencia...",
+       "s": 78.017,
+       "e": 79.008,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "o se habría *roto* igualmente? Te leo en comentarios.",
+     "s": 79.308,
+     "e": 82.123,
+     "words": [
+      {
+       "w": "o",
+       "s": 79.308,
+       "e": 79.421,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 79.421,
+       "e": 79.578,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 79.578,
+       "e": 79.916,
+       "hl": false
+      },
+      {
+       "w": "roto",
+       "s": 79.916,
+       "e": 80.164,
+       "hl": true
+      },
+      {
+       "w": "igualmente?",
+       "s": 80.164,
+       "e": 80.862,
+       "hl": false
+      },
+      {
+       "w": "Te",
+       "s": 80.862,
+       "e": 81.019,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 81.019,
+       "e": 81.222,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 81.222,
+       "e": 81.38,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 81.38,
+       "e": 82.123,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
