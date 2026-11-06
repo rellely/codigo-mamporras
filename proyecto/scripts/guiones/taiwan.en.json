@@ -1,0 +1,37 @@
+{
+  "id": "taiwan", "lang": "en",
+  "titulo": "What if China invaded Taiwan today?",
+  "voice": "am_michael", "speed": 1.07,
+  "cues": {"futuro": "future", "pekín": "beijing", "fuerza": "force", "90": "90", "móvil": "phone", "coche": "car", "inteligencia": "artificial", "invadir": "invade", "bloqueo": "blockade", "detiene": "stops", "normandía": "normandy", "buques": "ships", "montañas": "mountains", "playas": "beaches", "bravo": "rough", "estados": "united", "csis": "csis", "24": "24", "fracasaba": "failed", "perdidos": "lost", "10%": "10%", "2008": "2008", "pandemia": "pandemic"},
+  "scenes": [
+    {"id": "s1_estrecho", "lines": [
+      {"t": "About *130 kilometers* of sea separate China from Taiwan.", "say": "About a hundred and thirty kilometers of sea separate China from Taiwan."},
+      {"t": "And they could decide the *future of the planet*."}]},
+    {"id": "s2_contexto", "lines": [
+      {"t": "Since *1949*, Taiwan has governed itself separately.", "say": "Since nineteen forty-nine, Taiwan has governed itself separately."},
+      {"t": "*Beijing* considers it part of China and does not rule out using *force*."}]},
+    {"id": "s3_chips", "lines": [
+      {"t": "Why does it matter so much? Because of this:"},
+      {"t": "Taiwan makes *over 90%* of the world's *most advanced* chips.", "say": "Taiwan makes over ninety percent of the world's most advanced chips."},
+      {"t": "Your *phone*, your *car*, *artificial intelligence*... they all depend on this island."}]},
+    {"id": "s4_bloqueo", "lines": [
+      {"t": "Suppose China decides to *invade*."},
+      {"t": "First would come a *blockade*: ships and missiles surround the island and trade stops."}]},
+    {"id": "s5_desembarco", "lines": [
+      {"t": "Then, the largest *amphibious* operation since *Normandy*:"},
+      {"t": "hundreds of ships crossing the strait under enemy fire."}]},
+    {"id": "s6_fortaleza", "lines": [
+      {"t": "But Taiwan is a *natural fortress*:"},
+      {"t": "mountains, few suitable beaches, and seas so *rough* they can only be crossed at certain times of year."}]},
+    {"id": "s7_simulacion", "lines": [
+      {"t": "If the *United States* and *Japan* step in, the war goes global."},
+      {"t": "In 2023, the think tank *CSIS* simulated this war *24 times*.", "say": "In twenty twenty-three, the think tank C S I S simulated this war twenty-four times."},
+      {"t": "In most of them, the invasion *failed*... but with dozens of ships and hundreds of aircraft *lost*."}]},
+    {"id": "s8_economia", "lines": [
+      {"t": "According to *Bloomberg Economics*, global GDP could drop by about *10%*.", "say": "According to Bloomberg Economics, global G D P could drop by about ten percent."},
+      {"t": "A bigger hit than the *2008* crisis and the *pandemic*.", "say": "A bigger hit than the two thousand eight crisis and the pandemic."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "In this war, probably *nobody would win*."},
+      {"t": "Do you think it will *ever happen*? Tell me in the comments."}]}
+  ]
+}

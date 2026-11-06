@@ -8,6 +8,7 @@ import {Camera, ClassicBuilding, Clouds, Crowd, Explosion, Fire, Flag, FlagFace,
 import {MapView} from '../../components/MapView';
 import {Amb, BigStat, Chip, DateStamp, NameTag, Sfx} from '../../components/Overlays';
 import {SceneFC} from '../../components/Episode';
+import {L} from '../../components/i18n';
 
 // ---------- 1. Viena, 1907 ----------
 const Easel: React.FC<{x: number; y: number}> = ({x, y}) => (
@@ -28,9 +29,9 @@ const S1: SceneFC = ({d, cue}) => {
       <Layer depth={1}><Easel x={800} y={1720} /><Character d={CAST.youngHitler} x={380} y={1740} scale={1.35} pose={verdict && !adm2 ? 'despair' : 'paint'} expr={adm2 ? 'surprised' : verdict ? 'angry' : 'neutral'} look={0.4} propOverride={verdict && !adm2 ? 'none' : undefined} /></Layer>
     </Camera></Stage>
     {f > sus && <div style={{position: 'absolute', top: 540, left: 0, right: 0, textAlign: 'center', transform: `rotate(${adm2 ? 4 : -6}deg) scale(${1 + Math.max(0, 1 - (f - (adm2 ? adm : sus)) / 6) * 0.6})`}}>
-      <span style={{fontFamily: FONT_TITLE, fontSize: 96, color: adm2 ? '#1f9a4a' : '#d7263d', border: `10px solid ${adm2 ? '#1f9a4a' : '#d7263d'}`, padding: '4px 26px', borderRadius: 14, background: 'rgba(255,250,240,0.9)'}}>{adm2 ? '¿ADMITIDO?' : 'NO ADMITIDO'}</span></div>}
-    <DateStamp text="VIENA, 1907" sub="EXAMEN DE INGRESO" from={0} dur={sus + 10} y={640} />
-    <NameTag name="Adolf Hitler" role="Aspirante a pintor, 18 años" from={cue.word('adolf')} dur={60} y={1560} color="#555" />
+      <span style={{fontFamily: FONT_TITLE, fontSize: 96, color: adm2 ? '#1f9a4a' : '#d7263d', border: `10px solid ${adm2 ? '#1f9a4a' : '#d7263d'}`, padding: '4px 26px', borderRadius: 14, background: 'rgba(255,250,240,0.9)'}}>{adm2 ? L('¿ADMITIDO?') : L('NO ADMITIDO')}</span></div>}
+    <DateStamp text={L("VIENA, 1907")} sub={L("EXAMEN DE INGRESO")} from={0} dur={sus + 10} y={640} />
+    <NameTag name={L("Adolf Hitler")} role={L("Aspirante a pintor, 18 años")} from={cue.word('adolf')} dur={60} y={1560} color="#555" />
     <Amb name="crowd" vol={0.06} dur={d} /><Sfx name="stamp" at={sus + 2} vol={0.7} /><Sfx name="stamp" at={adm} vol={0.6} /><Sfx name="glitch" at={adm - 2} vol={0.3} />
   </AbsoluteFill>;
 };
@@ -52,9 +53,9 @@ const S2: SceneFC = ({d, cue}) => {
         return <g key={i} transform={`translate(${135 + c * 90},${560 + r * 95}) scale(${easeOut(clamp((f - pct + 6 - i * 0.3) / 6))})`}>
           <circle cy={-28} r={14} fill={red ? '#d7263d' : '#8a8490'} /><path d="M-18,10 Q-18,-12 0,-12 Q18,-12 18,10Z" fill={red ? '#d7263d' : '#8a8490'} /></g>; })}
     </Stage>}
-    <DateStamp text="1939 – 1945" sub="SEGUNDA GUERRA MUNDIAL" from={0} dur={mil} y={250} />
-    {!grid && <BigStat value={85} prefix="70–" suffix=" M" from={mil} label="de muertos (estimación)" y={260} />}
-    {grid && <BigStat value={3} prefix="≈" suffix="%" from={pct} label="de la población mundial de 1940" y={250} color="#ff5a5a" />}
+    <DateStamp text={L("1939 – 1945")} sub={L("SEGUNDA GUERRA MUNDIAL")} from={0} dur={mil} y={250} />
+    {!grid && <BigStat value={85} prefix="70–" suffix=" M" from={mil} label={L("de muertos (estimación)")} y={260} />}
+    {grid && <BigStat value={3} prefix="≈" suffix="%" from={pct} label={L("de la población mundial de 1940")} y={250} color="#ff5a5a" />}
     {!grid && <><Amb name="gunfire" vol={0.25} dur={pct} /><Sfx name="boom" at={40} vol={0.35} /><Sfx name="boom" at={110} vol={0.3} /><Sfx name="jet" at={10} vol={0.3} /></>}
     <Sfx name="heartbeat" at={pct + 6} vol={0.5} />
   </AbsoluteFill>;
@@ -67,7 +68,7 @@ const Card: React.FC<{x: number; y: number; at: number; title: string; kind: 'tr
     <rect x={-210} y={-230} width={420} height={460} rx={20} fill="#fffaf0" strokeWidth={8} />
     <rect x={-185} y={-205} width={370} height={300} fill="#e8e0cc" strokeWidth={5} />
     {kind === 'treaty' && <g><rect x={-90} y={-180} width={180} height={240} fill="#fbf6e6" strokeWidth={4} />{[0, 1, 2, 3, 4, 5].map((i) => <line key={i} x1={-70} x2={70} y1={-150 + i * 30} y2={-150 + i * 30} stroke="#aaa" strokeWidth={4} />)}<circle cx={50} cy={30} r={22} fill="#b8202e" strokeWidth={3} /></g>}
-    {kind === 'crash' && <g><path d={`M-170,-160 L-100,-120 L-40,-150 L20,-60 L${80},${-60 + Math.min(f, 20) * 6} L160,${40 + Math.min(f, 20) * 2}`} fill="none" stroke="#d7263d" strokeWidth={10} /><text x={0} y={70} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill="#333" stroke="none">WALL ST.</text></g>}
+    {kind === 'crash' && <g><path d={`M-170,-160 L-100,-120 L-40,-150 L20,-60 L${80},${-60 + Math.min(f, 20) * 6} L160,${40 + Math.min(f, 20) * 2}`} fill="none" stroke="#d7263d" strokeWidth={10} /><text x={0} y={70} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill="#333" stroke="none">{L('WALL ST.')}</text></g>}
     {kind === 'map' && <g><circle cx={-80} cy={-60} r={60} fill="#fff" strokeWidth={4} /><circle cx={-80} cy={-60} r={24} fill="#bc002d" strokeWidth={0} /><g transform="translate(40,-130)"><rect width={120} height={80} fill="#fff" strokeWidth={4} /><rect width={40} height={80} fill="#009246" strokeWidth={0} /><rect x={80} width={40} height={80} fill="#ce2b37" strokeWidth={0} /></g>
       <path d="M-20,-60 L60,-60" strokeWidth={8} stroke="#bc002d" /><path d="M100,-40 L100,40" strokeWidth={8} stroke="#ce2b37" /></g>}
     <text x={0} y={170} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill={C.ink} stroke="none">{title}</text>
@@ -79,10 +80,10 @@ const S3: SceneFC = ({d, cue}) => {
     <Stage><Camera k={[{f: 0, z: 1.05}, {f: d, z: 0.95}]}>
       <Layer depth={0}><Sky top="#2a2a3a" bottom="#5a4a4a" id="skyCa" /></Layer>
       <Layer depth={0.5}><rect x={-600} y={1300} width={2280} height={900} fill="#3a2a22" />{Array.from({length: 30}).map((_, i) => <line key={i} x1={-600 + i * 80} y1={1300} x2={-600 + i * 80 - 200} y2={2200} stroke="#2a1e18" strokeWidth={4} />)}</Layer>
-      <Layer depth={1}><Card x={300} y={560} at={ver} title="VERSALLES 1919" kind="treaty" /><Card x={780} y={900} at={cri} title="CRISIS DE 1929" kind="crash" /><Card x={320} y={1260} at={jap} title="JAPÓN E ITALIA" kind="map" />
+      <Layer depth={1}><Card x={300} y={560} at={ver} title={L("VERSALLES 1919")} kind="treaty" /><Card x={780} y={900} at={cri} title={L("CRISIS DE 1929")} kind="crash" /><Card x={320} y={1260} at={jap} title={L("JAPÓN E ITALIA")} kind="map" />
         <Character d={CAST.youngHitler} x={850} y={1860} scale={0.9} pose="crossArms" expr="neutral" facing={-1} look={0.3} propOverride="none" tint="#000" tintAmt={0} /></Layer>
     </Camera></Stage>
-    <Chip text="NO FUE COSA DE UN SOLO HOMBRE" from={2} dur={ver} y={300} size={40} />
+    <Chip text={L("NO FUE COSA DE UN SOLO HOMBRE")} from={2} dur={ver} y={300} size={40} />
     <Sfx name="paper" at={ver} vol={0.5} /><Sfx name="crumble" at={cri + 8} vol={0.3} /><Sfx name="stamp" at={jap} vol={0.5} />
   </AbsoluteFill>;
 };
@@ -99,9 +100,9 @@ const S4: SceneFC = ({d, cue}) => {
       {f > ver && <Layer depth={1.2}>{Array.from({length: 6}).map((_, i) => { const k = (f - ver) / 60; return <g key={i} transform={`translate(${200 + i * 140 + k * 300},${900 - k * 500 - i * 40}) scale(${0.8 + (i % 2) * 0.3})`}>
         <path d={`M0,0 Q-30,${-20 + Math.sin(f / 3 + i) * 20} -60,-10 Q-30,10 0,0 Q30,${-20 + Math.sin(f / 3 + i) * 20} 60,-10 Q30,10 0,0Z`} fill="#fff" stroke={C.ink} strokeWidth={3} /></g>; })}</Layer>}
     </Camera></Stage>
-    <DateStamp text="30·09·1938" sub="ACUERDOS DE MÚNICH" from={mun - 10} dur={90} y={250} />
-    <NameTag name="Neville Chamberlain" role="Primer ministro británico" from={8} dur={60} y={1540} color="#2a2a30" />
-    <Chip text="«PAZ PARA NUESTRO TIEMPO»" from={mun + 5} y={430} size={42} color="#fff" />
+    <DateStamp text={L("30·09·1938")} sub={L("ACUERDOS DE MÚNICH")} from={mun - 10} dur={90} y={250} />
+    <NameTag name={L("Neville Chamberlain")} role={L("Primer ministro británico")} from={8} dur={60} y={1540} color="#2a2a30" />
+    <Chip text={L("«PAZ PARA NUESTRO TIEMPO»")} from={mun + 5} y={430} size={42} color="#fff" />
     <Amb name="crowd" vol={0.2} dur={d} /><Sfx name="cheer" at={ver} vol={0.4} /><Sfx name="paper" at={mun} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -119,7 +120,7 @@ const S5: SceneFC = ({d, cue}) => {
     </Stage>
     <div style={{position: 'absolute', top: 470, left: 0, right: 0, textAlign: 'center', opacity: clamp((f - seis) / 15)}}>
       <div style={{fontFamily: FONT_TITLE, fontSize: 150, color: '#efe6d4', letterSpacing: 4}}>6.000.000</div>
-      <div style={{fontFamily: FONT_UI, fontWeight: 600, fontSize: 40, color: '#b8ae9c', letterSpacing: 3}}>VÍCTIMAS JUDÍAS DEL HOLOCAUSTO</div></div>
+      <div style={{fontFamily: FONT_UI, fontWeight: 600, fontSize: 40, color: '#b8ae9c', letterSpacing: 3}}>{L('VÍCTIMAS JUDÍAS DEL HOLOCAUSTO')}</div></div>
     <Amb name="wind" vol={0.12} dur={d} />
   </AbsoluteFill>;
 };
@@ -143,13 +144,13 @@ const S6: SceneFC = ({d, cue}) => {
     <Stage bg="#1a2230"><rect width={1080} height={1920} fill="#1a2230" />
       {Array.from({length: 20}).map((_, i) => <line key={i} x1={0} x2={1080} y1={i * 100} y2={i * 100} stroke="#22304a" strokeWidth={2} />)}{Array.from({length: 11}).map((_, i) => <line key={'v' + i} y1={0} y2={1920} x1={i * 100} x2={i * 100} stroke="#22304a" strokeWidth={2} />)}
       {!bomb && <g transform="translate(540,1080) scale(0.8)" opacity={clamp((f - tar + 4) / 8)}><circle r={130} fill="#fffaf0" stroke={C.ink} strokeWidth={8} /><line x1={0} y1={0} x2={Math.cos(-f / 6) * 90} y2={Math.sin(-f / 6) * 90} stroke={C.ink} strokeWidth={10} strokeLinecap="round" /><line x1={0} y1={0} x2={Math.cos(-f / 60) * 60} y2={Math.sin(-f / 60) * 60} stroke="#d7263d" strokeWidth={12} strokeLinecap="round" /></g>}
-      {!bomb && <><TechIcon x={290} y={720} at={rad} kind="radar" label="RADAR" /><TechIcon x={790} y={720} at={rea} kind="jet" label="REACTORES" /><TechIcon x={290} y={1560} at={ord} kind="pc" label="ORDENADORES" /><TechIcon x={790} y={1560} at={pen} kind="pen" label="PENICILINA" /></>}
+      {!bomb && <><TechIcon x={290} y={720} at={rad} kind="radar" label={L("RADAR")} /><TechIcon x={790} y={720} at={rea} kind="jet" label={L("REACTORES")} /><TechIcon x={290} y={1560} at={ord} kind="pc" label={L("ORDENADORES")} /><TechIcon x={790} y={1560} at={pen} kind="pen" label={L("PENICILINA")} /></>}
       {bomb && <g transform="translate(540,1000)" opacity={clamp((f - bom + 20) / 10)}>
         <ellipse cx={0} cy={-300} rx={260} ry={150} fill="#b8a898" /><ellipse cx={0} cy={-330} rx={200} ry={110} fill="#d8c8b8" /><rect x={-60} y={-200} width={120} height={400} fill="#a89888" /><ellipse cx={0} cy={210} rx={320} ry={60} fill="#a89888" />
         {f > bom + 6 && <path d={`M-300,-450 L300,250 M300,-450 L-300,250`} stroke="#d7263d" strokeWidth={30} strokeLinecap="round" opacity={clamp((f - bom - 6) / 6)} />}</g>}
     </Stage>
-    <Chip text="LLEGARÍAN MÁS TARDE" from={tar} dur={bom - 20 - tar} y={240} size={46} />
-    {bomb && <Chip text="¿NINGUNA BOMBA ATÓMICA EN GUERRA?" from={bom} y={300} size={40} color="#fff" />}
+    <Chip text={L("LLEGARÍAN MÁS TARDE")} from={tar} dur={bom - 20 - tar} y={240} size={46} />
+    {bomb && <Chip text={L("¿NINGUNA BOMBA ATÓMICA EN GUERRA?")} from={bom} y={300} size={40} color="#fff" />}
     <Sfx name="pop" at={rad} /><Sfx name="pop" at={rea} /><Sfx name="pop" at={ord} /><Sfx name="pop" at={pen} /><Sfx name="typing" at={ord} vol={0.3} /><Sfx name="impact" at={bom} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -164,14 +165,14 @@ const S7: SceneFC = ({d, cue}) => {
     <Stage bg="#8fb1b8">
       <MapView proj={{type: 'mercator', center: [40, 15], scale: 190, detail: 110}} theme="vintage" zoom={[[0, 1.0], [ind - 6, 1.0], [ind + 24, 2.4]]} focus={[78, 22]}
         fills={[{names: BRIT, color: '#e0607a', at: bri, dur: 10, stagger: 0.5}, {names: FREN, color: '#3a6ad0', at: fra, dur: 10, stagger: 0.5}, {names: ['India', 'Pakistan', 'Bangladesh'], color: '#ff9a3a', at: ind + 20, dur: 12, glow: true}]}
-        labels={[{at: [-30, 52], text: 'IMPERIO BRITÁNICO', from: bri + 6, size: 40, color: '#b0203a', until: ind - 6}, {at: [5, 30], text: 'IMPERIO FRANCÉS', from: fra + 6, size: 40, color: '#1a3a90', until: ind - 6}, {at: [79, 22], text: 'INDIA', sub: '1947', from: ind + 26, size: 48, color: '#fff'}]} />
+        labels={[{at: [-30, 52], text: L('IMPERIO BRITÁNICO'), from: bri + 6, size: 40, color: '#b0203a', until: ind - 6}, {at: [5, 30], text: L('IMPERIO FRANCÉS'), from: fra + 6, size: 40, color: '#1a3a90', until: ind - 6}, {at: [79, 22], text: L('INDIA'), sub: L('1947'), from: ind + 26, size: 48, color: '#fff'}]} />
     </Stage>
     <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}>
       {!india && <Character d={CAST.churchill} x={830} y={1900} scale={1.05} pose="victory" expr="smug" facing={-1} look={0.4} />}
       {india && <Character d={CAST.gandhi} x={260} y={1900} scale={1.05} pose="open" expr="neutral" look={0.4} />}
     </svg>
-    {!india && <NameTag name="Winston Churchill" role="Defensor del Imperio británico" from={bri + 4} dur={70} y={1360} x={360} color="#e0607a" />}
-    {india && <NameTag name="Mahatma Gandhi" role="Líder de la independencia india" from={ind + 20} dur={70} y={1360} x={460} color="#ff9a3a" />}
+    {!india && <NameTag name={L("Winston Churchill")} role={L("Defensor del Imperio británico")} from={bri + 4} dur={70} y={1360} x={360} color="#e0607a" />}
+    {india && <NameTag name={L("Mahatma Gandhi")} role={L("Líder de la independencia india")} from={ind + 20} dur={70} y={1360} x={460} color="#ff9a3a" />}
     <Sfx name="paper" at={bri} vol={0.4} /><Sfx name="pop" at={fra} /><Sfx name="whoosh" at={ind - 4} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -184,12 +185,12 @@ const S8: SceneFC = ({d, cue}) => {
       <MapView proj={{type: 'conic', center: [25, 53], scale: 2000, parallels: [45, 60]}} theme="cold" zoom={[[0, 1.1], [d, 1.0]]} focus={[25, 53]}
         fills={[{names: ['Russia', 'Belarus', 'Ukraine'], color: '#c8202a', at: 0, dur: 1}, {names: ['Germany'], color: '#7a7a7a', at: 0, dur: 1}]}
         arrows={[{from: [37.6, 55.75], to: [13.4, 52.5], at: 10, dur: Math.max(20, ber - 10), color: '#c8202a', width: 26, curve: 0.1}]}
-        pins={[{at: [13.4, 52.5], from: 6, label: 'Berlín', big: true}, {at: [37.6, 55.75], from: 2, label: 'Moscú'}]} />
+        pins={[{at: [13.4, 52.5], from: 6, label: L('Berlín'), big: true}, {at: [37.6, 55.75], from: 2, label: L('Moscú')}]} />
       {f > ber + 6 && <g transform="translate(540,960)" opacity={clamp((f - ber - 6) / 6)}><path d="M-160,-160 L160,160 M160,-160 L-160,160" stroke="#fff" strokeWidth={50} strokeLinecap="round" /><path d="M-160,-160 L160,160 M160,-160 L-160,160" stroke="#d7263d" strokeWidth={30} strokeLinecap="round" /></g>}
     </Stage>
     <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}><Character d={CAST.stalin} x={260} y={1900} scale={1.15} pose="crossArms" expr={f > ber + 6 ? 'angry' : 'smug'} look={0.5} /></svg>
-    <NameTag name="Iósif Stalin" role="Líder de la URSS (1924–1953)" from={4} dur={60} y={1360} x={420} color="#c8202a" />
-    <Chip text="SIN GUERRA FRÍA" from={gue} y={300} x={330} size={44} color="#fff" /><Chip text="¿SIN ONU?" from={onu} y={400} x={740} size={44} rot={3} />
+    <NameTag name={L("Iósif Stalin")} role={L("Líder de la URSS (1924–1953)")} from={4} dur={60} y={1360} x={420} color="#c8202a" />
+    <Chip text={L("SIN GUERRA FRÍA")} from={gue} y={300} x={330} size={44} color="#fff" /><Chip text={L("¿SIN ONU?")} from={onu} y={400} x={740} size={44} rot={3} />
     <Sfx name="march" at={10} vol={0.3} dur={ber} /><Sfx name="stamp" at={ber + 6} vol={0.6} /><Sfx name="pop" at={gue} /><Sfx name="pop" at={onu} />
   </AbsoluteFill>;
 };

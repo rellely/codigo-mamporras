@@ -8,6 +8,7 @@ import {Army, Camera, Cannon, Clouds, Flag, FlagFace, Galleon, Ground, Haze, Lay
 import {MapView} from '../../components/MapView';
 import {Amb, BigStat, Chip, DateStamp, NameTag, Sfx} from '../../components/Overlays';
 import {SceneFC} from '../../components/Episode';
+import {L} from '../../components/i18n';
 
 const FR = '#2a5bd7', FR2 = '#7ea3f0';
 const french = {coat: '#1d3f8f', pants: '#f4f0e6', hat: 'shako' as const, hatColor: '#1a1a1a'};
@@ -43,7 +44,7 @@ const S1: SceneFC = ({d, cue}) => {
         <Layer depth={1.5}><Rain n={50} opacity={0.25} /></Layer>
       </Camera>
     </Stage>
-    <DateStamp text="18·06·1815" sub="WATERLOO (ACTUAL BÉLGICA)" from={6} dur={130} y={640} />
+    <DateStamp text={L("18·06·1815")} sub={L("WATERLOO (ACTUAL BÉLGICA)")} from={6} dur={130} y={640} />
     <Amb name="wind" vol={0.2} dur={d} /><Amb name="snare_march" vol={0.12} dur={d} /><Sfx name="cannon" at={30} vol={0.3} /><Sfx name="impact" at={g} vol={0.45} />
   </AbsoluteFill>;
 };
@@ -80,10 +81,10 @@ const S2: SceneFC = ({d, cue}) => {
         <Cannon x={160} y={1720} s={0.9} fireAt={[aus + 5, aus + 40, aus + 70]} /><Explosion x={800} y={1290} at={aus + 15} s={0.4} /><Explosion x={640} y={1330} at={aus + 50} s={0.4} /></Layer>
       <Layer depth={1.3}><Smoke x={300} y={1800} color="#dddddd" n={8} opacity={0.5} /></Layer>
     </Camera></Stage>}
-    {!battle && <DateStamp text="2·12·1804" sub="NOTRE-DAME, PARÍS" from={emp - 30} dur={aus - emp + 20} y={250} />}
-    {battle && <DateStamp text="2·12·1805" sub="AUSTERLITZ" from={aus - 6} dur={200} y={250} />}
+    {!battle && <DateStamp text={L("2·12·1804")} sub={L("NOTRE-DAME, PARÍS")} from={emp - 30} dur={aus - emp + 20} y={250} />}
+    {battle && <DateStamp text={L("2·12·1805")} sub={L("AUSTERLITZ")} from={aus - 6} dur={200} y={250} />}
     {battle && <div style={{position: 'absolute', top: 430, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 30, alignItems: 'center', opacity: clamp((f - aus) / 10)}}>
-      <svg width={130} height={86}><FlagFace kind="france" w={130} h={86} /></svg><span style={{fontFamily: FONT_TITLE, fontSize: 64, color: '#fff', WebkitTextStroke: '8px #000', paintOrder: 'stroke fill'}}>VS</span>
+      <svg width={130} height={86}><FlagFace kind="france" w={130} h={86} /></svg><span style={{fontFamily: FONT_TITLE, fontSize: 64, color: '#fff', WebkitTextStroke: '8px #000', paintOrder: 'stroke fill'}}>{L('VS')}</span>
       <svg width={130} height={86}><FlagFace kind="austria" w={130} h={86} /></svg><svg width={130} height={86}><FlagFace kind="russia" w={130} h={86} /></svg></div>}
     {!battle && <><Sfx name="bell" at={emp - 6} vol={0.4} /><Sfx name="cheer" at={emp} vol={0.4} /></>}
     {battle && <><Amb name="march" vol={0.25} from={aus - 6} dur={d - aus + 6} /><Sfx name="cannon" at={aus + 5} vol={0.45} /><Sfx name="boom" at={aus + 15} vol={0.3} /><Sfx name="cannon" at={aus + 40} vol={0.4} /><Sfx name="boom" at={aus + 50} vol={0.3} /></>}
@@ -107,11 +108,11 @@ const S3: SceneFC = ({d, cue}) => {
       <MapView proj={{type: 'conic', center: [12, 47], scale: 2300, parallels: [40, 55]}} theme="vintage"
         zoom={[[0, 1.25], [d, 1.0]]} focus={[8, 47]}
         fills={[{names: EMPIRE, color: FR, at: 4, dur: 10}, {names: SATS, color: FR2, at: 14, dur: 12, stagger: 3}]}
-        labels={[{at: [2.4, 46.6], text: 'IMPERIO FRANCÉS', from: 8, size: 52, color: '#fff'}, {at: [10, 51], text: 'ESTADOS SATÉLITE', sub: 'Y ALIADOS FORZOSOS', from: 30, size: 40, color: '#14306e'}]}
-        pins={[{at: [-3.7, 40.4], from: mad, label: 'Madrid', big: true}, {at: [21, 52.2], from: var_, label: 'Varsovia', big: true}, {at: [2.35, 48.85], from: 6, label: 'París', color: '#fff'}]}
+        labels={[{at: [2.4, 46.6], text: L('IMPERIO FRANCÉS'), from: 8, size: 52, color: '#fff'}, {at: [10, 51], text: L('ESTADOS SATÉLITE'), sub: L('Y ALIADOS FORZOSOS'), from: 30, size: 40, color: '#14306e'}]}
+        pins={[{at: [-3.7, 40.4], from: mad, label: L('Madrid'), big: true}, {at: [21, 52.2], from: var_, label: L('Varsovia'), big: true}, {at: [2.35, 48.85], from: 6, label: L('París'), color: '#fff'}]}
         arrows={[{from: [-3.7, 40.4], to: [21, 52.2], at: mad + 6, dur: var_ - mad + 6, color: C.yellow, curve: -0.2}]} />
     </Stage>
-    <DateStamp text="1812" sub="EUROPA (FRONTERAS APROXIMADAS)" from={0} dur={d} y={250} />
+    <DateStamp text={L("1812")} sub={L("EUROPA (FRONTERAS APROXIMADAS)")} from={0} dur={d} y={250} />
     <Sfx name="paper" at={2} vol={0.5} /><Sfx name="whoosh" at={mad + 6} vol={0.4} /><Sfx name="ding" at={var_} vol={0.3} />
   </AbsoluteFill>;
 };
@@ -124,8 +125,8 @@ const S4: SceneFC = ({d, cue}) => {
   return <AbsoluteFill>
     {showMap && <Stage bg="#8fb1b8"><MapView proj={{type: 'conic', center: [30, 54], scale: 2400, parallels: [45, 60]}} theme="vintage"
       fills={[{names: ['Russia', 'Belarus', 'Ukraine', 'Lithuania', 'Latvia', 'Estonia'], color: '#3a7a4a', at: 0, dur: 1}, {names: ['Poland'], color: FR2, at: 0, dur: 1}]}
-      arrows={[{from: [23.9, 54.9], to: [37.6, 55.75], at: 6, dur: 40, color: FR, width: 26, label: '≈ 600.000'}]}
-      pins={[{at: [37.6, 55.75], from: 40, label: 'Moscú', big: true}, {at: [23.9, 54.9], from: 4, label: 'Niemen'}]} labels={[{at: [33, 57], text: 'IMPERIO RUSO', from: 4, size: 50}]} /></Stage>}
+      arrows={[{from: [23.9, 54.9], to: [37.6, 55.75], at: 6, dur: 40, color: FR, width: 26, label: L('≈ 600.000')}]}
+      pins={[{at: [37.6, 55.75], from: 40, label: L('Moscú'), big: true}, {at: [23.9, 54.9], from: 4, label: L('Niemen')}]} labels={[{at: [33, 57], text: L('IMPERIO RUSO'), from: 4, size: 50}]} /></Stage>}
     {!showMap && <Stage><Camera k={[{f: inv - 8, z: 1.15, x: -40}, {f: d, z: 1.0, x: 40}]}>
       <Layer depth={0}><Sky top="#7c8798" bottom="#d8dde4" id="skyW" /></Layer>
       <Layer depth={0.3}><Ridge y={1080} amp={40} color="#e9edf2" seed={5} /></Layer>
@@ -136,9 +137,9 @@ const S4: SceneFC = ({d, cue}) => {
         <Character d={CAST.kutuzov} x={900} y={1650} scale={1.05} pose="crossArms" expr="smug" look={-0.4} facing={-1} /></Layer>
       <Layer depth={1.4}><Snow n={170} wind={-1.8} size={1.2} /></Layer>
     </Camera></Stage>}
-    {showMap && <DateStamp text="JUNIO 1812" sub="INVASIÓN DE RUSIA" from={0} dur={inv} y={250} />}
-    {!showMap && <NameTag name="Mijaíl Kutúzov" role="Comandante en jefe ruso" from={inv + 10} dur={80} x={420} y={1500} color="#1f4a30" />}
-    {!showMap && <Chip text="HASTA -30 °C" from={inv} y={300} color="#9fd0ff" size={70} />}
+    {showMap && <DateStamp text={L("JUNIO 1812")} sub={L("INVASIÓN DE RUSIA")} from={0} dur={inv} y={250} />}
+    {!showMap && <NameTag name={L("Mijaíl Kutúzov")} role={L("Comandante en jefe ruso")} from={inv + 10} dur={80} x={420} y={1500} color="#1f4a30" />}
+    {!showMap && <Chip text={L("HASTA -30 °C")} from={inv} y={300} color="#9fd0ff" size={70} />}
     <Amb name="march" vol={0.2} dur={inv} /><Amb name="wind" vol={0.4} from={inv - 8} dur={d - inv + 8} />
   </AbsoluteFill>;
 };
@@ -150,7 +151,7 @@ const S5: SceneFC = ({d, cue}) => {
   return <AbsoluteFill>
     {elba && <Stage><Camera k={[{f: 0, z: 1.1}, {f: wat, z: 1.0, x: 80}]}>
       <Layer depth={0}><Sky top="#1a2a4a" bottom="#e89a6a" id="skyE" /><Sun x={300} y={1000} r={80} color="#ffd9a0" /></Layer>
-      <Layer depth={0.4}><g transform="translate(250,1100)"><path d="M-300,0 Q-150,-160 0,-120 Q150,-200 300,0Z" fill="#3a4a3a" stroke={C.ink} strokeWidth={4} /></g><text x={250} y={960} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff" stroke="#000" strokeWidth={8} paintOrder="stroke">ELBA</text></Layer>
+      <Layer depth={0.4}><g transform="translate(250,1100)"><path d="M-300,0 Q-150,-160 0,-120 Q150,-200 300,0Z" fill="#3a4a3a" stroke={C.ink} strokeWidth={4} /></g><text x={250} y={960} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff" stroke="#000" strokeWidth={8} paintOrder="stroke">{L('ELBA')}</text></Layer>
       <Layer depth={0.7}><Sea y={1100} color="#2a4a6a" /></Layer>
       <Layer depth={1}><Galleon x={tween(f, 0, wat, 380, 900)} y={1350} s={0.75} flag="france" /></Layer>
     </Camera></Stage>}
@@ -167,10 +168,10 @@ const S5: SceneFC = ({d, cue}) => {
         {f > blu && <Character d={CAST.blucher} x={tween(f, blu, blu + 30, -200, 520)} y={1620} scale={0.8} pose="holdUp" expr="shout" walking={f < blu + 30} />}
       </Layer>
     </Camera></Stage>}
-    {elba && <DateStamp text="1815" sub="HUIDA DE ELBA" from={0} dur={wat} y={250} />}
-    {!elba && <NameTag name="Wellington" role="Ejército anglo-aliado" from={wel - 4} dur={50} x={40} y={1450} color="#c1272d" />}
-    {!elba && <NameTag name="Blücher" role="Ejército prusiano" from={blu + 8} dur={60} x={440} y={1080} color="#1d2a3a" />}
-    {!elba && f > llu && <Chip text="BARRO · ATAQUE RETRASADO" from={llu} y={330} color="#9fd0ff" />}
+    {elba && <DateStamp text={L("1815")} sub={L("HUIDA DE ELBA")} from={0} dur={wat} y={250} />}
+    {!elba && <NameTag name={L("Wellington")} role={L("Ejército anglo-aliado")} from={wel - 4} dur={50} x={40} y={1450} color="#c1272d" />}
+    {!elba && <NameTag name={L("Blücher")} role={L("Ejército prusiano")} from={blu + 8} dur={60} x={440} y={1080} color="#1d2a3a" />}
+    {!elba && f > llu && <Chip text={L("BARRO · ATAQUE RETRASADO")} from={llu} y={330} color="#9fd0ff" />}
     <Amb name="sea" vol={0.3} dur={wat} /><Amb name="rain" vol={0.3} from={llu - 10} dur={d - llu + 10} /><Amb name="snare_march" vol={0.15} from={wat} dur={d - wat} /><Sfx name="thunder" at={llu} vol={0.4} /><Sfx name="march" at={blu} vol={0.4} dur={80} />
   </AbsoluteFill>;
 };
@@ -187,8 +188,8 @@ const S6: SceneFC = ({d, cue}) => {
       {f > gana && <Layer depth={1.2}><Embers n={40} color="#ffd60a" /></Layer>}
     </Camera></Stage>
     <div style={{position: 'absolute', top: 330, left: 0, right: 0, textAlign: 'center', opacity: clamp((f - 15) / 10) * (1 - clamp((f - gana + 10) / 10))}}>
-      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 44, background: '#fff', padding: '8px 18px', border: '5px solid #000', borderRadius: 10}}>☀ SUELO SECO · PRUSIANOS LEJOS</span></div>
-    <Chip text="¡VICTORIA FRANCESA!" from={gana} y={330} size={64} />
+      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 44, background: '#fff', padding: '8px 18px', border: '5px solid #000', borderRadius: 10}}>{L('☀ SUELO SECO · PRUSIANOS LEJOS')}</span></div>
+    <Chip text={L("¡VICTORIA FRANCESA!")} from={gana} y={330} size={64} />
     <Sfx name="cheer" at={gana} vol={0.6} /><Sfx name="cannon" at={gana - 20} vol={0.3} /><Sfx name="impact" at={gana} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -200,12 +201,12 @@ const S7: SceneFC = ({d, cue}) => {
     <Stage bg="#8fb1b8">
       <MapView proj={{type: 'conic', center: [14, 49], scale: 1900, parallels: [40, 55]}} theme="vintage"
         fills={[{names: ['France'], color: FR, at: 0, dur: 1}, {names: ['Austria', 'Czechia', 'Hungary', 'Slovakia'], color: '#e8e2d4', at: aus - 4, dur: 10}, {names: ['Russia', 'Belarus', 'Ukraine', 'Lithuania', 'Latvia', 'Estonia'], color: '#3a7a4a', at: rus - 4, dur: 10}, {names: ['United Kingdom'], color: '#c1272d', at: 0, dur: 1}, {names: ['Germany'], color: '#5a6a7a', at: 0, dur: 1}]}
-        arrows={[{from: [16.4, 48.2], to: [7.5, 48.6], at: aus, dur: 30, color: '#f4f0e6', width: 30, label: 'AUSTRIA'}, {from: [30, 54], to: [9, 50], at: rus, dur: 40, color: '#2f8a4a', width: 36, label: 'RUSIA', curve: 0.15}]}
-        labels={[{at: [2.4, 46.8], text: 'FRANCIA', from: 0, size: 48, color: '#fff'}]} />
+        arrows={[{from: [16.4, 48.2], to: [7.5, 48.6], at: aus, dur: 30, color: '#f4f0e6', width: 30, label: L('AUSTRIA')}, {from: [30, 54], to: [9, 50], at: rus, dur: 40, color: '#2f8a4a', width: 36, label: L('RUSIA'), curve: 0.15}]}
+        labels={[{at: [2.4, 46.8], text: L('FRANCIA'), from: 0, size: 48, color: '#fff'}]} />
     </Stage>
     <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}><Character d={CAST.napoleon} x={820} y={1880} scale={0.9} pose="despair" expr="worried" facing={-1} /></svg>
-    <Chip text="¡SORPRESA!" from={2} dur={aus} y={300} size={70} color="#ff5a5a" textColor="#fff" />
-    <BigStat value={800000} from={rus + 20} prefix="+" label="soldados de la coalición (aprox.)" y={300} />
+    <Chip text={L("¡SORPRESA!")} from={2} dur={aus} y={300} size={70} color="#ff5a5a" textColor="#fff" />
+    <BigStat value={800000} from={rus + 20} prefix="+" label={L("soldados de la coalición (aprox.)")} y={300} />
     <Sfx name="pop" at={2} /><Amb name="march" vol={0.35} from={aus} dur={d - aus} /><Sfx name="impact" at={rus + 20} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -217,12 +218,12 @@ const S8: SceneFC = ({d, cue}) => {
     <Stage bg="#8fb1b8">
       <MapView proj={{type: 'conic', center: [18, 50], scale: 1500, parallels: [40, 60]}} theme="vintage"
         fills={[{names: ['France', 'Belgium', 'Netherlands', 'Luxembourg', 'Spain', 'Portugal', 'Italy', 'Germany', 'Poland', 'Switzerland', 'Austria', 'Czechia', 'Slovakia', 'Hungary', 'Croatia', 'Slovenia', 'Denmark', 'Lithuania', 'Latvia', 'Estonia', 'Belarus', 'Ukraine', 'Russia', 'Romania', 'Bulgaria', 'Serbia', 'Bosnia and Herz.', 'Montenegro', 'Albania', 'Macedonia', 'Greece', 'Moldova', 'Sweden', 'Norway', 'Finland'], color: FR, at: 4, dur: 10, stagger: 1.2}, {names: ['United Kingdom', 'Ireland'], color: '#c1272d', at: 0, dur: 1}]}
-        labels={[{at: [15, 50], text: 'IMPERIO NAPOLEÓNICO', sub: 'HIPOTÉTICO', from: 30, size: 58, color: '#fff'}]} />
+        labels={[{at: [15, 50], text: L('IMPERIO NAPOLEÓNICO'), sub: L('HIPOTÉTICO'), from: 30, size: 58, color: '#fff'}]} />
     </Stage>
     <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}>
       <Icon at={cod} x={250} y={1650} kind="book" /><Icon at={met} x={540} y={1650} kind="ruler" /><Icon at={ue} x={830} y={1650} kind="eu" />
     </svg>
-    <Chip text="CÓDIGO NAPOLEÓNICO" from={cod} y={1480} x={290} size={30} /><Chip text="SISTEMA MÉTRICO" from={met} y={1530} x={560} size={30} color="#fff" rot={2} /><Chip text="¿UE EN 1812?" from={ue} y={1480} x={830} size={30} />
+    <Chip text={L("CÓDIGO NAPOLEÓNICO")} from={cod} y={1480} x={290} size={30} /><Chip text={L("SISTEMA MÉTRICO")} from={met} y={1530} x={560} size={30} color="#fff" rot={2} /><Chip text={L("¿UE EN 1812?")} from={ue} y={1480} x={830} size={30} />
     <Sfx name="pop" at={cod} /><Sfx name="pop" at={met} /><Sfx name="pop" at={ue} /><Sfx name="whoosh" at={4} vol={0.3} />
   </AbsoluteFill>;
 };
@@ -230,8 +231,8 @@ const Icon: React.FC<{at: number; x: number; y: number; kind: 'book' | 'ruler' |
   const f = useCurrentFrame() - at; if (f < 0) return null; const k = easeOut(clamp(f / 10)); const bob = Math.sin(f / 10) * 6;
   return <g transform={`translate(${x},${y + bob}) scale(${k})`} stroke={C.ink} strokeWidth={6} strokeLinejoin="round">
     <circle r={120} fill="#fffaf0" />
-    {kind === 'book' && <g><rect x={-60} y={-75} width={120} height={150} rx={8} fill="#1d3f8f" /><rect x={-48} y={-62} width={96} height={124} fill="#2a5bd7" strokeWidth={3} /><text x={0} y={10} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={60} fill={C.gold} stroke="none">N</text></g>}
-    {kind === 'ruler' && <g transform="rotate(-25)"><rect x={-95} y={-25} width={190} height={50} fill="#e8b33b" />{Array.from({length: 10}).map((_, i) => <line key={i} x1={-85 + i * 19} y1={-25} x2={-85 + i * 19} y2={i % 5 ? -10 : 2} strokeWidth={3} />)}<text x={0} y={18} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={28} fill={C.ink} stroke="none">1 m</text></g>}
+    {kind === 'book' && <g><rect x={-60} y={-75} width={120} height={150} rx={8} fill="#1d3f8f" /><rect x={-48} y={-62} width={96} height={124} fill="#2a5bd7" strokeWidth={3} /><text x={0} y={10} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={60} fill={C.gold} stroke="none">{L('N')}</text></g>}
+    {kind === 'ruler' && <g transform="rotate(-25)"><rect x={-95} y={-25} width={190} height={50} fill="#e8b33b" />{Array.from({length: 10}).map((_, i) => <line key={i} x1={-85 + i * 19} y1={-25} x2={-85 + i * 19} y2={i % 5 ? -10 : 2} strokeWidth={3} />)}<text x={0} y={18} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={28} fill={C.ink} stroke="none">{L('1 m')}</text></g>}
     {kind === 'eu' && <g transform="translate(-75,-50)"><FlagFace kind="eu" w={150} h={100} /></g>}
   </g>;
 };
@@ -247,7 +248,7 @@ const S9: SceneFC = ({d, cue}) => {
       <Layer depth={0.85}><path d="M-200,1500 Q100,1250 400,1300 Q600,1280 700,1500 L700,2400 L-200,2400Z" fill="#3a3028" stroke={C.ink} strokeWidth={6} /><Tree x={80} y={1330} kind="palm" s={1.1} color="#2a4a2a" /></Layer>
       <Layer depth={1}><Character d={CAST.napoleon} x={420} y={1440} scale={0.95} pose="behind" expr="sad" look={0.7} facing={1} /></Layer>
     </Camera></Stage>
-    <DateStamp text="5·5·1821" sub="SANTA ELENA" from={0} dur={150} y={250} />
+    <DateStamp text={L("5·5·1821")} sub={L("SANTA ELENA")} from={0} dur={150} y={250} />
     <Amb name="sea" vol={0.4} dur={d} /><Amb name="wind" vol={0.15} dur={d} />
   </AbsoluteFill>;
 };

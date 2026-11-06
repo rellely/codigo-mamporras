@@ -1,0 +1,1389 @@
+{
+ "id": "ww2.en",
+ "lang": "en",
+ "cues": {
+  "suspende": "fails",
+  "adolf": "adolf",
+  "admitido": "accepted",
+  "70": "70",
+  "3%": "3%",
+  "versalles": "versailles",
+  "1929": "1929",
+  "japón": "japan",
+  "múnich": "munich",
+  "verdad": "real",
+  "seis": "six",
+  "tarde": "later",
+  "radar": "radar",
+  "reacción": "jet",
+  "ordenadores": "computers",
+  "penicilina": "penicillin",
+  "bomba": "bomb",
+  "británico": "british",
+  "francés": "french",
+  "india": "india",
+  "berlín": "berlin",
+  "guerra": "cold",
+  "onu": "un"
+ },
+ "titulo": "What if World War II had never happened?",
+ "total": 84.796,
+ "scenes": [
+  {
+   "id": "s1_viena",
+   "s": 0.0,
+   "e": 11.314,
+   "lines": [
+    {
+     "text": "Vienna, 1907. An 18-year-old *fails* the entrance exam of the *Academy of Fine Arts*.",
+     "s": 0.25,
+     "e": 6.992,
+     "words": [
+      {
+       "w": "Vienna,",
+       "s": 0.25,
+       "e": 0.845,
+       "hl": false
+      },
+      {
+       "w": "1907.",
+       "s": 0.845,
+       "e": 2.289,
+       "hl": false
+      },
+      {
+       "w": "An",
+       "s": 2.289,
+       "e": 2.488,
+       "hl": false
+      },
+      {
+       "w": "18-year-old",
+       "s": 2.488,
+       "e": 3.536,
+       "hl": false
+      },
+      {
+       "w": "fails",
+       "s": 3.536,
+       "e": 3.904,
+       "hl": true
+      },
+      {
+       "w": "the",
+       "s": 3.904,
+       "e": 4.159,
+       "hl": false
+      },
+      {
+       "w": "entrance",
+       "s": 4.159,
+       "e": 4.697,
+       "hl": false
+      },
+      {
+       "w": "exam",
+       "s": 4.697,
+       "e": 5.009,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 5.009,
+       "e": 5.207,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 5.207,
+       "e": 5.462,
+       "hl": false
+      },
+      {
+       "w": "Academy",
+       "s": 5.462,
+       "e": 5.943,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 5.943,
+       "e": 6.142,
+       "hl": true
+      },
+      {
+       "w": "Fine",
+       "s": 6.142,
+       "e": 6.453,
+       "hl": true
+      },
+      {
+       "w": "Arts.",
+       "s": 6.453,
+       "e": 6.992,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "His name was *Adolf Hitler*.",
+     "s": 7.292,
+     "e": 8.966,
+     "words": [
+      {
+       "w": "His",
+       "s": 7.292,
+       "e": 7.523,
+       "hl": false
+      },
+      {
+       "w": "name",
+       "s": 7.523,
+       "e": 7.807,
+       "hl": false
+      },
+      {
+       "w": "was",
+       "s": 7.807,
+       "e": 8.039,
+       "hl": false
+      },
+      {
+       "w": "Adolf",
+       "s": 8.039,
+       "e": 8.374,
+       "hl": true
+      },
+      {
+       "w": "Hitler.",
+       "s": 8.374,
+       "e": 8.966,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "What if they had *accepted* him?",
+     "s": 9.266,
+     "e": 10.814,
+     "words": [
+      {
+       "w": "What",
+       "s": 9.266,
+       "e": 9.497,
+       "hl": false
+      },
+      {
+       "w": "if",
+       "s": 9.497,
+       "e": 9.643,
+       "hl": false
+      },
+      {
+       "w": "they",
+       "s": 9.643,
+       "e": 9.873,
+       "hl": false
+      },
+      {
+       "w": "had",
+       "s": 9.873,
+       "e": 10.061,
+       "hl": false
+      },
+      {
+       "w": "accepted",
+       "s": 10.061,
+       "e": 10.459,
+       "hl": true
+      },
+      {
+       "w": "him?",
+       "s": 10.459,
+       "e": 10.814,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_guerra",
+   "s": 11.314,
+   "e": 22.113,
+   "lines": [
+    {
+     "text": "World War II, from *1939 to 1945*,",
+     "s": 11.564,
+     "e": 15.794,
+     "words": [
+      {
+       "w": "World",
+       "s": 11.564,
+       "e": 11.943,
+       "hl": false
+      },
+      {
+       "w": "War",
+       "s": 11.943,
+       "e": 12.206,
+       "hl": false
+      },
+      {
+       "w": "II,",
+       "s": 12.206,
+       "e": 12.585,
+       "hl": false
+      },
+      {
+       "w": "from",
+       "s": 12.585,
+       "e": 12.906,
+       "hl": false
+      },
+      {
+       "w": "1939",
+       "s": 12.906,
+       "e": 14.16,
+       "hl": true
+      },
+      {
+       "w": "to",
+       "s": 14.16,
+       "e": 14.364,
+       "hl": true
+      },
+      {
+       "w": "1945,",
+       "s": 14.364,
+       "e": 15.794,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "killed between *70 and 85 million* people.",
+     "s": 16.094,
+     "e": 19.424,
+     "words": [
+      {
+       "w": "killed",
+       "s": 16.094,
+       "e": 16.487,
+       "hl": false
+      },
+      {
+       "w": "between",
+       "s": 16.487,
+       "e": 16.933,
+       "hl": false
+      },
+      {
+       "w": "70",
+       "s": 16.933,
+       "e": 17.536,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 17.536,
+       "e": 17.772,
+       "hl": true
+      },
+      {
+       "w": "85",
+       "s": 17.772,
+       "e": 18.375,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 18.375,
+       "e": 18.821,
+       "hl": true
+      },
+      {
+       "w": "people.",
+       "s": 18.821,
+       "e": 19.424,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "About *3%* of humanity.",
+     "s": 19.724,
+     "e": 21.613,
+     "words": [
+      {
+       "w": "About",
+       "s": 19.724,
+       "e": 20.12,
+       "hl": false
+      },
+      {
+       "w": "3%",
+       "s": 20.12,
+       "e": 20.577,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 20.577,
+       "e": 20.79,
+       "hl": false
+      },
+      {
+       "w": "humanity.",
+       "s": 20.79,
+       "e": 21.613,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_causas",
+   "s": 22.113,
+   "e": 34.108,
+   "lines": [
+    {
+     "text": "But careful: it wasn't the work of *one man* alone.",
+     "s": 22.363,
+     "e": 25.303,
+     "words": [
+      {
+       "w": "But",
+       "s": 22.363,
+       "e": 22.588,
+       "hl": false
+      },
+      {
+       "w": "careful:",
+       "s": 22.588,
+       "e": 23.161,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 23.161,
+       "e": 23.335,
+       "hl": false
+      },
+      {
+       "w": "wasn't",
+       "s": 23.335,
+       "e": 23.659,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 23.659,
+       "e": 23.883,
+       "hl": false
+      },
+      {
+       "w": "work",
+       "s": 23.883,
+       "e": 24.157,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 24.157,
+       "e": 24.331,
+       "hl": false
+      },
+      {
+       "w": "one",
+       "s": 24.331,
+       "e": 24.555,
+       "hl": true
+      },
+      {
+       "w": "man",
+       "s": 24.555,
+       "e": 24.78,
+       "hl": true
+      },
+      {
+       "w": "alone.",
+       "s": 24.78,
+       "e": 25.303,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "The Treaty of *Versailles*, the crash of *1929* and the expansion of *Japan* and *Italy* were already setting the stage.",
+     "s": 25.603,
+     "e": 33.608,
+     "words": [
+      {
+       "w": "The",
+       "s": 25.603,
+       "e": 25.853,
+       "hl": false
+      },
+      {
+       "w": "Treaty",
+       "s": 25.853,
+       "e": 26.27,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 26.27,
+       "e": 26.465,
+       "hl": false
+      },
+      {
+       "w": "Versailles,",
+       "s": 26.465,
+       "e": 27.271,
+       "hl": true
+      },
+      {
+       "w": "the",
+       "s": 27.271,
+       "e": 27.521,
+       "hl": false
+      },
+      {
+       "w": "crash",
+       "s": 27.521,
+       "e": 27.882,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 27.882,
+       "e": 28.077,
+       "hl": false
+      },
+      {
+       "w": "1929",
+       "s": 28.077,
+       "e": 29.272,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 29.272,
+       "e": 29.522,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 29.522,
+       "e": 29.772,
+       "hl": false
+      },
+      {
+       "w": "expansion",
+       "s": 29.772,
+       "e": 30.356,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 30.356,
+       "e": 30.551,
+       "hl": false
+      },
+      {
+       "w": "Japan",
+       "s": 30.551,
+       "e": 30.912,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 30.912,
+       "e": 31.162,
+       "hl": false
+      },
+      {
+       "w": "Italy",
+       "s": 31.162,
+       "e": 31.524,
+       "hl": true
+      },
+      {
+       "w": "were",
+       "s": 31.524,
+       "e": 31.829,
+       "hl": false
+      },
+      {
+       "w": "already",
+       "s": 31.829,
+       "e": 32.302,
+       "hl": false
+      },
+      {
+       "w": "setting",
+       "s": 32.302,
+       "e": 32.774,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 32.774,
+       "e": 33.025,
+       "hl": false
+      },
+      {
+       "w": "stage.",
+       "s": 33.025,
+       "e": 33.608,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_munich",
+   "s": 34.108,
+   "e": 40.717,
+   "lines": [
+    {
+     "text": "Imagine there is no war.",
+     "s": 34.358,
+     "e": 35.969,
+     "words": [
+      {
+       "w": "Imagine",
+       "s": 34.358,
+       "e": 34.807,
+       "hl": false
+      },
+      {
+       "w": "there",
+       "s": 34.807,
+       "e": 35.15,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 35.15,
+       "e": 35.335,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 35.335,
+       "e": 35.52,
+       "hl": false
+      },
+      {
+       "w": "war.",
+       "s": 35.52,
+       "e": 35.969,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "That the peace signed in *Munich* in 1938 holds *for real*.",
+     "s": 36.269,
+     "e": 40.217,
+     "words": [
+      {
+       "w": "That",
+       "s": 36.269,
+       "e": 36.538,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 36.538,
+       "e": 36.759,
+       "hl": false
+      },
+      {
+       "w": "peace",
+       "s": 36.759,
+       "e": 37.078,
+       "hl": false
+      },
+      {
+       "w": "signed",
+       "s": 37.078,
+       "e": 37.446,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 37.446,
+       "e": 37.617,
+       "hl": false
+      },
+      {
+       "w": "Munich",
+       "s": 37.617,
+       "e": 37.985,
+       "hl": true
+      },
+      {
+       "w": "in",
+       "s": 37.985,
+       "e": 38.157,
+       "hl": false
+      },
+      {
+       "w": "1938",
+       "s": 38.157,
+       "e": 39.212,
+       "hl": false
+      },
+      {
+       "w": "holds",
+       "s": 39.212,
+       "e": 39.53,
+       "hl": false
+      },
+      {
+       "w": "for",
+       "s": 39.53,
+       "e": 39.751,
+       "hl": true
+      },
+      {
+       "w": "real.",
+       "s": 39.751,
+       "e": 40.217,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_holocausto",
+   "s": 40.717,
+   "e": 45.847,
+   "lines": [
+    {
+     "text": "There would be no *Holocaust*:",
+     "s": 40.967,
+     "e": 42.529,
+     "words": [
+      {
+       "w": "There",
+       "s": 40.967,
+       "e": 41.27,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 41.27,
+       "e": 41.573,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 41.573,
+       "e": 41.736,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 41.736,
+       "e": 41.9,
+       "hl": false
+      },
+      {
+       "w": "Holocaust:",
+       "s": 41.9,
+       "e": 42.529,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "*six million* murdered Jews who could have lived.",
+     "s": 42.829,
+     "e": 45.347,
+     "words": [
+      {
+       "w": "six",
+       "s": 42.829,
+       "e": 43.035,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 43.035,
+       "e": 43.424,
+       "hl": true
+      },
+      {
+       "w": "murdered",
+       "s": 43.424,
+       "e": 43.859,
+       "hl": false
+      },
+      {
+       "w": "Jews",
+       "s": 43.859,
+       "e": 44.111,
+       "hl": false
+      },
+      {
+       "w": "who",
+       "s": 44.111,
+       "e": 44.317,
+       "hl": false
+      },
+      {
+       "w": "could",
+       "s": 44.317,
+       "e": 44.614,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 44.614,
+       "e": 44.866,
+       "hl": false
+      },
+      {
+       "w": "lived.",
+       "s": 44.866,
+       "e": 45.347,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_tecnologia",
+   "s": 45.847,
+   "e": 58.275,
+   "lines": [
+    {
+     "text": "But many things would arrive *later*.",
+     "s": 46.097,
+     "e": 47.868,
+     "words": [
+      {
+       "w": "But",
+       "s": 46.097,
+       "e": 46.287,
+       "hl": false
+      },
+      {
+       "w": "many",
+       "s": 46.287,
+       "e": 46.519,
+       "hl": false
+      },
+      {
+       "w": "things",
+       "s": 46.519,
+       "e": 46.835,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 46.835,
+       "e": 47.109,
+       "hl": false
+      },
+      {
+       "w": "arrive",
+       "s": 47.109,
+       "e": 47.426,
+       "hl": false
+      },
+      {
+       "w": "later.",
+       "s": 47.426,
+       "e": 47.868,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "The war accelerated *radar*, *jet* engines, the first *computers* and mass-produced *penicillin*.",
+     "s": 48.168,
+     "e": 54.217,
+     "words": [
+      {
+       "w": "The",
+       "s": 48.168,
+       "e": 48.435,
+       "hl": false
+      },
+      {
+       "w": "war",
+       "s": 48.435,
+       "e": 48.702,
+       "hl": false
+      },
+      {
+       "w": "accelerated",
+       "s": 48.702,
+       "e": 49.443,
+       "hl": false
+      },
+      {
+       "w": "radar,",
+       "s": 49.443,
+       "e": 50.007,
+       "hl": true
+      },
+      {
+       "w": "jet",
+       "s": 50.007,
+       "e": 50.274,
+       "hl": true
+      },
+      {
+       "w": "engines,",
+       "s": 50.274,
+       "e": 50.955,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 50.955,
+       "e": 51.222,
+       "hl": false
+      },
+      {
+       "w": "first",
+       "s": 51.222,
+       "e": 51.608,
+       "hl": false
+      },
+      {
+       "w": "computers",
+       "s": 51.608,
+       "e": 52.23,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 52.23,
+       "e": 52.497,
+       "hl": false
+      },
+      {
+       "w": "mass-produced",
+       "s": 52.497,
+       "e": 53.298,
+       "hl": false
+      },
+      {
+       "w": "penicillin.",
+       "s": 53.298,
+       "e": 54.217,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "And maybe no *atomic bomb* would ever have been dropped.",
+     "s": 54.517,
+     "e": 57.775,
+     "words": [
+      {
+       "w": "And",
+       "s": 54.517,
+       "e": 54.75,
+       "hl": false
+      },
+      {
+       "w": "maybe",
+       "s": 54.75,
+       "e": 55.086,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 55.086,
+       "e": 55.267,
+       "hl": false
+      },
+      {
+       "w": "atomic",
+       "s": 55.267,
+       "e": 55.655,
+       "hl": true
+      },
+      {
+       "w": "bomb",
+       "s": 55.655,
+       "e": 55.939,
+       "hl": true
+      },
+      {
+       "w": "would",
+       "s": 55.939,
+       "e": 56.276,
+       "hl": false
+      },
+      {
+       "w": "ever",
+       "s": 56.276,
+       "e": 56.56,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 56.56,
+       "e": 56.844,
+       "hl": false
+      },
+      {
+       "w": "been",
+       "s": 56.844,
+       "e": 57.129,
+       "hl": false
+      },
+      {
+       "w": "dropped.",
+       "s": 57.129,
+       "e": 57.775,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_imperios",
+   "s": 58.275,
+   "e": 66.429,
+   "lines": [
+    {
+     "text": "The *British* and *French* empires would last longer.",
+     "s": 58.525,
+     "e": 61.355,
+     "words": [
+      {
+       "w": "The",
+       "s": 58.525,
+       "e": 58.749,
+       "hl": false
+      },
+      {
+       "w": "British",
+       "s": 58.749,
+       "e": 59.171,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 59.171,
+       "e": 59.394,
+       "hl": false
+      },
+      {
+       "w": "French",
+       "s": 59.394,
+       "e": 59.766,
+       "hl": true
+      },
+      {
+       "w": "empires",
+       "s": 59.766,
+       "e": 60.188,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 60.188,
+       "e": 60.511,
+       "hl": false
+      },
+      {
+       "w": "last",
+       "s": 60.511,
+       "e": 60.784,
+       "hl": false
+      },
+      {
+       "w": "longer.",
+       "s": 60.784,
+       "e": 61.355,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*India's* independence, in 1947, might have been delayed.",
+     "s": 61.655,
+     "e": 65.929,
+     "words": [
+      {
+       "w": "India's",
+       "s": 61.655,
+       "e": 62.046,
+       "hl": true
+      },
+      {
+       "w": "independence,",
+       "s": 62.046,
+       "e": 62.906,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 62.906,
+       "e": 63.088,
+       "hl": false
+      },
+      {
+       "w": "1947,",
+       "s": 63.088,
+       "e": 64.365,
+       "hl": false
+      },
+      {
+       "w": "might",
+       "s": 64.365,
+       "e": 64.704,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 64.704,
+       "e": 64.991,
+       "hl": false
+      },
+      {
+       "w": "been",
+       "s": 64.991,
+       "e": 65.277,
+       "hl": false
+      },
+      {
+       "w": "delayed.",
+       "s": 65.277,
+       "e": 65.929,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_guerrafria",
+   "s": 66.429,
+   "e": 75.276,
+   "lines": [
+    {
+     "text": "*Stalin's* army would never have reached *Berlin*.",
+     "s": 66.679,
+     "e": 69.258,
+     "words": [
+      {
+       "w": "Stalin's",
+       "s": 66.679,
+       "e": 67.097,
+       "hl": true
+      },
+      {
+       "w": "army",
+       "s": 67.097,
+       "e": 67.367,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 67.367,
+       "e": 67.686,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 67.686,
+       "e": 68.005,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 68.005,
+       "e": 68.276,
+       "hl": false
+      },
+      {
+       "w": "reached",
+       "s": 68.276,
+       "e": 68.693,
+       "hl": false
+      },
+      {
+       "w": "Berlin.",
+       "s": 68.693,
+       "e": 69.258,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "With no *Cold War* and no *UN* as we know them, the twentieth century would be different.",
+     "s": 69.558,
+     "e": 74.776,
+     "words": [
+      {
+       "w": "With",
+       "s": 69.558,
+       "e": 69.846,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 69.846,
+       "e": 70.03,
+       "hl": false
+      },
+      {
+       "w": "Cold",
+       "s": 70.03,
+       "e": 70.318,
+       "hl": true
+      },
+      {
+       "w": "War",
+       "s": 70.318,
+       "e": 70.554,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 70.554,
+       "e": 70.79,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 70.79,
+       "e": 70.974,
+       "hl": false
+      },
+      {
+       "w": "UN",
+       "s": 70.974,
+       "e": 71.157,
+       "hl": true
+      },
+      {
+       "w": "as",
+       "s": 71.157,
+       "e": 71.341,
+       "hl": false
+      },
+      {
+       "w": "we",
+       "s": 71.341,
+       "e": 71.525,
+       "hl": false
+      },
+      {
+       "w": "know",
+       "s": 71.525,
+       "e": 71.813,
+       "hl": false
+      },
+      {
+       "w": "them,",
+       "s": 71.813,
+       "e": 72.259,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 72.259,
+       "e": 72.495,
+       "hl": false
+      },
+      {
+       "w": "twentieth",
+       "s": 72.495,
+       "e": 73.045,
+       "hl": false
+      },
+      {
+       "w": "century",
+       "s": 73.045,
+       "e": 73.491,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 73.491,
+       "e": 73.832,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 73.832,
+       "e": 74.016,
+       "hl": false
+      },
+      {
+       "w": "different.",
+       "s": 74.016,
+       "e": 74.776,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 75.276,
+   "e": 84.796,
+   "lines": [
+    {
+     "text": "Tens of millions more lives... and an *unrecognizable* world.",
+     "s": 75.526,
+     "e": 79.417,
+     "words": [
+      {
+       "w": "Tens",
+       "s": 75.526,
+       "e": 75.838,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 75.838,
+       "e": 76.037,
+       "hl": false
+      },
+      {
+       "w": "millions",
+       "s": 76.037,
+       "e": 76.577,
+       "hl": false
+      },
+      {
+       "w": "more",
+       "s": 76.577,
+       "e": 76.889,
+       "hl": false
+      },
+      {
+       "w": "lives...",
+       "s": 76.889,
+       "e": 77.486,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 77.486,
+       "e": 77.741,
+       "hl": false
+      },
+      {
+       "w": "an",
+       "s": 77.741,
+       "e": 77.94,
+       "hl": false
+      },
+      {
+       "w": "unrecognizable",
+       "s": 77.94,
+       "e": 78.821,
+       "hl": true
+      },
+      {
+       "w": "world.",
+       "s": 78.821,
+       "e": 79.417,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "What do you think would have happened? Tell me in the comments.",
+     "s": 79.717,
+     "e": 82.596,
+     "words": [
+      {
+       "w": "What",
+       "s": 79.717,
+       "e": 79.925,
+       "hl": false
+      },
+      {
+       "w": "do",
+       "s": 79.925,
+       "e": 80.058,
+       "hl": false
+      },
+      {
+       "w": "you",
+       "s": 80.058,
+       "e": 80.228,
+       "hl": false
+      },
+      {
+       "w": "think",
+       "s": 80.228,
+       "e": 80.475,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 80.475,
+       "e": 80.721,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 80.721,
+       "e": 80.929,
+       "hl": false
+      },
+      {
+       "w": "happened?",
+       "s": 80.929,
+       "e": 81.441,
+       "hl": false
+      },
+      {
+       "w": "Tell",
+       "s": 81.441,
+       "e": 81.649,
+       "hl": false
+      },
+      {
+       "w": "me",
+       "s": 81.649,
+       "e": 81.782,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 81.782,
+       "e": 81.914,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 81.914,
+       "e": 82.085,
+       "hl": false
+      },
+      {
+       "w": "comments.",
+       "s": 82.085,
+       "e": 82.596,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

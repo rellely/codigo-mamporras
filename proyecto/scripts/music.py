@@ -89,8 +89,9 @@ SPECS = {
 }
 def chord(root, q): return [root, root+(3 if q == 'm' else 4), root+7]
 
-def compose(vid):
-    tm = json.load(open(f"{ROOT}/scenes/{vid}/timing.json")); sp = SPECS[vid]
+def compose(name):
+    vid = name.split(".")[0]; suf = name[len(vid):]
+    tm = json.load(open(f"{ROOT}/scenes/{vid}/timing{suf}.json")); sp = SPECS[vid]
     total = tm["total"]+1.0; buf = np.zeros((int((total+4)*SR), 2))
     beat = 60/sp["bpm"]; bar = beat*4
     def inten(t):
@@ -141,8 +142,8 @@ def compose(vid):
     fi = int(0.8*SR); out[:fi] *= np.linspace(0, 1, fi)[:, None]
     out = out/np.abs(out).max()*0.85
     os.makedirs(f"{ROOT}/assets/audio/music", exist_ok=True)
-    sf.write(f"{ROOT}/assets/audio/music/{vid}.wav", out.astype(np.float32), SR)
-    print(vid, "música", round(total, 1), "s")
+    sf.write(f"{ROOT}/assets/audio/music/{vid}{suf}.wav", out.astype(np.float32), SR)
+    print(name, "música", round(total, 1), "s")
 
 if __name__ == "__main__":
     for v in sys.argv[1:]: compose(v)

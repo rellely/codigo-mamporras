@@ -1,0 +1,1484 @@
+{
+ "id": "taiwan.en",
+ "lang": "en",
+ "cues": {
+  "futuro": "future",
+  "pekín": "beijing",
+  "fuerza": "force",
+  "90": "90",
+  "móvil": "phone",
+  "coche": "car",
+  "inteligencia": "artificial",
+  "invadir": "invade",
+  "bloqueo": "blockade",
+  "detiene": "stops",
+  "normandía": "normandy",
+  "buques": "ships",
+  "montañas": "mountains",
+  "playas": "beaches",
+  "bravo": "rough",
+  "estados": "united",
+  "csis": "csis",
+  "24": "24",
+  "fracasaba": "failed",
+  "perdidos": "lost",
+  "10%": "10%",
+  "2008": "2008",
+  "pandemia": "pandemic"
+ },
+ "titulo": "What if China invaded Taiwan today?",
+ "total": 88.851,
+ "scenes": [
+  {
+   "id": "s1_estrecho",
+   "s": 0.0,
+   "e": 7.349,
+   "lines": [
+    {
+     "text": "About *130 kilometers* of sea separate China from Taiwan.",
+     "s": 0.25,
+     "e": 4.306,
+     "words": [
+      {
+       "w": "About",
+       "s": 0.25,
+       "e": 0.599,
+       "hl": false
+      },
+      {
+       "w": "130",
+       "s": 0.599,
+       "e": 1.486,
+       "hl": true
+      },
+      {
+       "w": "kilometers",
+       "s": 1.486,
+       "e": 2.103,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 2.103,
+       "e": 2.292,
+       "hl": false
+      },
+      {
+       "w": "sea",
+       "s": 2.292,
+       "e": 2.533,
+       "hl": false
+      },
+      {
+       "w": "separate",
+       "s": 2.533,
+       "e": 3.044,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 3.044,
+       "e": 3.393,
+       "hl": false
+      },
+      {
+       "w": "from",
+       "s": 3.393,
+       "e": 3.688,
+       "hl": false
+      },
+      {
+       "w": "Taiwan.",
+       "s": 3.688,
+       "e": 4.306,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "And they could decide the *future of the planet*.",
+     "s": 4.606,
+     "e": 6.849,
+     "words": [
+      {
+       "w": "And",
+       "s": 4.606,
+       "e": 4.788,
+       "hl": false
+      },
+      {
+       "w": "they",
+       "s": 4.788,
+       "e": 5.01,
+       "hl": false
+      },
+      {
+       "w": "could",
+       "s": 5.01,
+       "e": 5.273,
+       "hl": false
+      },
+      {
+       "w": "decide",
+       "s": 5.273,
+       "e": 5.576,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 5.576,
+       "e": 5.758,
+       "hl": false
+      },
+      {
+       "w": "future",
+       "s": 5.758,
+       "e": 6.061,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 6.061,
+       "e": 6.202,
+       "hl": true
+      },
+      {
+       "w": "the",
+       "s": 6.202,
+       "e": 6.384,
+       "hl": true
+      },
+      {
+       "w": "planet.",
+       "s": 6.384,
+       "e": 6.849,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_contexto",
+   "s": 7.349,
+   "e": 16.932,
+   "lines": [
+    {
+     "text": "Since *1949*, Taiwan has governed itself separately.",
+     "s": 7.599,
+     "e": 11.613,
+     "words": [
+      {
+       "w": "Since",
+       "s": 7.599,
+       "e": 7.944,
+       "hl": false
+      },
+      {
+       "w": "1949,",
+       "s": 7.944,
+       "e": 9.247,
+       "hl": true
+      },
+      {
+       "w": "Taiwan",
+       "s": 9.247,
+       "e": 9.646,
+       "hl": false
+      },
+      {
+       "w": "has",
+       "s": 9.646,
+       "e": 9.885,
+       "hl": false
+      },
+      {
+       "w": "governed",
+       "s": 9.885,
+       "e": 10.39,
+       "hl": false
+      },
+      {
+       "w": "itself",
+       "s": 10.39,
+       "e": 10.789,
+       "hl": false
+      },
+      {
+       "w": "separately.",
+       "s": 10.789,
+       "e": 11.613,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Beijing* considers it part of China and does not rule out using *force*.",
+     "s": 11.913,
+     "e": 16.432,
+     "words": [
+      {
+       "w": "Beijing",
+       "s": 11.913,
+       "e": 12.396,
+       "hl": true
+      },
+      {
+       "w": "considers",
+       "s": 12.396,
+       "e": 12.993,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 12.993,
+       "e": 13.192,
+       "hl": false
+      },
+      {
+       "w": "part",
+       "s": 13.192,
+       "e": 13.504,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 13.504,
+       "e": 13.703,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 13.703,
+       "e": 14.073,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 14.073,
+       "e": 14.329,
+       "hl": false
+      },
+      {
+       "w": "does",
+       "s": 14.329,
+       "e": 14.641,
+       "hl": false
+      },
+      {
+       "w": "not",
+       "s": 14.641,
+       "e": 14.897,
+       "hl": false
+      },
+      {
+       "w": "rule",
+       "s": 14.897,
+       "e": 15.21,
+       "hl": false
+      },
+      {
+       "w": "out",
+       "s": 15.21,
+       "e": 15.466,
+       "hl": false
+      },
+      {
+       "w": "using",
+       "s": 15.466,
+       "e": 15.835,
+       "hl": false
+      },
+      {
+       "w": "force.",
+       "s": 15.835,
+       "e": 16.432,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_chips",
+   "s": 16.932,
+   "e": 29.57,
+   "lines": [
+    {
+     "text": "Why does it matter so much? Because of this:",
+     "s": 17.182,
+     "e": 19.68,
+     "words": [
+      {
+       "w": "Why",
+       "s": 17.182,
+       "e": 17.388,
+       "hl": false
+      },
+      {
+       "w": "does",
+       "s": 17.388,
+       "e": 17.64,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 17.64,
+       "e": 17.801,
+       "hl": false
+      },
+      {
+       "w": "matter",
+       "s": 17.801,
+       "e": 18.144,
+       "hl": false
+      },
+      {
+       "w": "so",
+       "s": 18.144,
+       "e": 18.305,
+       "hl": false
+      },
+      {
+       "w": "much?",
+       "s": 18.305,
+       "e": 18.74,
+       "hl": false
+      },
+      {
+       "w": "Because",
+       "s": 18.74,
+       "e": 19.13,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 19.13,
+       "e": 19.29,
+       "hl": false
+      },
+      {
+       "w": "this:",
+       "s": 19.29,
+       "e": 19.68,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Taiwan makes *over 90%* of the world's *most advanced* chips.",
+     "s": 19.98,
+     "e": 23.873,
+     "words": [
+      {
+       "w": "Taiwan",
+       "s": 19.98,
+       "e": 20.38,
+       "hl": false
+      },
+      {
+       "w": "makes",
+       "s": 20.38,
+       "e": 20.726,
+       "hl": false
+      },
+      {
+       "w": "over",
+       "s": 20.726,
+       "e": 21.02,
+       "hl": true
+      },
+      {
+       "w": "90%",
+       "s": 21.02,
+       "e": 21.686,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 21.686,
+       "e": 21.873,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 21.873,
+       "e": 22.113,
+       "hl": false
+      },
+      {
+       "w": "world's",
+       "s": 22.113,
+       "e": 22.513,
+       "hl": false
+      },
+      {
+       "w": "most",
+       "s": 22.513,
+       "e": 22.806,
+       "hl": true
+      },
+      {
+       "w": "advanced",
+       "s": 22.806,
+       "e": 23.313,
+       "hl": true
+      },
+      {
+       "w": "chips.",
+       "s": 23.313,
+       "e": 23.873,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Your *phone*, your *car*, *artificial intelligence*... they all depend on this island.",
+     "s": 24.173,
+     "e": 29.07,
+     "words": [
+      {
+       "w": "Your",
+       "s": 24.173,
+       "e": 24.456,
+       "hl": false
+      },
+      {
+       "w": "phone,",
+       "s": 24.456,
+       "e": 24.946,
+       "hl": true
+      },
+      {
+       "w": "your",
+       "s": 24.946,
+       "e": 25.23,
+       "hl": false
+      },
+      {
+       "w": "car,",
+       "s": 25.23,
+       "e": 25.616,
+       "hl": true
+      },
+      {
+       "w": "artificial",
+       "s": 25.616,
+       "e": 26.209,
+       "hl": true
+      },
+      {
+       "w": "intelligence...",
+       "s": 26.209,
+       "e": 27.111,
+       "hl": true
+      },
+      {
+       "w": "they",
+       "s": 27.111,
+       "e": 27.394,
+       "hl": false
+      },
+      {
+       "w": "all",
+       "s": 27.394,
+       "e": 27.626,
+       "hl": false
+      },
+      {
+       "w": "depend",
+       "s": 27.626,
+       "e": 28.013,
+       "hl": false
+      },
+      {
+       "w": "on",
+       "s": 28.013,
+       "e": 28.193,
+       "hl": false
+      },
+      {
+       "w": "this",
+       "s": 28.193,
+       "e": 28.477,
+       "hl": false
+      },
+      {
+       "w": "island.",
+       "s": 28.477,
+       "e": 29.07,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_bloqueo",
+   "s": 29.57,
+   "e": 37.422,
+   "lines": [
+    {
+     "text": "Suppose China decides to *invade*.",
+     "s": 29.82,
+     "e": 31.877,
+     "words": [
+      {
+       "w": "Suppose",
+       "s": 29.82,
+       "e": 30.274,
+       "hl": false
+      },
+      {
+       "w": "China",
+       "s": 30.274,
+       "e": 30.621,
+       "hl": false
+      },
+      {
+       "w": "decides",
+       "s": 30.621,
+       "e": 31.075,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 31.075,
+       "e": 31.262,
+       "hl": false
+      },
+      {
+       "w": "invade.",
+       "s": 31.262,
+       "e": 31.877,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "First would come a *blockade*: ships and missiles surround the island and trade stops.",
+     "s": 32.177,
+     "e": 36.922,
+     "words": [
+      {
+       "w": "First",
+       "s": 32.177,
+       "e": 32.495,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 32.495,
+       "e": 32.813,
+       "hl": false
+      },
+      {
+       "w": "come",
+       "s": 32.813,
+       "e": 33.082,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 33.082,
+       "e": 33.204,
+       "hl": false
+      },
+      {
+       "w": "blockade:",
+       "s": 33.204,
+       "e": 33.816,
+       "hl": true
+      },
+      {
+       "w": "ships",
+       "s": 33.816,
+       "e": 34.134,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 34.134,
+       "e": 34.354,
+       "hl": false
+      },
+      {
+       "w": "missiles",
+       "s": 34.354,
+       "e": 34.819,
+       "hl": false
+      },
+      {
+       "w": "surround",
+       "s": 34.819,
+       "e": 35.283,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 35.283,
+       "e": 35.503,
+       "hl": false
+      },
+      {
+       "w": "island",
+       "s": 35.503,
+       "e": 35.87,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 35.87,
+       "e": 36.09,
+       "hl": false
+      },
+      {
+       "w": "trade",
+       "s": 36.09,
+       "e": 36.408,
+       "hl": false
+      },
+      {
+       "w": "stops.",
+       "s": 36.408,
+       "e": 36.922,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_desembarco",
+   "s": 37.422,
+   "e": 44.817,
+   "lines": [
+    {
+     "text": "Then, the largest *amphibious* operation since *Normandy*:",
+     "s": 37.672,
+     "e": 41.015,
+     "words": [
+      {
+       "w": "Then,",
+       "s": 37.672,
+       "e": 38.127,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 38.127,
+       "e": 38.367,
+       "hl": false
+      },
+      {
+       "w": "largest",
+       "s": 38.367,
+       "e": 38.822,
+       "hl": false
+      },
+      {
+       "w": "amphibious",
+       "s": 38.822,
+       "e": 39.437,
+       "hl": true
+      },
+      {
+       "w": "operation",
+       "s": 39.437,
+       "e": 39.998,
+       "hl": false
+      },
+      {
+       "w": "since",
+       "s": 39.998,
+       "e": 40.346,
+       "hl": false
+      },
+      {
+       "w": "Normandy:",
+       "s": 40.346,
+       "e": 41.015,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "hundreds of ships crossing the strait under enemy fire.",
+     "s": 41.315,
+     "e": 44.317,
+     "words": [
+      {
+       "w": "hundreds",
+       "s": 41.315,
+       "e": 41.764,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 41.764,
+       "e": 41.929,
+       "hl": false
+      },
+      {
+       "w": "ships",
+       "s": 41.929,
+       "e": 42.237,
+       "hl": false
+      },
+      {
+       "w": "crossing",
+       "s": 42.237,
+       "e": 42.686,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 42.686,
+       "e": 42.898,
+       "hl": false
+      },
+      {
+       "w": "strait",
+       "s": 42.898,
+       "e": 43.253,
+       "hl": false
+      },
+      {
+       "w": "under",
+       "s": 43.253,
+       "e": 43.56,
+       "hl": false
+      },
+      {
+       "w": "enemy",
+       "s": 43.56,
+       "e": 43.868,
+       "hl": false
+      },
+      {
+       "w": "fire.",
+       "s": 43.868,
+       "e": 44.317,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_fortaleza",
+   "s": 44.817,
+   "e": 54.271,
+   "lines": [
+    {
+     "text": "But Taiwan is a *natural fortress*:",
+     "s": 45.067,
+     "e": 47.237,
+     "words": [
+      {
+       "w": "But",
+       "s": 45.067,
+       "e": 45.317,
+       "hl": false
+      },
+      {
+       "w": "Taiwan",
+       "s": 45.317,
+       "e": 45.734,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 45.734,
+       "e": 45.929,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 45.929,
+       "e": 46.068,
+       "hl": false
+      },
+      {
+       "w": "natural",
+       "s": 46.068,
+       "e": 46.541,
+       "hl": true
+      },
+      {
+       "w": "fortress:",
+       "s": 46.541,
+       "e": 47.237,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "mountains, few suitable beaches, and seas so *rough* they can only be crossed at certain times of year.",
+     "s": 47.537,
+     "e": 53.771,
+     "words": [
+      {
+       "w": "mountains,",
+       "s": 47.537,
+       "e": 48.25,
+       "hl": false
+      },
+      {
+       "w": "few",
+       "s": 48.25,
+       "e": 48.488,
+       "hl": false
+      },
+      {
+       "w": "suitable",
+       "s": 48.488,
+       "e": 48.99,
+       "hl": false
+      },
+      {
+       "w": "beaches,",
+       "s": 48.99,
+       "e": 49.597,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 49.597,
+       "e": 49.835,
+       "hl": false
+      },
+      {
+       "w": "seas",
+       "s": 49.835,
+       "e": 50.126,
+       "hl": false
+      },
+      {
+       "w": "so",
+       "s": 50.126,
+       "e": 50.31,
+       "hl": false
+      },
+      {
+       "w": "rough",
+       "s": 50.31,
+       "e": 50.654,
+       "hl": true
+      },
+      {
+       "w": "they",
+       "s": 50.654,
+       "e": 50.944,
+       "hl": false
+      },
+      {
+       "w": "can",
+       "s": 50.944,
+       "e": 51.182,
+       "hl": false
+      },
+      {
+       "w": "only",
+       "s": 51.182,
+       "e": 51.473,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 51.473,
+       "e": 51.658,
+       "hl": false
+      },
+      {
+       "w": "crossed",
+       "s": 51.658,
+       "e": 52.107,
+       "hl": false
+      },
+      {
+       "w": "at",
+       "s": 52.107,
+       "e": 52.292,
+       "hl": false
+      },
+      {
+       "w": "certain",
+       "s": 52.292,
+       "e": 52.741,
+       "hl": false
+      },
+      {
+       "w": "times",
+       "s": 52.741,
+       "e": 53.084,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 53.084,
+       "e": 53.269,
+       "hl": false
+      },
+      {
+       "w": "year.",
+       "s": 53.269,
+       "e": 53.771,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_simulacion",
+   "s": 54.271,
+   "e": 70.747,
+   "lines": [
+    {
+     "text": "If the *United States* and *Japan* step in, the war goes global.",
+     "s": 54.521,
+     "e": 58.343,
+     "words": [
+      {
+       "w": "If",
+       "s": 54.521,
+       "e": 54.707,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 54.707,
+       "e": 54.946,
+       "hl": false
+      },
+      {
+       "w": "United",
+       "s": 54.946,
+       "e": 55.344,
+       "hl": true
+      },
+      {
+       "w": "States",
+       "s": 55.344,
+       "e": 55.742,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 55.742,
+       "e": 55.981,
+       "hl": false
+      },
+      {
+       "w": "Japan",
+       "s": 55.981,
+       "e": 56.326,
+       "hl": true
+      },
+      {
+       "w": "step",
+       "s": 56.326,
+       "e": 56.618,
+       "hl": false
+      },
+      {
+       "w": "in,",
+       "s": 56.618,
+       "e": 56.963,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 56.963,
+       "e": 57.202,
+       "hl": false
+      },
+      {
+       "w": "war",
+       "s": 57.202,
+       "e": 57.441,
+       "hl": false
+      },
+      {
+       "w": "goes",
+       "s": 57.441,
+       "e": 57.733,
+       "hl": false
+      },
+      {
+       "w": "global.",
+       "s": 57.733,
+       "e": 58.343,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "In 2023, the think tank *CSIS* simulated this war *24 times*.",
+     "s": 58.643,
+     "e": 64.262,
+     "words": [
+      {
+       "w": "In",
+       "s": 58.643,
+       "e": 58.856,
+       "hl": false
+      },
+      {
+       "w": "2023,",
+       "s": 58.856,
+       "e": 60.344,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 60.344,
+       "e": 60.618,
+       "hl": false
+      },
+      {
+       "w": "think",
+       "s": 60.618,
+       "e": 61.012,
+       "hl": false
+      },
+      {
+       "w": "tank",
+       "s": 61.012,
+       "e": 61.347,
+       "hl": false
+      },
+      {
+       "w": "CSIS",
+       "s": 61.347,
+       "e": 61.681,
+       "hl": true
+      },
+      {
+       "w": "simulated",
+       "s": 61.681,
+       "e": 62.318,
+       "hl": false
+      },
+      {
+       "w": "this",
+       "s": 62.318,
+       "e": 62.652,
+       "hl": false
+      },
+      {
+       "w": "war",
+       "s": 62.652,
+       "e": 62.926,
+       "hl": false
+      },
+      {
+       "w": "24",
+       "s": 62.926,
+       "e": 63.624,
+       "hl": true
+      },
+      {
+       "w": "times.",
+       "s": 63.624,
+       "e": 64.262,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "In most of them, the invasion *failed*... but with dozens of ships and hundreds of aircraft *lost*.",
+     "s": 64.562,
+     "e": 70.247,
+     "words": [
+      {
+       "w": "In",
+       "s": 64.562,
+       "e": 64.742,
+       "hl": false
+      },
+      {
+       "w": "most",
+       "s": 64.742,
+       "e": 65.025,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 65.025,
+       "e": 65.205,
+       "hl": false
+      },
+      {
+       "w": "them,",
+       "s": 65.205,
+       "e": 65.643,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 65.643,
+       "e": 65.874,
+       "hl": false
+      },
+      {
+       "w": "invasion",
+       "s": 65.874,
+       "e": 66.363,
+       "hl": false
+      },
+      {
+       "w": "failed...",
+       "s": 66.363,
+       "e": 66.955,
+       "hl": true
+      },
+      {
+       "w": "but",
+       "s": 66.955,
+       "e": 67.186,
+       "hl": false
+      },
+      {
+       "w": "with",
+       "s": 67.186,
+       "e": 67.469,
+       "hl": false
+      },
+      {
+       "w": "dozens",
+       "s": 67.469,
+       "e": 67.855,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 67.855,
+       "e": 68.035,
+       "hl": false
+      },
+      {
+       "w": "ships",
+       "s": 68.035,
+       "e": 68.369,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 68.369,
+       "e": 68.601,
+       "hl": false
+      },
+      {
+       "w": "hundreds",
+       "s": 68.601,
+       "e": 69.09,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 69.09,
+       "e": 69.27,
+       "hl": false
+      },
+      {
+       "w": "aircraft",
+       "s": 69.27,
+       "e": 69.759,
+       "hl": false
+      },
+      {
+       "w": "lost.",
+       "s": 69.759,
+       "e": 70.247,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_economia",
+   "s": 70.747,
+   "e": 80.871,
+   "lines": [
+    {
+     "text": "According to *Bloomberg Economics*, global GDP could drop by about *10%*.",
+     "s": 70.997,
+     "e": 76.372,
+     "words": [
+      {
+       "w": "According",
+       "s": 70.997,
+       "e": 71.635,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 71.635,
+       "e": 71.848,
+       "hl": false
+      },
+      {
+       "w": "Bloomberg",
+       "s": 71.848,
+       "e": 72.485,
+       "hl": true
+      },
+      {
+       "w": "Economics,",
+       "s": 72.485,
+       "e": 73.305,
+       "hl": true
+      },
+      {
+       "w": "global",
+       "s": 73.305,
+       "e": 73.76,
+       "hl": false
+      },
+      {
+       "w": "GDP",
+       "s": 73.76,
+       "e": 74.034,
+       "hl": false
+      },
+      {
+       "w": "could",
+       "s": 74.034,
+       "e": 74.428,
+       "hl": false
+      },
+      {
+       "w": "drop",
+       "s": 74.428,
+       "e": 74.762,
+       "hl": false
+      },
+      {
+       "w": "by",
+       "s": 74.762,
+       "e": 74.975,
+       "hl": false
+      },
+      {
+       "w": "about",
+       "s": 74.975,
+       "e": 75.37,
+       "hl": false
+      },
+      {
+       "w": "10%.",
+       "s": 75.37,
+       "e": 76.372,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "A bigger hit than the *2008* crisis and the *pandemic*.",
+     "s": 76.672,
+     "e": 80.371,
+     "words": [
+      {
+       "w": "A",
+       "s": 76.672,
+       "e": 76.793,
+       "hl": false
+      },
+      {
+       "w": "bigger",
+       "s": 76.793,
+       "e": 77.159,
+       "hl": false
+      },
+      {
+       "w": "hit",
+       "s": 77.159,
+       "e": 77.378,
+       "hl": false
+      },
+      {
+       "w": "than",
+       "s": 77.378,
+       "e": 77.645,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 77.645,
+       "e": 77.864,
+       "hl": false
+      },
+      {
+       "w": "2008",
+       "s": 77.864,
+       "e": 78.911,
+       "hl": true
+      },
+      {
+       "w": "crisis",
+       "s": 78.911,
+       "e": 79.276,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 79.276,
+       "e": 79.495,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 79.495,
+       "e": 79.714,
+       "hl": false
+      },
+      {
+       "w": "pandemic.",
+       "s": 79.714,
+       "e": 80.371,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 80.871,
+   "e": 88.851,
+   "lines": [
+    {
+     "text": "In this war, probably *nobody would win*.",
+     "s": 81.121,
+     "e": 83.539,
+     "words": [
+      {
+       "w": "In",
+       "s": 81.121,
+       "e": 81.296,
+       "hl": false
+      },
+      {
+       "w": "this",
+       "s": 81.296,
+       "e": 81.57,
+       "hl": false
+      },
+      {
+       "w": "war,",
+       "s": 81.57,
+       "e": 81.944,
+       "hl": false
+      },
+      {
+       "w": "probably",
+       "s": 81.944,
+       "e": 82.417,
+       "hl": false
+      },
+      {
+       "w": "nobody",
+       "s": 82.417,
+       "e": 82.791,
+       "hl": true
+      },
+      {
+       "w": "would",
+       "s": 82.791,
+       "e": 83.115,
+       "hl": true
+      },
+      {
+       "w": "win.",
+       "s": 83.115,
+       "e": 83.539,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Do you think it will *ever happen*? Tell me in the comments.",
+     "s": 83.839,
+     "e": 86.651,
+     "words": [
+      {
+       "w": "Do",
+       "s": 83.839,
+       "e": 83.978,
+       "hl": false
+      },
+      {
+       "w": "you",
+       "s": 83.978,
+       "e": 84.156,
+       "hl": false
+      },
+      {
+       "w": "think",
+       "s": 84.156,
+       "e": 84.413,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 84.413,
+       "e": 84.552,
+       "hl": false
+      },
+      {
+       "w": "will",
+       "s": 84.552,
+       "e": 84.77,
+       "hl": false
+      },
+      {
+       "w": "ever",
+       "s": 84.77,
+       "e": 84.988,
+       "hl": true
+      },
+      {
+       "w": "happen?",
+       "s": 84.988,
+       "e": 85.443,
+       "hl": true
+      },
+      {
+       "w": "Tell",
+       "s": 85.443,
+       "e": 85.661,
+       "hl": false
+      },
+      {
+       "w": "me",
+       "s": 85.661,
+       "e": 85.799,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 85.799,
+       "e": 85.938,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 85.938,
+       "e": 86.116,
+       "hl": false
+      },
+      {
+       "w": "comments.",
+       "s": 86.116,
+       "e": 86.651,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

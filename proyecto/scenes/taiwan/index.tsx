@@ -8,6 +8,7 @@ import {Camera, Carrier, Clouds, Crowd, Explosion, Fab, Flag, FlagFace, Flash, G
 import {MapView, projectLL, ProjCfg} from '../../components/MapView';
 import {Amb, BigStat, Chip, DateStamp, NameTag, Sfx} from '../../components/Overlays';
 import {SceneFC} from '../../components/Episode';
+import {L, fmtNum} from '../../components/i18n';
 
 const PRC = '#d62a2a', TW = '#2f7de0';
 const STRAIT: ProjCfg = {type: 'mercator', center: [120.3, 24.2], scale: 9000};
@@ -21,12 +22,12 @@ const S1: SceneFC = ({d, cue}) => {
     <Stage bg="#0f2a44">
       <MapView proj={STRAIT} theme="modern" zoom={[[0, 1.4], [fut, 1.0], [d, 0.85]]} focus={[120.3, 24.6]}
         fills={[{names: ['China'], color: PRC, at: 4, dur: 14}, {names: ['Taiwan'], color: TW, at: 10, dur: 14, glow: true}]}
-        labels={[{at: [117.6, 25.6], text: 'CHINA', from: 6, size: 80, color: '#fff'}, {at: [121.0, 23.4], text: 'TAIWÁN', from: 12, size: 70, color: '#fff'}]}>
+        labels={[{at: [117.6, 25.6], text: L('CHINA'), from: 6, size: 80, color: '#fff'}, {at: [121.0, 23.4], text: L('TAIWÁN'), from: 12, size: 70, color: '#fff'}]}>
         <g opacity={k}><line x1={ax} y1={ay} x2={lerp(ax, bx, k)} y2={lerp(ay, by, k)} stroke={C.yellow} strokeWidth={8} strokeDasharray="22 14" />
           <circle cx={ax} cy={ay} r={12} fill={C.yellow} /><circle cx={lerp(ax, bx, k)} cy={lerp(ay, by, k)} r={12} fill={C.yellow} /></g>
       </MapView>
     </Stage>
-    <BigStat value={130} suffix=" km" from={14} label="en su punto más estrecho" y={1530} hold={fut - 4} />
+    <BigStat value={130} suffix=" km" from={14} label={L("en su punto más estrecho")} y={1530} hold={fut - 4} />
     <Sfx name="digital" at={10} vol={0.3} /><Sfx name="ding" at={30} vol={0.3} /><Sfx name="impact" at={fut} vol={0.4} /><Amb name="sea" vol={0.15} dur={d} />
   </AbsoluteFill>;
 };
@@ -43,19 +44,19 @@ const S2: SceneFC = ({d, cue}) => {
         <Sea y={1150} color="#6a5a40" color2="#5a4a34" amp={10} />
         <g transform="translate(540,1250)">{[0, 1, 2].map((i) => <g key={i} transform={`translate(${-250 + i * 250},${i * 30}) scale(0.4)`}><path d="M-200,-60 L200,-60 L170,20 L-170,20Z" fill="#3a3020" stroke="#1a140c" strokeWidth={8} /><rect x={-40} y={-160} width={80} height={100} fill="#3a3020" /></g>)}</g>
         <text x={540} y={760} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={180} fill="#f4e4c0" opacity={0.85}>1949</text>
-        <text x={540} y={850} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={36} fill="#f4e4c0">EL GOBIERNO NACIONALISTA SE RETIRA A TAIWÁN</text>
+        <text x={540} y={850} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={36} fill="#f4e4c0">{L('EL GOBIERNO NACIONALISTA SE RETIRA A TAIWÁN')}</text>
         {/* derecha: hoy, dos gobiernos */}
         <g transform="translate(1080,0)">
           <rect x={0} y={0} width={1080} height={1920} fill="#14122a" />
           <line x1={540} y1={300} x2={540} y2={1900} stroke="#fff" strokeWidth={6} strokeDasharray="20 16" opacity={0.5} />
-          <g transform="translate(270,620)"><svg x={-120} y={-80} width={240} height={160}><FlagFace kind="prc" w={240} h={160} /></svg><text y={140} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff">PEKÍN</text></g>
-          <g transform="translate(810,620)"><svg x={-120} y={-80} width={240} height={160}><FlagFace kind="roc" w={240} h={160} /></svg><text y={140} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff">TAIPÉI</text></g>
+          <g transform="translate(270,620)"><svg x={-120} y={-80} width={240} height={160}><FlagFace kind="prc" w={240} h={160} /></svg><text y={140} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff">{L('PEKÍN')}</text></g>
+          <g transform="translate(810,620)"><svg x={-120} y={-80} width={240} height={160}><FlagFace kind="roc" w={240} h={160} /></svg><text y={140} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill="#fff">{L('TAIPÉI')}</text></g>
           <Character d={CAST.plaGeneral} x={270} y={1700} scale={1.25} pose={f > fue ? 'point' : 'crossArms'} expr={f > fue ? 'angry' : 'determined'} talking={f > pek && f < fue + 30} look={0.5} />
           <Character d={CAST.twSoldier} x={810} y={1700} scale={1.25} pose="rifle" expr={f > fue ? 'worried' : 'determined'} facing={-1} look={0.5} propOverride="none" />
         </g>
       </g></Layer>
     </Camera></Stage>
-    <Chip text="NO DESCARTA LA FUERZA" from={fue} y={330} color="#ff5a5a" textColor="#fff" />
+    <Chip text={L("NO DESCARTA LA FUERZA")} from={fue} y={330} color="#ff5a5a" textColor="#fff" />
     <Sfx name="whoosh" at={pek} vol={0.4} /><Sfx name="stamp" at={fue} vol={0.5} /><Amb name="wind" vol={0.1} dur={d} />
   </AbsoluteFill>;
 };
@@ -79,7 +80,7 @@ const S3: SceneFC = ({d, cue}) => {
       <Layer depth={1}>
         <g transform="translate(540,1050)">
           <rect x={-120} y={-120} width={240} height={240} rx={20} fill="#2b3a4a" stroke={C.ink} strokeWidth={8} /><rect x={-70} y={-70} width={140} height={140} fill="#c9a43a" stroke={C.ink} strokeWidth={5} />
-          <text y={18} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill={C.ink}>3nm</text>
+          <text y={18} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={56} fill={C.ink}>{L('3nm')}</text>
           {[-1, 1].map((s) => Array.from({length: 6}).map((_, i) => <g key={s + '' + i}><line x1={-90 + i * 36} y1={s * 120} x2={-90 + i * 36} y2={s * 150} stroke="#c9a43a" strokeWidth={8} /><line y1={-90 + i * 36} x1={s * 120} y2={-90 + i * 36} x2={s * 150} stroke="#c9a43a" strokeWidth={8} /></g>))}
           {[[mov, -330, -420, 'phone'], [coc, 330, -420, 'car'], [ia, 0, 470, 'ai']].map(([at, x, y, kind]: any, i) => {
             const k = easeOut(clamp((f - at) / 12)); if (k <= 0) return null; const pulse = ((f - at) % 30) / 30;
@@ -88,13 +89,13 @@ const S3: SceneFC = ({d, cue}) => {
               <g transform={`translate(${x},${y}) scale(${k})`}><circle r={130} fill="#fffaf0" stroke={C.ink} strokeWidth={8} />
                 {kind === 'phone' && <g><rect x={-45} y={-80} width={90} height={160} rx={14} fill="#222" stroke={C.ink} strokeWidth={5} /><rect x={-36} y={-66} width={72} height={124} fill="#4aa3df" /></g>}
                 {kind === 'car' && <g stroke={C.ink} strokeWidth={5}><path d="M-90,20 L-70,-30 Q-40,-60 30,-60 Q60,-60 80,-20 L100,20 L100,40 L-90,40Z" fill="#e8343a" /><circle cx={-50} cy={44} r={20} fill="#333" /><circle cx={60} cy={44} r={20} fill="#333" /><path d="M-50,-30 L60,-30 L70,-10 L-60,-10Z" fill="#9fd0ff" /></g>}
-                {kind === 'ai' && <g><path d="M-70,10 Q-90,-60 -30,-80 Q0,-110 40,-80 Q100,-70 80,0 Q90,60 30,70 Q0,90 -30,70 Q-90,70 -70,10Z" fill="#f2a0c0" stroke={C.ink} strokeWidth={5} /><text y={20} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={60} fill={C.ink}>IA</text></g>}
+                {kind === 'ai' && <g><path d="M-70,10 Q-90,-60 -30,-80 Q0,-110 40,-80 Q100,-70 80,0 Q90,60 30,70 Q0,90 -30,70 Q-90,70 -70,10Z" fill="#f2a0c0" stroke={C.ink} strokeWidth={5} /><text y={20} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={60} fill={C.ink}>{L('IA')}</text></g>}
               </g></g>;
           })}
         </g>
       </Layer>
     </Camera></Stage>}
-    <BigStat value={90} prefix="+" suffix="%" from={n90} label="de los chips más avanzados" y={260} hold={mov - n90} />
+    <BigStat value={90} prefix="+" suffix="%" from={n90} label={L("de los chips más avanzados")} y={260} hold={mov - n90} />
     <Sfx name="digital" at={4} vol={0.3} /><Sfx name="ding" at={n90} vol={0.4} /><Sfx name="pop" at={mov} /><Sfx name="pop" at={coc} /><Sfx name="pop" at={ia} />
   </AbsoluteFill>;
 };
@@ -108,7 +109,7 @@ const S4: SceneFC = ({d, cue}) => {
     <Stage bg="#0f2a44">
       <MapView proj={{type: 'mercator', center: [120.6, 23.8], scale: 7200}} theme="modern" zoom={[[0, 1.15], [d, 1.0]]} focus={[121, 23.8]}
         fills={[{names: ['China'], color: PRC, at: 0, dur: 1}, {names: ['Taiwan'], color: TW, at: 0, dur: 1}]}
-        labels={[{at: [121, 23.6], text: 'TAIWÁN', from: 0, size: 60, color: '#fff'}]}>
+        labels={[{at: [121, 23.6], text: L('TAIWÁN'), from: 0, size: 60, color: '#fff'}]}>
         {ships.map((ll, i) => { if (i / ships.length > ring) return null; const [x, y] = projectLL({type: 'mercator', center: [120.6, 23.8], scale: 7200}, ll);
           return <g key={i} transform={`translate(${x},${y}) scale(0.16) rotate(${(i / ships.length) * 360 + 90})`}><Warship x={0} y={0} color="#b8434a" /></g>; })}
         {Array.from({length: 4}).map((_, i) => { const [x0, y0] = projectLL({type: 'mercator', center: [120.6, 23.8], scale: 7200}, [118.5, 25 - i * 0.6]); const [x1, y1] = projectLL({type: 'mercator', center: [120.6, 23.8], scale: 7200}, [121.2 + (i % 2) * 0.4, 24.6 - i * 0.6]);
@@ -118,8 +119,8 @@ const S4: SceneFC = ({d, cue}) => {
       {f > det && Array.from({length: 6}).map((_, i) => <g key={i} transform={`translate(${200 + i * 140},${1500 + (i % 2) * 60})`} opacity={clamp((f - det) / 10)}>
         <rect x={-50} y={-30} width={100} height={60} rx={8} fill="#8a6a3a" stroke={C.ink} strokeWidth={4} /><path d="M-40,-40 L40,40 M40,-40 L-40,40" stroke="#ff3a3a" strokeWidth={10} /></g>)}
     </Stage>
-    <Chip text="BLOQUEO" from={blo} y={300} size={80} color="#ff5a5a" textColor="#fff" />
-    {f > det && <Chip text="COMERCIO DETENIDO" from={det} y={1380} size={44} />}
+    <Chip text={L("BLOQUEO")} from={blo} y={300} size={80} color="#ff5a5a" textColor="#fff" />
+    {f > det && <Chip text={L("COMERCIO DETENIDO")} from={det} y={1380} size={44} />}
     {Array.from({length: 4}).map((_, i) => <Sfx key={i} name="boom" at={inv + i * 10 + 40} vol={0.3} />)}<Amb name="siren" vol={0.12} from={inv} dur={d - inv} /><Sfx name="jet" at={inv - 10} vol={0.4} />
   </AbsoluteFill>;
 };
@@ -141,7 +142,7 @@ const S5: SceneFC = ({d, cue}) => {
       <Layer depth={1.3}><Smoke x={900} y={1900} color="#555" n={8} opacity={0.4} /></Layer>
     </Camera></Stage>
     <div style={{position: 'absolute', top: 260, left: 60, right: 60, textAlign: 'center', opacity: clamp((f - nor) / 10)}}>
-      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 38, color: '#fff', background: 'rgba(13,10,18,0.8)', padding: '10px 20px', borderRadius: 10}}>NORMANDÍA 1944 · LA REFERENCIA</span></div>
+      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 38, color: '#fff', background: 'rgba(13,10,18,0.8)', padding: '10px 20px', borderRadius: 10}}>{L('NORMANDÍA 1944 · LA REFERENCIA')}</span></div>
     <Amb name="sea" vol={0.35} dur={d} /><Sfx name="boom" at={30} vol={0.3} /><Sfx name="boom" at={70} vol={0.35} /><Sfx name="boom" at={110} vol={0.35} /><Sfx name="jet" at={20} vol={0.35} /><Sfx name="gunfire" at={50} vol={0.25} />
   </AbsoluteFill>;
 };
@@ -158,7 +159,7 @@ const S6: SceneFC = ({d, cue}) => {
       <Layer depth={1}><Character d={CAST.twSoldier} x={260} y={1820} scale={1.25} pose="rifle" expr="determined" look={0.3} /></Layer>
       <Layer depth={1.4}><Rain n={f > bra ? 120 : 30} angle={20} opacity={0.45} /></Layer>
     </Camera></Stage>
-    <Chip text="MONTAÑAS" from={mon} y={300} x={300} /><Chip text="POCAS PLAYAS" from={pla} y={400} x={700} color="#fff" rot={2} /><Chip text="VENTANAS: ABRIL Y OCTUBRE" from={bra + 20} y={500} x={540} color="#9fd0ff" size={36} />
+    <Chip text={L("MONTAÑAS")} from={mon} y={300} x={300} /><Chip text={L("POCAS PLAYAS")} from={pla} y={400} x={700} color="#fff" rot={2} /><Chip text={L("VENTANAS: ABRIL Y OCTUBRE")} from={bra + 20} y={500} x={540} color="#9fd0ff" size={36} />
     <Amb name="sea" vol={0.4} dur={d} /><Amb name="wind" vol={0.3} dur={d} /><Sfx name="thunder" at={bra} vol={0.45} />
   </AbsoluteFill>;
 };
@@ -182,17 +183,17 @@ const S7: SceneFC = ({d, cue}) => {
         return <g key={i} transform={`translate(${190 + c * 233},${420 + r * 125})`}>
           <rect x={-100} y={-60} width={200} height={120} rx={14} fill="#10243c" stroke={resolved ? (fail ? '#3ddc84' : '#ffd60a') : '#4a6a8a'} strokeWidth={5} />
           <text y={-14} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={24} fill="#9fb8d0">SIM #{i + 1}</text>
-          {resolved && <text y={34} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={30} fill={fail ? '#3ddc84' : '#ffd60a'}>{fail ? 'FRACASA' : 'INCIERTO'}</text>}
+          {resolved && <text y={34} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={30} fill={fail ? '#3ddc84' : '#ffd60a'}>{fail ? L('FRACASA') : L('INCIERTO')}</text>}
         </g>; })}
       <g transform="translate(0,1450)" opacity={clamp((f - per + 6) / 10)}>
         {[['DECENAS', 'de buques'], ['CIENTOS', 'de aviones'], ['MILES', 'de bajas']].map(([a, b], i) => <g key={i} transform={`translate(${200 + i * 340},0)`}>
-          <text textAnchor="middle" fontFamily={FONT_TITLE} fontSize={72} fill="#ff5a5a">{a}</text><text y={50} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={32} fill="#fff">{b}</text></g>)}
+          <text textAnchor="middle" fontFamily={FONT_TITLE} fontSize={72} fill="#ff5a5a">{L(a)}</text><text y={50} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={32} fill="#fff">{L(b)}</text></g>)}
       </g>
     </Stage>}
-    {sim && <div style={{position: 'absolute', top: 250, left: 0, right: 0, textAlign: 'center'}}><span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 40, color: '#9fd0ff', letterSpacing: 3}}>CSIS · ENERO 2023 · 24 SIMULACIONES</span></div>}
+    {sim && <div style={{position: 'absolute', top: 250, left: 0, right: 0, textAlign: 'center'}}><span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 40, color: '#9fd0ff', letterSpacing: 3}}>{L('CSIS · ENERO 2023 · 24 SIMULACIONES')}</span></div>}
     {!sim && <div style={{position: 'absolute', top: 300, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 30, opacity: clamp((f - eu) / 10)}}>
       <svg width={180} height={110}><FlagFace kind="usa" w={180} h={110} /></svg><svg width={180} height={110}><FlagFace kind="japan" w={180} h={110} /></svg><svg width={180} height={110}><FlagFace kind="roc" w={180} h={110} /></svg></div>}
-    {!sim && <NameTag name="Almirante (ficticio)" role="Armada de EE. UU." from={eu} dur={60} y={1560} color="#1f3a8a" />}
+    {!sim && <NameTag name={L("Almirante (ficticio)")} role={L("Armada de EE. UU.")} from={eu} dur={60} y={1560} color="#1f3a8a" />}
     {!sim && <Sfx name="jet" at={eu} vol={0.5} />}{sim && <><Sfx name="typing" at={n24} vol={0.4} /><Sfx name="digital" at={fra} vol={0.3} /><Sfx name="impact" at={per} vol={0.4} /></>}
   </AbsoluteFill>;
 };
@@ -208,14 +209,14 @@ const S8: SceneFC = ({d, cue}) => {
       {bars.map(([lab, v, at, col], i) => { const k = easeOut(clamp((f - at) / 20)); const h = v * 60 * k;
         return <g key={i} transform={`translate(${250 + i * 290},620)`}>
           <rect x={-90} y={0} width={180} height={h} fill={col} stroke={C.ink} strokeWidth={6} />
-          {k > 0 && i === 2 && <text y={h + 80} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={70} fill={col}>≈ -{(v * k).toFixed(1).replace('.', ',')}%</text>}
-          {k > 0 && i < 2 && <text y={h + 60} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={46} fill={col}>MENOR</text>}
-          <text y={-30} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={30} fill="#fff" opacity={k > 0 ? 1 : 0.3}>{lab}</text>
+          {k > 0 && i === 2 && <text y={h + 80} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={70} fill={col}>≈ -{fmtNum(v * k, 1)}%</text>}
+          {k > 0 && i < 2 && <text y={h + 60} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={46} fill={col}>{L('MENOR')}</text>}
+          <text y={-30} textAnchor="middle" fontFamily={FONT_UI} fontWeight={800} fontSize={30} fill="#fff" opacity={k > 0 ? 1 : 0.3}>{L(lab)}</text>
         </g>; })}
-      <text x={540} y={1530} textAnchor="middle" fontFamily={FONT_UI} fontWeight={600} fontSize={24} fill="#7f93ad">Impacto estimado en el PIB mundial · Bloomberg Economics (2024)</text><text x={540} y={1566} textAnchor="middle" fontFamily={FONT_UI} fontWeight={600} fontSize={24} fill="#7f93ad">Barras grises: comparación ilustrativa</text>
+      <text x={540} y={1530} textAnchor="middle" fontFamily={FONT_UI} fontWeight={600} fontSize={24} fill="#7f93ad">{L('Impacto estimado en el PIB mundial · Bloomberg Economics (2024)')}</text><text x={540} y={1566} textAnchor="middle" fontFamily={FONT_UI} fontWeight={600} fontSize={24} fill="#7f93ad">{L('Barras grises: comparación ilustrativa')}</text>
     </Stage>
     <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}><Character d={CAST.analyst} x={540} y={1900} scale={0.7} pose="point" expr="worried" facing={-1} talking /></svg>
-    <BigStat value={10} prefix="≈ -" suffix=" %" from={pct} label="PIB MUNDIAL" y={260} hold={cri - pct + 10} color="#ff5a5a" />
+    <BigStat value={10} prefix="≈ -" suffix=" %" from={pct} label={L("PIB MUNDIAL")} y={260} hold={cri - pct + 10} color="#ff5a5a" />
     <Sfx name="impact" at={pct} vol={0.4} /><Sfx name="pop" at={cri} /><Sfx name="pop" at={pan} />
   </AbsoluteFill>;
 };

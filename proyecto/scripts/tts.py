@@ -36,8 +36,11 @@ def words_timing(text, start, end):
         t += d
     return out
 
-def main(vid):
-    g = json.load(open(f"{ROOT}/scripts/guiones/{vid}.json"))
+def main(name):
+    # name: "urss" (español) o "urss.en" (inglés)
+    vid = name.split(".")[0]; suf = name[len(vid):]
+    g = json.load(open(f"{ROOT}/scripts/guiones/{name}.json"))
+    klang = "en-us" if g.get("lang") == "en" else "es"
     from kokoro_onnx import Kokoro
     k = Kokoro(f"{ROOT}/scripts/models/kokoro-v1.0.onnx", f"{ROOT}/scripts/models/voices-v1.0.bin")
     audio = []; t = 0.0; scenes = []
@@ -46,7 +49,7 @@ def main(vid):
         audio.append(np.zeros(int(HEAD*SR))); t += HEAD
         for i, ln in enumerate(sc["lines"]):
             say = ln.get("say", ln["t"].replace('*', ''))
-            x, sr = k.create(say, voice=g.get("voice", "em_alex"), speed=g.get("speed", 1.05), lang="es")
+            x, sr = k.create(say, voice=g.get("voice", "em_alex"), speed=g.get("speed", 1.05), lang=klang)
             x = trim(x); dur = len(x)/SR
             lines.append({"text": ln["t"], "s": round(t, 3), "e": round(t+dur, 3), "words": words_timing(ln["t"], t, t+dur)})
             audio.append(x); t += dur
@@ -58,11 +61,11 @@ def main(vid):
     wav = np.concatenate(audio).astype(np.float32)
     wav = wav / max(1e-6, np.abs(wav).max()) * 0.89
     os.makedirs(f"{ROOT}/assets/audio/narration", exist_ok=True)
-    sf.write(f"{ROOT}/assets/audio/narration/{vid}.wav", wav, SR)
+    sf.write(f"{ROOT}/assets/audio/narration/{vid}{suf}.wav", wav, SR)
     os.makedirs(f"{ROOT}/scenes/{vid}", exist_ok=True)
-    json.dump({"id": vid, "titulo": g["titulo"], "total": round(len(wav)/SR, 3), "scenes": scenes},
-              open(f"{ROOT}/scenes/{vid}/timing.json", "w"), ensure_ascii=False, indent=1)
-    print(vid, "total", round(len(wav)/SR, 1), "s")
+    json.dump({"id": vid + suf, "lang": g.get("lang", "es"), "cues": g.get("cues", {}), "titulo": g["titulo"], "total": round(len(wav)/SR, 3), "scenes": scenes},
+              open(f"{ROOT}/scenes/{vid}/timing{suf}.json", "w"), ensure_ascii=False, indent=1)
+    print(name, "total", round(len(wav)/SR, 1), "s")
 
 if __name__ == "__main__":
     for v in sys.argv[1:]: main(v)

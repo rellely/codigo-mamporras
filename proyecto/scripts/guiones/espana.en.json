@@ -1,0 +1,37 @@
+{
+  "id": "espana", "lang": "en",
+  "titulo": "What if Spain had never lost its American colonies?",
+  "voice": "am_michael", "speed": 1.05,
+  "cues": {"california": "california", "patagonia": "patagonia", "nunca": "never", "virreinatos": "viceroyalties", "plata": "silver", "océanos": "oceans", "conde": "count", "tres": "three", "discute": "disputed", "napoleón": "napoleon", "abdicar": "abdicate", "surgen": "juntas", "simón": "simón", "josé": "josé", "independencia": "independence", "ayacucho": "ayacucho", "cuba": "cuba", "1898": "1898", "comunidad": "commonwealth", "11": "11", "480": "480", "roto": "fallen"},
+  "scenes": [
+    {"id": "s1_imperio", "lines": [
+      {"t": "Around 1790, the Spanish Empire stretched from *California* to *Patagonia*.", "say": "Around seventeen ninety, the Spanish Empire stretched from California to Patagonia."},
+      {"t": "What if it had *never* lost it?"}]},
+    {"id": "s2_virreinatos", "lines": [
+      {"t": "Four *viceroyalties*: New Spain, Peru, New Granada and the Río de la Plata."},
+      {"t": "*Silver*, galleons and trade routes spanning *two oceans*."}]},
+    {"id": "s3_aranda", "lines": [
+      {"t": "In 1783, a document attributed to the *Count of Aranda* proposed something revolutionary:", "say": "In seventeen eighty-three, a document attributed to the Count of Aranda proposed something revolutionary:"},
+      {"t": "splitting America into *three kingdoms* ruled by Spanish princes, united under one king."},
+      {"t": "Its authenticity is *disputed*, and the plan was never carried out."}]},
+    {"id": "s4_napoleon", "lines": [
+      {"t": "In 1808, *Napoleon* invades Spain", "say": "In eighteen oh eight, Napoleon invades Spain"},
+      {"t": "and forces the royal family to *abdicate* in *Bayonne*."}]},
+    {"id": "s5_libertadores", "lines": [
+      {"t": "In America, the power vacuum changes everything."},
+      {"t": "Local juntas emerge, and leaders like *Simón Bolívar* and *José de San Martín* launch the wars of *independence*."}]},
+    {"id": "s6_ayacucho", "lines": [
+      {"t": "In 1824, the battle of *Ayacucho* seals the end.", "say": "In eighteen twenty-four, the battle of Ayacucho seals the end."},
+      {"t": "Only *Cuba* and *Puerto Rico* remain, lost in *1898*.", "say": "Only Cuba and Puerto Rico remain, lost in eighteen ninety-eight."}]},
+    {"id": "s7_giro", "lines": [
+      {"t": "Now imagine Aranda's plan is put in place *in time*."},
+      {"t": "A *Hispanic commonwealth* of sister kingdoms, like the British one."}]},
+    {"id": "s8_bloque", "lines": [
+      {"t": "A bloc of over *11 million* square kilometers", "say": "A bloc of over eleven million square kilometers"},
+      {"t": "and today, nearly *480 million* people.", "say": "and today, nearly four hundred and eighty million people."},
+      {"t": "And maybe *California* or *Texas* would never have become part of the United States."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Would it be a *superpower* today..."},
+      {"t": "or would it have *fallen apart* anyway? Tell me in the comments."}]}
+  ]
+}

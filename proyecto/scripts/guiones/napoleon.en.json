@@ -1,0 +1,40 @@
+{
+  "id": "napoleon", "lang": "en",
+  "titulo": "What if Napoleon had won?",
+  "voice": "am_michael", "speed": 1.05,
+  "cues": {"ganado": "won", "emperador": "emperor", "austerlitz": "austerlitz", "madrid": "madrid", "varsovia": "warsaw", "invierno": "winter", "pequeña": "fraction", "waterloo": "waterloo", "wellington": "wellington", "blücher": "blücher", "lluvia": "rain", "tiempo": "time", "gana": "wins", "austria": "austria", "rusia": "russia", "código": "napoleonic", "métrico": "metric", "unión": "union"},
+  "scenes": [
+    {"id": "s1_waterloo", "lines": [
+      {"t": "June 18, 1815.", "say": "June eighteenth, eighteen fifteen."},
+      {"t": "*Napoleon* is *one battle* away from taking back Europe."},
+      {"t": "What if he had *won* it?"}]},
+    {"id": "s2_ascenso", "lines": [
+      {"t": "Ten years earlier, he seemed *unbeatable*."},
+      {"t": "In 1804 he crowns himself *emperor*,", "say": "In eighteen oh four he crowns himself emperor,"},
+      {"t": "and at *Austerlitz* he defeats Austria and Russia in a single day."}]},
+    {"id": "s3_mapa", "lines": [
+      {"t": "By 1812 he controls almost all of continental Europe,", "say": "By eighteen twelve he controls almost all of continental Europe,"},
+      {"t": "from *Madrid* to *Warsaw*."}]},
+    {"id": "s4_rusia", "lines": [
+      {"t": "But then he invades *Russia* with some *600,000 men*.", "say": "But then he invades Russia with some six hundred thousand men."},
+      {"t": "*Winter*, hunger and disease tear them apart."},
+      {"t": "Only a *small fraction* makes it back."}]},
+    {"id": "s5_batalla", "lines": [
+      {"t": "After escaping his exile on *Elba*, he returns to power."},
+      {"t": "At *Waterloo* he faces *Wellington* and *Blücher's* Prussians."},
+      {"t": "*Rain* delays his attack... and the Prussians arrive just in time."}]},
+    {"id": "s6_giro", "lines": [
+      {"t": "But imagine the ground dries out *sooner*,"},
+      {"t": "the Prussians are delayed... and Napoleon *wins*."}]},
+    {"id": "s7_twist", "lines": [
+      {"t": "Plot twist: many historians believe it *still* wouldn't have lasted."},
+      {"t": "*Austria* and *Russia* were already mobilizing *hundreds of thousands* of soldiers against him."}]},
+    {"id": "s8_imperio", "lines": [
+      {"t": "So what if he had won in *Russia* instead?"},
+      {"t": "Europe would be a *French empire*, with the *Napoleonic Code* and the metric system across the continent."},
+      {"t": "A kind of *European Union*... a century and a half early."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "In reality, he died in exile on *Saint Helena* in 1821.", "say": "In reality, he died in exile on Saint Helena in eighteen twenty-one."},
+      {"t": "Was Napoleon a *liberator*... or a *tyrant*? Tell me in the comments."}]}
+  ]
+}

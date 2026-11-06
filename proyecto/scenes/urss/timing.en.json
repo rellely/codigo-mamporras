@@ -1,0 +1,1615 @@
+{
+ "id": "urss.en",
+ "lang": "en",
+ "cues": {
+  "arría": "lowered",
+  "nunca": "never",
+  "15": "15",
+  "22": "22",
+  "290": "290",
+  "mijaíl": "mikhail",
+  "perestroika": "perestroika",
+  "glásnost": "glasnost",
+  "estancada": "stagnant",
+  "petróleo": "oil",
+  "afganistán": "afghanistan",
+  "muro": "wall",
+  "castillo": "house",
+  "tanques": "tanks",
+  "borís": "boris",
+  "tres": "three",
+  "bálticas": "baltic",
+  "mercado": "markets",
+  "mano": "iron",
+  "ucrania": "ukraine",
+  "otan": "nato",
+  "burán": "buran",
+  "partido": "split"
+ },
+ "titulo": "What if the USSR had never fallen?",
+ "total": 97.925,
+ "scenes": [
+  {
+   "id": "s1_kremlin",
+   "s": 0.0,
+   "e": 8.795,
+   "lines": [
+    {
+     "text": "December 25, 1991.",
+     "s": 0.25,
+     "e": 2.763,
+     "words": [
+      {
+       "w": "December",
+       "s": 0.25,
+       "e": 0.732,
+       "hl": false
+      },
+      {
+       "w": "25,",
+       "s": 0.732,
+       "e": 1.469,
+       "hl": false
+      },
+      {
+       "w": "1991.",
+       "s": 1.469,
+       "e": 2.763,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "The *red* flag is lowered over the *Kremlin* for the last time.",
+     "s": 3.063,
+     "e": 6.212,
+     "words": [
+      {
+       "w": "The",
+       "s": 3.063,
+       "e": 3.269,
+       "hl": false
+      },
+      {
+       "w": "red",
+       "s": 3.269,
+       "e": 3.474,
+       "hl": true
+      },
+      {
+       "w": "flag",
+       "s": 3.474,
+       "e": 3.725,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 3.725,
+       "e": 3.885,
+       "hl": false
+      },
+      {
+       "w": "lowered",
+       "s": 3.885,
+       "e": 4.272,
+       "hl": false
+      },
+      {
+       "w": "over",
+       "s": 4.272,
+       "e": 4.523,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 4.523,
+       "e": 4.729,
+       "hl": false
+      },
+      {
+       "w": "Kremlin",
+       "s": 4.729,
+       "e": 5.117,
+       "hl": true
+      },
+      {
+       "w": "for",
+       "s": 5.117,
+       "e": 5.322,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 5.322,
+       "e": 5.527,
+       "hl": false
+      },
+      {
+       "w": "last",
+       "s": 5.527,
+       "e": 5.778,
+       "hl": false
+      },
+      {
+       "w": "time.",
+       "s": 5.778,
+       "e": 6.212,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "But what if it had *never* come down?",
+     "s": 6.512,
+     "e": 8.295,
+     "words": [
+      {
+       "w": "But",
+       "s": 6.512,
+       "e": 6.698,
+       "hl": false
+      },
+      {
+       "w": "what",
+       "s": 6.698,
+       "e": 6.927,
+       "hl": false
+      },
+      {
+       "w": "if",
+       "s": 6.927,
+       "e": 7.072,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 7.072,
+       "e": 7.217,
+       "hl": false
+      },
+      {
+       "w": "had",
+       "s": 7.217,
+       "e": 7.403,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 7.403,
+       "e": 7.673,
+       "hl": true
+      },
+      {
+       "w": "come",
+       "s": 7.673,
+       "e": 7.901,
+       "hl": false
+      },
+      {
+       "w": "down?",
+       "s": 7.901,
+       "e": 8.295,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_mapa",
+   "s": 8.795,
+   "e": 19.688,
+   "lines": [
+    {
+     "text": "The Soviet Union was the *largest* country on Earth:",
+     "s": 9.045,
+     "e": 12.269,
+     "words": [
+      {
+       "w": "The",
+       "s": 9.045,
+       "e": 9.297,
+       "hl": false
+      },
+      {
+       "w": "Soviet",
+       "s": 9.297,
+       "e": 9.718,
+       "hl": false
+      },
+      {
+       "w": "Union",
+       "s": 9.718,
+       "e": 10.082,
+       "hl": false
+      },
+      {
+       "w": "was",
+       "s": 10.082,
+       "e": 10.335,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 10.335,
+       "e": 10.587,
+       "hl": false
+      },
+      {
+       "w": "largest",
+       "s": 10.587,
+       "e": 11.063,
+       "hl": true
+      },
+      {
+       "w": "country",
+       "s": 11.063,
+       "e": 11.54,
+       "hl": false
+      },
+      {
+       "w": "on",
+       "s": 11.54,
+       "e": 11.736,
+       "hl": false
+      },
+      {
+       "w": "Earth:",
+       "s": 11.736,
+       "e": 12.269,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*15 republics*, over *22 million* square kilometers",
+     "s": 12.569,
+     "e": 16.386,
+     "words": [
+      {
+       "w": "15",
+       "s": 12.569,
+       "e": 13.2,
+       "hl": true
+      },
+      {
+       "w": "republics,",
+       "s": 13.2,
+       "e": 13.942,
+       "hl": true
+      },
+      {
+       "w": "over",
+       "s": 13.942,
+       "e": 14.244,
+       "hl": false
+      },
+      {
+       "w": "22",
+       "s": 14.244,
+       "e": 14.876,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 14.876,
+       "e": 15.343,
+       "hl": true
+      },
+      {
+       "w": "square",
+       "s": 15.343,
+       "e": 15.755,
+       "hl": false
+      },
+      {
+       "w": "kilometers",
+       "s": 15.755,
+       "e": 16.386,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "and about *290 million* people.",
+     "s": 16.686,
+     "e": 19.188,
+     "words": [
+      {
+       "w": "and",
+       "s": 16.686,
+       "e": 16.923,
+       "hl": false
+      },
+      {
+       "w": "about",
+       "s": 16.923,
+       "e": 17.266,
+       "hl": false
+      },
+      {
+       "w": "290",
+       "s": 17.266,
+       "e": 18.135,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 18.135,
+       "e": 18.582,
+       "hl": true
+      },
+      {
+       "w": "people.",
+       "s": 18.582,
+       "e": 19.188,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_gorbachov",
+   "s": 19.688,
+   "e": 35.911,
+   "lines": [
+    {
+     "text": "In 1985, *Mikhail Gorbachev* comes to power.",
+     "s": 19.938,
+     "e": 23.64,
+     "words": [
+      {
+       "w": "In",
+       "s": 19.938,
+       "e": 20.13,
+       "hl": false
+      },
+      {
+       "w": "1985,",
+       "s": 20.13,
+       "e": 21.474,
+       "hl": false
+      },
+      {
+       "w": "Mikhail",
+       "s": 21.474,
+       "e": 21.94,
+       "hl": true
+      },
+      {
+       "w": "Gorbachev",
+       "s": 21.94,
+       "e": 22.516,
+       "hl": true
+      },
+      {
+       "w": "comes",
+       "s": 22.516,
+       "e": 22.872,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 22.872,
+       "e": 23.064,
+       "hl": false
+      },
+      {
+       "w": "power.",
+       "s": 23.064,
+       "e": 23.64,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "He wants to save the system with two words: *perestroika* and *glasnost*.",
+     "s": 23.94,
+     "e": 28.247,
+     "words": [
+      {
+       "w": "He",
+       "s": 23.94,
+       "e": 24.126,
+       "hl": false
+      },
+      {
+       "w": "wants",
+       "s": 24.126,
+       "e": 24.472,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 24.472,
+       "e": 24.658,
+       "hl": false
+      },
+      {
+       "w": "save",
+       "s": 24.658,
+       "e": 24.95,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 24.95,
+       "e": 25.19,
+       "hl": false
+      },
+      {
+       "w": "system",
+       "s": 25.19,
+       "e": 25.588,
+       "hl": false
+      },
+      {
+       "w": "with",
+       "s": 25.588,
+       "e": 25.881,
+       "hl": false
+      },
+      {
+       "w": "two",
+       "s": 25.881,
+       "e": 26.12,
+       "hl": false
+      },
+      {
+       "w": "words:",
+       "s": 26.12,
+       "e": 26.625,
+       "hl": false
+      },
+      {
+       "w": "perestroika",
+       "s": 26.625,
+       "e": 27.29,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 27.29,
+       "e": 27.529,
+       "hl": false
+      },
+      {
+       "w": "glasnost.",
+       "s": 27.529,
+       "e": 28.247,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "But the economy is *stagnant*, oil prices *collapse*",
+     "s": 28.547,
+     "e": 31.754,
+     "words": [
+      {
+       "w": "But",
+       "s": 28.547,
+       "e": 28.809,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 28.809,
+       "e": 29.071,
+       "hl": false
+      },
+      {
+       "w": "economy",
+       "s": 29.071,
+       "e": 29.567,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 29.567,
+       "e": 29.771,
+       "hl": false
+      },
+      {
+       "w": "stagnant,",
+       "s": 29.771,
+       "e": 30.5,
+       "hl": true
+      },
+      {
+       "w": "oil",
+       "s": 30.5,
+       "e": 30.762,
+       "hl": false
+      },
+      {
+       "w": "prices",
+       "s": 30.762,
+       "e": 31.2,
+       "hl": false
+      },
+      {
+       "w": "collapse",
+       "s": 31.2,
+       "e": 31.754,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "and the war in *Afghanistan* is bleeding the country dry.",
+     "s": 32.053,
+     "e": 35.411,
+     "words": [
+      {
+       "w": "and",
+       "s": 32.053,
+       "e": 32.29,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 32.29,
+       "e": 32.526,
+       "hl": false
+      },
+      {
+       "w": "war",
+       "s": 32.526,
+       "e": 32.762,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 32.762,
+       "e": 32.945,
+       "hl": false
+      },
+      {
+       "w": "Afghanistan",
+       "s": 32.945,
+       "e": 33.601,
+       "hl": true
+      },
+      {
+       "w": "is",
+       "s": 33.601,
+       "e": 33.785,
+       "hl": false
+      },
+      {
+       "w": "bleeding",
+       "s": 33.785,
+       "e": 34.283,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 34.283,
+       "e": 34.519,
+       "hl": false
+      },
+      {
+       "w": "country",
+       "s": 34.519,
+       "e": 34.965,
+       "hl": false
+      },
+      {
+       "w": "dry.",
+       "s": 34.965,
+       "e": 35.411,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_muro",
+   "s": 35.911,
+   "e": 42.907,
+   "lines": [
+    {
+     "text": "In 1989, the *Berlin Wall* falls,",
+     "s": 36.161,
+     "e": 39.039,
+     "words": [
+      {
+       "w": "In",
+       "s": 36.161,
+       "e": 36.344,
+       "hl": false
+      },
+      {
+       "w": "1989,",
+       "s": 36.344,
+       "e": 37.626,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 37.626,
+       "e": 37.862,
+       "hl": false
+      },
+      {
+       "w": "Berlin",
+       "s": 37.862,
+       "e": 38.254,
+       "hl": true
+      },
+      {
+       "w": "Wall",
+       "s": 38.254,
+       "e": 38.542,
+       "hl": true
+      },
+      {
+       "w": "falls,",
+       "s": 38.542,
+       "e": 39.039,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "and the Eastern Bloc collapses like a *house of cards*.",
+     "s": 39.339,
+     "e": 42.407,
+     "words": [
+      {
+       "w": "and",
+       "s": 39.339,
+       "e": 39.562,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 39.562,
+       "e": 39.784,
+       "hl": false
+      },
+      {
+       "w": "Eastern",
+       "s": 39.784,
+       "e": 40.205,
+       "hl": false
+      },
+      {
+       "w": "Bloc",
+       "s": 40.205,
+       "e": 40.477,
+       "hl": false
+      },
+      {
+       "w": "collapses",
+       "s": 40.477,
+       "e": 40.997,
+       "hl": false
+      },
+      {
+       "w": "like",
+       "s": 40.997,
+       "e": 41.269,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 41.269,
+       "e": 41.393,
+       "hl": false
+      },
+      {
+       "w": "house",
+       "s": 41.393,
+       "e": 41.715,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 41.715,
+       "e": 41.888,
+       "hl": true
+      },
+      {
+       "w": "cards.",
+       "s": 41.888,
+       "e": 42.407,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_golpe",
+   "s": 42.907,
+   "e": 55.747,
+   "lines": [
+    {
+     "text": "August 1991. Communist hardliners launch a *coup*.",
+     "s": 43.157,
+     "e": 47.258,
+     "words": [
+      {
+       "w": "August",
+       "s": 43.157,
+       "e": 43.57,
+       "hl": false
+      },
+      {
+       "w": "1991.",
+       "s": 43.57,
+       "e": 44.974,
+       "hl": false
+      },
+      {
+       "w": "Communist",
+       "s": 44.974,
+       "e": 45.552,
+       "hl": false
+      },
+      {
+       "w": "hardliners",
+       "s": 45.552,
+       "e": 46.185,
+       "hl": false
+      },
+      {
+       "w": "launch",
+       "s": 46.185,
+       "e": 46.597,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 46.597,
+       "e": 46.735,
+       "hl": false
+      },
+      {
+       "w": "coup.",
+       "s": 46.735,
+       "e": 47.258,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "*Tanks* roll into Moscow...",
+     "s": 47.558,
+     "e": 49.156,
+     "words": [
+      {
+       "w": "Tanks",
+       "s": 47.558,
+       "e": 47.916,
+       "hl": true
+      },
+      {
+       "w": "roll",
+       "s": 47.916,
+       "e": 48.219,
+       "hl": false
+      },
+      {
+       "w": "into",
+       "s": 48.219,
+       "e": 48.522,
+       "hl": false
+      },
+      {
+       "w": "Moscow...",
+       "s": 48.522,
+       "e": 49.156,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "but *Boris Yeltsin* climbs onto one of them and stands his ground.",
+     "s": 49.456,
+     "e": 53.066,
+     "words": [
+      {
+       "w": "but",
+       "s": 49.456,
+       "e": 49.675,
+       "hl": false
+      },
+      {
+       "w": "Boris",
+       "s": 49.675,
+       "e": 49.993,
+       "hl": true
+      },
+      {
+       "w": "Yeltsin",
+       "s": 49.993,
+       "e": 50.407,
+       "hl": true
+      },
+      {
+       "w": "climbs",
+       "s": 50.407,
+       "e": 50.773,
+       "hl": false
+      },
+      {
+       "w": "onto",
+       "s": 50.773,
+       "e": 51.042,
+       "hl": false
+      },
+      {
+       "w": "one",
+       "s": 51.042,
+       "e": 51.261,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 51.261,
+       "e": 51.432,
+       "hl": false
+      },
+      {
+       "w": "them",
+       "s": 51.432,
+       "e": 51.7,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 51.7,
+       "e": 51.92,
+       "hl": false
+      },
+      {
+       "w": "stands",
+       "s": 51.92,
+       "e": 52.286,
+       "hl": false
+      },
+      {
+       "w": "his",
+       "s": 52.286,
+       "e": 52.505,
+       "hl": false
+      },
+      {
+       "w": "ground.",
+       "s": 52.505,
+       "e": 53.066,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "In *three days*, the coup collapses.",
+     "s": 53.366,
+     "e": 55.247,
+     "words": [
+      {
+       "w": "In",
+       "s": 53.366,
+       "e": 53.519,
+       "hl": false
+      },
+      {
+       "w": "three",
+       "s": 53.519,
+       "e": 53.804,
+       "hl": true
+      },
+      {
+       "w": "days,",
+       "s": 53.804,
+       "e": 54.176,
+       "hl": true
+      },
+      {
+       "w": "the",
+       "s": 54.176,
+       "e": 54.372,
+       "hl": false
+      },
+      {
+       "w": "coup",
+       "s": 54.372,
+       "e": 54.613,
+       "hl": false
+      },
+      {
+       "w": "collapses.",
+       "s": 54.613,
+       "e": 55.247,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_giro",
+   "s": 55.747,
+   "e": 64.578,
+   "lines": [
+    {
+     "text": "Now imagine the coup *succeeds*.",
+     "s": 55.997,
+     "e": 57.778,
+     "words": [
+      {
+       "w": "Now",
+       "s": 55.997,
+       "e": 56.217,
+       "hl": false
+      },
+      {
+       "w": "imagine",
+       "s": 56.217,
+       "e": 56.632,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 56.632,
+       "e": 56.851,
+       "hl": false
+      },
+      {
+       "w": "coup",
+       "s": 56.851,
+       "e": 57.119,
+       "hl": false
+      },
+      {
+       "w": "succeeds.",
+       "s": 57.119,
+       "e": 57.778,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "The protests are crushed, and the republics that wanted out, like the *Baltic* states, are forced back in.",
+     "s": 58.078,
+     "e": 64.078,
+     "words": [
+      {
+       "w": "The",
+       "s": 58.078,
+       "e": 58.298,
+       "hl": false
+      },
+      {
+       "w": "protests",
+       "s": 58.298,
+       "e": 58.761,
+       "hl": false
+      },
+      {
+       "w": "are",
+       "s": 58.761,
+       "e": 58.981,
+       "hl": false
+      },
+      {
+       "w": "crushed,",
+       "s": 58.981,
+       "e": 59.542,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 59.542,
+       "e": 59.761,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 59.761,
+       "e": 59.981,
+       "hl": false
+      },
+      {
+       "w": "republics",
+       "s": 59.981,
+       "e": 60.493,
+       "hl": false
+      },
+      {
+       "w": "that",
+       "s": 60.493,
+       "e": 60.761,
+       "hl": false
+      },
+      {
+       "w": "wanted",
+       "s": 60.761,
+       "e": 61.127,
+       "hl": false
+      },
+      {
+       "w": "out,",
+       "s": 61.127,
+       "e": 61.493,
+       "hl": false
+      },
+      {
+       "w": "like",
+       "s": 61.493,
+       "e": 61.761,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 61.761,
+       "e": 61.981,
+       "hl": false
+      },
+      {
+       "w": "Baltic",
+       "s": 61.981,
+       "e": 62.347,
+       "hl": true
+      },
+      {
+       "w": "states,",
+       "s": 62.347,
+       "e": 62.859,
+       "hl": false
+      },
+      {
+       "w": "are",
+       "s": 62.859,
+       "e": 63.078,
+       "hl": false
+      },
+      {
+       "w": "forced",
+       "s": 63.078,
+       "e": 63.444,
+       "hl": false
+      },
+      {
+       "w": "back",
+       "s": 63.444,
+       "e": 63.713,
+       "hl": false
+      },
+      {
+       "w": "in.",
+       "s": 63.713,
+       "e": 64.078,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_china",
+   "s": 64.578,
+   "e": 71.858,
+   "lines": [
+    {
+     "text": "Maybe Moscow would copy *China's* recipe:",
+     "s": 64.828,
+     "e": 67.277,
+     "words": [
+      {
+       "w": "Maybe",
+       "s": 64.828,
+       "e": 65.19,
+       "hl": false
+      },
+      {
+       "w": "Moscow",
+       "s": 65.19,
+       "e": 65.608,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 65.608,
+       "e": 65.969,
+       "hl": false
+      },
+      {
+       "w": "copy",
+       "s": 65.969,
+       "e": 66.275,
+       "hl": false
+      },
+      {
+       "w": "China's",
+       "s": 66.275,
+       "e": 66.693,
+       "hl": true
+      },
+      {
+       "w": "recipe:",
+       "s": 66.693,
+       "e": 67.277,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*free markets* for the economy, an *iron fist* for politics.",
+     "s": 67.577,
+     "e": 71.358,
+     "words": [
+      {
+       "w": "free",
+       "s": 67.577,
+       "e": 67.887,
+       "hl": true
+      },
+      {
+       "w": "markets",
+       "s": 67.887,
+       "e": 68.367,
+       "hl": true
+      },
+      {
+       "w": "for",
+       "s": 68.367,
+       "e": 68.621,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 68.621,
+       "e": 68.875,
+       "hl": false
+      },
+      {
+       "w": "economy,",
+       "s": 68.875,
+       "e": 69.524,
+       "hl": false
+      },
+      {
+       "w": "an",
+       "s": 69.524,
+       "e": 69.722,
+       "hl": false
+      },
+      {
+       "w": "iron",
+       "s": 69.722,
+       "e": 70.032,
+       "hl": true
+      },
+      {
+       "w": "fist",
+       "s": 70.032,
+       "e": 70.342,
+       "hl": true
+      },
+      {
+       "w": "for",
+       "s": 70.342,
+       "e": 70.596,
+       "hl": false
+      },
+      {
+       "w": "politics.",
+       "s": 70.596,
+       "e": 71.358,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_mundo",
+   "s": 71.858,
+   "e": 88.094,
+   "lines": [
+    {
+     "text": "The *Cold War* would never have ended.",
+     "s": 72.108,
+     "e": 74.206,
+     "words": [
+      {
+       "w": "The",
+       "s": 72.108,
+       "e": 72.325,
+       "hl": false
+      },
+      {
+       "w": "Cold",
+       "s": 72.325,
+       "e": 72.59,
+       "hl": true
+      },
+      {
+       "w": "War",
+       "s": 72.59,
+       "e": 72.807,
+       "hl": true
+      },
+      {
+       "w": "would",
+       "s": 72.807,
+       "e": 73.121,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 73.121,
+       "e": 73.434,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 73.434,
+       "e": 73.699,
+       "hl": false
+      },
+      {
+       "w": "ended.",
+       "s": 73.699,
+       "e": 74.206,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "No independent *Ukraine*, no *NATO* expansion to the east: the map of Europe would be unrecognizable.",
+     "s": 74.506,
+     "e": 81.458,
+     "words": [
+      {
+       "w": "No",
+       "s": 74.506,
+       "e": 74.721,
+       "hl": false
+      },
+      {
+       "w": "independent",
+       "s": 74.721,
+       "e": 75.49,
+       "hl": false
+      },
+      {
+       "w": "Ukraine,",
+       "s": 75.49,
+       "e": 76.198,
+       "hl": true
+      },
+      {
+       "w": "no",
+       "s": 76.198,
+       "e": 76.413,
+       "hl": false
+      },
+      {
+       "w": "NATO",
+       "s": 76.413,
+       "e": 76.751,
+       "hl": true
+      },
+      {
+       "w": "expansion",
+       "s": 76.751,
+       "e": 77.397,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 77.397,
+       "e": 77.613,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 77.613,
+       "e": 77.89,
+       "hl": false
+      },
+      {
+       "w": "east:",
+       "s": 77.89,
+       "e": 78.413,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 78.413,
+       "e": 78.689,
+       "hl": false
+      },
+      {
+       "w": "map",
+       "s": 78.689,
+       "e": 78.966,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 78.966,
+       "e": 79.182,
+       "hl": false
+      },
+      {
+       "w": "Europe",
+       "s": 79.182,
+       "e": 79.643,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 79.643,
+       "e": 80.043,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 80.043,
+       "e": 80.258,
+       "hl": false
+      },
+      {
+       "w": "unrecognizable.",
+       "s": 80.258,
+       "e": 81.458,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "And the *Buran* shuttle, which flew only once in 1988, might still be launching today.",
+     "s": 81.758,
+     "e": 87.594,
+     "words": [
+      {
+       "w": "And",
+       "s": 81.758,
+       "e": 81.985,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 81.985,
+       "e": 82.213,
+       "hl": false
+      },
+      {
+       "w": "Buran",
+       "s": 82.213,
+       "e": 82.541,
+       "hl": true
+      },
+      {
+       "w": "shuttle,",
+       "s": 82.541,
+       "e": 83.122,
+       "hl": false
+      },
+      {
+       "w": "which",
+       "s": 83.122,
+       "e": 83.451,
+       "hl": false
+      },
+      {
+       "w": "flew",
+       "s": 83.451,
+       "e": 83.729,
+       "hl": false
+      },
+      {
+       "w": "only",
+       "s": 83.729,
+       "e": 84.007,
+       "hl": false
+      },
+      {
+       "w": "once",
+       "s": 84.007,
+       "e": 84.285,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 84.285,
+       "e": 84.461,
+       "hl": false
+      },
+      {
+       "w": "1988,",
+       "s": 84.461,
+       "e": 85.699,
+       "hl": false
+      },
+      {
+       "w": "might",
+       "s": 85.699,
+       "e": 86.028,
+       "hl": false
+      },
+      {
+       "w": "still",
+       "s": 86.028,
+       "e": 86.356,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 86.356,
+       "e": 86.533,
+       "hl": false
+      },
+      {
+       "w": "launching",
+       "s": 86.533,
+       "e": 87.064,
+       "hl": false
+      },
+      {
+       "w": "today.",
+       "s": 87.064,
+       "e": 87.594,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 88.094,
+   "e": 97.925,
+   "lines": [
+    {
+     "text": "Two superpowers. A planet *split in two*.",
+     "s": 88.344,
+     "e": 90.916,
+     "words": [
+      {
+       "w": "Two",
+       "s": 88.344,
+       "e": 88.578,
+       "hl": false
+      },
+      {
+       "w": "superpowers.",
+       "s": 88.578,
+       "e": 89.435,
+       "hl": false
+      },
+      {
+       "w": "A",
+       "s": 89.435,
+       "e": 89.565,
+       "hl": false
+      },
+      {
+       "w": "planet",
+       "s": 89.565,
+       "e": 89.955,
+       "hl": false
+      },
+      {
+       "w": "split",
+       "s": 89.955,
+       "e": 90.293,
+       "hl": true
+      },
+      {
+       "w": "in",
+       "s": 90.293,
+       "e": 90.474,
+       "hl": true
+      },
+      {
+       "w": "two.",
+       "s": 90.474,
+       "e": 90.916,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Would the world be *safer* today... or *more dangerous*? Tell me in the comments.",
+     "s": 91.216,
+     "e": 95.725,
+     "words": [
+      {
+       "w": "Would",
+       "s": 91.216,
+       "e": 91.535,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 91.535,
+       "e": 91.755,
+       "hl": false
+      },
+      {
+       "w": "world",
+       "s": 91.755,
+       "e": 92.074,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 92.074,
+       "e": 92.245,
+       "hl": false
+      },
+      {
+       "w": "safer",
+       "s": 92.245,
+       "e": 92.564,
+       "hl": true
+      },
+      {
+       "w": "today...",
+       "s": 92.564,
+       "e": 93.078,
+       "hl": false
+      },
+      {
+       "w": "or",
+       "s": 93.078,
+       "e": 93.25,
+       "hl": false
+      },
+      {
+       "w": "more",
+       "s": 93.25,
+       "e": 93.52,
+       "hl": true
+      },
+      {
+       "w": "dangerous?",
+       "s": 93.52,
+       "e": 94.23,
+       "hl": true
+      },
+      {
+       "w": "Tell",
+       "s": 94.23,
+       "e": 94.5,
+       "hl": false
+      },
+      {
+       "w": "me",
+       "s": 94.5,
+       "e": 94.671,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 94.671,
+       "e": 94.843,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 94.843,
+       "e": 95.063,
+       "hl": false
+      },
+      {
+       "w": "comments.",
+       "s": 95.063,
+       "e": 95.725,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

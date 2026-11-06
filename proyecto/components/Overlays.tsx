@@ -2,6 +2,7 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, interpolate, spring, useVideoConfig} from 'remotion';
 import {C, FONT_TITLE, FONT_UI, clamp, easeOut, tween, noise1, rand} from './core';
+import {L, fmtNum} from './i18n';
 
 export interface WordT {w: string; s: number; e: number; hl: boolean}
 export interface LineT {text: string; s: number; e: number; words: WordT[]}
@@ -55,7 +56,7 @@ export const HookTitle: React.FC<{text: string; hl?: string; dur?: number}> = ({
   const parts = hl ? text.split(hl) : [text];
   return <AbsoluteFill style={{pointerEvents: 'none'}}>
     <div style={{position: 'absolute', top: 210, left: 50, right: 50, textAlign: 'center', opacity: out, transform: `scale(${0.6 + 0.4 * p}) rotate(${(1 - p) * -4}deg)`}}>
-      <div style={{display: 'inline-block', background: C.yellow, color: C.ink, fontFamily: FONT_UI, fontWeight: 900, fontSize: 40, padding: '8px 22px', borderRadius: 10, letterSpacing: 4, transform: 'rotate(-2deg)', border: `5px solid ${C.ink}`, boxShadow: '0 8px 0 #0d0a12'}}>¿Y SI…?</div>
+      <div style={{display: 'inline-block', background: C.yellow, color: C.ink, fontFamily: FONT_UI, fontWeight: 900, fontSize: 40, padding: '8px 22px', borderRadius: 10, letterSpacing: 4, transform: 'rotate(-2deg)', border: `5px solid ${C.ink}`, boxShadow: '0 8px 0 #0d0a12'}}>{L('¿Y SI…?')}</div>
       <div style={{marginTop: 18, fontFamily: FONT_TITLE, fontSize: 104, lineHeight: 1.02, color: '#fff', textTransform: 'uppercase', WebkitTextStroke: '16px #0d0a12', paintOrder: 'stroke fill', textShadow: '0 10px 0 rgba(0,0,0,0.6)'}}>
         {parts[0]}{hl && <span style={{color: C.yellow}}>{hl}</span>}{parts[1]}
       </div>
@@ -92,7 +93,7 @@ export const BigStat: React.FC<{value: number; from: number; dur?: number; prefi
   ({value, from, dur = 30, prefix = '', suffix = '', label, x = 540, y = 600, decimals = 0, color = C.yellow, hold = 9999}) => {
     const f = useCurrentFrame() - from; if (f < 0 || f > hold) return null;
     const v = value * easeOut(clamp(f / dur)); const k = easeOut(clamp(f / 8)) * (1 - clamp((f - hold + 8) / 8));
-    const txt = v.toLocaleString('es-ES', {minimumFractionDigits: decimals, maximumFractionDigits: decimals});
+    const txt = fmtNum(v, decimals);
     return <div style={{position: 'absolute', left: 0, right: 0, top: y, textAlign: 'center', opacity: k, transform: `translateX(${x - 540}px) scale(${0.7 + 0.3 * k})`}}>
       <div style={{fontFamily: FONT_TITLE, fontSize: 150, color, WebkitTextStroke: '16px #0d0a12', paintOrder: 'stroke fill', lineHeight: 1, textShadow: '0 10px 0 rgba(0,0,0,0.5)'}}>{prefix}{txt}{suffix}</div>
       {label && <div style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 42, color: '#fff', WebkitTextStroke: '8px #0d0a12', paintOrder: 'stroke fill', marginTop: 4, textTransform: 'uppercase'}}>{label}</div>}
@@ -112,7 +113,7 @@ export const HypoTag: React.FC = () => {
   return <div style={{position: 'absolute', right: 40, top: 150, opacity: k, transform: `translateX(${(1 - k) * 60}px)`}}>
     <div style={{display: 'flex', gap: 10, alignItems: 'center', background: 'rgba(13,10,18,0.82)', padding: '8px 16px', borderRadius: 10, border: `3px solid ${C.yellow}`}}>
       <div style={{width: 14, height: 14, borderRadius: 7, background: C.yellow, opacity: 0.5 + 0.5 * Math.sin(f / 5)}} />
-      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 28, color: C.yellow, letterSpacing: 2}}>ESCENARIO HIPOTÉTICO</span>
+      <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 28, color: C.yellow, letterSpacing: 2}}>{L('ESCENARIO HIPOTÉTICO')}</span>
     </div>
   </div>;
 };
@@ -123,7 +124,7 @@ export const WhatIfBurst: React.FC<{at?: number}> = ({at = 0}) => {
   return <AbsoluteFill style={{pointerEvents: 'none'}}>
     <div style={{position: 'absolute', inset: 0, background: `radial-gradient(circle, rgba(255,214,10,${0.35 * (1 - k)}) 0%, rgba(0,0,0,0) 60%)`}} />
     <div style={{position: 'absolute', top: 820, left: 0, right: 0, textAlign: 'center', transform: `translateX(${g}px) scale(${1 + k * 0.4})`, opacity: 1 - k}}>
-      <span style={{fontFamily: FONT_TITLE, fontSize: 210, color: C.yellow, WebkitTextStroke: '18px #0d0a12', paintOrder: 'stroke fill'}}>¿Y SI…?</span>
+      <span style={{fontFamily: FONT_TITLE, fontSize: 210, color: C.yellow, WebkitTextStroke: '18px #0d0a12', paintOrder: 'stroke fill'}}>{L('¿Y SI…?')}</span>
     </div>
     {f < 10 && Array.from({length: 6}).map((_, i) => <div key={i} style={{position: 'absolute', left: 0, right: 0, top: rand(i + f, 3) * 1920, height: 10 + rand(i, f) * 60, background: i % 2 ? 'rgba(255,0,80,0.35)' : 'rgba(0,220,255,0.35)', transform: `translateX(${(rand(i, f + 1) - 0.5) * 80}px)`}} />)}
   </AbsoluteFill>;
@@ -141,7 +142,7 @@ export const Grade: React.FC<{tint?: string; tintOp?: number; vignette?: number;
 export const SeriesBug: React.FC<{title: string}> = ({title}) => (
   <div style={{position: 'absolute', top: 60, left: 0, right: 0, display: 'flex', justifyContent: 'center', pointerEvents: 'none'}}>
     <div style={{display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(13,10,18,0.7)', borderRadius: 40, padding: '6px 22px 6px 8px'}}>
-      <span style={{background: C.yellow, color: C.ink, fontFamily: FONT_UI, fontWeight: 900, fontSize: 24, borderRadius: 30, padding: '4px 12px'}}>¿Y SI…?</span>
+      <span style={{background: C.yellow, color: C.ink, fontFamily: FONT_UI, fontWeight: 900, fontSize: 24, borderRadius: 30, padding: '4px 12px'}}>{L('¿Y SI…?')}</span>
       <span style={{color: '#fff', fontFamily: FONT_UI, fontWeight: 800, fontSize: 24, letterSpacing: 1}}>{title}</span>
     </div>
   </div>
@@ -163,7 +164,7 @@ export const EndCard: React.FC<{from: number; question: string}> = ({from, quest
         <span style={{fontSize: 54}}>💬</span>
         <span style={{fontFamily: FONT_UI, fontWeight: 900, fontSize: 40, color: C.ink}}>{question}</span>
       </div>
-      <div style={{marginTop: 22, fontFamily: FONT_UI, fontWeight: 900, fontSize: 34, color: C.yellow, WebkitTextStroke: '6px #0d0a12', paintOrder: 'stroke fill', letterSpacing: 2}}>SÍGUEME PARA MÁS ¿Y SI…?</div>
+      <div style={{marginTop: 22, fontFamily: FONT_UI, fontWeight: 900, fontSize: 34, color: C.yellow, WebkitTextStroke: '6px #0d0a12', paintOrder: 'stroke fill', letterSpacing: 2}}>{L('SÍGUEME PARA MÁS ¿Y SI…?')}</div>
     </div>
   </AbsoluteFill>;
 };

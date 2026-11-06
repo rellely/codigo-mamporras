@@ -13,7 +13,13 @@ import tEs from '../scenes/espana/timing.json';
 import {Ww2Video} from '../scenes/ww2/Video';
 import tWw from '../scenes/ww2/timing.json';
 
-const comp = (id: string, C: React.FC, t: any) => <Composition id={id} component={C} durationInFrames={episodeFrames(t as Timing)} fps={30} width={1080} height={1920} />;
+const comp = (id: string, C: React.FC<any>, t: any, lang: 'es' | 'en' = 'es') => <Composition id={id} component={C} defaultProps={{lang}} durationInFrames={episodeFrames(t as Timing)} fps={30} width={1080} height={1920} />;
+
+import turssEn from '../scenes/urss/timing.en.json';
+import tnapoleonEn from '../scenes/napoleon/timing.en.json';
+import ttaiwanEn from '../scenes/taiwan/timing.en.json';
+import tespanaEn from '../scenes/espana/timing.en.json';
+import tww2En from '../scenes/ww2/timing.en.json';
 
 export const Root: React.FC = () => (
   <>
@@ -23,5 +29,10 @@ export const Root: React.FC = () => (
     {comp('taiwan', TaiwanVideo, tTw)}
     {comp('espana', EspanaVideo, tEs)}
     {comp('ww2', Ww2Video, tWw)}
+    {comp('urss-en', UrssVideo, turssEn, 'en')}
+    {comp('napoleon-en', NapoleonVideo, tnapoleonEn, 'en')}
+    {comp('taiwan-en', TaiwanVideo, ttaiwanEn, 'en')}
+    {comp('espana-en', EspanaVideo, tespanaEn, 'en')}
+    {comp('ww2-en', Ww2Video, tww2En, 'en')}
   </>
 );

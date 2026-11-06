@@ -1,0 +1,38 @@
+{
+  "id": "ww2", "lang": "en",
+  "titulo": "What if World War II had never happened?",
+  "voice": "am_michael", "speed": 1.03,
+  "cues": {"suspende": "fails", "adolf": "adolf", "admitido": "accepted", "70": "70", "3%": "3%", "versalles": "versailles", "1929": "1929", "japón": "japan", "múnich": "munich", "verdad": "real", "seis": "six", "tarde": "later", "radar": "radar", "reacción": "jet", "ordenadores": "computers", "penicilina": "penicillin", "bomba": "bomb", "británico": "british", "francés": "french", "india": "india", "berlín": "berlin", "guerra": "cold", "onu": "un"},
+  "scenes": [
+    {"id": "s1_viena", "lines": [
+      {"t": "Vienna, 1907. An 18-year-old *fails* the entrance exam of the *Academy of Fine Arts*.", "say": "Vienna, nineteen oh seven. An eighteen-year-old fails the entrance exam of the Academy of Fine Arts."},
+      {"t": "His name was *Adolf Hitler*."},
+      {"t": "What if they had *accepted* him?"}]},
+    {"id": "s2_guerra", "lines": [
+      {"t": "World War II, from *1939 to 1945*,", "say": "World War Two, from nineteen thirty-nine to nineteen forty-five,"},
+      {"t": "killed between *70 and 85 million* people.", "say": "killed between seventy and eighty-five million people."},
+      {"t": "About *3%* of humanity.", "say": "About three percent of humanity."}]},
+    {"id": "s3_causas", "lines": [
+      {"t": "But careful: it wasn't the work of *one man* alone."},
+      {"t": "The Treaty of *Versailles*, the crash of *1929* and the expansion of *Japan* and *Italy* were already setting the stage.", "say": "The Treaty of Versailles, the crash of nineteen twenty-nine and the expansion of Japan and Italy were already setting the stage."}]},
+    {"id": "s4_munich", "lines": [
+      {"t": "Imagine there is no war."},
+      {"t": "That the peace signed in *Munich* in 1938 holds *for real*.", "say": "That the peace signed in Munich in nineteen thirty-eight holds for real."}]},
+    {"id": "s5_holocausto", "lines": [
+      {"t": "There would be no *Holocaust*:"},
+      {"t": "*six million* murdered Jews who could have lived."}]},
+    {"id": "s6_tecnologia", "lines": [
+      {"t": "But many things would arrive *later*."},
+      {"t": "The war accelerated *radar*, *jet* engines, the first *computers* and mass-produced *penicillin*."},
+      {"t": "And maybe no *atomic bomb* would ever have been dropped."}]},
+    {"id": "s7_imperios", "lines": [
+      {"t": "The *British* and *French* empires would last longer."},
+      {"t": "*India's* independence, in 1947, might have been delayed.", "say": "India's independence, in nineteen forty-seven, might have been delayed."}]},
+    {"id": "s8_guerrafria", "lines": [
+      {"t": "*Stalin's* army would never have reached *Berlin*."},
+      {"t": "With no *Cold War* and no *UN* as we know them, the twentieth century would be different.", "say": "With no Cold War and no U N as we know them, the twentieth century would be different."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Tens of millions more lives... and an *unrecognizable* world."},
+      {"t": "What do you think would have happened? Tell me in the comments."}]}
+  ]
+}

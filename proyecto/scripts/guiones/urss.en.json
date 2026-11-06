@@ -1,0 +1,42 @@
+{
+  "id": "urss", "lang": "en",
+  "titulo": "What if the USSR had never fallen?",
+  "voice": "am_michael", "speed": 1.05,
+  "cues": {"arría": "lowered", "nunca": "never", "15": "15", "22": "22", "290": "290", "mijaíl": "mikhail", "perestroika": "perestroika", "glásnost": "glasnost", "estancada": "stagnant", "petróleo": "oil", "afganistán": "afghanistan", "muro": "wall", "castillo": "house", "tanques": "tanks", "borís": "boris", "tres": "three", "bálticas": "baltic", "mercado": "markets", "mano": "iron", "ucrania": "ukraine", "otan": "nato", "burán": "buran", "partido": "split"},
+  "scenes": [
+    {"id": "s1_kremlin", "lines": [
+      {"t": "December 25, 1991.", "say": "December twenty-fifth, nineteen ninety-one."},
+      {"t": "The *red* flag is lowered over the *Kremlin* for the last time."},
+      {"t": "But what if it had *never* come down?"}]},
+    {"id": "s2_mapa", "lines": [
+      {"t": "The Soviet Union was the *largest* country on Earth:"},
+      {"t": "*15 republics*, over *22 million* square kilometers", "say": "fifteen republics, over twenty-two million square kilometers"},
+      {"t": "and about *290 million* people.", "say": "and about two hundred and ninety million people."}]},
+    {"id": "s3_gorbachov", "lines": [
+      {"t": "In 1985, *Mikhail Gorbachev* comes to power.", "say": "In nineteen eighty-five, Mikhail Gorbachev comes to power."},
+      {"t": "He wants to save the system with two words: *perestroika* and *glasnost*."},
+      {"t": "But the economy is *stagnant*, oil prices *collapse*"},
+      {"t": "and the war in *Afghanistan* is bleeding the country dry."}]},
+    {"id": "s4_muro", "lines": [
+      {"t": "In 1989, the *Berlin Wall* falls,", "say": "In nineteen eighty-nine, the Berlin Wall falls,"},
+      {"t": "and the Eastern Bloc collapses like a *house of cards*."}]},
+    {"id": "s5_golpe", "lines": [
+      {"t": "August 1991. Communist hardliners launch a *coup*.", "say": "August nineteen ninety-one. Communist hardliners launch a coup."},
+      {"t": "*Tanks* roll into Moscow..."},
+      {"t": "but *Boris Yeltsin* climbs onto one of them and stands his ground."},
+      {"t": "In *three days*, the coup collapses."}]},
+    {"id": "s6_giro", "lines": [
+      {"t": "Now imagine the coup *succeeds*."},
+      {"t": "The protests are crushed, and the republics that wanted out, like the *Baltic* states, are forced back in."}]},
+    {"id": "s7_china", "lines": [
+      {"t": "Maybe Moscow would copy *China's* recipe:"},
+      {"t": "*free markets* for the economy, an *iron fist* for politics."}]},
+    {"id": "s8_mundo", "lines": [
+      {"t": "The *Cold War* would never have ended."},
+      {"t": "No independent *Ukraine*, no *NATO* expansion to the east: the map of Europe would be unrecognizable."},
+      {"t": "And the *Buran* shuttle, which flew only once in 1988, might still be launching today.", "say": "And the Buran shuttle, which flew only once in nineteen eighty-eight, might still be launching today."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Two superpowers. A planet *split in two*."},
+      {"t": "Would the world be *safer* today... or *more dangerous*? Tell me in the comments."}]}
+  ]
+}

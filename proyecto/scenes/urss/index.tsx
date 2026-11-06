@@ -8,6 +8,7 @@ import {Army, BerlinWall, Camera, Clouds, Crowd, Explosion, Flag, FlagFace, Flas
 import {MapView} from '../../components/MapView';
 import {Amb, BigStat, Chip, DateStamp, NameTag, Sfx} from '../../components/Overlays';
 import {SceneFC} from '../../components/Episode';
+import {L} from '../../components/i18n';
 
 export const USSR = ['Russia', 'Ukraine', 'Belarus', 'Kazakhstan', 'Uzbekistan', 'Turkmenistan', 'Kyrgyzstan', 'Tajikistan', 'Georgia', 'Armenia', 'Azerbaijan', 'Moldova', 'Lithuania', 'Latvia', 'Estonia'];
 const RED = '#c8202a';
@@ -32,7 +33,7 @@ const S1: SceneFC = ({d, cue}) => {
         <Layer depth={1.4}><Snow n={120} wind={0.8} /></Layer>
       </Camera>
     </Stage>
-    <DateStamp text="25·12·1991" sub="MOSCÚ, KREMLIN" from={8} dur={a + 40} y={640} />
+    <DateStamp text={L("25·12·1991")} sub={L("MOSCÚ, KREMLIN")} from={8} dur={a + 40} y={640} />
     <Amb name="wind" vol={0.22} dur={d} /><Sfx name="bell" at={4} vol={0.5} /><Sfx name="bell" at={60} vol={0.35} /><Sfx name="riser" at={b - 40} vol={0.3} /><Sfx name="impact" at={b} vol={0.5} />
   </AbsoluteFill>;
 };
@@ -46,12 +47,12 @@ const S2: SceneFC = ({d, cue}) => {
       <MapView proj={{type: 'ortho', center: [70, 50], scale: 640}} theme="cold"
         rotateKeys={[[0, 10, 25], [60, 62, 48], [d, 78, 52]]}
         fills={[{names: USSR, color: RED, at: 18, dur: 14, stagger: 3, glow: true}]}
-        pins={[{at: [37.6, 55.75], from: 40, label: 'Moscú', color: C.yellow}]}
-        labels={[{at: [90, 62], text: 'URSS', from: 50, size: 120, color: '#fff'}]} hideGrid={false} />
+        pins={[{at: [37.6, 55.75], from: 40, label: L('Moscú'), color: C.yellow}]}
+        labels={[{at: [90, 62], text: L('URSS'), from: 50, size: 120, color: '#fff'}]} hideGrid={false} />
     </Stage>
-    <BigStat value={15} from={w15} label="repúblicas" y={250} hold={w22 - w15} />
-    <BigStat value={22.4} decimals={1} suffix=" M km²" from={w22} label="la sexta parte de la tierra firme" y={250} hold={w290 - w22} />
-    <BigStat value={290} suffix=" M" from={w290} label="de habitantes (aprox.)" y={250} />
+    <BigStat value={15} from={w15} label={L("repúblicas")} y={250} hold={w22 - w15} />
+    <BigStat value={22.4} decimals={1} suffix=" M km²" from={w22} label={L("la sexta parte de la tierra firme")} y={250} hold={w290 - w22} />
+    <BigStat value={290} suffix=" M" from={w290} label={L("de habitantes (aprox.)")} y={250} />
     <Sfx name="whoosh" at={10} vol={0.4} /><Sfx name="ding" at={w15} vol={0.35} /><Sfx name="ding" at={w22} vol={0.35} /><Sfx name="ding" at={w290} vol={0.35} />
   </AbsoluteFill>;
 };
@@ -72,7 +73,7 @@ const ProblemCard: React.FC<{x: number; y: number; at: number; kind: 'shop' | 'o
     <rect x={-170} y={-170} width={340} height={360} rx={18} fill="#fffaf0" stroke={C.ink} strokeWidth={8} />
     <rect x={-150} y={-150} width={300} height={250} fill={kind === 'afg' ? '#e8c88a' : '#cfd8e0'} stroke={C.ink} strokeWidth={5} />
     {kind === 'shop' && <g>{[0, 1, 2].map((r) => <rect key={r} x={-140} y={-110 + r * 75} width={280} height={10} fill="#8a6a4a" />)}
-      <rect x={-60} y={-60} width={30} height={40} fill="#c0392b" stroke={C.ink} strokeWidth={3} /><text x={0} y={80} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill="#c0392b">VACÍO</text></g>}
+      <rect x={-60} y={-60} width={30} height={40} fill="#c0392b" stroke={C.ink} strokeWidth={3} /><text x={0} y={80} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill="#c0392b">{L('VACÍO')}</text></g>}
     {kind === 'oil' && <g><rect x={-60} y={-110} width={120} height={170} rx={14} fill="#2a2a2a" stroke={C.ink} strokeWidth={5} /><rect x={-60} y={-60} width={120} height={14} fill="#555" /><rect x={-60} y={0} width={120} height={14} fill="#555" />
       <path d={`M60,-120 L130,${-120 + Math.min(f, 30) * 6}`} stroke={RED} strokeWidth={14} strokeLinecap="round" /><path d={`M110,${-80 + Math.min(f, 30) * 6} l30,0 l-10,30Z`} fill={RED} /></g>}
     {kind === 'afg' && <g><path d="M-150,100 L-70,-60 L0,40 L60,-90 L150,100Z" fill="#b08a5a" stroke={C.ink} strokeWidth={4} /><g transform="translate(0,70) scale(0.28)"><Tank x={0} y={0} color="#6b6b3c" moving={false} /></g></g>}
@@ -91,16 +92,16 @@ const S3: SceneFC = ({d, cue}) => {
           <Character d={CAST.gorbachov} x={worried ? 300 : 540} y={1600} scale={1.7} pose={worried ? 'think' : 'talkA'} pose2={worried ? 'think' : 'open'} mix={Math.abs(Math.sin(f / 30))} expr={worried ? 'worried' : 'determined'} talking={f < est - 15 || f > afg + 30} look={worried ? 0.6 : 0.2} />
           {!worried && <g transform="translate(540,1610)"><rect x={-230} y={-280} width={460} height={300} fill="#6b3a24" stroke={C.ink} strokeWidth={8} /><rect x={-240} y={-300} width={480} height={30} fill="#8a5a34" stroke={C.ink} strokeWidth={6} />
             <circle cx={0} cy={-150} r={60} fill="#c8202a" stroke="#e8b33b" strokeWidth={6} /><rect x={-14} y={-370} width={8} height={80} fill="#333" /><circle cx={-10} cy={-376} r={14} fill="#555" /></g>}
-          <ProblemCard x={790} y={620} at={est} kind="shop" label="ECONOMÍA" />
-          <ProblemCard x={760} y={1040} at={pet} kind="oil" label="PETRÓLEO" />
-          <ProblemCard x={800} y={1460} at={afg} kind="afg" label="AFGANISTÁN" />
+          <ProblemCard x={790} y={620} at={est} kind="shop" label={L("ECONOMÍA")} />
+          <ProblemCard x={760} y={1040} at={pet} kind="oil" label={L("PETRÓLEO")} />
+          <ProblemCard x={800} y={1460} at={afg} kind="afg" label={L("AFGANISTÁN")} />
         </Layer>
       </Camera>
     </Stage>
-    <NameTag name="Mijaíl Gorbachov" role="Secretario General del PCUS (1985–1991)" from={cue.word('mijaíl') - 4} dur={95} y={1560} />
-    <Chip text="PERESTROIKA · reestructuración" from={per} dur={est - per - 10} y={330} color={C.yellow} />
-    <Chip text="GLÁSNOST · transparencia" from={gla} dur={est - gla - 10} y={440} color="#fff" rot={2} />
-    <DateStamp text="1985" sub="URSS" from={0} dur={70} y={250} />
+    <NameTag name={L("Mijaíl Gorbachov")} role={L("Secretario General del PCUS (1985–1991)")} from={cue.word('mijaíl') - 4} dur={95} y={1560} />
+    <Chip text={L("PERESTROIKA · reestructuración")} from={per} dur={est - per - 10} y={330} color={C.yellow} />
+    <Chip text={L("GLÁSNOST · transparencia")} from={gla} dur={est - gla - 10} y={440} color="#fff" rot={2} />
+    <DateStamp text={L("1985")} sub={L("URSS")} from={0} dur={70} y={250} />
     <Sfx name="pop" at={per} /><Sfx name="pop" at={gla} /><Sfx name="stamp" at={est} vol={0.6} /><Sfx name="stamp" at={pet} vol={0.6} /><Sfx name="stamp" at={afg} vol={0.6} /><Sfx name="crowd" at={0} vol={0.08} dur={est} />
   </AbsoluteFill>;
 };
@@ -130,13 +131,13 @@ const S4: SceneFC = ({d, cue}) => {
             <g transform="translate(-55,-280)">{c.cols.map((col, j) => c.vert
               ? <rect key={j} x={(j * 110) / c.cols.length} y={0} width={110 / c.cols.length} height={90} fill={col} stroke={C.ink} strokeWidth={2} />
               : <rect key={j} x={0} y={(j * 90) / c.cols.length} width={110} height={90 / c.cols.length} fill={col} stroke={C.ink} strokeWidth={2} />)}</g>
-            <text x={0} y={-120} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={c.name.length > 10 ? 18 : 24} fill={C.ink}>{c.name}</text>
+            <text x={0} y={-120} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={L(c.name).length > 10 ? 18 : 24} fill={C.ink}>{L(c.name)}</text>
             <text x={0} y={-60} textAnchor="middle" fontFamily={FONT_TITLE} fontSize={50} fill={RED}>★</text>
           </g>;
         })}</g>}</Layer>
       </Camera>
     </Stage>
-    <DateStamp text="9·11·1989" sub="BERLÍN" from={0} dur={muro + 40} y={250} />
+    <DateStamp text={L("9·11·1989")} sub={L("BERLÍN")} from={0} dur={muro + 40} y={250} />
     <Amb name="crowd" vol={0.25} dur={d} /><Sfx name="crumble" at={muro + 8} vol={0.7} /><Sfx name="cheer" at={muro + 18} vol={0.5} />
     {DOMINO.map((_, i) => <Sfx key={i} name="stamp" at={nai + i * 7 + 12} vol={0.35} />)}
   </AbsoluteFill>;
@@ -161,9 +162,9 @@ const S5: SceneFC = ({d, cue}) => {
         <Layer depth={1.3}>{f > tres && <Crowd y={1900} n={10} s={1.4} cheer flags={['russia']} seed={11} />}</Layer>
       </Camera>
     </Stage>
-    <DateStamp text="19–21 AGO 1991" sub="MOSCÚ" from={0} dur={tq + 20} y={250} />
-    <NameTag name="Borís Yeltsin" role="Presidente de Rusia (RSFS)" from={yel + 6} dur={90} y={1580} color="#1c57a5" />
-    <Chip text="3 DÍAS" from={tres} y={340} size={80} color={C.yellow} />
+    <DateStamp text={L("19–21 AGO 1991")} sub={L("MOSCÚ")} from={0} dur={tq + 20} y={250} />
+    <NameTag name={L("Borís Yeltsin")} role={L("Presidente de Rusia (RSFS)")} from={yel + 6} dur={90} y={1580} color="#1c57a5" />
+    <Chip text={L("3 DÍAS")} from={tres} y={340} size={80} color={C.yellow} />
     <Amb name="tank" vol={0.35} from={tq - 30} dur={90} /><Amb name="crowd" vol={0.22} dur={d} /><Sfx name="cheer" at={tres + 6} vol={0.6} /><Sfx name="impact" at={yel + 10} vol={0.35} />
   </AbsoluteFill>;
 };
@@ -187,7 +188,7 @@ const S6: SceneFC = ({d, cue}) => {
           <g transform="translate(0,-420)">
             <MapView proj={{type: 'mercator', center: [24, 57], scale: 2600}} theme="cold"
               fills={[{names: ['Russia', 'Belarus', 'Ukraine'], color: RED, at: 0}, {names: ['Estonia', 'Latvia', 'Lithuania'], color: RED, at: bal, dur: 12, stagger: 8, glow: true}]}
-              labels={[{at: [25.5, 58.7], text: 'ESTONIA', from: bal, size: 50}, {at: [25, 56.9], text: 'LETONIA', from: bal + 8, size: 50}, {at: [23.8, 55.3], text: 'LITUANIA', from: bal + 16, size: 50}]} />
+              labels={[{at: [25.5, 58.7], text: L('ESTONIA'), from: bal, size: 50}, {at: [25, 56.9], text: L('LETONIA'), from: bal + 8, size: 50}, {at: [23.8, 55.3], text: L('LITUANIA'), from: bal + 16, size: 50}]} />
           </g>
           <rect x={0} y={0} width={1080} height={1080} rx={30} fill="none" stroke="#fff" strokeWidth={10} />
         </g>
@@ -220,8 +221,8 @@ const S7: SceneFC = ({d, cue}) => {
         </g>{f > man + 6 && <Explosion x={540} y={1230} at={man + 6} s={0.6} color="#9aa" />}</Layer>
       </Camera>
     </Stage>
-    <Chip text="MERCADO" from={mer} y={300} x={300} color="#3ddc84" />
-    <Chip text="MANO DE HIERRO" from={man} y={420} x={700} color="#ff5a5a" textColor="#fff" rot={3} />
+    <Chip text={L("MERCADO")} from={mer} y={300} x={300} color="#3ddc84" />
+    <Chip text={L("MANO DE HIERRO")} from={man} y={420} x={700} color="#ff5a5a" textColor="#fff" rot={3} />
     <div style={{position: 'absolute', top: 1580, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 20, opacity: clamp((f - 5) / 10)}}>
       <svg width={120} height={80}><FlagFace kind="prc" w={120} h={80} /></svg><span style={{fontFamily: FONT_TITLE, fontSize: 60, color: '#fff'}}>→</span><svg width={120} height={80}><FlagFace kind="ussr" w={120} h={80} /></svg>
     </div>
@@ -241,10 +242,10 @@ const S8: SceneFC = ({d, cue}) => {
         fills={[{names: USSR, color: RED, at: 0, dur: 1}, {names: ['Ukraine'], color: '#ff4a4a', at: ucr, dur: 10, glow: true},
           {names: NATO91, color: '#2a6fd6', at: ota, dur: 12, stagger: 2},
           {names: ['Poland', 'Czechia', 'Slovakia', 'Hungary', 'Romania', 'Bulgaria'], color: '#9a9a9a', at: ota + 10, dur: 12}]}
-        labels={[{at: [31, 49], text: 'RSS DE UCRANIA', from: ucr + 5, size: 46, color: '#fff'}, {at: [5, 49], text: 'OTAN', from: ota + 8, size: 80, color: '#fff'}, {at: [45, 56], text: 'URSS', from: 0, size: 90, color: '#fff'}]}
-        arrows={[{from: [8, 52], to: [21, 52], at: ota + 20, dur: 20, color: '#2a6fd6', label: '✕'}]}>
+        labels={[{at: [31, 49], text: L('RSS DE UCRANIA'), from: ucr + 5, size: 46, color: '#fff'}, {at: [5, 49], text: L('OTAN'), from: ota + 8, size: 80, color: '#fff'}, {at: [45, 56], text: L('URSS'), from: 0, size: 90, color: '#fff'}]}
+        arrows={[{from: [8, 52], to: [21, 52], at: ota + 20, dur: 20, color: '#2a6fd6', label: L('✕')}]}>
       </MapView>
-      <TitleBand text="TELÓN DE ACERO" at={8} />
+      <TitleBand text={L("TELÓN DE ACERO")} at={8} />
     </Stage>}
     {showBuran && <Stage>
       <Camera k={[{f: bur - 8, z: 1.25, y: 120}, {f: d, z: 1.0, y: -260}]} shake={f > bur + 30 ? 5 : 0}>
@@ -257,7 +258,7 @@ const S8: SceneFC = ({d, cue}) => {
         </Layer>
       </Camera>
     </Stage>}
-    {showBuran && <DateStamp text="15·11·1988" sub="BAIKONUR · ÚNICO VUELO" from={bur - 8} dur={120} y={250} />}
+    {showBuran && <DateStamp text={L("15·11·1988")} sub={L("BAIKONUR · ÚNICO VUELO")} from={bur - 8} dur={120} y={250} />}
     <Sfx name="whoosh" at={ucr - 6} vol={0.3} /><Sfx name="stamp" at={ota + 22} vol={0.4} />{showBuran && <><Sfx name="rocket" at={bur + 20} vol={0.6} /><Sfx name="boom" at={bur + 25} vol={0.35} /></>}
   </AbsoluteFill>;
 };
@@ -281,7 +282,7 @@ const S9: SceneFC = ({d, cue}) => {
       <Embers n={30} color="#ff6a5a" />
     </Stage>
     <div style={{position: 'absolute', top: 1020, left: 60, right: 60, display: 'flex', justifyContent: 'space-between', opacity: clamp((f - 10) / 15)}}>
-      <svg width={180} height={120}><FlagFace kind="ussr" w={180} h={120} /></svg><span style={{fontFamily: FONT_TITLE, fontSize: 90, color: '#fff', WebkitTextStroke: '10px #000', paintOrder: 'stroke fill'}}>VS</span><svg width={180} height={120}><FlagFace kind="usa" w={180} h={120} /></svg>
+      <svg width={180} height={120}><FlagFace kind="ussr" w={180} h={120} /></svg><span style={{fontFamily: FONT_TITLE, fontSize: 90, color: '#fff', WebkitTextStroke: '10px #000', paintOrder: 'stroke fill'}}>{L('VS')}</span><svg width={180} height={120}><FlagFace kind="usa" w={180} h={120} /></svg>
     </div>
     <Sfx name="impact" at={crack} vol={0.5} /><Sfx name="crumble" at={crack} vol={0.3} />
   </AbsoluteFill>;

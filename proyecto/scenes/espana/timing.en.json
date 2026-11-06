@@ -1,0 +1,1423 @@
+{
+ "id": "espana.en",
+ "lang": "en",
+ "cues": {
+  "california": "california",
+  "patagonia": "patagonia",
+  "nunca": "never",
+  "virreinatos": "viceroyalties",
+  "plata": "silver",
+  "océanos": "oceans",
+  "conde": "count",
+  "tres": "three",
+  "discute": "disputed",
+  "napoleón": "napoleon",
+  "abdicar": "abdicate",
+  "surgen": "juntas",
+  "simón": "simón",
+  "josé": "josé",
+  "independencia": "independence",
+  "ayacucho": "ayacucho",
+  "cuba": "cuba",
+  "1898": "1898",
+  "comunidad": "commonwealth",
+  "11": "11",
+  "480": "480",
+  "roto": "fallen"
+ },
+ "titulo": "What if Spain had never lost its American colonies?",
+ "total": 91.204,
+ "scenes": [
+  {
+   "id": "s1_imperio",
+   "s": 0.0,
+   "e": 7.923,
+   "lines": [
+    {
+     "text": "Around 1790, the Spanish Empire stretched from *California* to *Patagonia*.",
+     "s": 0.25,
+     "e": 5.625,
+     "words": [
+      {
+       "w": "Around",
+       "s": 0.25,
+       "e": 0.661,
+       "hl": false
+      },
+      {
+       "w": "1790,",
+       "s": 0.661,
+       "e": 2.005,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 2.005,
+       "e": 2.252,
+       "hl": false
+      },
+      {
+       "w": "Spanish",
+       "s": 2.252,
+       "e": 2.718,
+       "hl": false
+      },
+      {
+       "w": "Empire",
+       "s": 2.718,
+       "e": 3.13,
+       "hl": false
+      },
+      {
+       "w": "stretched",
+       "s": 3.13,
+       "e": 3.706,
+       "hl": false
+      },
+      {
+       "w": "from",
+       "s": 3.706,
+       "e": 4.007,
+       "hl": false
+      },
+      {
+       "w": "California",
+       "s": 4.007,
+       "e": 4.638,
+       "hl": true
+      },
+      {
+       "w": "to",
+       "s": 4.638,
+       "e": 4.83,
+       "hl": false
+      },
+      {
+       "w": "Patagonia.",
+       "s": 4.83,
+       "e": 5.625,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "What if it had *never* lost it?",
+     "s": 5.925,
+     "e": 7.423,
+     "words": [
+      {
+       "w": "What",
+       "s": 5.925,
+       "e": 6.151,
+       "hl": false
+      },
+      {
+       "w": "if",
+       "s": 6.151,
+       "e": 6.295,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 6.295,
+       "e": 6.438,
+       "hl": false
+      },
+      {
+       "w": "had",
+       "s": 6.438,
+       "e": 6.623,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 6.623,
+       "e": 6.889,
+       "hl": true
+      },
+      {
+       "w": "lost",
+       "s": 6.889,
+       "e": 7.115,
+       "hl": false
+      },
+      {
+       "w": "it?",
+       "s": 7.115,
+       "e": 7.423,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_virreinatos",
+   "s": 7.923,
+   "e": 17.284,
+   "lines": [
+    {
+     "text": "Four *viceroyalties*: New Spain, Peru, New Granada and the Río de la Plata.",
+     "s": 8.173,
+     "e": 13.302,
+     "words": [
+      {
+       "w": "Four",
+       "s": 8.173,
+       "e": 8.488,
+       "hl": false
+      },
+      {
+       "w": "viceroyalties:",
+       "s": 8.488,
+       "e": 9.491,
+       "hl": true
+      },
+      {
+       "w": "New",
+       "s": 9.491,
+       "e": 9.749,
+       "hl": false
+      },
+      {
+       "w": "Spain,",
+       "s": 9.749,
+       "e": 10.293,
+       "hl": false
+      },
+      {
+       "w": "Peru,",
+       "s": 10.293,
+       "e": 10.78,
+       "hl": false
+      },
+      {
+       "w": "New",
+       "s": 10.78,
+       "e": 11.038,
+       "hl": false
+      },
+      {
+       "w": "Granada",
+       "s": 11.038,
+       "e": 11.525,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 11.525,
+       "e": 11.783,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 11.783,
+       "e": 12.041,
+       "hl": false
+      },
+      {
+       "w": "Río",
+       "s": 12.041,
+       "e": 12.299,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 12.299,
+       "e": 12.499,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 12.499,
+       "e": 12.7,
+       "hl": false
+      },
+      {
+       "w": "Plata.",
+       "s": 12.7,
+       "e": 13.302,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "*Silver*, galleons and trade routes spanning *two oceans*.",
+     "s": 13.602,
+     "e": 16.784,
+     "words": [
+      {
+       "w": "Silver,",
+       "s": 13.602,
+       "e": 14.124,
+       "hl": true
+      },
+      {
+       "w": "galleons",
+       "s": 14.124,
+       "e": 14.596,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 14.596,
+       "e": 14.82,
+       "hl": false
+      },
+      {
+       "w": "trade",
+       "s": 14.82,
+       "e": 15.143,
+       "hl": false
+      },
+      {
+       "w": "routes",
+       "s": 15.143,
+       "e": 15.516,
+       "hl": false
+      },
+      {
+       "w": "spanning",
+       "s": 15.516,
+       "e": 15.988,
+       "hl": false
+      },
+      {
+       "w": "two",
+       "s": 15.988,
+       "e": 16.212,
+       "hl": true
+      },
+      {
+       "w": "oceans.",
+       "s": 16.212,
+       "e": 16.784,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_aranda",
+   "s": 17.284,
+   "e": 34.877,
+   "lines": [
+    {
+     "text": "In 1783, a document attributed to the *Count of Aranda* proposed something revolutionary:",
+     "s": 17.534,
+     "e": 24.128,
+     "words": [
+      {
+       "w": "In",
+       "s": 17.534,
+       "e": 17.736,
+       "hl": false
+      },
+      {
+       "w": "1783,",
+       "s": 17.736,
+       "e": 19.146,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 19.146,
+       "e": 19.29,
+       "hl": false
+      },
+      {
+       "w": "document",
+       "s": 19.29,
+       "e": 19.838,
+       "hl": false
+      },
+      {
+       "w": "attributed",
+       "s": 19.838,
+       "e": 20.5,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 20.5,
+       "e": 20.701,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 20.701,
+       "e": 20.96,
+       "hl": false
+      },
+      {
+       "w": "Count",
+       "s": 20.96,
+       "e": 21.335,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 21.335,
+       "e": 21.536,
+       "hl": true
+      },
+      {
+       "w": "Aranda",
+       "s": 21.536,
+       "e": 21.968,
+       "hl": true
+      },
+      {
+       "w": "proposed",
+       "s": 21.968,
+       "e": 22.515,
+       "hl": false
+      },
+      {
+       "w": "something",
+       "s": 22.515,
+       "e": 23.12,
+       "hl": false
+      },
+      {
+       "w": "revolutionary:",
+       "s": 23.12,
+       "e": 24.128,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "splitting America into *three kingdoms* ruled by Spanish princes, united under one king.",
+     "s": 24.428,
+     "e": 29.911,
+     "words": [
+      {
+       "w": "splitting",
+       "s": 24.428,
+       "e": 25.012,
+       "hl": false
+      },
+      {
+       "w": "America",
+       "s": 25.012,
+       "e": 25.485,
+       "hl": false
+      },
+      {
+       "w": "into",
+       "s": 25.485,
+       "e": 25.791,
+       "hl": false
+      },
+      {
+       "w": "three",
+       "s": 25.791,
+       "e": 26.153,
+       "hl": true
+      },
+      {
+       "w": "kingdoms",
+       "s": 26.153,
+       "e": 26.682,
+       "hl": true
+      },
+      {
+       "w": "ruled",
+       "s": 26.682,
+       "e": 27.044,
+       "hl": false
+      },
+      {
+       "w": "by",
+       "s": 27.044,
+       "e": 27.239,
+       "hl": false
+      },
+      {
+       "w": "Spanish",
+       "s": 27.239,
+       "e": 27.712,
+       "hl": false
+      },
+      {
+       "w": "princes,",
+       "s": 27.712,
+       "e": 28.352,
+       "hl": false
+      },
+      {
+       "w": "united",
+       "s": 28.352,
+       "e": 28.769,
+       "hl": false
+      },
+      {
+       "w": "under",
+       "s": 28.769,
+       "e": 29.131,
+       "hl": false
+      },
+      {
+       "w": "one",
+       "s": 29.131,
+       "e": 29.382,
+       "hl": false
+      },
+      {
+       "w": "king.",
+       "s": 29.382,
+       "e": 29.911,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Its authenticity is *disputed*, and the plan was never carried out.",
+     "s": 30.211,
+     "e": 34.377,
+     "words": [
+      {
+       "w": "Its",
+       "s": 30.211,
+       "e": 30.456,
+       "hl": false
+      },
+      {
+       "w": "authenticity",
+       "s": 30.456,
+       "e": 31.191,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 31.191,
+       "e": 31.382,
+       "hl": false
+      },
+      {
+       "w": "disputed,",
+       "s": 31.382,
+       "e": 32.062,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 32.062,
+       "e": 32.308,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 32.308,
+       "e": 32.553,
+       "hl": false
+      },
+      {
+       "w": "plan",
+       "s": 32.553,
+       "e": 32.852,
+       "hl": false
+      },
+      {
+       "w": "was",
+       "s": 32.852,
+       "e": 33.097,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 33.097,
+       "e": 33.451,
+       "hl": false
+      },
+      {
+       "w": "carried",
+       "s": 33.451,
+       "e": 33.914,
+       "hl": false
+      },
+      {
+       "w": "out.",
+       "s": 33.914,
+       "e": 34.377,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_napoleon",
+   "s": 34.877,
+   "e": 41.583,
+   "lines": [
+    {
+     "text": "In 1808, *Napoleon* invades Spain",
+     "s": 35.127,
+     "e": 37.665,
+     "words": [
+      {
+       "w": "In",
+       "s": 35.127,
+       "e": 35.297,
+       "hl": false
+      },
+      {
+       "w": "1808,",
+       "s": 35.297,
+       "e": 36.481,
+       "hl": false
+      },
+      {
+       "w": "Napoleon",
+       "s": 36.481,
+       "e": 36.94,
+       "hl": true
+      },
+      {
+       "w": "invades",
+       "s": 36.94,
+       "e": 37.35,
+       "hl": false
+      },
+      {
+       "w": "Spain",
+       "s": 37.35,
+       "e": 37.664,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "and forces the royal family to *abdicate* in *Bayonne*.",
+     "s": 37.965,
+     "e": 41.083,
+     "words": [
+      {
+       "w": "and",
+       "s": 37.965,
+       "e": 38.2,
+       "hl": false
+      },
+      {
+       "w": "forces",
+       "s": 38.2,
+       "e": 38.593,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 38.593,
+       "e": 38.829,
+       "hl": false
+      },
+      {
+       "w": "royal",
+       "s": 38.829,
+       "e": 39.17,
+       "hl": false
+      },
+      {
+       "w": "family",
+       "s": 39.17,
+       "e": 39.563,
+       "hl": false
+      },
+      {
+       "w": "to",
+       "s": 39.563,
+       "e": 39.746,
+       "hl": false
+      },
+      {
+       "w": "abdicate",
+       "s": 39.746,
+       "e": 40.244,
+       "hl": true
+      },
+      {
+       "w": "in",
+       "s": 40.244,
+       "e": 40.428,
+       "hl": false
+      },
+      {
+       "w": "Bayonne.",
+       "s": 40.428,
+       "e": 41.083,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_libertadores",
+   "s": 41.583,
+   "e": 53.345,
+   "lines": [
+    {
+     "text": "In America, the power vacuum changes everything.",
+     "s": 41.833,
+     "e": 44.84,
+     "words": [
+      {
+       "w": "In",
+       "s": 41.833,
+       "e": 42.016,
+       "hl": false
+      },
+      {
+       "w": "America,",
+       "s": 42.016,
+       "e": 42.617,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 42.617,
+       "e": 42.852,
+       "hl": false
+      },
+      {
+       "w": "power",
+       "s": 42.852,
+       "e": 43.192,
+       "hl": false
+      },
+      {
+       "w": "vacuum",
+       "s": 43.192,
+       "e": 43.584,
+       "hl": false
+      },
+      {
+       "w": "changes",
+       "s": 43.584,
+       "e": 44.029,
+       "hl": false
+      },
+      {
+       "w": "everything.",
+       "s": 44.029,
+       "e": 44.839,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Local juntas emerge, and leaders like *Simón Bolívar* and *José de San Martín* launch the wars of *independence*.",
+     "s": 45.139,
+     "e": 52.845,
+     "words": [
+      {
+       "w": "Local",
+       "s": 45.139,
+       "e": 45.55,
+       "hl": false
+      },
+      {
+       "w": "juntas",
+       "s": 45.55,
+       "e": 46.024,
+       "hl": false
+      },
+      {
+       "w": "emerge,",
+       "s": 46.024,
+       "e": 46.687,
+       "hl": false
+      },
+      {
+       "w": "and",
+       "s": 46.687,
+       "e": 46.971,
+       "hl": false
+      },
+      {
+       "w": "leaders",
+       "s": 46.971,
+       "e": 47.508,
+       "hl": false
+      },
+      {
+       "w": "like",
+       "s": 47.508,
+       "e": 47.855,
+       "hl": false
+      },
+      {
+       "w": "Simón",
+       "s": 47.855,
+       "e": 48.266,
+       "hl": true
+      },
+      {
+       "w": "Bolívar",
+       "s": 48.266,
+       "e": 48.803,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 48.803,
+       "e": 49.087,
+       "hl": false
+      },
+      {
+       "w": "José",
+       "s": 49.087,
+       "e": 49.434,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 49.434,
+       "e": 49.655,
+       "hl": true
+      },
+      {
+       "w": "San",
+       "s": 49.655,
+       "e": 49.94,
+       "hl": true
+      },
+      {
+       "w": "Martín",
+       "s": 49.94,
+       "e": 50.413,
+       "hl": true
+      },
+      {
+       "w": "launch",
+       "s": 50.413,
+       "e": 50.887,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 50.887,
+       "e": 51.171,
+       "hl": false
+      },
+      {
+       "w": "wars",
+       "s": 51.171,
+       "e": 51.519,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 51.519,
+       "e": 51.74,
+       "hl": false
+      },
+      {
+       "w": "independence.",
+       "s": 51.74,
+       "e": 52.845,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_ayacucho",
+   "s": 53.345,
+   "e": 62.55,
+   "lines": [
+    {
+     "text": "In 1824, the battle of *Ayacucho* seals the end.",
+     "s": 53.595,
+     "e": 57.486,
+     "words": [
+      {
+       "w": "In",
+       "s": 53.595,
+       "e": 53.783,
+       "hl": false
+      },
+      {
+       "w": "1824,",
+       "s": 53.783,
+       "e": 55.098,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 55.098,
+       "e": 55.339,
+       "hl": false
+      },
+      {
+       "w": "battle",
+       "s": 55.339,
+       "e": 55.742,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 55.742,
+       "e": 55.929,
+       "hl": false
+      },
+      {
+       "w": "Ayacucho",
+       "s": 55.929,
+       "e": 56.439,
+       "hl": true
+      },
+      {
+       "w": "seals",
+       "s": 56.439,
+       "e": 56.788,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 56.788,
+       "e": 57.029,
+       "hl": false
+      },
+      {
+       "w": "end.",
+       "s": 57.029,
+       "e": 57.486,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Only *Cuba* and *Puerto Rico* remain, lost in *1898*.",
+     "s": 57.786,
+     "e": 62.05,
+     "words": [
+      {
+       "w": "Only",
+       "s": 57.786,
+       "e": 58.105,
+       "hl": false
+      },
+      {
+       "w": "Cuba",
+       "s": 58.105,
+       "e": 58.424,
+       "hl": true
+      },
+      {
+       "w": "and",
+       "s": 58.424,
+       "e": 58.685,
+       "hl": false
+      },
+      {
+       "w": "Puerto",
+       "s": 58.685,
+       "e": 59.12,
+       "hl": true
+      },
+      {
+       "w": "Rico",
+       "s": 59.12,
+       "e": 59.439,
+       "hl": true
+      },
+      {
+       "w": "remain,",
+       "s": 59.439,
+       "e": 60.048,
+       "hl": false
+      },
+      {
+       "w": "lost",
+       "s": 60.048,
+       "e": 60.368,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 60.368,
+       "e": 60.571,
+       "hl": false
+      },
+      {
+       "w": "1898.",
+       "s": 60.571,
+       "e": 62.05,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_giro",
+   "s": 62.55,
+   "e": 70.591,
+   "lines": [
+    {
+     "text": "Now imagine Aranda's plan is put in place *in time*.",
+     "s": 62.8,
+     "e": 66.02,
+     "words": [
+      {
+       "w": "Now",
+       "s": 62.8,
+       "e": 63.05,
+       "hl": false
+      },
+      {
+       "w": "imagine",
+       "s": 63.05,
+       "e": 63.522,
+       "hl": false
+      },
+      {
+       "w": "Aranda's",
+       "s": 63.522,
+       "e": 63.994,
+       "hl": false
+      },
+      {
+       "w": "plan",
+       "s": 63.994,
+       "e": 64.299,
+       "hl": false
+      },
+      {
+       "w": "is",
+       "s": 64.299,
+       "e": 64.494,
+       "hl": false
+      },
+      {
+       "w": "put",
+       "s": 64.494,
+       "e": 64.743,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 64.743,
+       "e": 64.938,
+       "hl": false
+      },
+      {
+       "w": "place",
+       "s": 64.938,
+       "e": 65.298,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 65.298,
+       "e": 65.493,
+       "hl": true
+      },
+      {
+       "w": "time.",
+       "s": 65.493,
+       "e": 66.02,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "A *Hispanic commonwealth* of sister kingdoms, like the British one.",
+     "s": 66.32,
+     "e": 70.091,
+     "words": [
+      {
+       "w": "A",
+       "s": 66.32,
+       "e": 66.444,
+       "hl": false
+      },
+      {
+       "w": "Hispanic",
+       "s": 66.444,
+       "e": 66.916,
+       "hl": true
+      },
+      {
+       "w": "commonwealth",
+       "s": 66.916,
+       "e": 67.586,
+       "hl": true
+      },
+      {
+       "w": "of",
+       "s": 67.586,
+       "e": 67.759,
+       "hl": false
+      },
+      {
+       "w": "sister",
+       "s": 67.759,
+       "e": 68.131,
+       "hl": false
+      },
+      {
+       "w": "kingdoms,",
+       "s": 68.131,
+       "e": 68.752,
+       "hl": false
+      },
+      {
+       "w": "like",
+       "s": 68.752,
+       "e": 69.025,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 69.025,
+       "e": 69.248,
+       "hl": false
+      },
+      {
+       "w": "British",
+       "s": 69.248,
+       "e": 69.67,
+       "hl": false
+      },
+      {
+       "w": "one.",
+       "s": 69.67,
+       "e": 70.091,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_bloque",
+   "s": 70.591,
+   "e": 83.364,
+   "lines": [
+    {
+     "text": "A bloc of over *11 million* square kilometers",
+     "s": 70.841,
+     "e": 73.641,
+     "words": [
+      {
+       "w": "A",
+       "s": 70.841,
+       "e": 70.966,
+       "hl": false
+      },
+      {
+       "w": "bloc",
+       "s": 70.966,
+       "e": 71.241,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 71.241,
+       "e": 71.416,
+       "hl": false
+      },
+      {
+       "w": "over",
+       "s": 71.416,
+       "e": 71.691,
+       "hl": false
+      },
+      {
+       "w": "11",
+       "s": 71.691,
+       "e": 72.266,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 72.266,
+       "e": 72.691,
+       "hl": true
+      },
+      {
+       "w": "square",
+       "s": 72.691,
+       "e": 73.066,
+       "hl": false
+      },
+      {
+       "w": "kilometers",
+       "s": 73.066,
+       "e": 73.641,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "and today, nearly *480 million* people.",
+     "s": 73.941,
+     "e": 77.267,
+     "words": [
+      {
+       "w": "and",
+       "s": 73.941,
+       "e": 74.199,
+       "hl": false
+      },
+      {
+       "w": "today,",
+       "s": 74.199,
+       "e": 74.744,
+       "hl": false
+      },
+      {
+       "w": "nearly",
+       "s": 74.744,
+       "e": 75.174,
+       "hl": false
+      },
+      {
+       "w": "480",
+       "s": 75.174,
+       "e": 76.12,
+       "hl": true
+      },
+      {
+       "w": "million",
+       "s": 76.12,
+       "e": 76.608,
+       "hl": true
+      },
+      {
+       "w": "people.",
+       "s": 76.608,
+       "e": 77.267,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "And maybe *California* or *Texas* would never have become part of the United States.",
+     "s": 77.567,
+     "e": 82.864,
+     "words": [
+      {
+       "w": "And",
+       "s": 77.567,
+       "e": 77.829,
+       "hl": false
+      },
+      {
+       "w": "maybe",
+       "s": 77.829,
+       "e": 78.208,
+       "hl": false
+      },
+      {
+       "w": "California",
+       "s": 78.208,
+       "e": 78.877,
+       "hl": true
+      },
+      {
+       "w": "or",
+       "s": 78.877,
+       "e": 79.081,
+       "hl": false
+      },
+      {
+       "w": "Texas",
+       "s": 79.081,
+       "e": 79.459,
+       "hl": true
+      },
+      {
+       "w": "would",
+       "s": 79.459,
+       "e": 79.837,
+       "hl": false
+      },
+      {
+       "w": "never",
+       "s": 79.837,
+       "e": 80.216,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 80.216,
+       "e": 80.536,
+       "hl": false
+      },
+      {
+       "w": "become",
+       "s": 80.536,
+       "e": 80.972,
+       "hl": false
+      },
+      {
+       "w": "part",
+       "s": 80.972,
+       "e": 81.292,
+       "hl": false
+      },
+      {
+       "w": "of",
+       "s": 81.292,
+       "e": 81.496,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 81.496,
+       "e": 81.758,
+       "hl": false
+      },
+      {
+       "w": "United",
+       "s": 81.758,
+       "e": 82.195,
+       "hl": false
+      },
+      {
+       "w": "States.",
+       "s": 82.195,
+       "e": 82.864,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 83.364,
+   "e": 91.204,
+   "lines": [
+    {
+     "text": "Would it be a *superpower* today...",
+     "s": 83.614,
+     "e": 85.316,
+     "words": [
+      {
+       "w": "Would",
+       "s": 83.614,
+       "e": 83.905,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 83.905,
+       "e": 84.062,
+       "hl": false
+      },
+      {
+       "w": "be",
+       "s": 84.062,
+       "e": 84.219,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 84.219,
+       "e": 84.331,
+       "hl": false
+      },
+      {
+       "w": "superpower",
+       "s": 84.331,
+       "e": 84.846,
+       "hl": true
+      },
+      {
+       "w": "today...",
+       "s": 84.846,
+       "e": 85.316,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "or would it have *fallen apart* anyway? Tell me in the comments.",
+     "s": 85.616,
+     "e": 89.004,
+     "words": [
+      {
+       "w": "or",
+       "s": 85.616,
+       "e": 85.774,
+       "hl": false
+      },
+      {
+       "w": "would",
+       "s": 85.774,
+       "e": 86.068,
+       "hl": false
+      },
+      {
+       "w": "it",
+       "s": 86.068,
+       "e": 86.226,
+       "hl": false
+      },
+      {
+       "w": "have",
+       "s": 86.226,
+       "e": 86.474,
+       "hl": false
+      },
+      {
+       "w": "fallen",
+       "s": 86.474,
+       "e": 86.813,
+       "hl": true
+      },
+      {
+       "w": "apart",
+       "s": 86.813,
+       "e": 87.107,
+       "hl": true
+      },
+      {
+       "w": "anyway?",
+       "s": 87.107,
+       "e": 87.626,
+       "hl": false
+      },
+      {
+       "w": "Tell",
+       "s": 87.626,
+       "e": 87.875,
+       "hl": false
+      },
+      {
+       "w": "me",
+       "s": 87.875,
+       "e": 88.033,
+       "hl": false
+      },
+      {
+       "w": "in",
+       "s": 88.033,
+       "e": 88.191,
+       "hl": false
+      },
+      {
+       "w": "the",
+       "s": 88.191,
+       "e": 88.394,
+       "hl": false
+      },
+      {
+       "w": "comments.",
+       "s": 88.394,
+       "e": 89.004,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
