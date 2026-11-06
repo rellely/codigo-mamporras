@@ -1,0 +1,524 @@
+{
+  "title": {
+    "es": "EL SEXTO",
+    "en": "THE SIXTH ONE"
+  },
+  "voices": {
+    "es": {
+      "narrator": "em_alex",
+      "marta": "ef_dora",
+      "sixth": "em_santa"
+    },
+    "en": {
+      "narrator": "bm_george",
+      "marta": "af_heart",
+      "sixth": "am_onyx"
+    }
+  },
+  "langCodes": {
+    "es": "es",
+    "en": "en-us"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "minSeconds": 5.2,
+      "tail": 0.5,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.35,
+          "es": "Fuimos *cinco* de acampada.",
+          "en": "Five of us went camping."
+        },
+        {
+          "speaker": "narrator",
+          "gap": 0.25,
+          "es": "Pero esa noche, alrededor del fuego, había *seis*.",
+          "en": "But that night, around the fire, there were *six*."
+        }
+      ],
+      "cues": [
+        {
+          "id": "boom",
+          "sound": "boom",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.9
+        },
+        {
+          "id": "turn",
+          "sound": "sting",
+          "ref": "word:seis|six",
+          "offset": 0.05,
+          "gain": 0.8
+        }
+      ]
+    },
+    {
+      "id": "trail",
+      "minSeconds": 6.0,
+      "tail": 0.6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.3,
+          "es": "Leo, Marta, Dani, Sara e Iker.",
+          "en": "Leo, Marta, Dani, Sara and Iker."
+        },
+        {
+          "speaker": "narrator",
+          "gap": 0.2,
+          "es": "Cinco amigos, acampando a los pies de una vieja *roca*.",
+          "en": "Five friends, camping beneath an old *rock* wall."
+        }
+      ],
+      "cues": [
+        {
+          "id": "whoosh",
+          "sound": "whoosh",
+          "ref": "start",
+          "offset": -0.25,
+          "gain": 0.6
+        },
+        {
+          "id": "steps",
+          "sound": "footsteps",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.45,
+          "span": "scene"
+        },
+        {
+          "id": "birds",
+          "sound": "birds",
+          "ref": "start",
+          "offset": 0.2,
+          "gain": 0.35,
+          "span": "scene"
+        }
+      ]
+    },
+    {
+      "id": "tents",
+      "minSeconds": 5.0,
+      "tail": 0.6,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.3,
+          "es": "Montaron *cinco* tiendas. Sara las contó dos veces.",
+          "en": "They pitched *five* tents. Sara counted them twice."
+        }
+      ],
+      "cues": [
+        {
+          "id": "tent1",
+          "sound": "flap",
+          "ref": "start",
+          "offset": 0.5,
+          "gain": 0.6
+        },
+        {
+          "id": "tent2",
+          "sound": "flap",
+          "ref": "start",
+          "offset": 0.85,
+          "gain": 0.6
+        },
+        {
+          "id": "tent3",
+          "sound": "flap",
+          "ref": "start",
+          "offset": 1.2,
+          "gain": 0.6
+        },
+        {
+          "id": "tent4",
+          "sound": "flap",
+          "ref": "start",
+          "offset": 1.55,
+          "gain": 0.6
+        },
+        {
+          "id": "tent5",
+          "sound": "flap",
+          "ref": "start",
+          "offset": 1.9,
+          "gain": 0.6
+        },
+        {
+          "id": "crickets",
+          "sound": "crickets",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.25,
+          "span": "scene"
+        }
+      ]
+    },
+    {
+      "id": "photo",
+      "minSeconds": 4.6,
+      "tail": 1.1,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.3,
+          "es": "Al caer la noche, Sara hizo una foto del grupo.",
+          "en": "When night fell, Sara took a photo of the group."
+        }
+      ],
+      "cues": [
+        {
+          "id": "fire",
+          "sound": "fire",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.5,
+          "span": "scene"
+        },
+        {
+          "id": "flash",
+          "sound": "shutter",
+          "ref": "line0.end",
+          "offset": 0.25,
+          "gain": 0.9
+        }
+      ]
+    },
+    {
+      "id": "phone",
+      "minSeconds": 4.2,
+      "tail": 1.0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.5,
+          "es": "En la foto salían *seis* personas.",
+          "en": "There were *six* people in the photo."
+        }
+      ],
+      "cues": [
+        {
+          "id": "heart",
+          "sound": "heartbeat",
+          "ref": "start",
+          "offset": 0.2,
+          "gain": 0.8,
+          "span": "scene"
+        },
+        {
+          "id": "glitch",
+          "sound": "glitch",
+          "ref": "word:seis|six",
+          "offset": 0.0,
+          "gain": 0.55
+        },
+        {
+          "id": "zoomhit",
+          "sound": "sting",
+          "ref": "word:seis|six",
+          "offset": 0.0,
+          "gain": 0.6
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "minSeconds": 6.0,
+      "tail": 1.0,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.3,
+          "es": "Leo los contó uno por uno.",
+          "en": "Leo counted them one by one."
+        },
+        {
+          "speaker": "narrator",
+          "gap": 0.3,
+          "slow": 0.9,
+          "es": "Uno, dos, tres, cuatro, cinco... *seis*.",
+          "en": "One, two, three, four, five... *six*."
+        }
+      ],
+      "cues": [
+        {
+          "id": "fire",
+          "sound": "fire",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.45,
+          "span": "scene"
+        },
+        {
+          "id": "c1",
+          "sound": "tick",
+          "ref": "word:uno|one@1",
+          "offset": 0.0,
+          "gain": 0.5
+        },
+        {
+          "id": "c2",
+          "sound": "tick",
+          "ref": "word:dos|two@1",
+          "offset": 0.0,
+          "gain": 0.5
+        },
+        {
+          "id": "c3",
+          "sound": "tick",
+          "ref": "word:tres|three@1",
+          "offset": 0.0,
+          "gain": 0.5
+        },
+        {
+          "id": "c4",
+          "sound": "tick",
+          "ref": "word:cuatro|four@1",
+          "offset": 0.0,
+          "gain": 0.5
+        },
+        {
+          "id": "c5",
+          "sound": "tick",
+          "ref": "word:cinco|five@1",
+          "offset": 0.0,
+          "gain": 0.5
+        },
+        {
+          "id": "c6",
+          "sound": "sting",
+          "ref": "word:seis|six@1",
+          "offset": 0.0,
+          "gain": 0.9
+        }
+      ]
+    },
+    {
+      "id": "talk",
+      "minSeconds": 7.0,
+      "tail": 0.7,
+      "lines": [
+        {
+          "speaker": "marta",
+          "at": 0.3,
+          "es": "¿Y tú... quién eres?",
+          "en": "And you... who are you?"
+        },
+        {
+          "speaker": "sixth",
+          "gap": 0.45,
+          "es": "¿Yo? Siempre he estado *aquí*.",
+          "en": "Me? I've always been *here*."
+        },
+        {
+          "speaker": "narrator",
+          "gap": 0.5,
+          "es": "Nadie recordaba haberlo *invitado*... pero todos sentían que lo *conocían*.",
+          "en": "Nobody remembered *inviting* him... but they all felt they *knew* him."
+        }
+      ],
+      "cues": [
+        {
+          "id": "fire",
+          "sound": "fire",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.4,
+          "span": "scene"
+        },
+        {
+          "id": "drone",
+          "sound": "riser",
+          "ref": "line1.start",
+          "offset": 0.0,
+          "gain": 0.4
+        }
+      ]
+    },
+    {
+      "id": "shadow",
+      "minSeconds": 6.5,
+      "tail": 1.2,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.3,
+          "es": "Dani encendió la linterna y apuntó hacia él.",
+          "en": "Dani switched on his flashlight and pointed it at him."
+        },
+        {
+          "speaker": "narrator",
+          "gap": 0.6,
+          "es": "Todos tenían sombra. Él... *no*.",
+          "en": "Everyone had a shadow. He... *didn't*."
+        }
+      ],
+      "cues": [
+        {
+          "id": "fire",
+          "sound": "fire",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.4,
+          "span": "scene"
+        },
+        {
+          "id": "click",
+          "sound": "click",
+          "ref": "line0.start",
+          "offset": 0.9,
+          "gain": 0.8
+        },
+        {
+          "id": "reveal",
+          "sound": "sting",
+          "ref": "word:no|didn't",
+          "offset": 0.0,
+          "gain": 1.0
+        },
+        {
+          "id": "heart",
+          "sound": "heartbeat",
+          "ref": "line1.start",
+          "offset": 0.0,
+          "gain": 0.7,
+          "span": "scene"
+        }
+      ]
+    },
+    {
+      "id": "blackout",
+      "minSeconds": 4.8,
+      "tail": 2.4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.4,
+          "es": "Entonces... el fuego se *apagó*.",
+          "en": "Then... the fire went *out*."
+        }
+      ],
+      "cues": [
+        {
+          "id": "wind",
+          "sound": "wind",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.8
+        },
+        {
+          "id": "out",
+          "sound": "fireout",
+          "ref": "line0.end",
+          "offset": 0.0,
+          "gain": 0.9
+        },
+        {
+          "id": "eyes",
+          "sound": "boom",
+          "ref": "line0.end",
+          "offset": 1.2,
+          "gain": 1.0
+        }
+      ]
+    },
+    {
+      "id": "dawn",
+      "minSeconds": 5.2,
+      "tail": 0.8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.5,
+          "es": "Al amanecer, se volvieron a contar. *Cinco*. Por fin.",
+          "en": "At dawn, they counted again. *Five*. Finally."
+        }
+      ],
+      "cues": [
+        {
+          "id": "birds",
+          "sound": "birds",
+          "ref": "start",
+          "offset": 0.2,
+          "gain": 0.3,
+          "span": "scene"
+        },
+        {
+          "id": "relief",
+          "sound": "chime",
+          "ref": "word:cinco|five",
+          "offset": 0.0,
+          "gain": 0.45
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "minSeconds": 7.0,
+      "tail": 1.2,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.6,
+          "es": "Pero en la roca... había *seis* *sombras*.",
+          "en": "But on the rock... there were *six* *shadows*."
+        },
+        {
+          "speaker": "sixth",
+          "gap": 0.7,
+          "whisper": true,
+          "es": "Nos vemos el año que viene.",
+          "en": "See you next year."
+        }
+      ],
+      "cues": [
+        {
+          "id": "tilt",
+          "sound": "whoosh",
+          "ref": "start",
+          "offset": 0.1,
+          "gain": 0.5
+        },
+        {
+          "id": "reveal",
+          "sound": "sting",
+          "ref": "word:sombras|shadows",
+          "offset": 0.0,
+          "gain": 1.0
+        },
+        {
+          "id": "eyes",
+          "sound": "boom",
+          "ref": "line1.start",
+          "offset": -0.3,
+          "gain": 0.8
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "minSeconds": 3.6,
+      "tail": 1.4,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "at": 0.35,
+          "es": "Y tú... ¿cuántos has *contado*?",
+          "en": "And you... how many did *you* count?"
+        }
+      ],
+      "cues": [
+        {
+          "id": "title",
+          "sound": "boom",
+          "ref": "start",
+          "offset": 0.0,
+          "gain": 0.9
+        }
+      ]
+    }
+  ]
+}

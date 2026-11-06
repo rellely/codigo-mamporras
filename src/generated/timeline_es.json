@@ -1,0 +1,1074 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.833333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Fuimos cinco de acampada.",
+     "start": 0.35,
+     "end": 2.02,
+     "words": [
+      {
+       "w": "Fuimos",
+       "hl": false,
+       "start": 0.41,
+       "end": 0.859
+      },
+      {
+       "w": "cinco",
+       "hl": true,
+       "start": 0.859,
+       "end": 1.246
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.246,
+       "end": 1.446
+      },
+      {
+       "w": "acampada.",
+       "hl": false,
+       "start": 1.446,
+       "end": 2.02
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Pero esa noche, alrededor del fuego, había seis.",
+     "start": 2.27,
+     "end": 5.33,
+     "words": [
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 2.31,
+       "end": 2.64
+      },
+      {
+       "w": "esa",
+       "hl": false,
+       "start": 2.64,
+       "end": 2.906
+      },
+      {
+       "w": "noche,",
+       "hl": false,
+       "start": 2.906,
+       "end": 3.3
+      },
+      {
+       "w": "alrededor",
+       "hl": false,
+       "start": 3.3,
+       "end": 3.947
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 3.947,
+       "end": 4.213
+      },
+      {
+       "w": "fuego,",
+       "hl": false,
+       "start": 4.213,
+       "end": 4.607
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 4.607,
+       "end": 5.0
+      },
+      {
+       "w": "seis.",
+       "hl": true,
+       "start": 5.0,
+       "end": 5.33
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "turn": 5.05
+   }
+  },
+  {
+   "id": "trail",
+   "start": 5.8333,
+   "duration": 6.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Leo, Marta, Dani, Sara e Iker.",
+     "start": 0.3,
+     "end": 2.26,
+     "words": [
+      {
+       "w": "Leo,",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.617
+      },
+      {
+       "w": "Marta,",
+       "hl": false,
+       "start": 0.617,
+       "end": 1.042
+      },
+      {
+       "w": "Dani,",
+       "hl": false,
+       "start": 1.042,
+       "end": 1.398
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.398,
+       "end": 1.754
+      },
+      {
+       "w": "e",
+       "hl": false,
+       "start": 1.754,
+       "end": 1.904
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 1.904,
+       "end": 2.26
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Cinco amigos, acampando a los pies de una vieja roca.",
+     "start": 2.46,
+     "end": 5.6,
+     "words": [
+      {
+       "w": "Cinco",
+       "hl": false,
+       "start": 2.49,
+       "end": 2.847
+      },
+      {
+       "w": "amigos,",
+       "hl": false,
+       "start": 2.847,
+       "end": 3.262
+      },
+      {
+       "w": "acampando",
+       "hl": false,
+       "start": 3.262,
+       "end": 3.849
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 3.849,
+       "end": 3.976
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 3.976,
+       "end": 4.218
+      },
+      {
+       "w": "pies",
+       "hl": false,
+       "start": 4.218,
+       "end": 4.517
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 4.517,
+       "end": 4.702
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 4.702,
+       "end": 4.943
+      },
+      {
+       "w": "vieja",
+       "hl": false,
+       "start": 4.943,
+       "end": 5.301
+      },
+      {
+       "w": "roca.",
+       "hl": true,
+       "start": 5.301,
+       "end": 5.6
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.25,
+    "steps": 0.0,
+    "birds": 0.2
+   }
+  },
+  {
+   "id": "tents",
+   "start": 12.0333,
+   "duration": 5.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Montaron cinco tiendas. Sara las contó dos veces.",
+     "start": 0.3,
+     "end": 3.47,
+     "words": [
+      {
+       "w": "Montaron",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.899
+      },
+      {
+       "w": "cinco",
+       "hl": true,
+       "start": 0.899,
+       "end": 1.283
+      },
+      {
+       "w": "tiendas.",
+       "hl": false,
+       "start": 1.283,
+       "end": 1.79
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.94,
+       "end": 2.246
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 2.246,
+       "end": 2.493
+      },
+      {
+       "w": "contó",
+       "hl": false,
+       "start": 2.493,
+       "end": 2.858
+      },
+      {
+       "w": "dos",
+       "hl": false,
+       "start": 2.858,
+       "end": 3.105
+      },
+      {
+       "w": "veces.",
+       "hl": false,
+       "start": 3.105,
+       "end": 3.47
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "tent1": 0.5,
+    "tent2": 0.85,
+    "tent3": 1.2,
+    "tent4": 1.55,
+    "tent5": 1.9,
+    "crickets": 0.0
+   }
+  },
+  {
+   "id": "photo",
+   "start": 17.0333,
+   "duration": 4.6,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Al caer la noche, Sara hizo una foto del grupo.",
+     "start": 0.3,
+     "end": 3.22,
+     "words": [
+      {
+       "w": "Al",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.519
+      },
+      {
+       "w": "caer",
+       "hl": false,
+       "start": 0.519,
+       "end": 0.826
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.826,
+       "end": 1.014
+      },
+      {
+       "w": "noche,",
+       "hl": false,
+       "start": 1.014,
+       "end": 1.38
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.49,
+       "end": 1.788
+      },
+      {
+       "w": "hizo",
+       "hl": false,
+       "start": 1.788,
+       "end": 2.086
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 2.086,
+       "end": 2.326
+      },
+      {
+       "w": "foto",
+       "hl": false,
+       "start": 2.326,
+       "end": 2.624
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 2.624,
+       "end": 2.865
+      },
+      {
+       "w": "grupo.",
+       "hl": false,
+       "start": 2.865,
+       "end": 3.22
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "flash": 3.47
+   }
+  },
+  {
+   "id": "phone",
+   "start": 21.6333,
+   "duration": 4.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "En la foto salían seis personas.",
+     "start": 0.5,
+     "end": 2.59,
+     "words": [
+      {
+       "w": "En",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.729
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.729,
+       "end": 0.927
+      },
+      {
+       "w": "foto",
+       "hl": false,
+       "start": 0.927,
+       "end": 1.25
+      },
+      {
+       "w": "salían",
+       "hl": false,
+       "start": 1.25,
+       "end": 1.697
+      },
+      {
+       "w": "seis",
+       "hl": true,
+       "start": 1.697,
+       "end": 2.019
+      },
+      {
+       "w": "personas.",
+       "hl": false,
+       "start": 2.019,
+       "end": 2.59
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "heart": 0.2,
+    "glitch": 1.697,
+    "zoomhit": 1.697
+   }
+  },
+  {
+   "id": "count",
+   "start": 25.8333,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Leo los contó uno por uno.",
+     "start": 0.3,
+     "end": 1.95,
+     "words": [
+      {
+       "w": "Leo",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.589
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 0.589,
+       "end": 0.837
+      },
+      {
+       "w": "contó",
+       "hl": false,
+       "start": 0.837,
+       "end": 1.204
+      },
+      {
+       "w": "uno",
+       "hl": false,
+       "start": 1.204,
+       "end": 1.453
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 1.453,
+       "end": 1.701
+      },
+      {
+       "w": "uno.",
+       "hl": false,
+       "start": 1.701,
+       "end": 1.95
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Uno, dos, tres, cuatro, cinco... seis.",
+     "start": 2.25,
+     "end": 4.87,
+     "words": [
+      {
+       "w": "Uno,",
+       "hl": false,
+       "start": 2.28,
+       "end": 2.618
+      },
+      {
+       "w": "dos,",
+       "hl": false,
+       "start": 2.618,
+       "end": 2.956
+      },
+      {
+       "w": "tres,",
+       "hl": false,
+       "start": 2.956,
+       "end": 3.374
+      },
+      {
+       "w": "cuatro,",
+       "hl": false,
+       "start": 3.374,
+       "end": 3.953
+      },
+      {
+       "w": "cinco...",
+       "hl": false,
+       "start": 3.953,
+       "end": 4.452
+      },
+      {
+       "w": "seis.",
+       "hl": true,
+       "start": 4.452,
+       "end": 4.87
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 2.28,
+    "c2": 2.618,
+    "c3": 2.956,
+    "c4": 3.374,
+    "c5": 3.953,
+    "c6": 4.452
+   }
+  },
+  {
+   "id": "talk",
+   "start": 31.8333,
+   "duration": 9.1,
+   "lines": [
+    {
+     "speaker": "marta",
+     "text": "¿Y tú... quién eres?",
+     "start": 0.3,
+     "end": 1.42,
+     "words": [
+      {
+       "w": "¿Y",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.473
+      },
+      {
+       "w": "tú...",
+       "hl": false,
+       "start": 0.473,
+       "end": 0.68
+      },
+      {
+       "w": "quién",
+       "hl": false,
+       "start": 0.68,
+       "end": 1.083
+      },
+      {
+       "w": "eres?",
+       "hl": false,
+       "start": 1.083,
+       "end": 1.42
+      }
+     ]
+    },
+    {
+     "speaker": "sixth",
+     "text": "¿Yo? Siempre he estado aquí.",
+     "start": 1.87,
+     "end": 3.696,
+     "words": [
+      {
+       "w": "¿Yo?",
+       "hl": false,
+       "start": 1.905,
+       "end": 2.117
+      },
+      {
+       "w": "Siempre",
+       "hl": false,
+       "start": 2.117,
+       "end": 2.661
+      },
+      {
+       "w": "he",
+       "hl": false,
+       "start": 2.661,
+       "end": 2.873
+      },
+      {
+       "w": "estado",
+       "hl": false,
+       "start": 2.873,
+       "end": 3.351
+      },
+      {
+       "w": "aquí.",
+       "hl": true,
+       "start": 3.351,
+       "end": 3.696
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Nadie recordaba haberlo invitado... pero todos sentían que lo conocían.",
+     "start": 4.196,
+     "end": 8.396,
+     "words": [
+      {
+       "w": "Nadie",
+       "hl": false,
+       "start": 4.226,
+       "end": 4.578
+      },
+      {
+       "w": "recordaba",
+       "hl": false,
+       "start": 4.578,
+       "end": 5.157
+      },
+      {
+       "w": "haberlo",
+       "hl": false,
+       "start": 5.157,
+       "end": 5.623
+      },
+      {
+       "w": "invitado...",
+       "hl": true,
+       "start": 5.623,
+       "end": 6.146
+      },
+      {
+       "w": "pero",
+       "hl": false,
+       "start": 6.446,
+       "end": 6.726
+      },
+      {
+       "w": "todos",
+       "hl": false,
+       "start": 6.726,
+       "end": 7.06
+      },
+      {
+       "w": "sentían",
+       "hl": false,
+       "start": 7.06,
+       "end": 7.501
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 7.501,
+       "end": 7.728
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 7.728,
+       "end": 7.9
+      },
+      {
+       "w": "conocían.",
+       "hl": true,
+       "start": 7.9,
+       "end": 8.396
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "drone": 1.87
+   }
+  },
+  {
+   "id": "shadow",
+   "start": 40.9333,
+   "duration": 6.833333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Dani encendió la linterna y apuntó hacia él.",
+     "start": 0.3,
+     "end": 3.06,
+     "words": [
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.641
+      },
+      {
+       "w": "encendió",
+       "hl": false,
+       "start": 0.641,
+       "end": 1.192
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.192,
+       "end": 1.384
+      },
+      {
+       "w": "linterna",
+       "hl": false,
+       "start": 1.384,
+       "end": 1.934
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 1.934,
+       "end": 2.066
+      },
+      {
+       "w": "apuntó",
+       "hl": false,
+       "start": 2.066,
+       "end": 2.497
+      },
+      {
+       "w": "hacia",
+       "hl": false,
+       "start": 2.497,
+       "end": 2.868
+      },
+      {
+       "w": "él.",
+       "hl": false,
+       "start": 2.868,
+       "end": 3.06
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Todos tenían sombra. Él... no.",
+     "start": 3.66,
+     "end": 5.62,
+     "words": [
+      {
+       "w": "Todos",
+       "hl": false,
+       "start": 3.7,
+       "end": 4.141
+      },
+      {
+       "w": "tenían",
+       "hl": false,
+       "start": 4.141,
+       "end": 4.653
+      },
+      {
+       "w": "sombra.",
+       "hl": false,
+       "start": 4.653,
+       "end": 5.165
+      },
+      {
+       "w": "Él...",
+       "hl": false,
+       "start": 5.165,
+       "end": 5.392
+      },
+      {
+       "w": "no.",
+       "hl": true,
+       "start": 5.392,
+       "end": 5.62
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "click": 1.2,
+    "reveal": 5.392,
+    "heart": 3.66
+   }
+  },
+  {
+   "id": "blackout",
+   "start": 47.7667,
+   "duration": 4.8,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Entonces... el fuego se apagó.",
+     "start": 0.4,
+     "end": 2.34,
+     "words": [
+      {
+       "w": "Entonces...",
+       "hl": false,
+       "start": 0.43,
+       "end": 1.058
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.058,
+       "end": 1.276
+      },
+      {
+       "w": "fuego",
+       "hl": false,
+       "start": 1.276,
+       "end": 1.699
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.699,
+       "end": 1.917
+      },
+      {
+       "w": "apagó.",
+       "hl": true,
+       "start": 1.917,
+       "end": 2.34
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "wind": 0.0,
+    "out": 2.34,
+    "eyes": 3.54
+   }
+  },
+  {
+   "id": "dawn",
+   "start": 52.5667,
+   "duration": 5.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Al amanecer, se volvieron a contar. Cinco. Por fin.",
+     "start": 0.5,
+     "end": 3.4,
+     "words": [
+      {
+       "w": "Al",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.714
+      },
+      {
+       "w": "amanecer,",
+       "hl": false,
+       "start": 0.714,
+       "end": 1.245
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.245,
+       "end": 1.429
+      },
+      {
+       "w": "volvieron",
+       "hl": false,
+       "start": 1.429,
+       "end": 2.017
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.017,
+       "end": 2.144
+      },
+      {
+       "w": "contar.",
+       "hl": false,
+       "start": 2.144,
+       "end": 2.559
+      },
+      {
+       "w": "Cinco.",
+       "hl": true,
+       "start": 2.559,
+       "end": 2.916
+      },
+      {
+       "w": "Por",
+       "hl": false,
+       "start": 2.916,
+       "end": 3.158
+      },
+      {
+       "w": "fin.",
+       "hl": false,
+       "start": 3.158,
+       "end": 3.4
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "birds": 0.2,
+    "relief": 2.559
+   }
+  },
+  {
+   "id": "twist",
+   "start": 57.7667,
+   "duration": 7.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Pero en la roca... había seis sombras.",
+     "start": 0.6,
+     "end": 2.72,
+     "words": [
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.937
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 0.937,
+       "end": 1.12
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.12,
+       "end": 1.303
+      },
+      {
+       "w": "roca...",
+       "hl": false,
+       "start": 1.303,
+       "end": 1.6
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 1.6,
+       "end": 1.954
+      },
+      {
+       "w": "seis",
+       "hl": true,
+       "start": 1.954,
+       "end": 2.251
+      },
+      {
+       "w": "sombras.",
+       "hl": true,
+       "start": 2.251,
+       "end": 2.72
+      }
+     ]
+    },
+    {
+     "speaker": "sixth",
+     "text": "Nos vemos el año que viene.",
+     "start": 3.42,
+     "end": 5.397,
+     "words": [
+      {
+       "w": "Nos",
+       "hl": false,
+       "start": 3.455,
+       "end": 3.744
+      },
+      {
+       "w": "vemos",
+       "hl": false,
+       "start": 3.744,
+       "end": 4.171
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 4.171,
+       "end": 4.391
+      },
+      {
+       "w": "año",
+       "hl": false,
+       "start": 4.391,
+       "end": 4.681
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 4.681,
+       "end": 4.97
+      },
+      {
+       "w": "viene.",
+       "hl": false,
+       "start": 4.97,
+       "end": 5.397
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "tilt": 0.1,
+    "reveal": 2.251,
+    "eyes": 3.12
+   }
+  },
+  {
+   "id": "end",
+   "start": 64.7667,
+   "duration": 3.6,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Y tú... ¿cuántos has contado?",
+     "start": 0.35,
+     "end": 2.05,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 0.39,
+       "end": 0.53
+      },
+      {
+       "w": "tú...",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.735
+      },
+      {
+       "w": "¿cuántos",
+       "hl": false,
+       "start": 0.735,
+       "end": 1.258
+      },
+      {
+       "w": "has",
+       "hl": false,
+       "start": 1.258,
+       "end": 1.526
+      },
+      {
+       "w": "contado?",
+       "hl": true,
+       "start": 1.526,
+       "end": 2.05
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "title": 0.0
+   }
+  }
+ ],
+ "durationInFrames": 2051
+}

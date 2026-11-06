@@ -1,0 +1,1104 @@
+{
+ "lang": "en",
+ "fps": 30,
+ "title": "THE SIXTH ONE",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.933333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Five of us went camping.",
+     "start": 0.35,
+     "end": 2.21,
+     "words": [
+      {
+       "w": "Five",
+       "hl": false,
+       "start": 0.39,
+       "end": 0.769
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 0.769,
+       "end": 1.002
+      },
+      {
+       "w": "us",
+       "hl": false,
+       "start": 1.002,
+       "end": 1.234
+      },
+      {
+       "w": "went",
+       "hl": false,
+       "start": 1.234,
+       "end": 1.613
+      },
+      {
+       "w": "camping.",
+       "hl": false,
+       "start": 1.613,
+       "end": 2.21
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "But that night, around the fire, there were six.",
+     "start": 2.46,
+     "end": 5.42,
+     "words": [
+      {
+       "w": "But",
+       "hl": false,
+       "start": 2.48,
+       "end": 2.685
+      },
+      {
+       "w": "that",
+       "hl": false,
+       "start": 2.685,
+       "end": 2.938
+      },
+      {
+       "w": "night,",
+       "hl": false,
+       "start": 2.938,
+       "end": 3.24
+      },
+      {
+       "w": "around",
+       "hl": false,
+       "start": 3.43,
+       "end": 3.838
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 3.838,
+       "end": 4.076
+      },
+      {
+       "w": "fire,",
+       "hl": false,
+       "start": 4.076,
+       "end": 4.37
+      },
+      {
+       "w": "there",
+       "hl": false,
+       "start": 4.57,
+       "end": 4.908
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 4.908,
+       "end": 5.191
+      },
+      {
+       "w": "six.",
+       "hl": true,
+       "start": 5.191,
+       "end": 5.42
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "turn": 5.241
+   }
+  },
+  {
+   "id": "trail",
+   "start": 5.9333,
+   "duration": 7.4,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Leo, Marta, Dani, Sara and Iker.",
+     "start": 0.3,
+     "end": 3.2,
+     "words": [
+      {
+       "w": "Leo,",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.738
+      },
+      {
+       "w": "Marta,",
+       "hl": false,
+       "start": 0.738,
+       "end": 1.325
+      },
+      {
+       "w": "Dani,",
+       "hl": false,
+       "start": 1.325,
+       "end": 1.817
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.817,
+       "end": 2.31
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 2.31,
+       "end": 2.708
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 2.708,
+       "end": 3.2
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Five friends, camping beneath an old rock wall.",
+     "start": 3.4,
+     "end": 6.8,
+     "words": [
+      {
+       "w": "Five",
+       "hl": false,
+       "start": 3.43,
+       "end": 3.818
+      },
+      {
+       "w": "friends,",
+       "hl": false,
+       "start": 3.818,
+       "end": 4.43
+      },
+      {
+       "w": "camping",
+       "hl": false,
+       "start": 4.74,
+       "end": 5.234
+      },
+      {
+       "w": "beneath",
+       "hl": false,
+       "start": 5.234,
+       "end": 5.728
+      },
+      {
+       "w": "an",
+       "hl": false,
+       "start": 5.728,
+       "end": 5.921
+      },
+      {
+       "w": "old",
+       "hl": false,
+       "start": 5.921,
+       "end": 6.174
+      },
+      {
+       "w": "rock",
+       "hl": true,
+       "start": 6.174,
+       "end": 6.487
+      },
+      {
+       "w": "wall.",
+       "hl": false,
+       "start": 6.487,
+       "end": 6.8
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.25,
+    "steps": 0.0,
+    "birds": 0.2
+   }
+  },
+  {
+   "id": "tents",
+   "start": 13.3333,
+   "duration": 5.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "They pitched five tents. Sara counted them twice.",
+     "start": 0.3,
+     "end": 3.67,
+     "words": [
+      {
+       "w": "They",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.642
+      },
+      {
+       "w": "pitched",
+       "hl": false,
+       "start": 0.642,
+       "end": 1.118
+      },
+      {
+       "w": "five",
+       "hl": true,
+       "start": 1.118,
+       "end": 1.42
+      },
+      {
+       "w": "tents.",
+       "hl": false,
+       "start": 1.42,
+       "end": 1.78
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 2.1,
+       "end": 2.429
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 2.429,
+       "end": 2.948
+      },
+      {
+       "w": "them",
+       "hl": false,
+       "start": 2.948,
+       "end": 3.278
+      },
+      {
+       "w": "twice.",
+       "hl": false,
+       "start": 3.278,
+       "end": 3.67
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "tent1": 0.5,
+    "tent2": 0.85,
+    "tent3": 1.2,
+    "tent4": 1.55,
+    "tent5": 1.9,
+    "crickets": 0.0
+   }
+  },
+  {
+   "id": "photo",
+   "start": 18.3333,
+   "duration": 4.6,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "When night fell, Sara took a photo of the group.",
+     "start": 0.3,
+     "end": 3.23,
+     "words": [
+      {
+       "w": "When",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.609
+      },
+      {
+       "w": "night",
+       "hl": false,
+       "start": 0.609,
+       "end": 0.931
+      },
+      {
+       "w": "fell,",
+       "hl": false,
+       "start": 0.931,
+       "end": 1.2
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.43,
+       "end": 1.719
+      },
+      {
+       "w": "took",
+       "hl": false,
+       "start": 1.719,
+       "end": 2.008
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.008,
+       "end": 2.13
+      },
+      {
+       "w": "photo",
+       "hl": false,
+       "start": 2.13,
+       "end": 2.474
+      },
+      {
+       "w": "of",
+       "hl": false,
+       "start": 2.474,
+       "end": 2.652
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.652,
+       "end": 2.886
+      },
+      {
+       "w": "group.",
+       "hl": false,
+       "start": 2.886,
+       "end": 3.23
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "flash": 3.48
+   }
+  },
+  {
+   "id": "phone",
+   "start": 22.9333,
+   "duration": 4.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "There were six people in the photo.",
+     "start": 0.5,
+     "end": 2.95,
+     "words": [
+      {
+       "w": "There",
+       "hl": false,
+       "start": 0.52,
+       "end": 0.934
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 0.934,
+       "end": 1.281
+      },
+      {
+       "w": "six",
+       "hl": true,
+       "start": 1.281,
+       "end": 1.561
+      },
+      {
+       "w": "people",
+       "hl": false,
+       "start": 1.561,
+       "end": 2.042
+      },
+      {
+       "w": "in",
+       "hl": false,
+       "start": 2.042,
+       "end": 2.256
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 2.256,
+       "end": 2.536
+      },
+      {
+       "w": "photo.",
+       "hl": false,
+       "start": 2.536,
+       "end": 2.95
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "heart": 0.2,
+    "glitch": 1.281,
+    "zoomhit": 1.281
+   }
+  },
+  {
+   "id": "count",
+   "start": 27.1333,
+   "duration": 7.166666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Leo counted them one by one.",
+     "start": 0.3,
+     "end": 2.77,
+     "words": [
+      {
+       "w": "Leo",
+       "hl": false,
+       "start": 0.34,
+       "end": 0.69
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 0.69,
+       "end": 1.372
+      },
+      {
+       "w": "them",
+       "hl": false,
+       "start": 1.372,
+       "end": 1.805
+      },
+      {
+       "w": "one",
+       "hl": false,
+       "start": 1.805,
+       "end": 2.154
+      },
+      {
+       "w": "by",
+       "hl": false,
+       "start": 2.154,
+       "end": 2.42
+      },
+      {
+       "w": "one.",
+       "hl": false,
+       "start": 2.42,
+       "end": 2.77
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "One, two, three, four, five... six.",
+     "start": 3.07,
+     "end": 6.18,
+     "words": [
+      {
+       "w": "One,",
+       "hl": false,
+       "start": 3.1,
+       "end": 3.543
+      },
+      {
+       "w": "two,",
+       "hl": false,
+       "start": 3.543,
+       "end": 3.986
+      },
+      {
+       "w": "three,",
+       "hl": false,
+       "start": 3.986,
+       "end": 4.64
+      },
+      {
+       "w": "four,",
+       "hl": false,
+       "start": 4.64,
+       "end": 5.188
+      },
+      {
+       "w": "five...",
+       "hl": false,
+       "start": 5.188,
+       "end": 5.737
+      },
+      {
+       "w": "six.",
+       "hl": true,
+       "start": 5.737,
+       "end": 6.18
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 3.1,
+    "c2": 3.543,
+    "c3": 3.986,
+    "c4": 4.64,
+    "c5": 5.188,
+    "c6": 5.737
+   }
+  },
+  {
+   "id": "talk",
+   "start": 34.3,
+   "duration": 9.466666666666667,
+   "lines": [
+    {
+     "speaker": "marta",
+     "text": "And you... who are you?",
+     "start": 0.3,
+     "end": 1.52,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 0.36,
+       "end": 0.592
+      },
+      {
+       "w": "you...",
+       "hl": false,
+       "start": 0.592,
+       "end": 0.824
+      },
+      {
+       "w": "who",
+       "hl": false,
+       "start": 0.824,
+       "end": 1.056
+      },
+      {
+       "w": "are",
+       "hl": false,
+       "start": 1.056,
+       "end": 1.288
+      },
+      {
+       "w": "you?",
+       "hl": false,
+       "start": 1.288,
+       "end": 1.52
+      }
+     ]
+    },
+    {
+     "speaker": "sixth",
+     "text": "Me? I've always been here.",
+     "start": 1.97,
+     "end": 3.97,
+     "words": [
+      {
+       "w": "Me?",
+       "hl": false,
+       "start": 2.028,
+       "end": 2.267
+      },
+      {
+       "w": "I've",
+       "hl": false,
+       "start": 2.267,
+       "end": 2.656
+      },
+      {
+       "w": "always",
+       "hl": false,
+       "start": 2.656,
+       "end": 3.193
+      },
+      {
+       "w": "been",
+       "hl": false,
+       "start": 3.193,
+       "end": 3.582
+      },
+      {
+       "w": "here.",
+       "hl": true,
+       "start": 3.582,
+       "end": 3.97
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Nobody remembered inviting him... but they all felt they knew him.",
+     "start": 4.47,
+     "end": 8.78,
+     "words": [
+      {
+       "w": "Nobody",
+       "hl": false,
+       "start": 4.51,
+       "end": 4.985
+      },
+      {
+       "w": "remembered",
+       "hl": false,
+       "start": 4.985,
+       "end": 5.725
+      },
+      {
+       "w": "inviting",
+       "hl": true,
+       "start": 5.725,
+       "end": 6.333
+      },
+      {
+       "w": "him...",
+       "hl": false,
+       "start": 6.333,
+       "end": 6.61
+      },
+      {
+       "w": "but",
+       "hl": false,
+       "start": 7.02,
+       "end": 7.241
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 7.241,
+       "end": 7.515
+      },
+      {
+       "w": "all",
+       "hl": false,
+       "start": 7.515,
+       "end": 7.737
+      },
+      {
+       "w": "felt",
+       "hl": false,
+       "start": 7.737,
+       "end": 8.011
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 8.011,
+       "end": 8.285
+      },
+      {
+       "w": "knew",
+       "hl": true,
+       "start": 8.285,
+       "end": 8.559
+      },
+      {
+       "w": "him.",
+       "hl": false,
+       "start": 8.559,
+       "end": 8.78
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "drone": 1.97
+   }
+  },
+  {
+   "id": "shadow",
+   "start": 43.7667,
+   "duration": 7.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Dani switched on his flashlight and pointed it at him.",
+     "start": 0.3,
+     "end": 3.65,
+     "words": [
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.638
+      },
+      {
+       "w": "switched",
+       "hl": false,
+       "start": 0.638,
+       "end": 1.184
+      },
+      {
+       "w": "on",
+       "hl": false,
+       "start": 1.184,
+       "end": 1.373
+      },
+      {
+       "w": "his",
+       "hl": false,
+       "start": 1.373,
+       "end": 1.622
+      },
+      {
+       "w": "flashlight",
+       "hl": false,
+       "start": 1.622,
+       "end": 2.286
+      },
+      {
+       "w": "and",
+       "hl": false,
+       "start": 2.286,
+       "end": 2.535
+      },
+      {
+       "w": "pointed",
+       "hl": false,
+       "start": 2.535,
+       "end": 3.022
+      },
+      {
+       "w": "it",
+       "hl": false,
+       "start": 3.022,
+       "end": 3.211
+      },
+      {
+       "w": "at",
+       "hl": false,
+       "start": 3.211,
+       "end": 3.401
+      },
+      {
+       "w": "him.",
+       "hl": false,
+       "start": 3.401,
+       "end": 3.65
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Everyone had a shadow. He... didn't.",
+     "start": 4.25,
+     "end": 6.71,
+     "words": [
+      {
+       "w": "Everyone",
+       "hl": false,
+       "start": 4.27,
+       "end": 4.946
+      },
+      {
+       "w": "had",
+       "hl": false,
+       "start": 4.946,
+       "end": 5.255
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.255,
+       "end": 5.417
+      },
+      {
+       "w": "shadow.",
+       "hl": false,
+       "start": 5.417,
+       "end": 5.946
+      },
+      {
+       "w": "He...",
+       "hl": false,
+       "start": 5.946,
+       "end": 6.181
+      },
+      {
+       "w": "didn't.",
+       "hl": true,
+       "start": 6.181,
+       "end": 6.71
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "click": 1.2,
+    "reveal": 6.181,
+    "heart": 4.25
+   }
+  },
+  {
+   "id": "blackout",
+   "start": 51.6667,
+   "duration": 4.8,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Then... the fire went out.",
+     "start": 0.4,
+     "end": 2.1,
+     "words": [
+      {
+       "w": "Then...",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.8
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 0.8,
+       "end": 1.09
+      },
+      {
+       "w": "fire",
+       "hl": false,
+       "start": 1.09,
+       "end": 1.45
+      },
+      {
+       "w": "went",
+       "hl": false,
+       "start": 1.45,
+       "end": 1.81
+      },
+      {
+       "w": "out.",
+       "hl": true,
+       "start": 1.81,
+       "end": 2.1
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "wind": 0.0,
+    "out": 2.1,
+    "eyes": 3.3
+   }
+  },
+  {
+   "id": "dawn",
+   "start": 56.4667,
+   "duration": 5.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "At dawn, they counted again. Five. Finally.",
+     "start": 0.5,
+     "end": 3.81,
+     "words": [
+      {
+       "w": "At",
+       "hl": false,
+       "start": 0.54,
+       "end": 0.793
+      },
+      {
+       "w": "dawn,",
+       "hl": false,
+       "start": 0.793,
+       "end": 1.203
+      },
+      {
+       "w": "they",
+       "hl": false,
+       "start": 1.203,
+       "end": 1.614
+      },
+      {
+       "w": "counted",
+       "hl": false,
+       "start": 1.614,
+       "end": 2.262
+      },
+      {
+       "w": "again.",
+       "hl": false,
+       "start": 2.262,
+       "end": 2.752
+      },
+      {
+       "w": "Five.",
+       "hl": true,
+       "start": 2.752,
+       "end": 3.162
+      },
+      {
+       "w": "Finally.",
+       "hl": false,
+       "start": 3.162,
+       "end": 3.81
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "birds": 0.2,
+    "relief": 2.752
+   }
+  },
+  {
+   "id": "twist",
+   "start": 61.6667,
+   "duration": 7.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "But on the rock... there were six shadows.",
+     "start": 0.6,
+     "end": 2.95,
+     "words": [
+      {
+       "w": "But",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.852
+      },
+      {
+       "w": "on",
+       "hl": false,
+       "start": 0.852,
+       "end": 1.014
+      },
+      {
+       "w": "the",
+       "hl": false,
+       "start": 1.014,
+       "end": 1.227
+      },
+      {
+       "w": "rock...",
+       "hl": false,
+       "start": 1.227,
+       "end": 1.49
+      },
+      {
+       "w": "there",
+       "hl": false,
+       "start": 1.75,
+       "end": 2.063
+      },
+      {
+       "w": "were",
+       "hl": false,
+       "start": 2.063,
+       "end": 2.325
+      },
+      {
+       "w": "six",
+       "hl": true,
+       "start": 2.325,
+       "end": 2.537
+      },
+      {
+       "w": "shadows.",
+       "hl": true,
+       "start": 2.537,
+       "end": 2.95
+      }
+     ]
+    },
+    {
+     "speaker": "sixth",
+     "text": "See you next year.",
+     "start": 3.65,
+     "end": 5.22,
+     "words": [
+      {
+       "w": "See",
+       "hl": false,
+       "start": 3.731,
+       "end": 4.064
+      },
+      {
+       "w": "you",
+       "hl": false,
+       "start": 4.064,
+       "end": 4.396
+      },
+      {
+       "w": "next",
+       "hl": false,
+       "start": 4.396,
+       "end": 4.808
+      },
+      {
+       "w": "year.",
+       "hl": false,
+       "start": 4.808,
+       "end": 5.22
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "tilt": 0.1,
+    "reveal": 2.537,
+    "eyes": 3.35
+   }
+  },
+  {
+   "id": "end",
+   "start": 68.6667,
+   "duration": 3.8666666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "And you... how many did you count?",
+     "start": 0.35,
+     "end": 2.45,
+     "words": [
+      {
+       "w": "And",
+       "hl": false,
+       "start": 0.39,
+       "end": 0.68
+      },
+      {
+       "w": "you...",
+       "hl": false,
+       "start": 0.68,
+       "end": 0.97
+      },
+      {
+       "w": "how",
+       "hl": false,
+       "start": 1.08,
+       "end": 1.32
+      },
+      {
+       "w": "many",
+       "hl": false,
+       "start": 1.32,
+       "end": 1.617
+      },
+      {
+       "w": "did",
+       "hl": false,
+       "start": 1.617,
+       "end": 1.856
+      },
+      {
+       "w": "you",
+       "hl": true,
+       "start": 1.856,
+       "end": 2.096
+      },
+      {
+       "w": "count?",
+       "hl": false,
+       "start": 2.096,
+       "end": 2.45
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "title": 0.0
+   }
+  }
+ ],
+ "durationInFrames": 2176
+}

@@ -1,0 +1,35 @@
+{
+  "name": "el-sexto-video",
+  "version": "1.0.0",
+  "description": "Estudio de animaci\u00f3n 2D con Remotion: corto vertical \"El Sexto\" (ES/EN)",
+  "scripts": {
+    "audio": "python3 scripts/build_audio.py all",
+    "studio": "remotion studio",
+    "render:es": "remotion render ElSexto-ES out/el-sexto-es.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k",
+    "render:en": "remotion render TheSixthOne-EN out/the-sixth-one-en.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k",
+    "build": "npm run audio && npm run render:es && npm run render:en",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rellely/codigo-mamporras.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rellely/codigo-mamporras/issues"
+  },
+  "homepage": "https://github.com/rellely/codigo-mamporras#readme",
+  "dependencies": {
+    "@remotion/bundler": "^4.0.541",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/noise": "^4.0.541",
+    "@remotion/renderer": "^4.0.541",
+    "@types/react": "^19.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.541",
+    "typescript": "^7.0.2"
+  }
+}
