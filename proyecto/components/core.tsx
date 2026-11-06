@@ -30,11 +30,12 @@ export const ease = Easing.bezier(0.45, 0, 0.2, 1);
 export const easeOut = Easing.bezier(0.15, 0.8, 0.3, 1);
 /** interpolación suave con clamp entre (f0,v0) y (f1,v1) */
 export const tween = (f: number, f0: number, f1: number, v0: number, v1: number, e = ease) =>
-  interpolate(f, [f0, f1], [v0, v1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: e});
+  interpolate(f, [f0, Math.max(f1, f0 + 1)], [v0, v1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: e});
 /** interpolación por fotogramas clave [[f, v], ...] */
 export const keys = (f: number, k: [number, number][], e = ease) => {
   if (k.length === 1) return k[0][1];
-  return interpolate(f, k.map((x) => x[0]), k.map((x) => x[1]), {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: e});
+  const fr: number[] = []; k.forEach((x, i) => fr.push(i ? Math.max(x[0], fr[i - 1] + 1) : x[0]));
+  return interpolate(f, fr, k.map((x) => x[1]), {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: e});
 };
 // ruido determinista 1D (value noise suavizado)
 const hash = (n: number) => { const s = Math.sin(n * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); };
