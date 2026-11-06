@@ -1,0 +1,76 @@
+import React, {useEffect, useState} from 'react';
+import {AbsoluteFill, Audio, continueRender, delayRender, interpolate, Sequence, staticFile, useCurrentFrame} from 'remotion';
+import {Fade, Grain} from '../components/Overlays';
+import {Vignette} from '../components/env/Camp';
+import {Subtitles} from '../components/Subtitles';
+import {SceneProvider, sceneFrames, Timeline} from '../lib/timeline';
+
+export type SceneDef = {C: React.FC<any>; fadeIn?: number; fadeOut?: number; vignette?: number};
+export type EpisodeDef = {slug: string; timeline: Timeline; scenes: Record<string, SceneDef>; next?: string};
+
+const useFont = () => {
+	const [handle] = useState(() => delayRender('font'));
+	useEffect(() => {
+		const font = new FontFace('InterBlack', `url(${staticFile('fonts/Inter-Black.otf')}) format('opentype')`, {weight: '900'});
+		font
+			.load()
+			.then((f) => {
+				document.fonts.add(f);
+				continueRender(handle);
+			})
+			.catch(() => continueRender(handle));
+	}, [handle]);
+};
+
+/** Series badge shown during the first seconds (continuity between parts). */
+const PartBadge: React.FC<{part: string}> = ({part}) => {
+	const frame = useCurrentFrame();
+	const o = interpolate(frame, [4, 14, 95, 110], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+	if (o <= 0) return null;
+	return (
+		<div style={{position: 'absolute', top: 150, left: 0, right: 0, display: 'flex', justifyContent: 'center', opacity: o}}>
+			<div
+				style={{
+					fontFamily: 'InterBlack',
+					fontSize: 40,
+					color: '#fff',
+					background: 'rgba(0,0,0,0.55)',
+					border: '4px solid #ff2d3a',
+					borderRadius: 40,
+					padding: '12px 34px',
+					letterSpacing: 3,
+					transform: `translateY(${(1 - o) * -20}px)`,
+				}}
+			>
+				EL SEXTO · {part.split('·')[0].trim()}
+			</div>
+		</div>
+	);
+};
+
+export const Episode: React.FC<{ep: EpisodeDef}> = ({ep}) => {
+	useFont();
+	const tl = ep.timeline;
+	return (
+		<AbsoluteFill style={{background: '#000'}}>
+			<Audio src={staticFile(`audio/mix_${ep.slug}_es.wav`)} />
+			{tl.scenes.map((s) => {
+				const def = ep.scenes[s.id];
+				if (!def) return null;
+				const {from, duration} = sceneFrames(s);
+				return (
+					<Sequence key={s.id} from={from} durationInFrames={duration} name={s.id}>
+						<SceneProvider value={{scene: s, lang: 'es'}}>
+							<def.C title={tl.title} part={tl.part ?? ''} next={ep.next} />
+							<Vignette strength={def.vignette ?? 0.65} />
+							<Fade dur={duration} inF={def.fadeIn} outF={def.fadeOut} />
+						</SceneProvider>
+					</Sequence>
+				);
+			})}
+			<Grain opacity={0.1} />
+			<PartBadge part={tl.part ?? ''} />
+			<Subtitles tl={tl} />
+		</AbsoluteFill>
+	);
+};

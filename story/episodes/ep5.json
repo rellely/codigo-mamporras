@@ -1,0 +1,371 @@
+{
+ "slug": "ep5",
+ "title": {
+  "es": "EL SEXTO"
+ },
+ "part": {
+  "es": "PARTE 5 · EL INTERCAMBIO"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "em_santa",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "em_santa",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.94
+   },
+   "leo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.12,
+    "speed": 0.94
+   },
+   "dani": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.16,
+    "speed": 0.9
+   },
+   "iker": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.95
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 5.5,
+   "tail": 0.95,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.6,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Iker se estaba *borrando*.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y Hugo era cada vez más *real*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    },
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "glitch",
+     "sound": "glitch",
+     "ref": "word:borrando",
+     "offset": 0.0,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "approach",
+   "minSeconds": 5.1,
+   "tail": 0.95,
+   "mood": {
+    "drone": 1,
+    "pulse": 0.8
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Hugo se levantó... y caminó hacia él.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "A cada paso, Iker se volvía más *transparente*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 1.0,
+     "gain": 0.4,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "protect",
+   "minSeconds": 4.1,
+   "tail": 1.15,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9,
+    "pulse": 1
+   },
+   "lines": [
+    {
+     "speaker": "leo",
+     "es": "¡No te lo vas a *llevar*!",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Los cuatro se pusieron delante de Iker.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "line0.start",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "sad",
+   "minSeconds": 5.5,
+   "tail": 1.35,
+   "mood": {
+    "pad": 0.5,
+    "drone": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Pero Hugo no parecía enfadado. Parecía... *triste*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "hugo",
+     "es": "Yo también estaba aquí... y se fueron *sin mí*.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "flashback",
+   "minSeconds": 8.5,
+   "tail": 1.35,
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Hace veinte años, sus amigos se contaron con *prisas*... y se marcharon.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Hugo se quedó junto al fuego. *Esperando*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "whoosh",
+     "sound": "whoosh",
+     "ref": "start",
+     "offset": -0.2,
+     "gain": 0.6
+    },
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 1.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "id": "realize",
+   "minSeconds": 6.0,
+   "tail": 0.95,
+   "mood": {
+    "drone": 0.6,
+    "pad": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Dani lo entendió de golpe.",
+     "at": 0.3
+    },
+    {
+     "speaker": "dani",
+     "es": "No quiere a Iker. Quiere que le *cuenten*.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "chime",
+     "sound": "chime",
+     "ref": "word:cuenten",
+     "offset": 0.0,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "hurry",
+   "minSeconds": 6.0,
+   "tail": 1.15,
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   },
+   "lines": [
+    {
+     "speaker": "iker",
+     "es": "Chicos... no me siento las *manos*.",
+     "at": 0.3
+    },
+    {
+     "speaker": "marta",
+     "es": "¡Rápido! Sentaos todos alrededor del *fuego*.",
+     "gap": 0.3
+    },
+    {
+     "speaker": "dani",
+     "es": "Y dejad un sitio *libre*.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "heart",
+     "sound": "heartbeat",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8,
+     "span": "scene"
+    },
+    {
+     "id": "riser",
+     "sound": "riser",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "minSeconds": 4.3,
+   "tail": 1.75,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Llegarán a *tiempo*?",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  }
+ ]
+}

@@ -28,7 +28,9 @@ export type CampNightProps = {
 	wind?: number;
 	darkness?: number;
 	extraLights?: Light[];
-	shadows?: {show: number; exclude?: CharId[]};
+	shadows?: {show: number; exclude?: CharId[]; swap?: Partial<Record<CharId, CharId>>; extra?: React.ReactNode};
+	opacities?: Partial<Record<CharId, number>>;
+	emptySeat?: boolean;
 	under?: React.ReactNode;
 	over?: React.ReactNode;
 	smoke?: number;
@@ -49,6 +51,8 @@ export const CampNight: React.FC<CampNightProps> = ({
 	over,
 	smoke = 0,
 	fireflies = 0.6,
+	opacities = {},
+	emptySeat = true,
 }) => {
 	const flick = useFlicker(0.1);
 	const lightR = 640 * flick * (0.25 + 0.75 * fire);
@@ -76,8 +80,9 @@ export const CampNight: React.FC<CampNightProps> = ({
 				<g clipPath="url(#wallclip)" opacity={0.8 * shadows.show} filter="url(#blur2)">
 					<g transform={`translate(${Lx} ${Ly}) scale(${kx} ${ky}) translate(${-Lx} ${-Ly})`}>
 						{shadowIds.map((id) => (
-							<Character key={id} id={id} x={SEATS[id].x} y={SEATS[id].y} scale={CHAR_SCALE} pose={{...poseFor(id), silhouette: '#07060c', glowEyes: 0}} />
+							<Character key={id} id={shadows.swap?.[id] ?? id} x={SEATS[id].x} y={SEATS[id].y} scale={CHAR_SCALE} pose={{...poseFor(id), silhouette: '#07060c', glowEyes: 0}} />
 						))}
+						{shadows.extra}
 					</g>
 				</g>
 			)}
@@ -88,12 +93,12 @@ export const CampNight: React.FC<CampNightProps> = ({
 			{under}
 			{ORDER.filter((id) => present.includes(id)).map((id) => (
 				<g key={id}>
-					<Character id={id} x={SEATS[id].x} y={SEATS[id].y} scale={CHAR_SCALE} pose={poseFor(id)} />
+					<Character id={id} x={SEATS[id].x} y={SEATS[id].y} scale={CHAR_SCALE} pose={poseFor(id)} opacity={opacities[id] ?? 1} />
 					{!standing[id] && <Log x={SEATS[id].x} y={SEATS[id].y - 20} w={150} rot={id === 'leo' || id === 'sixth' ? 0 : 0} color="#5e3c24" />}
 				</g>
 			))}
 			{/* empty seat on the right keeps the composition consistent */}
-			{!present.includes('sixth') && <Log x={SEATS.sixth.x} y={SEATS.sixth.y - 20} w={150} color="#5e3c24" />}
+			{!present.includes('sixth') && emptySeat && <Log x={SEATS.sixth.x} y={SEATS.sixth.y - 20} w={150} color="#5e3c24" />}
 			<Campfire x={FIRE.x} y={FIRE.y} s={1} intensity={fire} wind={wind} />
 			<Smoke x={FIRE.x} y={FIRE.y - 120} amount={smoke} wind={wind} />
 			<Fireflies area={[-100, 800, 1280, 500]} opacity={fireflies * (1 - darkness * 0.3)} />
@@ -118,3 +123,6 @@ export const Badge: React.FC<{x: number; y: number; n: string | number; p: numbe
 		</g>
 	);
 };
+
+/** Where a world point lands on the rock wall when projected from the fire (no flicker). */
+export const shadowOfFire = (x: number, y: number) => ({x: FIRE.x + (x - FIRE.x) * 1.12, y: FIRE.y - 120 + (y - (FIRE.y - 120)) * 1.5});

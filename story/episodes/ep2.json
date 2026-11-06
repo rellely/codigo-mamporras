@@ -1,0 +1,402 @@
+{
+ "slug": "ep2",
+ "title": {
+  "es": "EL SEXTO"
+ },
+ "part": {
+  "es": "PARTE 2 · LA FOTO"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "em_santa",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "em_santa",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.94
+   },
+   "leo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.12,
+    "speed": 0.94
+   },
+   "dani": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.16,
+    "speed": 0.9
+   },
+   "iker": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.95
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "recap",
+   "minSeconds": 5.1,
+   "tail": 0.95,
+   "mood": {
+    "drone": 1,
+    "pulse": 0.6,
+    "cluster": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Volvieron *cinco* del bosque.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "O eso creían.",
+     "gap": 0.35
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.9
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "id": "bedroom",
+   "minSeconds": 5.1,
+   "tail": 1.15,
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Esa noche, en casa, Sara no podía *dormir*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Cada vez que cerraba los ojos, volvía a ver aquella *sonrisa*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "clock",
+     "sound": "clock",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.5,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "gallery",
+   "minSeconds": 4.9,
+   "tail": 0.95,
+   "mood": {
+    "pad": 0.4,
+    "drone": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Abrió las fotos de la acampada. Una por una.",
+     "at": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "swipe1",
+     "sound": "swipe",
+     "ref": "line0.end",
+     "offset": 0.1,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "trailphoto",
+   "minSeconds": 5.5,
+   "tail": 1.15,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "En la del camino, entre los árboles... había *alguien* mirando.",
+     "at": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "glitch",
+     "sound": "glitch",
+     "ref": "word:alguien",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:alguien",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "tentphoto",
+   "minSeconds": 4.5,
+   "tail": 1.15,
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "En la de las tiendas, estaba *más cerca*.",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "swipe",
+     "sound": "swipe",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:más",
+     "offset": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "id": "firephoto",
+   "minSeconds": 5.5,
+   "tail": 1.25,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Y en la del fuego... tenía la mano en el *hombro* de Sara.",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "swipe",
+     "sound": "swipe",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "heart",
+     "sound": "heartbeat",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.7,
+     "span": "scene"
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:hombro",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "lastphoto",
+   "minSeconds": 6.0,
+   "tail": 1.35,
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Pero la última foto era de *esa noche*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Sara, dormida. En su *cama*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "swipe",
+     "sound": "swipe",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "glitch",
+     "sound": "glitch",
+     "ref": "word:esa",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:cama",
+     "offset": 0.0,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "corner",
+   "minSeconds": 6.0,
+   "tail": 0.95,
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Alguien la había hecho... desde *dentro* de su habitación.",
+     "at": 0.6
+    },
+    {
+     "speaker": "sara",
+     "es": "¿Hay... alguien ahí?",
+     "gap": 0.9
+    }
+   ],
+   "cues": [
+    {
+     "id": "heart",
+     "sound": "heartbeat",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8,
+     "span": "scene"
+    },
+    {
+     "id": "riser",
+     "sound": "riser",
+     "ref": "start",
+     "offset": 0.5,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "flash",
+   "minSeconds": 5.1,
+   "tail": 1.95,
+   "mood": {
+    "drone": 0.2
+   },
+   "lines": [
+    {
+     "speaker": "sixth",
+     "es": "Sonríe.",
+     "at": 1.4,
+     "whisper": true
+    }
+   ],
+   "cues": [
+    {
+     "id": "shutter",
+     "sound": "shutter",
+     "ref": "line0.end",
+     "offset": 0.35,
+     "gain": 1.0
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "line0.end",
+     "offset": 0.35,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "minSeconds": 4.5,
+   "tail": 1.75,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Le has visto tú... en el *flash*?",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  }
+ ]
+}

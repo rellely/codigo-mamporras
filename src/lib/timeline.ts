@@ -15,6 +15,7 @@ export type Timeline = {
 	lang: 'es' | 'en';
 	fps: number;
 	title: string;
+	part?: string;
 	durationInFrames: number;
 	scenes: SceneData[];
 };

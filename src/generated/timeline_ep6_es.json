@@ -1,0 +1,836 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "part": "PARTE 6 · SEIS",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 4.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Se sentaron alrededor del fuego. Los seis.",
+     "start": 0.4,
+     "end": 2.92,
+     "words": [
+      {
+       "w": "Se",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.602
+      },
+      {
+       "w": "sentaron",
+       "hl": false,
+       "start": 0.602,
+       "end": 1.095
+      },
+      {
+       "w": "alrededor",
+       "hl": false,
+       "start": 1.095,
+       "end": 1.642
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 1.642,
+       "end": 1.867
+      },
+      {
+       "w": "fuego.",
+       "hl": false,
+       "start": 1.867,
+       "end": 2.2
+      },
+      {
+       "w": "Los",
+       "hl": false,
+       "start": 2.34,
+       "end": 2.599
+      },
+      {
+       "w": "seis.",
+       "hl": true,
+       "start": 2.599,
+       "end": 2.92
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "fire": 0.0
+   },
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "count",
+   "start": 4.9,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "Uno, dos, tres, cuatro, cinco...",
+     "start": 0.3,
+     "end": 2.273,
+     "words": [
+      {
+       "w": "Uno,",
+       "hl": false,
+       "start": 0.327,
+       "end": 0.63
+      },
+      {
+       "w": "dos,",
+       "hl": false,
+       "start": 0.63,
+       "end": 0.932
+      },
+      {
+       "w": "tres,",
+       "hl": false,
+       "start": 0.932,
+       "end": 1.307
+      },
+      {
+       "w": "cuatro,",
+       "hl": false,
+       "start": 1.307,
+       "end": 1.826
+      },
+      {
+       "w": "cinco...",
+       "hl": false,
+       "start": 1.826,
+       "end": 2.273
+      }
+     ]
+    },
+    {
+     "speaker": "leo",
+     "text": "y seis. Hugo.",
+     "start": 3.073,
+     "end": 4.1,
+     "words": [
+      {
+       "w": "y",
+       "hl": false,
+       "start": 3.118,
+       "end": 3.289
+      },
+      {
+       "w": "seis.",
+       "hl": false,
+       "start": 3.289,
+       "end": 3.695
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 3.695,
+       "end": 4.1
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 0.327,
+    "c2": 0.63,
+    "c3": 0.932,
+    "c4": 1.307,
+    "c5": 1.826,
+    "c6": 3.695
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "reaction",
+   "start": 11.4,
+   "duration": 7.933333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Por primera vez en veinte años, alguien le había contado.",
+     "start": 0.5,
+     "end": 3.88,
+     "words": [
+      {
+       "w": "Por",
+       "hl": false,
+       "start": 0.54,
+       "end": 0.787
+      },
+      {
+       "w": "primera",
+       "hl": false,
+       "start": 0.787,
+       "end": 1.268
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 1.268,
+       "end": 1.514
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.514,
+       "end": 1.702
+      },
+      {
+       "w": "veinte",
+       "hl": false,
+       "start": 1.702,
+       "end": 2.125
+      },
+      {
+       "w": "años,",
+       "hl": false,
+       "start": 2.125,
+       "end": 2.43
+      },
+      {
+       "w": "alguien",
+       "hl": false,
+       "start": 2.58,
+       "end": 2.993
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 2.993,
+       "end": 3.154
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 3.154,
+       "end": 3.467
+      },
+      {
+       "w": "contado.",
+       "hl": true,
+       "start": 3.467,
+       "end": 3.88
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Sus ojos cambiaron. Ya no daban miedo.",
+     "start": 4.38,
+     "end": 6.79,
+     "words": [
+      {
+       "w": "Sus",
+       "hl": false,
+       "start": 4.41,
+       "end": 4.67
+      },
+      {
+       "w": "ojos",
+       "hl": false,
+       "start": 4.67,
+       "end": 4.993
+      },
+      {
+       "w": "cambiaron.",
+       "hl": false,
+       "start": 4.993,
+       "end": 5.625
+      },
+      {
+       "w": "Ya",
+       "hl": false,
+       "start": 5.625,
+       "end": 5.823
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 5.823,
+       "end": 6.021
+      },
+      {
+       "w": "daban",
+       "hl": false,
+       "start": 6.021,
+       "end": 6.406
+      },
+      {
+       "w": "miedo.",
+       "hl": true,
+       "start": 6.406,
+       "end": 6.79
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "magic": 0.3
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "shadows",
+   "start": 19.3333,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "La sombra de Iker volvió a su sitio.",
+     "start": 0.4,
+     "end": 2.72,
+     "words": [
+      {
+       "w": "La",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.625
+      },
+      {
+       "w": "sombra",
+       "hl": false,
+       "start": 0.625,
+       "end": 1.063
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.063,
+       "end": 1.258
+      },
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 1.258,
+       "end": 1.575
+      },
+      {
+       "w": "volvió",
+       "hl": false,
+       "start": 1.575,
+       "end": 2.014
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.014,
+       "end": 2.148
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 2.148,
+       "end": 2.342
+      },
+      {
+       "w": "sitio.",
+       "hl": false,
+       "start": 2.342,
+       "end": 2.72
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y Hugo, por fin, tuvo la suya.",
+     "start": 3.12,
+     "end": 4.97,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 3.15,
+       "end": 3.286
+      },
+      {
+       "w": "Hugo,",
+       "hl": false,
+       "start": 3.286,
+       "end": 3.608
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 3.608,
+       "end": 3.868
+      },
+      {
+       "w": "fin,",
+       "hl": false,
+       "start": 3.868,
+       "end": 4.128
+      },
+      {
+       "w": "tuvo",
+       "hl": false,
+       "start": 4.128,
+       "end": 4.45
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 4.45,
+       "end": 4.648
+      },
+      {
+       "w": "suya.",
+       "hl": true,
+       "start": 4.648,
+       "end": 4.97
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "whoosh": 0.6,
+    "chime": 4.648
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "goodbye",
+   "start": 25.8333,
+   "duration": 7.0,
+   "lines": [
+    {
+     "speaker": "hugo",
+     "text": "Gracias por contarme.",
+     "start": 0.5,
+     "end": 2.064,
+     "words": [
+      {
+       "w": "Gracias",
+       "hl": false,
+       "start": 0.532,
+       "end": 1.113
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 1.113,
+       "end": 1.411
+      },
+      {
+       "w": "contarme.",
+       "hl": true,
+       "start": 1.411,
+       "end": 2.064
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y se deshizo en luz, como las chispas del fuego.",
+     "start": 2.664,
+     "end": 5.474,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.694,
+       "end": 2.819
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 2.819,
+       "end": 3.0
+      },
+      {
+       "w": "deshizo",
+       "hl": false,
+       "start": 3.0,
+       "end": 3.465
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.465,
+       "end": 3.647
+      },
+      {
+       "w": "luz,",
+       "hl": false,
+       "start": 3.647,
+       "end": 3.885
+      },
+      {
+       "w": "como",
+       "hl": false,
+       "start": 3.885,
+       "end": 4.18
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 4.18,
+       "end": 4.419
+      },
+      {
+       "w": "chispas",
+       "hl": false,
+       "start": 4.419,
+       "end": 4.884
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 4.884,
+       "end": 5.122
+      },
+      {
+       "w": "fuego.",
+       "hl": false,
+       "start": 5.122,
+       "end": 5.474
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "magic": 2.664
+   },
+   "mood": {
+    "pad": 1.0,
+    "pluck": 0.4
+   }
+  },
+  {
+   "id": "dawn",
+   "start": 32.8333,
+   "duration": 7.566666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Al amanecer eran cinco. Cinco personas. Cinco sombras.",
+     "start": 0.6,
+     "end": 3.87,
+     "words": [
+      {
+       "w": "Al",
+       "hl": false,
+       "start": 0.63,
+       "end": 0.823
+      },
+      {
+       "w": "amanecer",
+       "hl": false,
+       "start": 0.823,
+       "end": 1.38
+      },
+      {
+       "w": "eran",
+       "hl": false,
+       "start": 1.38,
+       "end": 1.694
+      },
+      {
+       "w": "cinco.",
+       "hl": false,
+       "start": 1.694,
+       "end": 2.069
+      },
+      {
+       "w": "Cinco",
+       "hl": false,
+       "start": 2.069,
+       "end": 2.443
+      },
+      {
+       "w": "personas.",
+       "hl": false,
+       "start": 2.443,
+       "end": 3.0
+      },
+      {
+       "w": "Cinco",
+       "hl": true,
+       "start": 3.0,
+       "end": 3.374
+      },
+      {
+       "w": "sombras.",
+       "hl": false,
+       "start": 3.374,
+       "end": 3.87
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Esta vez, nadie se quedó atrás.",
+     "start": 4.37,
+     "end": 6.41,
+     "words": [
+      {
+       "w": "Esta",
+       "hl": false,
+       "start": 4.4,
+       "end": 4.735
+      },
+      {
+       "w": "vez,",
+       "hl": false,
+       "start": 4.735,
+       "end": 5.006
+      },
+      {
+       "w": "nadie",
+       "hl": false,
+       "start": 5.006,
+       "end": 5.405
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 5.405,
+       "end": 5.611
+      },
+      {
+       "w": "quedó",
+       "hl": false,
+       "start": 5.611,
+       "end": 6.011
+      },
+      {
+       "w": "atrás.",
+       "hl": true,
+       "start": 6.011,
+       "end": 6.41
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "birds": 0.2,
+    "chime": 1.694
+   },
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   }
+  },
+  {
+   "id": "epilogue",
+   "start": 40.4,
+   "duration": 9.233333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Desde entonces, cada vez que acampan, dejan un sitio libre junto al fuego.",
+     "start": 0.5,
+     "end": 4.92,
+     "words": [
+      {
+       "w": "Desde",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.895
+      },
+      {
+       "w": "entonces,",
+       "hl": false,
+       "start": 0.895,
+       "end": 1.436
+      },
+      {
+       "w": "cada",
+       "hl": false,
+       "start": 1.436,
+       "end": 1.742
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 1.742,
+       "end": 1.989
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 1.989,
+       "end": 2.237
+      },
+      {
+       "w": "acampan,",
+       "hl": false,
+       "start": 2.237,
+       "end": 2.719
+      },
+      {
+       "w": "dejan",
+       "hl": false,
+       "start": 2.719,
+       "end": 3.084
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 3.084,
+       "end": 3.272
+      },
+      {
+       "w": "sitio",
+       "hl": false,
+       "start": 3.272,
+       "end": 3.637
+      },
+      {
+       "w": "libre",
+       "hl": false,
+       "start": 3.637,
+       "end": 4.002
+      },
+      {
+       "w": "junto",
+       "hl": false,
+       "start": 4.002,
+       "end": 4.367
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 4.367,
+       "end": 4.555
+      },
+      {
+       "w": "fuego.",
+       "hl": false,
+       "start": 4.555,
+       "end": 4.92
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Por si alguien necesita que le cuenten.",
+     "start": 5.42,
+     "end": 7.67,
+     "words": [
+      {
+       "w": "Por",
+       "hl": false,
+       "start": 5.45,
+       "end": 5.681
+      },
+      {
+       "w": "si",
+       "hl": false,
+       "start": 5.681,
+       "end": 5.857
+      },
+      {
+       "w": "alguien",
+       "hl": false,
+       "start": 5.857,
+       "end": 6.307
+      },
+      {
+       "w": "necesita",
+       "hl": false,
+       "start": 6.307,
+       "end": 6.813
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 6.813,
+       "end": 7.044
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 7.044,
+       "end": 7.219
+      },
+      {
+       "w": "cuenten.",
+       "hl": true,
+       "start": 7.219,
+       "end": 7.67
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "crickets": 0.0,
+    "chime": 7.97
+   },
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.5,
+    "cluster": 0.2
+   }
+  },
+  {
+   "id": "end",
+   "start": 49.6333,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Le habrías contado tú?",
+     "start": 0.4,
+     "end": 1.97,
+     "words": [
+      {
+       "w": "¿Le",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.646
+      },
+      {
+       "w": "habrías",
+       "hl": false,
+       "start": 0.646,
+       "end": 1.2
+      },
+      {
+       "w": "contado",
+       "hl": false,
+       "start": 1.2,
+       "end": 1.754
+      },
+      {
+       "w": "tú?",
+       "hl": true,
+       "start": 1.754,
+       "end": 1.97
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "pad": 0.6,
+    "drone": 0.3
+   }
+  }
+ ],
+ "durationInFrames": 1624
+}

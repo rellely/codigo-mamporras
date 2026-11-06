@@ -52,6 +52,10 @@ export type Pose = {
 	silhouette?: string;
 	tremble?: number;
 	eyeOpen?: number;
+	/** Override palette entries (e.g. Hugo regaining colour). */
+	colors?: Partial<Look>;
+	/** Normal (non-uncanny) eyes for the sixth. */
+	humanEyes?: boolean;
 };
 
 const rad = (d: number) => (d * Math.PI) / 180;
@@ -76,7 +80,7 @@ export const Character: React.FC<{
 }> = ({id, x, y, scale = 1, pose = {}, flip = false, opacity = 1}) => {
 	const frame = useCurrentFrame();
 	const uid = useId().replace(/:/g, '');
-	const L = CAST[id];
+	const L = pose.colors ? {...CAST[id], ...pose.colors} : CAST[id];
 	const sil = pose.silhouette;
 	const c = (col: string) => (sil ? sil : col);
 	const seed = SEEDS[id];
@@ -137,7 +141,7 @@ export const Character: React.FC<{
 		const far = turn * side < 0 ? 1 - Math.abs(turn) * 0.25 : 1;
 		const ex = side * 23 + fx;
 		const ey = headCY - 6;
-		const sixth = id === 'sixth';
+		const sixth = id === 'sixth' && !pose.humanEyes;
 		return (
 			<g key={side} transform={`translate(${ex} ${ey}) scale(${far} 1)`}>
 				<ellipse cx={0} cy={0} rx={15} ry={18 * eyeOpen + 0.5} fill={sil ? 'none' : sixth ? '#f4f4ee' : '#ffffff'} />

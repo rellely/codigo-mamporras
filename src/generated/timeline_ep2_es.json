@@ -1,0 +1,865 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "part": "PARTE 2 · LA FOTO",
+ "scenes": [
+  {
+   "id": "recap",
+   "start": 0.0,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Volvieron cinco del bosque.",
+     "start": 0.3,
+     "end": 2.13,
+     "words": [
+      {
+       "w": "Volvieron",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.99
+      },
+      {
+       "w": "cinco",
+       "hl": true,
+       "start": 0.99,
+       "end": 1.392
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 1.392,
+       "end": 1.664
+      },
+      {
+       "w": "bosque.",
+       "hl": false,
+       "start": 1.664,
+       "end": 2.13
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "O eso creían.",
+     "start": 2.48,
+     "end": 3.63,
+     "words": [
+      {
+       "w": "O",
+       "hl": false,
+       "start": 2.51,
+       "end": 2.691
+      },
+      {
+       "w": "eso",
+       "hl": false,
+       "start": 2.691,
+       "end": 3.037
+      },
+      {
+       "w": "creían.",
+       "hl": false,
+       "start": 3.037,
+       "end": 3.63
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "sting": 2.48
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.6,
+    "cluster": 0.3
+   }
+  },
+  {
+   "id": "bedroom",
+   "start": 5.1,
+   "duration": 8.333333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Esa noche, en casa, Sara no podía dormir.",
+     "start": 0.4,
+     "end": 3.12,
+     "words": [
+      {
+       "w": "Esa",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.708
+      },
+      {
+       "w": "noche,",
+       "hl": false,
+       "start": 0.708,
+       "end": 1.119
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.119,
+       "end": 1.331
+      },
+      {
+       "w": "casa,",
+       "hl": false,
+       "start": 1.331,
+       "end": 1.676
+      },
+      {
+       "w": "Sara",
+       "hl": false,
+       "start": 1.676,
+       "end": 2.02
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 2.02,
+       "end": 2.232
+      },
+      {
+       "w": "podía",
+       "hl": false,
+       "start": 2.232,
+       "end": 2.643
+      },
+      {
+       "w": "dormir.",
+       "hl": true,
+       "start": 2.643,
+       "end": 3.12
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Cada vez que cerraba los ojos, volvía a ver aquella sonrisa.",
+     "start": 3.62,
+     "end": 7.19,
+     "words": [
+      {
+       "w": "Cada",
+       "hl": false,
+       "start": 3.66,
+       "end": 3.932
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 3.932,
+       "end": 4.151
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 4.151,
+       "end": 4.371
+      },
+      {
+       "w": "cerraba",
+       "hl": false,
+       "start": 4.371,
+       "end": 4.799
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 4.799,
+       "end": 5.018
+      },
+      {
+       "w": "ojos,",
+       "hl": false,
+       "start": 5.018,
+       "end": 5.29
+      },
+      {
+       "w": "volvía",
+       "hl": false,
+       "start": 5.44,
+       "end": 5.86
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.86,
+       "end": 5.988
+      },
+      {
+       "w": "ver",
+       "hl": false,
+       "start": 5.988,
+       "end": 6.233
+      },
+      {
+       "w": "aquella",
+       "hl": false,
+       "start": 6.233,
+       "end": 6.712
+      },
+      {
+       "w": "sonrisa.",
+       "hl": true,
+       "start": 6.712,
+       "end": 7.19
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "clock": 0.0
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "gallery",
+   "start": 13.4333,
+   "duration": 4.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Abrió las fotos de la acampada. Una por una.",
+     "start": 0.3,
+     "end": 2.82,
+     "words": [
+      {
+       "w": "Abrió",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.642
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 0.642,
+       "end": 0.853
+      },
+      {
+       "w": "fotos",
+       "hl": false,
+       "start": 0.853,
+       "end": 1.165
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.165,
+       "end": 1.326
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.326,
+       "end": 1.487
+      },
+      {
+       "w": "acampada.",
+       "hl": false,
+       "start": 1.487,
+       "end": 1.95
+      },
+      {
+       "w": "Una",
+       "hl": false,
+       "start": 2.13,
+       "end": 2.36
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 2.36,
+       "end": 2.59
+      },
+      {
+       "w": "una.",
+       "hl": false,
+       "start": 2.59,
+       "end": 2.82
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe1": 2.92
+   },
+   "mood": {
+    "pad": 0.4,
+    "drone": 0.4
+   }
+  },
+  {
+   "id": "trailphoto",
+   "start": 18.3333,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "En la del camino, entre los árboles... había alguien mirando.",
+     "start": 0.3,
+     "end": 3.56,
+     "words": [
+      {
+       "w": "En",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.505
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.505,
+       "end": 0.68
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 0.68,
+       "end": 0.91
+      },
+      {
+       "w": "camino,",
+       "hl": false,
+       "start": 0.91,
+       "end": 1.304
+      },
+      {
+       "w": "entre",
+       "hl": false,
+       "start": 1.304,
+       "end": 1.644
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 1.644,
+       "end": 1.874
+      },
+      {
+       "w": "árboles...",
+       "hl": false,
+       "start": 1.874,
+       "end": 2.323
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 2.323,
+       "end": 2.662
+      },
+      {
+       "w": "alguien",
+       "hl": true,
+       "start": 2.662,
+       "end": 3.111
+      },
+      {
+       "w": "mirando.",
+       "hl": false,
+       "start": 3.111,
+       "end": 3.56
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "glitch": 2.662,
+    "sting": 2.662
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "tentphoto",
+   "start": 23.8333,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "En la de las tiendas, estaba más cerca.",
+     "start": 0.4,
+     "end": 2.71,
+     "words": [
+      {
+       "w": "En",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.614
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.614,
+       "end": 0.798
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 0.798,
+       "end": 0.983
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 0.983,
+       "end": 1.225
+      },
+      {
+       "w": "tiendas,",
+       "hl": false,
+       "start": 1.225,
+       "end": 1.697
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 1.697,
+       "end": 2.111
+      },
+      {
+       "w": "más",
+       "hl": true,
+       "start": 2.111,
+       "end": 2.353
+      },
+      {
+       "w": "cerca.",
+       "hl": true,
+       "start": 2.353,
+       "end": 2.71
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "sting": 2.111
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "firephoto",
+   "start": 28.3333,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Y en la del fuego... tenía la mano en el hombro de Sara.",
+     "start": 0.4,
+     "end": 3.24,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.526
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 0.526,
+       "end": 0.666
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.666,
+       "end": 0.806
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 0.806,
+       "end": 0.989
+      },
+      {
+       "w": "fuego...",
+       "hl": false,
+       "start": 0.989,
+       "end": 1.26
+      },
+      {
+       "w": "tenía",
+       "hl": false,
+       "start": 1.48,
+       "end": 1.778
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.778,
+       "end": 1.932
+      },
+      {
+       "w": "mano",
+       "hl": false,
+       "start": 1.932,
+       "end": 2.182
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 2.182,
+       "end": 2.336
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 2.336,
+       "end": 2.49
+      },
+      {
+       "w": "hombro",
+       "hl": true,
+       "start": 2.49,
+       "end": 2.836
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.836,
+       "end": 2.99
+      },
+      {
+       "w": "Sara.",
+       "hl": false,
+       "start": 2.99,
+       "end": 3.24
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "heart": 0.3,
+    "sting": 2.49
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "lastphoto",
+   "start": 33.8333,
+   "duration": 6.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Pero la última foto era de esa noche.",
+     "start": 0.4,
+     "end": 2.86,
+     "words": [
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.766
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.766,
+       "end": 0.967
+      },
+      {
+       "w": "última",
+       "hl": false,
+       "start": 0.967,
+       "end": 1.418
+      },
+      {
+       "w": "foto",
+       "hl": false,
+       "start": 1.418,
+       "end": 1.744
+      },
+      {
+       "w": "era",
+       "hl": false,
+       "start": 1.744,
+       "end": 2.007
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.007,
+       "end": 2.208
+      },
+      {
+       "w": "esa",
+       "hl": true,
+       "start": 2.208,
+       "end": 2.471
+      },
+      {
+       "w": "noche.",
+       "hl": true,
+       "start": 2.471,
+       "end": 2.86
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Sara, dormida. En su cama.",
+     "start": 3.26,
+     "end": 4.96,
+     "words": [
+      {
+       "w": "Sara,",
+       "hl": false,
+       "start": 3.29,
+       "end": 3.637
+      },
+      {
+       "w": "dormida.",
+       "hl": false,
+       "start": 3.637,
+       "end": 4.185
+      },
+      {
+       "w": "En",
+       "hl": false,
+       "start": 4.185,
+       "end": 4.399
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 4.399,
+       "end": 4.613
+      },
+      {
+       "w": "cama.",
+       "hl": true,
+       "start": 4.613,
+       "end": 4.96
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "swipe": 0.0,
+    "glitch": 2.208,
+    "boom": 4.613
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "corner",
+   "start": 40.1333,
+   "duration": 6.566666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Alguien la había hecho... desde dentro de su habitación.",
+     "start": 0.6,
+     "end": 3.68,
+     "words": [
+      {
+       "w": "Alguien",
+       "hl": false,
+       "start": 0.63,
+       "end": 1.085
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.085,
+       "end": 1.262
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 1.262,
+       "end": 1.606
+      },
+      {
+       "w": "hecho...",
+       "hl": false,
+       "start": 1.606,
+       "end": 1.95
+      },
+      {
+       "w": "desde",
+       "hl": false,
+       "start": 2.14,
+       "end": 2.448
+      },
+      {
+       "w": "dentro",
+       "hl": true,
+       "start": 2.448,
+       "end": 2.806
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.806,
+       "end": 2.965
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 2.965,
+       "end": 3.124
+      },
+      {
+       "w": "habitación.",
+       "hl": false,
+       "start": 3.124,
+       "end": 3.68
+      }
+     ]
+    },
+    {
+     "speaker": "sara",
+     "text": "¿Hay... alguien ahí?",
+     "start": 4.58,
+     "end": 5.626,
+     "words": [
+      {
+       "w": "¿Hay...",
+       "hl": false,
+       "start": 4.617,
+       "end": 4.872
+      },
+      {
+       "w": "alguien",
+       "hl": false,
+       "start": 4.872,
+       "end": 5.371
+      },
+      {
+       "w": "ahí?",
+       "hl": false,
+       "start": 5.371,
+       "end": 5.626
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "heart": 0.0,
+    "riser": 0.5
+   },
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "flash",
+   "start": 46.7,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "Sonríe.",
+     "start": 1.4,
+     "end": 2.237,
+     "words": [
+      {
+       "w": "Sonríe.",
+       "hl": false,
+       "start": 1.435,
+       "end": 2.237
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "shutter": 2.587,
+    "boom": 2.587
+   },
+   "mood": {
+    "drone": 0.2
+   }
+  },
+  {
+   "id": "end",
+   "start": 51.8,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Le has visto tú... en el flash?",
+     "start": 0.4,
+     "end": 2.21,
+     "words": [
+      {
+       "w": "¿Le",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.624
+      },
+      {
+       "w": "has",
+       "hl": false,
+       "start": 0.624,
+       "end": 0.878
+      },
+      {
+       "w": "visto",
+       "hl": false,
+       "start": 0.878,
+       "end": 1.253
+      },
+      {
+       "w": "tú...",
+       "hl": false,
+       "start": 1.253,
+       "end": 1.447
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.447,
+       "end": 1.641
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.641,
+       "end": 1.835
+      },
+      {
+       "w": "flash?",
+       "hl": true,
+       "start": 1.835,
+       "end": 2.21
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1689
+}

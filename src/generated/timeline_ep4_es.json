@@ -1,0 +1,995 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "part": "PARTE 4 · LA VUELTA",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Volvieron al bosque. De noche.",
+     "start": 0.3,
+     "end": 2.23,
+     "words": [
+      {
+       "w": "Volvieron",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.976
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 0.976,
+       "end": 1.179
+      },
+      {
+       "w": "bosque.",
+       "hl": false,
+       "start": 1.179,
+       "end": 1.635
+      },
+      {
+       "w": "De",
+       "hl": false,
+       "start": 1.635,
+       "end": 1.837
+      },
+      {
+       "w": "noche.",
+       "hl": true,
+       "start": 1.837,
+       "end": 2.23
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Era la única forma de acabar con esto.",
+     "start": 2.53,
+     "end": 4.93,
+     "words": [
+      {
+       "w": "Era",
+       "hl": false,
+       "start": 2.56,
+       "end": 2.811
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 2.811,
+       "end": 3.003
+      },
+      {
+       "w": "única",
+       "hl": false,
+       "start": 3.003,
+       "end": 3.374
+      },
+      {
+       "w": "forma",
+       "hl": false,
+       "start": 3.374,
+       "end": 3.745
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 3.745,
+       "end": 3.937
+      },
+      {
+       "w": "acabar",
+       "hl": false,
+       "start": 3.937,
+       "end": 4.367
+      },
+      {
+       "w": "con",
+       "hl": false,
+       "start": 4.367,
+       "end": 4.619
+      },
+      {
+       "w": "esto.",
+       "hl": false,
+       "start": 4.619,
+       "end": 4.93
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "click": 0.6,
+    "owl": 2.53
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "path",
+   "start": 6.0,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "No os separéis.",
+     "start": 0.4,
+     "end": 1.32,
+     "words": [
+      {
+       "w": "No",
+       "hl": false,
+       "start": 0.427,
+       "end": 0.61
+      },
+      {
+       "w": "os",
+       "hl": false,
+       "start": 0.61,
+       "end": 0.793
+      },
+      {
+       "w": "separéis.",
+       "hl": false,
+       "start": 0.793,
+       "end": 1.32
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Iker iba el último. Cada vez más callado.",
+     "start": 1.72,
+     "end": 4.3,
+     "words": [
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 1.75,
+       "end": 2.057
+      },
+      {
+       "w": "iba",
+       "hl": false,
+       "start": 2.057,
+       "end": 2.305
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 2.305,
+       "end": 2.494
+      },
+      {
+       "w": "último.",
+       "hl": false,
+       "start": 2.494,
+       "end": 2.92
+      },
+      {
+       "w": "Cada",
+       "hl": false,
+       "start": 3.07,
+       "end": 3.363
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 3.363,
+       "end": 3.6
+      },
+      {
+       "w": "más",
+       "hl": false,
+       "start": 3.6,
+       "end": 3.837
+      },
+      {
+       "w": "callado.",
+       "hl": true,
+       "start": 3.837,
+       "end": 4.3
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "crickets": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.3
+   }
+  },
+  {
+   "id": "carvings",
+   "start": 12.5,
+   "duration": 8.366666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "En la roca seguían grabados seis nombres.",
+     "start": 0.4,
+     "end": 2.94,
+     "words": [
+      {
+       "w": "En",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.619
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.619,
+       "end": 0.809
+      },
+      {
+       "w": "roca",
+       "hl": false,
+       "start": 0.809,
+       "end": 1.117
+      },
+      {
+       "w": "seguían",
+       "hl": false,
+       "start": 1.117,
+       "end": 1.602
+      },
+      {
+       "w": "grabados",
+       "hl": false,
+       "start": 1.602,
+       "end": 2.147
+      },
+      {
+       "w": "seis",
+       "hl": false,
+       "start": 2.147,
+       "end": 2.455
+      },
+      {
+       "w": "nombres.",
+       "hl": false,
+       "start": 2.455,
+       "end": 2.94
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Uno estaba tachado: Hugo.",
+     "start": 3.34,
+     "end": 5.11,
+     "words": [
+      {
+       "w": "Uno",
+       "hl": false,
+       "start": 3.37,
+       "end": 3.665
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 3.665,
+       "end": 4.17
+      },
+      {
+       "w": "tachado:",
+       "hl": false,
+       "start": 4.17,
+       "end": 4.745
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 4.745,
+       "end": 5.11
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "Son los nombres de aquel grupo.",
+     "start": 5.61,
+     "end": 7.231,
+     "words": [
+      {
+       "w": "Son",
+       "hl": false,
+       "start": 5.644,
+       "end": 5.851
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 5.851,
+       "end": 6.058
+      },
+      {
+       "w": "nombres",
+       "hl": false,
+       "start": 6.058,
+       "end": 6.462
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 6.462,
+       "end": 6.62
+      },
+      {
+       "w": "aquel",
+       "hl": false,
+       "start": 6.62,
+       "end": 6.925
+      },
+      {
+       "w": "grupo.",
+       "hl": false,
+       "start": 6.925,
+       "end": 7.231
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": 0.0,
+    "sting": 4.745
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "fire",
+   "start": 20.8667,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Encendieron el fuego en el mismo sitio que la otra vez.",
+     "start": 0.4,
+     "end": 3.62,
+     "words": [
+      {
+       "w": "Encendieron",
+       "hl": false,
+       "start": 0.43,
+       "end": 1.11
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.11,
+       "end": 1.289
+      },
+      {
+       "w": "fuego",
+       "hl": false,
+       "start": 1.289,
+       "end": 1.635
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.635,
+       "end": 1.813
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.813,
+       "end": 1.992
+      },
+      {
+       "w": "mismo",
+       "hl": false,
+       "start": 1.992,
+       "end": 2.337
+      },
+      {
+       "w": "sitio",
+       "hl": false,
+       "start": 2.337,
+       "end": 2.683
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 2.683,
+       "end": 2.917
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 2.917,
+       "end": 3.096
+      },
+      {
+       "w": "otra",
+       "hl": false,
+       "start": 3.096,
+       "end": 3.386
+      },
+      {
+       "w": "vez.",
+       "hl": false,
+       "start": 3.386,
+       "end": 3.62
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.4,
+    "whoosh": 0.3
+   },
+   "mood": {
+    "drone": 0.6,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "count",
+   "start": 25.9667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "Uno, dos, tres, cuatro, cinco.",
+     "start": 0.3,
+     "end": 2.166,
+     "words": [
+      {
+       "w": "Uno,",
+       "hl": false,
+       "start": 0.327,
+       "end": 0.613
+      },
+      {
+       "w": "dos,",
+       "hl": false,
+       "start": 0.613,
+       "end": 0.899
+      },
+      {
+       "w": "tres,",
+       "hl": false,
+       "start": 0.899,
+       "end": 1.253
+      },
+      {
+       "w": "cuatro,",
+       "hl": false,
+       "start": 1.253,
+       "end": 1.744
+      },
+      {
+       "w": "cinco.",
+       "hl": false,
+       "start": 1.744,
+       "end": 2.166
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Cinco. Todo en orden.",
+     "start": 2.566,
+     "end": 3.946,
+     "words": [
+      {
+       "w": "Cinco.",
+       "hl": false,
+       "start": 2.596,
+       "end": 2.998
+      },
+      {
+       "w": "Todo",
+       "hl": false,
+       "start": 2.998,
+       "end": 3.336
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.336,
+       "end": 3.544
+      },
+      {
+       "w": "orden.",
+       "hl": false,
+       "start": 3.544,
+       "end": 3.946
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "c1": 0.327,
+    "c2": 0.613,
+    "c3": 0.899,
+    "c4": 1.253,
+    "c5": 1.744
+   },
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "shadows",
+   "start": 31.9667,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "sara",
+     "text": "Mirad la roca...",
+     "start": 0.3,
+     "end": 1.328,
+     "words": [
+      {
+       "w": "Mirad",
+       "hl": false,
+       "start": 0.328,
+       "end": 0.752
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 0.752,
+       "end": 0.972
+      },
+      {
+       "w": "roca...",
+       "hl": false,
+       "start": 0.972,
+       "end": 1.328
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Eran cinco. Pero en la roca solo había cuatro sombras.",
+     "start": 1.728,
+     "end": 5.018,
+     "words": [
+      {
+       "w": "Eran",
+       "hl": false,
+       "start": 1.758,
+       "end": 2.132
+      },
+      {
+       "w": "cinco.",
+       "hl": false,
+       "start": 2.132,
+       "end": 2.578
+      },
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 2.728,
+       "end": 3.001
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.001,
+       "end": 3.169
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 3.169,
+       "end": 3.337
+      },
+      {
+       "w": "roca",
+       "hl": false,
+       "start": 3.337,
+       "end": 3.61
+      },
+      {
+       "w": "solo",
+       "hl": false,
+       "start": 3.61,
+       "end": 3.883
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 3.883,
+       "end": 4.209
+      },
+      {
+       "w": "cuatro",
+       "hl": true,
+       "start": 4.209,
+       "end": 4.587
+      },
+      {
+       "w": "sombras.",
+       "hl": false,
+       "start": 4.587,
+       "end": 5.018
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "sting": 4.209
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "iker",
+   "start": 38.4667,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "A Iker le faltaba la suya.",
+     "start": 0.3,
+     "end": 2.08,
+     "words": [
+      {
+       "w": "A",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.472
+      },
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 0.472,
+       "end": 0.806
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 0.806,
+       "end": 1.012
+      },
+      {
+       "w": "faltaba",
+       "hl": false,
+       "start": 1.012,
+       "end": 1.54
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.54,
+       "end": 1.745
+      },
+      {
+       "w": "suya.",
+       "hl": true,
+       "start": 1.745,
+       "end": 2.08
+      }
+     ]
+    },
+    {
+     "speaker": "iker",
+     "text": "¿Por qué me miráis así?",
+     "start": 2.58,
+     "end": 4.018,
+     "words": [
+      {
+       "w": "¿Por",
+       "hl": false,
+       "start": 2.609,
+       "end": 2.866
+      },
+      {
+       "w": "qué",
+       "hl": false,
+       "start": 2.866,
+       "end": 3.123
+      },
+      {
+       "w": "me",
+       "hl": false,
+       "start": 3.123,
+       "end": 3.319
+      },
+      {
+       "w": "miráis",
+       "hl": false,
+       "start": 3.319,
+       "end": 3.761
+      },
+      {
+       "w": "así?",
+       "hl": false,
+       "start": 3.761,
+       "end": 4.018
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "heart": 0.0
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "hugo",
+   "start": 43.9667,
+   "duration": 7.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hugo estaba sentado en su sitio. Y por primera vez... tenía sombra.",
+     "start": 0.5,
+     "end": 4.41,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.839
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 0.839,
+       "end": 1.266
+      },
+      {
+       "w": "sentado",
+       "hl": false,
+       "start": 1.266,
+       "end": 1.752
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.752,
+       "end": 1.942
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 1.942,
+       "end": 2.132
+      },
+      {
+       "w": "sitio.",
+       "hl": false,
+       "start": 2.132,
+       "end": 2.5
+      },
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.5,
+       "end": 2.63
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 2.63,
+       "end": 2.879
+      },
+      {
+       "w": "primera",
+       "hl": false,
+       "start": 2.879,
+       "end": 3.366
+      },
+      {
+       "w": "vez...",
+       "hl": false,
+       "start": 3.366,
+       "end": 3.615
+      },
+      {
+       "w": "tenía",
+       "hl": false,
+       "start": 3.615,
+       "end": 3.983
+      },
+      {
+       "w": "sombra.",
+       "hl": true,
+       "start": 3.983,
+       "end": 4.41
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "La sombra de Iker.",
+     "start": 4.91,
+     "end": 6.16,
+     "words": [
+      {
+       "w": "La",
+       "hl": false,
+       "start": 4.94,
+       "end": 5.148
+      },
+      {
+       "w": "sombra",
+       "hl": false,
+       "start": 5.148,
+       "end": 5.615
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 5.615,
+       "end": 5.823
+      },
+      {
+       "w": "Iker.",
+       "hl": true,
+       "start": 5.823,
+       "end": 6.16
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "whoosh": 0.2,
+    "sting": 3.983,
+    "boom": 5.823
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.6
+   }
+  },
+  {
+   "id": "talk",
+   "start": 51.4667,
+   "duration": 5.0,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "Ahora me toca a mí volver a casa.",
+     "start": 0.5,
+     "end": 2.942,
+     "words": [
+      {
+       "w": "Ahora",
+       "hl": false,
+       "start": 0.535,
+       "end": 0.966
+      },
+      {
+       "w": "me",
+       "hl": false,
+       "start": 0.966,
+       "end": 1.189
+      },
+      {
+       "w": "toca",
+       "hl": false,
+       "start": 1.189,
+       "end": 1.551
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.551,
+       "end": 1.704
+      },
+      {
+       "w": "mí",
+       "hl": false,
+       "start": 1.704,
+       "end": 1.926
+      },
+      {
+       "w": "volver",
+       "hl": false,
+       "start": 1.926,
+       "end": 2.427
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.427,
+       "end": 2.58
+      },
+      {
+       "w": "casa.",
+       "hl": true,
+       "start": 2.58,
+       "end": 2.942
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "riser": 0.0
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "end",
+   "start": 56.4667,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Cómo salvarías tú a Iker?",
+     "start": 0.4,
+     "end": 2.15,
+     "words": [
+      {
+       "w": "¿Cómo",
+       "hl": false,
+       "start": 0.45,
+       "end": 0.79
+      },
+      {
+       "w": "salvarías",
+       "hl": false,
+       "start": 0.79,
+       "end": 1.457
+      },
+      {
+       "w": "tú",
+       "hl": false,
+       "start": 1.457,
+       "end": 1.666
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.666,
+       "end": 1.81
+      },
+      {
+       "w": "Iker?",
+       "hl": true,
+       "start": 1.81,
+       "end": 2.15
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1829
+}

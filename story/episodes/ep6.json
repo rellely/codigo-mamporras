@@ -1,0 +1,403 @@
+{
+ "slug": "ep6",
+ "title": {
+  "es": "EL SEXTO"
+ },
+ "part": {
+  "es": "PARTE 6 · SEIS"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "em_santa",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "em_santa",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.94
+   },
+   "leo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.12,
+    "speed": 0.94
+   },
+   "dani": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.16,
+    "speed": 0.9
+   },
+   "iker": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.95
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 4.9,
+   "tail": 0.95,
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Se sentaron alrededor del fuego. Los *seis*.",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.45,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "minSeconds": 6.5,
+   "tail": 1.15,
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "leo",
+     "es": "Uno, dos, tres, cuatro, cinco...",
+     "at": 0.3,
+     "slow": 0.88
+    },
+    {
+     "speaker": "leo",
+     "es": "y seis. *Hugo*.",
+     "gap": 0.8,
+     "slow": 0.9
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "c1",
+     "sound": "tick",
+     "ref": "word:uno",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c2",
+     "sound": "tick",
+     "ref": "word:dos",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c3",
+     "sound": "tick",
+     "ref": "word:tres",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c4",
+     "sound": "tick",
+     "ref": "word:cuatro",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c5",
+     "sound": "tick",
+     "ref": "word:cinco",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c6",
+     "sound": "chime",
+     "ref": "word:hugo",
+     "offset": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "id": "reaction",
+   "minSeconds": 5.5,
+   "tail": 1.15,
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Por primera vez en veinte años, alguien le había *contado*.",
+     "at": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Sus ojos cambiaron. Ya no daban *miedo*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "magic",
+     "sound": "magic",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "shadows",
+   "minSeconds": 6.5,
+   "tail": 1.15,
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "La sombra de Iker volvió a su sitio.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y Hugo, por fin, tuvo la *suya*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "whoosh",
+     "sound": "whoosh",
+     "ref": "start",
+     "offset": 0.6,
+     "gain": 0.5
+    },
+    {
+     "id": "chime",
+     "sound": "chime",
+     "ref": "word:suya",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "goodbye",
+   "minSeconds": 7.0,
+   "tail": 1.35,
+   "mood": {
+    "pad": 1.0,
+    "pluck": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "hugo",
+     "es": "Gracias por *contarme*.",
+     "at": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y se deshizo en luz, como las chispas del fuego.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35,
+     "span": "scene"
+    },
+    {
+     "id": "magic",
+     "sound": "magic",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "dawn",
+   "minSeconds": 6.0,
+   "tail": 1.15,
+   "mood": {
+    "pad": 0.8,
+    "pluck": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Al amanecer eran cinco. Cinco personas. *Cinco* sombras.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Esta vez, nadie se quedó *atrás*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "birds",
+     "sound": "birds",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.3,
+     "span": "scene"
+    },
+    {
+     "id": "chime",
+     "sound": "chime",
+     "ref": "word:cinco@0",
+     "offset": 0.0,
+     "gain": 0.0
+    }
+   ]
+  },
+  {
+   "id": "epilogue",
+   "minSeconds": 8.5,
+   "tail": 1.55,
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.5,
+    "cluster": 0.2
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Desde entonces, cada vez que acampan, dejan un sitio libre junto al fuego.",
+     "at": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Por si alguien necesita que le *cuenten*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "fire",
+     "sound": "fire",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35,
+     "span": "scene"
+    },
+    {
+     "id": "crickets",
+     "sound": "crickets",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.2,
+     "span": "scene"
+    },
+    {
+     "id": "chime",
+     "sound": "chime",
+     "ref": "line1.end",
+     "offset": 0.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "minSeconds": 4.5,
+   "tail": 1.75,
+   "mood": {
+    "pad": 0.6,
+    "drone": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Le habrías contado *tú*?",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  }
+ ]
+}

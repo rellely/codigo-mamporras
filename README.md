@@ -8,10 +8,22 @@ voz neuronal local, música y efectos sintetizados, subtítulos sincronizados.
 
 ## Renders
 
+### Parte 1 (piloto, bilingüe)
+
 | Idioma | Archivo |
 |---|---|
 | Español | `renders/el-sexto-es.mp4` |
 | English | `renders/the-sixth-one-en.mp4` |
+
+### Serie (español, ~1 min por capítulo)
+
+| Parte | Título | Archivo | De qué va |
+|---|---|---|---|
+| 2 | La foto | `renders/el-sexto-parte-2.mp4` | En casa, Sara revisa las fotos: él aparece en todas, cada vez más cerca… y la última es de ella dormida. |
+| 3 | El miembro nuevo | `renders/el-sexto-parte-3.mp4` | «?» entra en el chat del grupo. Una noticia de 2006 revela quién es: Hugo, el chico que no volvió. |
+| 4 | La vuelta | `renders/el-sexto-parte-4.mp4` | Vuelven a la roca. Cinco personas, cuatro sombras: Hugo tiene la sombra de Iker. |
+| 5 | El intercambio | `renders/el-sexto-parte-5.mp4` | Iker se borra. Hugo no es malvado: en 2006 sus amigos se contaron mal y lo dejaron atrás. |
+| 6 | Seis | `renders/el-sexto-parte-6.mp4` | Lo cuentan a propósito. Las sombras vuelven a su sitio y Hugo se despide. Final. |
 
 ## Pipeline
 
@@ -43,6 +55,22 @@ src/components/DawnSet.tsx   Set del amanecer (sombras proyectadas por el sol)
 src/components/env/          Cielo, montañas, pinos, roca, niebla, partículas, luz
 src/components/Subtitles.tsx Subtítulos estilo TikTok (palabras clave en amarillo)
 src/scenes/S01…S12           Escenas independientes
+```
+
+## Serie
+
+- `story/episodes/make_episodes.py` genera los guiones `ep2…ep6.json` (voces por personaje,
+  escenas, *mood* musical por escena y cues de sonido).
+- `src/series/ep2.tsx … ep6.tsx` contienen las escenas de cada capítulo, montadas con los
+  mismos personajes y sets (`CampNight`, `DawnSet`) más sets nuevos reutilizables en
+  `src/components/sets/` (dormitorio, móvil/galería/chat, garaje, portátil con periódico,
+  bosque nocturno con linternas, nombres grabados en la roca).
+- `src/series/Episode.tsx` es la composición genérica de capítulo (audio, escenas,
+  subtítulos, etiqueta «EL SEXTO · PARTE N» y tarjeta final).
+
+```bash
+npm run audio:series     # voces + música + SFX de las partes 2-6
+npm run render:series    # renders/el-sexto-parte-N.mp4
 ```
 
 ## Uso

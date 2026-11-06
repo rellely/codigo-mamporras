@@ -8,7 +8,10 @@
     "render:es": "remotion render ElSexto-ES out/el-sexto-es.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k",
     "render:en": "remotion render TheSixthOne-EN out/the-sixth-one-en.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=192k",
     "build": "npm run audio && npm run render:es && npm run render:en",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "audio:series": "python3 story/episodes/make_episodes.py && for e in 2 3 4 5 6; do python3 scripts/build_audio.py story/episodes/ep$e.json; done",
+    "render:series": "scripts/render_series.sh",
+    "build:series": "npm run audio:series && npm run render:series"
   },
   "repository": {
     "type": "git",

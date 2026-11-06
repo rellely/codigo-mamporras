@@ -14,7 +14,8 @@ export const SUN = {x: 470, y: 2700, k: 1.12};
 export const shadowPoint = (x: number, y: number) => ({x: SUN.x + (x - SUN.x) * SUN.k, y: SUN.y + (y - SUN.y) * SUN.k});
 export const dawnHead = (id: CharId) => ({x: DAWN_POS[id], y: LINE_Y - 255 * DAWN_SCALE});
 
-export const DawnSet: React.FC<{poses?: Partial<Record<CharId, Pose>>; sixthShadow?: Pose; shadowOpacity?: number; over?: React.ReactNode}> = ({
+export const DawnSet: React.FC<{poses?: Partial<Record<CharId, Pose>>; sixthShadow?: Pose; shadowOpacity?: number; over?: React.ReactNode; sixthShadowOpacity?: number}> = ({
+	sixthShadowOpacity = 1,
 	poses = {},
 	sixthShadow = {},
 	shadowOpacity = 0.5,
@@ -40,7 +41,9 @@ export const DawnSet: React.FC<{poses?: Partial<Record<CharId, Pose>>; sixthShad
 					{FRIENDS.map((id) => (
 						<Character key={id} id={id} x={DAWN_POS[id]} y={LINE_Y} scale={DAWN_SCALE} pose={{...(poses[id] ?? {}), silhouette: '#3a2a35'}} />
 					))}
-					<Character id="sixth" x={DAWN_POS.sixth} y={LINE_Y} scale={DAWN_SCALE} pose={{...sixthShadow, silhouette: '#3a2a35'}} />
+					<g opacity={sixthShadowOpacity}>
+						<Character id="sixth" x={DAWN_POS.sixth} y={LINE_Y} scale={DAWN_SCALE} pose={{...sixthShadow, silhouette: '#3a2a35'}} />
+					</g>
 				</g>
 			</g>
 			<Ground y={1185} top="#8a7a6a" bottom="#5a4a40" />

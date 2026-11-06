@@ -1,0 +1,938 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "part": "PARTE 3 · EL MIEMBRO NUEVO",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Al día siguiente, alguien se unió al grupo de la acampada.",
+     "start": 0.6,
+     "end": 3.94,
+     "words": [
+      {
+       "w": "Al",
+       "hl": false,
+       "start": 0.63,
+       "end": 0.803
+      },
+      {
+       "w": "día",
+       "hl": false,
+       "start": 0.803,
+       "end": 1.029
+      },
+      {
+       "w": "siguiente,",
+       "hl": false,
+       "start": 1.029,
+       "end": 1.58
+      },
+      {
+       "w": "alguien",
+       "hl": false,
+       "start": 1.78,
+       "end": 2.206
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 2.206,
+       "end": 2.372
+      },
+      {
+       "w": "unió",
+       "hl": false,
+       "start": 2.372,
+       "end": 2.642
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 2.642,
+       "end": 2.808
+      },
+      {
+       "w": "grupo",
+       "hl": false,
+       "start": 2.808,
+       "end": 3.13
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 3.13,
+       "end": 3.296
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 3.296,
+       "end": 3.462
+      },
+      {
+       "w": "acampada.",
+       "hl": true,
+       "start": 3.462,
+       "end": 3.94
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "ping": 0.0,
+    "boom": 3.94
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.4
+   }
+  },
+  {
+   "id": "chat",
+   "start": 5.1,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Nadie lo había añadido.",
+     "start": 2.4,
+     "end": 3.94,
+     "words": [
+      {
+       "w": "Nadie",
+       "hl": false,
+       "start": 2.43,
+       "end": 2.823
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 2.823,
+       "end": 3.026
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 3.026,
+       "end": 3.42
+      },
+      {
+       "w": "añadido.",
+       "hl": false,
+       "start": 3.42,
+       "end": 3.94
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y entonces... escribió.",
+     "start": 4.44,
+     "end": 6.05,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 4.47,
+       "end": 4.639
+      },
+      {
+       "w": "entonces...",
+       "hl": false,
+       "start": 4.639,
+       "end": 5.344
+      },
+      {
+       "w": "escribió.",
+       "hl": true,
+       "start": 5.344,
+       "end": 6.05
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "m1": 0.3,
+    "m2": 1.3,
+    "typing": 4.44,
+    "m3": 6.55,
+    "sting": 6.55
+   },
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "garage",
+   "start": 13.1,
+   "duration": 7.7,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Quedaron en el garaje de Leo. Dani llevaba toda la noche investigando.",
+     "start": 0.4,
+     "end": 4.49,
+     "words": [
+      {
+       "w": "Quedaron",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.918
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 0.918,
+       "end": 1.085
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.085,
+       "end": 1.251
+      },
+      {
+       "w": "garaje",
+       "hl": false,
+       "start": 1.251,
+       "end": 1.625
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.625,
+       "end": 1.792
+      },
+      {
+       "w": "Leo.",
+       "hl": false,
+       "start": 1.792,
+       "end": 2.01
+      },
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 2.28,
+       "end": 2.559
+      },
+      {
+       "w": "llevaba",
+       "hl": false,
+       "start": 2.559,
+       "end": 2.999
+      },
+      {
+       "w": "toda",
+       "hl": false,
+       "start": 2.999,
+       "end": 3.278
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 3.278,
+       "end": 3.449
+      },
+      {
+       "w": "noche",
+       "hl": false,
+       "start": 3.449,
+       "end": 3.782
+      },
+      {
+       "w": "investigando.",
+       "hl": true,
+       "start": 3.782,
+       "end": 4.49
+      }
+     ]
+    },
+    {
+     "speaker": "leo",
+     "text": "Esto ya no tiene gracia, chicos.",
+     "start": 4.89,
+     "end": 6.738,
+     "words": [
+      {
+       "w": "Esto",
+       "hl": false,
+       "start": 4.917,
+       "end": 5.211
+      },
+      {
+       "w": "ya",
+       "hl": false,
+       "start": 5.211,
+       "end": 5.392
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 5.392,
+       "end": 5.573
+      },
+      {
+       "w": "tiene",
+       "hl": false,
+       "start": 5.573,
+       "end": 5.924
+      },
+      {
+       "w": "gracia,",
+       "hl": false,
+       "start": 5.924,
+       "end": 6.331
+      },
+      {
+       "w": "chicos.",
+       "hl": false,
+       "start": 6.331,
+       "end": 6.738
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.2
+   },
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   }
+  },
+  {
+   "id": "news",
+   "start": 20.8,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "dani",
+     "text": "Mirad esto. Es de hace veinte años.",
+     "start": 0.3,
+     "end": 2.317,
+     "words": [
+      {
+       "w": "Mirad",
+       "hl": false,
+       "start": 0.326,
+       "end": 0.675
+      },
+      {
+       "w": "esto.",
+       "hl": false,
+       "start": 0.675,
+       "end": 0.967
+      },
+      {
+       "w": "Es",
+       "hl": false,
+       "start": 0.967,
+       "end": 1.147
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.147,
+       "end": 1.327
+      },
+      {
+       "w": "hace",
+       "hl": false,
+       "start": 1.327,
+       "end": 1.62
+      },
+      {
+       "w": "veinte",
+       "hl": false,
+       "start": 1.62,
+       "end": 2.025
+      },
+      {
+       "w": "años.",
+       "hl": false,
+       "start": 2.025,
+       "end": 2.317
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Seis chicos acamparon junto a la misma roca. Solo volvieron cinco.",
+     "start": 2.717,
+     "end": 6.937,
+     "words": [
+      {
+       "w": "Seis",
+       "hl": false,
+       "start": 2.747,
+       "end": 3.051
+      },
+      {
+       "w": "chicos",
+       "hl": false,
+       "start": 3.051,
+       "end": 3.471
+      },
+      {
+       "w": "acamparon",
+       "hl": false,
+       "start": 3.471,
+       "end": 4.066
+      },
+      {
+       "w": "junto",
+       "hl": false,
+       "start": 4.066,
+       "end": 4.427
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 4.427,
+       "end": 4.556
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 4.556,
+       "end": 4.742
+      },
+      {
+       "w": "misma",
+       "hl": false,
+       "start": 4.742,
+       "end": 5.104
+      },
+      {
+       "w": "roca.",
+       "hl": false,
+       "start": 5.104,
+       "end": 5.407
+      },
+      {
+       "w": "Solo",
+       "hl": false,
+       "start": 5.647,
+       "end": 5.958
+      },
+      {
+       "w": "volvieron",
+       "hl": false,
+       "start": 5.958,
+       "end": 6.567
+      },
+      {
+       "w": "cinco.",
+       "hl": true,
+       "start": 6.567,
+       "end": 6.937
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "typing": 0.0,
+    "sting": 6.567
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   }
+  },
+  {
+   "id": "hugo",
+   "start": 28.8,
+   "duration": 5.566666666666666,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "El que no volvió se llamaba Hugo.",
+     "start": 0.3,
+     "end": 2.37,
+     "words": [
+      {
+       "w": "El",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.52
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 0.52,
+       "end": 0.769
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 0.769,
+       "end": 0.959
+      },
+      {
+       "w": "volvió",
+       "hl": false,
+       "start": 0.959,
+       "end": 1.386
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.386,
+       "end": 1.575
+      },
+      {
+       "w": "llamaba",
+       "hl": false,
+       "start": 1.575,
+       "end": 2.062
+      },
+      {
+       "w": "Hugo.",
+       "hl": true,
+       "start": 2.062,
+       "end": 2.37
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Llevaba una sudadera gris.",
+     "start": 2.67,
+     "end": 4.43,
+     "words": [
+      {
+       "w": "Llevaba",
+       "hl": false,
+       "start": 2.71,
+       "end": 3.236
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 3.236,
+       "end": 3.506
+      },
+      {
+       "w": "sudadera",
+       "hl": false,
+       "start": 3.506,
+       "end": 4.096
+      },
+      {
+       "w": "gris.",
+       "hl": true,
+       "start": 4.096,
+       "end": 4.43
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "glitch": 2.062,
+    "boom": 4.096
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   }
+  },
+  {
+   "id": "discuss",
+   "start": 34.3667,
+   "duration": 6.666666666666667,
+   "lines": [
+    {
+     "speaker": "dani",
+     "text": "Sus amigos dijeron que se contaron antes de irse... y les salían cinco.",
+     "start": 0.3,
+     "end": 4.067,
+     "words": [
+      {
+       "w": "Sus",
+       "hl": false,
+       "start": 0.326,
+       "end": 0.533
+      },
+      {
+       "w": "amigos",
+       "hl": false,
+       "start": 0.533,
+       "end": 0.887
+      },
+      {
+       "w": "dijeron",
+       "hl": false,
+       "start": 0.887,
+       "end": 1.29
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 1.29,
+       "end": 1.497
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.497,
+       "end": 1.655
+      },
+      {
+       "w": "contaron",
+       "hl": false,
+       "start": 1.655,
+       "end": 2.107
+      },
+      {
+       "w": "antes",
+       "hl": false,
+       "start": 2.107,
+       "end": 2.412
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.412,
+       "end": 2.57
+      },
+      {
+       "w": "irse...",
+       "hl": false,
+       "start": 2.57,
+       "end": 2.826
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 3.024,
+       "end": 3.14
+      },
+      {
+       "w": "les",
+       "hl": false,
+       "start": 3.14,
+       "end": 3.361
+      },
+      {
+       "w": "salían",
+       "hl": false,
+       "start": 3.361,
+       "end": 3.741
+      },
+      {
+       "w": "cinco.",
+       "hl": false,
+       "start": 3.741,
+       "end": 4.067
+      }
+     ]
+    },
+    {
+     "speaker": "marta",
+     "text": "Se olvidaron de él.",
+     "start": 4.467,
+     "end": 5.617,
+     "words": [
+      {
+       "w": "Se",
+       "hl": false,
+       "start": 4.507,
+       "end": 4.687
+      },
+      {
+       "w": "olvidaron",
+       "hl": false,
+       "start": 4.687,
+       "end": 5.258
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 5.258,
+       "end": 5.438
+      },
+      {
+       "w": "él.",
+       "hl": true,
+       "start": 5.438,
+       "end": 5.617
+      }
+     ]
+    }
+   ],
+   "cues": {},
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.2
+   }
+  },
+  {
+   "id": "newphoto",
+   "start": 41.0333,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Entonces, Hugo envió otra foto.",
+     "start": 0.9,
+     "end": 2.88,
+     "words": [
+      {
+       "w": "Entonces,",
+       "hl": false,
+       "start": 0.93,
+       "end": 1.509
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 1.509,
+       "end": 1.836
+      },
+      {
+       "w": "envió",
+       "hl": false,
+       "start": 1.836,
+       "end": 2.226
+      },
+      {
+       "w": "otra",
+       "hl": false,
+       "start": 2.226,
+       "end": 2.553
+      },
+      {
+       "w": "foto.",
+       "hl": false,
+       "start": 2.553,
+       "end": 2.88
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Del garaje. Desde fuera.",
+     "start": 3.28,
+     "end": 4.83,
+     "words": [
+      {
+       "w": "Del",
+       "hl": false,
+       "start": 3.31,
+       "end": 3.578
+      },
+      {
+       "w": "garaje.",
+       "hl": false,
+       "start": 3.578,
+       "end": 4.038
+      },
+      {
+       "w": "Desde",
+       "hl": false,
+       "start": 4.038,
+       "end": 4.434
+      },
+      {
+       "w": "fuera.",
+       "hl": true,
+       "start": 4.434,
+       "end": 4.83
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "buzz": 0.2,
+    "ping": 0.3,
+    "boom": 4.434
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "window",
+   "start": 47.0333,
+   "duration": 9.4,
+   "lines": [
+    {
+     "speaker": "sixth",
+     "text": "Esta vez... contadme bien.",
+     "start": 1.6,
+     "end": 3.542,
+     "words": [
+      {
+       "w": "Esta",
+       "hl": false,
+       "start": 1.635,
+       "end": 2.052
+      },
+      {
+       "w": "vez...",
+       "hl": false,
+       "start": 2.052,
+       "end": 2.388
+      },
+      {
+       "w": "contadme",
+       "hl": false,
+       "start": 2.388,
+       "end": 3.125
+      },
+      {
+       "w": "bien.",
+       "hl": true,
+       "start": 3.125,
+       "end": 3.542
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Cuando salieron a mirar, no había nadie. Solo olía a hoguera.",
+     "start": 4.342,
+     "end": 7.852,
+     "words": [
+      {
+       "w": "Cuando",
+       "hl": false,
+       "start": 4.382,
+       "end": 4.79
+      },
+      {
+       "w": "salieron",
+       "hl": false,
+       "start": 4.79,
+       "end": 5.312
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.312,
+       "end": 5.436
+      },
+      {
+       "w": "mirar,",
+       "hl": false,
+       "start": 5.436,
+       "end": 5.788
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 5.788,
+       "end": 5.969
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 5.969,
+       "end": 6.321
+      },
+      {
+       "w": "nadie.",
+       "hl": false,
+       "start": 6.321,
+       "end": 6.673
+      },
+      {
+       "w": "Solo",
+       "hl": false,
+       "start": 6.673,
+       "end": 6.967
+      },
+      {
+       "w": "olía",
+       "hl": false,
+       "start": 6.967,
+       "end": 7.262
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 7.262,
+       "end": 7.387
+      },
+      {
+       "w": "hoguera.",
+       "hl": true,
+       "start": 7.387,
+       "end": 7.852
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": 0.3,
+    "sting": 1.4
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1
+   }
+  },
+  {
+   "id": "end",
+   "start": 56.4333,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Qué crees que quiere Hugo?",
+     "start": 0.4,
+     "end": 1.95,
+     "words": [
+      {
+       "w": "¿Qué",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.675
+      },
+      {
+       "w": "crees",
+       "hl": false,
+       "start": 0.675,
+       "end": 1.022
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 1.022,
+       "end": 1.257
+      },
+      {
+       "w": "quiere",
+       "hl": false,
+       "start": 1.257,
+       "end": 1.659
+      },
+      {
+       "w": "Hugo?",
+       "hl": true,
+       "start": 1.659,
+       "end": 1.95
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1828
+}

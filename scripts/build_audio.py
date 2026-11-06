@@ -141,16 +141,37 @@ def pitch_shift_resample(x, ratio):
     return signal.resample_poly(x, up, down)
 
 
-def process_voice(x, speaker, whisper=False):
+LEGACY_FX = {"narrator": ("narrator", 1.0, 0.92), "sixth": ("sixth", 0.86, 0.95)}
+
+
+def voice_cfg(entry, speaker):
+    """Normalise a voice entry. Legacy entries are plain voice names."""
+    if isinstance(entry, str):
+        fx, pitch, speed = LEGACY_FX.get(speaker, ("room", 1.0, 1.0))
+        return {"voice": entry, "fx": fx, "pitch": pitch, "speed": speed}
+    cfg = {"fx": "room", "pitch": 1.0, "speed": 1.0}
+    cfg.update(entry)
+    return cfg
+
+
+def process_voice(x, fx, pitch=1.0, whisper=False):
     x = highpass(x, 70)
-    if speaker == "narrator":
+    if abs(pitch - 1.0) > 1e-3:
+        x = pitch_shift_resample(x, pitch)
+    if fx == "narrator":
         # warm, close: slight low boost + short room
         x = x + 0.25 * lowpass(x, 250)
         x = reverb(x, 0.7, 0.10, 6000)
-    elif speaker == "marta":
+    elif fx == "room":
         x = reverb(x, 0.9, 0.16, 5000)
-    elif speaker == "sixth":
-        x = pitch_shift_resample(x, 0.86)
+    elif fx == "phone":
+        x = bandpass(x, 300, 3400)
+        x = reverb(x, 0.4, 0.08, 4000)
+    elif fx == "hugo":
+        dbl = pitch_shift_resample(x, 0.985)[: len(x)]
+        x = x + 0.2 * np.pad(dbl, (int(0.01 * SR), 0))[: len(x)]
+        x = reverb(x, 1.8, 0.24, 4500, predelay=0.03)
+    elif fx == "sixth":
         if whisper:
             env = np.abs(signal.hilbert(x))
             env = lowpass(env, 30)
@@ -161,7 +182,7 @@ def process_voice(x, speaker, whisper=False):
         dbl = np.pad(dbl, (int(0.012 * SR), 0))[: len(x)]
         x = x + 0.35 * dbl
         x = reverb(x, 2.6, 0.32, 3500, predelay=0.04)
-    return norm(trim(x, -50, 0.02) if speaker != "sixth" else x, 0.9)
+    return norm(trim(x, -50, 0.02) if fx not in ("sixth", "hugo") else x, 0.9)
 
 
 # ----------------------------------------------------------------------------
@@ -426,6 +447,73 @@ def sfx_riser(dur=4.0):
     return norm(reverb(x * e, 2, 0.3), 0.7)
 
 
+def sfx_ping():
+    n = int(0.9 * SR)
+    t = np.arange(n) / SR
+    x = np.sin(2 * np.pi * 1318.5 * t) * env_ad(n, 0.002, 0.18) + 0.7 * np.sin(2 * np.pi * 1760 * t) * env_ad(n, 0.002, 0.25) * (t > 0.09)
+    return norm(reverb(x, 0.8, 0.15), 0.6)
+
+
+def sfx_buzz():
+    n = int(0.9 * SR)
+    t = np.arange(n) / SR
+    gate = ((t % 0.45) < 0.3).astype(float)
+    x = signal.square(2 * np.pi * 170 * t) * 0.5 + np.sin(2 * np.pi * 85 * t)
+    return norm(lowpass(x * lowpass(gate, 60), 900), 0.6)
+
+
+def sfx_typing(dur=2.0):
+    x = np.zeros(int(dur * SR))
+    t0 = 0.0
+    while t0 < dur - 0.1:
+        n = int(0.03 * SR)
+        a = int(t0 * SR)
+        x[a:a + n] += highpass(noise(n), 2500) * env_ad(n, 0.0005, 0.006) * RNG.uniform(0.4, 1)
+        t0 += RNG.uniform(0.07, 0.16)
+    return norm(x, 0.5)
+
+
+def sfx_clock(dur):
+    x = np.zeros(int(dur * SR))
+    t0, k = 0.1, 0
+    while t0 < dur - 0.1:
+        n = int(0.05 * SR)
+        tt = np.arange(n) / SR
+        f = 2400 if k % 2 == 0 else 2000
+        a = int(t0 * SR)
+        x[a:a + n] += np.sin(2 * np.pi * f * tt) * env_ad(n, 0.0005, 0.008)
+        t0 += 0.5
+        k += 1
+    return norm(reverb(x, 0.6, 0.25), 0.5)
+
+
+def sfx_owl(dur=2.5):
+    x = np.zeros(int(dur * SR))
+    for start, ln in [(0.0, 0.35), (0.55, 0.25), (0.9, 0.6)]:
+        n = int(ln * SR)
+        tt = np.arange(n) / SR
+        f = 360 - 40 * tt / ln
+        hoot = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * tt / ln) ** 1.5
+        a = int(start * SR)
+        x[a:a + n] += hoot
+    return norm(reverb(x, 2.2, 0.4), 0.6)
+
+
+def sfx_magic(dur=3.5):
+    t = t_axis(dur)
+    x = np.zeros(len(t))
+    for i, f in enumerate([523.25, 659.25, 783.99, 1046.5, 1318.5, 1568, 2093]):
+        on = i * 0.18
+        e = np.clip((t - on) / 0.05, 0, 1) * np.exp(-np.maximum(0, t - on) * 1.4)
+        x += np.sin(2 * np.pi * f * t) * e * 0.4
+    shimmer = highpass(noise(len(t)), 6000) * np.exp(-t * 1.2) * 0.15
+    return norm(reverb(x + shimmer, 3.0, 0.45), 0.7)
+
+
+def sfx_swipe():
+    return sfx_whoosh(0.45)
+
+
 SFX = {
     "boom": lambda d: sfx_boom(),
     "sting": lambda d: sfx_sting(),
@@ -444,6 +532,13 @@ SFX = {
     "fireout": lambda d: sfx_fireout(),
     "chime": lambda d: sfx_chime(),
     "riser": lambda d: sfx_riser(),
+    "ping": lambda d: sfx_ping(),
+    "buzz": lambda d: sfx_buzz(),
+    "typing": sfx_typing,
+    "clock": sfx_clock,
+    "owl": lambda d: sfx_owl(),
+    "magic": lambda d: sfx_magic(),
+    "swipe": lambda d: sfx_swipe(),
 }
 
 
@@ -552,7 +647,7 @@ def gain_curve(scenes, layer, total, xfade=0.7):
     for sc in scenes:
         a = int(sc["start"] * SR)
         b = min(n, int((sc["start"] + sc["duration"]) * SR))
-        g[a:b] = MOOD.get(sc["id"], {}).get(layer, 0.0)
+        g[a:b] = (sc.get("mood") or MOOD.get(sc["id"], {})).get(layer, 0.0)
     # smooth transitions
     k = int(xfade * SR)
     win = np.hanning(k)
@@ -585,12 +680,14 @@ def resolve_ref(ref, scene_rel_lines):
     raise ValueError(ref)
 
 
-def build(lang):
-    script = json.load(open(os.path.join(ROOT, "story", "script.json")))
+def build(lang, script_path):
+    script = json.load(open(script_path))
+    slug = script.get("slug")
+    out_name = f"{slug}_{lang}" if slug else lang
     voices = script["voices"][lang]
     lcode = script["langCodes"][lang]
     t = 0.0
-    timeline = {"lang": lang, "fps": FPS, "title": script["title"][lang], "scenes": []}
+    timeline = {"lang": lang, "fps": FPS, "title": script["title"][lang], "part": script.get("part", {}).get(lang, ""), "scenes": []}
     voice_events = []  # (abs_start, audio)
     for sc in script["scenes"]:
         lines = []
@@ -598,25 +695,23 @@ def build(lang):
         for li, ln in enumerate(sc["lines"]):
             text = ln[lang]
             spoken = text.replace("*", "")
-            speed = ln.get("slow", 1.0) * (0.92 if ln["speaker"] == "narrator" else 1.0)
-            if ln["speaker"] == "sixth":
-                speed *= 0.95
-            raw = tts(spoken, voices[ln["speaker"]], lcode, speed)
+            vc = voice_cfg(voices[ln["speaker"]], ln["speaker"])
+            speed = ln.get("slow", 1.0) * vc["speed"]
+            raw = tts(spoken, vc["voice"], lcode, speed)
             raw = trim(raw)
             tokens = tokenize(text)
             times = estimate_word_times(raw, tokens)
-            audio = process_voice(raw, ln["speaker"], ln.get("whisper", False))
-            if ln["speaker"] == "sixth":
-                # pitch shift stretched the clip; scale times accordingly
-                stretch = 1 / 0.86
-                times = [(a * stretch, b * stretch) for a, b in times]
+            audio = process_voice(raw, vc["fx"], vc["pitch"], ln.get("whisper", False))
+            # resampling pitch shift changes duration; scale word times accordingly
+            stretch = 1 / vc["pitch"]
+            times = [(a * stretch, b * stretch) for a, b in times]
             start = ln["at"] if "at" in ln else cursor + ln.get("gap", 0.3)
             speech_len = times[-1][1] if times else len(audio) / SR
             end = start + speech_len
             cursor = end
             words = [{"w": tk["w"], "hl": tk["hl"], "start": round(start + a, 3), "end": round(start + b, 3)} for tk, (a, b) in zip(tokens, times)]
             lines.append({"speaker": ln["speaker"], "text": spoken, "start": round(start, 3), "end": round(end, 3), "words": words})
-            voice_events.append((t + start, audio, ln["speaker"]))
+            voice_events.append((t + start, audio, vc["fx"]))
         dur = max(sc["minSeconds"], cursor + sc.get("tail", 0.6))
         dur = round(dur * FPS) / FPS
         cues = {}
@@ -625,7 +720,7 @@ def build(lang):
             ct = resolve_ref(c["ref"], lines) + c.get("offset", 0.0)
             cues[c["id"]] = round(ct, 3)
             cue_list.append((t + ct, c, dur - max(0, ct)))
-        timeline["scenes"].append({"id": sc["id"], "start": round(t, 4), "duration": dur, "lines": lines, "cues": cues})
+        timeline["scenes"].append({"id": sc["id"], "start": round(t, 4), "duration": dur, "lines": lines, "cues": cues, "mood": sc.get("mood")})
         sc["_cues"] = cue_list
         t += dur
     total = t
@@ -674,18 +769,25 @@ def build(lang):
 
     os.makedirs(os.path.join(ROOT, "public", "audio"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "src", "generated"), exist_ok=True)
-    raw_path = os.path.join(ROOT, "public", "audio", f"_raw_{lang}.wav")
-    out_path = os.path.join(ROOT, "public", "audio", f"mix_{lang}.wav")
+    raw_path = os.path.join(ROOT, "public", "audio", f"_raw_{out_name}.wav")
+    out_path = os.path.join(ROOT, "public", "audio", f"mix_{out_name}.wav")
     sf.write(raw_path, stereo.astype(np.float32), SR, subtype="FLOAT")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw_path, "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", str(SR), "-c:a", "pcm_s16le", out_path], check=True)
     os.remove(raw_path)
-    with open(os.path.join(ROOT, "src", "generated", f"timeline_{lang}.json"), "w") as f:
+    with open(os.path.join(ROOT, "src", "generated", f"timeline_{out_name}.json"), "w") as f:
         json.dump(timeline, f, ensure_ascii=False, indent=1)
-    print(f"[{lang}] wrote {out_path}")
+    print(f"[{out_name}] wrote {out_path}")
 
 
 if __name__ == "__main__":
+    # usage: build_audio.py [script.json] [es|en|all]
+    #        build_audio.py [es|en|all]            (legacy: story/script.json)
+    args = sys.argv[1:]
+    script_path = os.path.join(ROOT, "story", "script.json")
+    if args and args[0].endswith(".json"):
+        script_path = os.path.abspath(args.pop(0))
     ensure_models()
-    which = sys.argv[1] if len(sys.argv) > 1 else "all"
-    for lg in (["es", "en"] if which == "all" else [which]):
-        build(lg)
+    available = list(json.load(open(script_path))["langCodes"].keys())
+    which = args[0] if args else "all"
+    for lg in (available if which == "all" else [which]):
+        build(lg, script_path)

@@ -1,0 +1,387 @@
+{
+ "slug": "ep3",
+ "title": {
+  "es": "EL SEXTO"
+ },
+ "part": {
+  "es": "PARTE 3 · EL MIEMBRO NUEVO"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "sixth": {
+    "voice": "em_santa",
+    "fx": "sixth",
+    "pitch": 0.86,
+    "speed": 0.95
+   },
+   "hugo": {
+    "voice": "em_santa",
+    "fx": "hugo",
+    "pitch": 0.94,
+    "speed": 0.92
+   },
+   "marta": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "speed": 1.0
+   },
+   "sara": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.94
+   },
+   "leo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.12,
+    "speed": 0.94
+   },
+   "dani": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.16,
+    "speed": 0.9
+   },
+   "iker": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.95
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 5.1,
+   "tail": 0.95,
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Al día siguiente, alguien se unió al grupo de la *acampada*.",
+     "at": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "ping",
+     "sound": "ping",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "line0.end",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "chat",
+   "minSeconds": 7.5,
+   "tail": 1.95,
+   "mood": {
+    "drone": 0.7,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Nadie lo había añadido.",
+     "at": 2.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y entonces... *escribió*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "m1",
+     "sound": "ping",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.6
+    },
+    {
+     "id": "m2",
+     "sound": "ping",
+     "ref": "start",
+     "offset": 1.3,
+     "gain": 0.6
+    },
+    {
+     "id": "typing",
+     "sound": "typing",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "m3",
+     "sound": "ping",
+     "ref": "line1.end",
+     "offset": 0.5,
+     "gain": 0.8
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line1.end",
+     "offset": 0.5,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "garage",
+   "minSeconds": 5.5,
+   "tail": 0.95,
+   "mood": {
+    "drone": 0.5,
+    "pad": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Quedaron en el garaje de Leo. Dani llevaba toda la noche *investigando*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "leo",
+     "es": "Esto ya no tiene gracia, chicos.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "whoosh",
+     "sound": "whoosh",
+     "ref": "start",
+     "offset": -0.2,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "minSeconds": 7.5,
+   "tail": 1.05,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "dani",
+     "es": "Mirad esto. Es de hace veinte años.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Seis chicos acamparon junto a la misma roca. Solo volvieron *cinco*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "typing",
+     "sound": "typing",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:cinco@1",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "hugo",
+   "minSeconds": 5.5,
+   "tail": 1.15,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "El que no volvió se llamaba *Hugo*.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Llevaba una sudadera *gris*.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "glitch",
+     "sound": "glitch",
+     "ref": "word:hugo",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:gris",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "discuss",
+   "minSeconds": 6.5,
+   "tail": 1.05,
+   "mood": {
+    "drone": 0.7,
+    "pad": 0.2
+   },
+   "lines": [
+    {
+     "speaker": "dani",
+     "es": "Sus amigos dijeron que se contaron antes de irse... y les salían cinco.",
+     "at": 0.3
+    },
+    {
+     "speaker": "marta",
+     "es": "Se olvidaron de *él*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": []
+  },
+  {
+   "id": "newphoto",
+   "minSeconds": 6.0,
+   "tail": 0.95,
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Entonces, Hugo envió otra foto.",
+     "at": 0.9
+    },
+    {
+     "speaker": "narrator",
+     "es": "Del garaje. Desde *fuera*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "buzz",
+     "sound": "buzz",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.8
+    },
+    {
+     "id": "ping",
+     "sound": "ping",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.8
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:fuera",
+     "offset": 0.0,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "window",
+   "minSeconds": 5.5,
+   "tail": 1.55,
+   "mood": {
+    "drone": 1,
+    "cluster": 1
+   },
+   "lines": [
+    {
+     "speaker": "sixth",
+     "es": "Esta vez... contadme *bien*.",
+     "at": 1.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Cuando salieron a mirar, no había nadie. Solo olía a *hoguera*.",
+     "gap": 0.8
+    }
+   ],
+   "cues": [
+    {
+     "id": "whoosh",
+     "sound": "whoosh",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.6
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line0.start",
+     "offset": -0.2,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "minSeconds": 4.5,
+   "tail": 1.75,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Qué crees que quiere *Hugo*?",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  }
+ ]
+}

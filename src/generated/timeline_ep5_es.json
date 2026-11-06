@@ -1,0 +1,902 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "EL SEXTO",
+ "part": "PARTE 5 · EL INTERCAMBIO",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Iker se estaba borrando.",
+     "start": 0.3,
+     "end": 1.91,
+     "words": [
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.661
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 0.661,
+       "end": 0.865
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 0.865,
+       "end": 1.324
+      },
+      {
+       "w": "borrando.",
+       "hl": true,
+       "start": 1.324,
+       "end": 1.91
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y Hugo era cada vez más real.",
+     "start": 2.31,
+     "end": 4.33,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.34,
+       "end": 2.484
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 2.484,
+       "end": 2.824
+      },
+      {
+       "w": "era",
+       "hl": false,
+       "start": 2.824,
+       "end": 3.099
+      },
+      {
+       "w": "cada",
+       "hl": false,
+       "start": 3.099,
+       "end": 3.44
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 3.44,
+       "end": 3.715
+      },
+      {
+       "w": "más",
+       "hl": false,
+       "start": 3.715,
+       "end": 3.99
+      },
+      {
+       "w": "real.",
+       "hl": true,
+       "start": 3.99,
+       "end": 4.33
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "fire": 0.0,
+    "glitch": 1.324
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.6,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "approach",
+   "start": 5.5,
+   "duration": 6.9,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hugo se levantó... y caminó hacia él.",
+     "start": 0.4,
+     "end": 2.62,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.753
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 0.753,
+       "end": 0.951
+      },
+      {
+       "w": "levantó...",
+       "hl": false,
+       "start": 0.951,
+       "end": 1.46
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 1.62,
+       "end": 1.737
+      },
+      {
+       "w": "caminó",
+       "hl": false,
+       "start": 1.737,
+       "end": 2.12
+      },
+      {
+       "w": "hacia",
+       "hl": false,
+       "start": 2.12,
+       "end": 2.45
+      },
+      {
+       "w": "él.",
+       "hl": false,
+       "start": 2.45,
+       "end": 2.62
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "A cada paso, Iker se volvía más transparente.",
+     "start": 3.02,
+     "end": 5.96,
+     "words": [
+      {
+       "w": "A",
+       "hl": false,
+       "start": 3.05,
+       "end": 3.19
+      },
+      {
+       "w": "cada",
+       "hl": false,
+       "start": 3.19,
+       "end": 3.522
+      },
+      {
+       "w": "paso,",
+       "hl": false,
+       "start": 3.522,
+       "end": 3.854
+      },
+      {
+       "w": "Iker",
+       "hl": false,
+       "start": 3.854,
+       "end": 4.186
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 4.186,
+       "end": 4.39
+      },
+      {
+       "w": "volvía",
+       "hl": false,
+       "start": 4.39,
+       "end": 4.85
+      },
+      {
+       "w": "más",
+       "hl": false,
+       "start": 4.85,
+       "end": 5.118
+      },
+      {
+       "w": "transparente.",
+       "hl": true,
+       "start": 5.118,
+       "end": 5.96
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "steps": 1.0
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 0.8
+   }
+  },
+  {
+   "id": "protect",
+   "start": 12.4,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "leo",
+     "text": "¡No te lo vas a llevar!",
+     "start": 0.3,
+     "end": 1.693,
+     "words": [
+      {
+       "w": "¡No",
+       "hl": false,
+       "start": 0.336,
+       "end": 0.523
+      },
+      {
+       "w": "te",
+       "hl": false,
+       "start": 0.523,
+       "end": 0.71
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 0.71,
+       "end": 0.897
+      },
+      {
+       "w": "vas",
+       "hl": false,
+       "start": 0.897,
+       "end": 1.143
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.143,
+       "end": 1.272
+      },
+      {
+       "w": "llevar!",
+       "hl": true,
+       "start": 1.272,
+       "end": 1.693
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Los cuatro se pusieron delante de Iker.",
+     "start": 2.093,
+     "end": 4.353,
+     "words": [
+      {
+       "w": "Los",
+       "hl": false,
+       "start": 2.123,
+       "end": 2.355
+      },
+      {
+       "w": "cuatro",
+       "hl": false,
+       "start": 2.355,
+       "end": 2.752
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 2.752,
+       "end": 2.929
+      },
+      {
+       "w": "pusieron",
+       "hl": false,
+       "start": 2.929,
+       "end": 3.437
+      },
+      {
+       "w": "delante",
+       "hl": false,
+       "start": 3.437,
+       "end": 3.889
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 3.889,
+       "end": 4.066
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 4.066,
+       "end": 4.353
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "boom": 0.3
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9,
+    "pulse": 1
+   }
+  },
+  {
+   "id": "sad",
+   "start": 17.9,
+   "duration": 8.1,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Pero Hugo no parecía enfadado. Parecía... triste.",
+     "start": 0.4,
+     "end": 3.37,
+     "words": [
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.768
+      },
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 0.768,
+       "end": 1.097
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 1.097,
+       "end": 1.299
+      },
+      {
+       "w": "parecía",
+       "hl": false,
+       "start": 1.299,
+       "end": 1.817
+      },
+      {
+       "w": "enfadado.",
+       "hl": false,
+       "start": 1.817,
+       "end": 2.398
+      },
+      {
+       "w": "Parecía...",
+       "hl": false,
+       "start": 2.398,
+       "end": 2.915
+      },
+      {
+       "w": "triste.",
+       "hl": true,
+       "start": 2.915,
+       "end": 3.37
+      }
+     ]
+    },
+    {
+     "speaker": "hugo",
+     "text": "Yo también estaba aquí... y se fueron sin mí.",
+     "start": 3.97,
+     "end": 6.747,
+     "words": [
+      {
+       "w": "Yo",
+       "hl": false,
+       "start": 4.002,
+       "end": 4.202
+      },
+      {
+       "w": "también",
+       "hl": false,
+       "start": 4.202,
+       "end": 4.716
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 4.716,
+       "end": 5.167
+      },
+      {
+       "w": "aquí...",
+       "hl": false,
+       "start": 5.167,
+       "end": 5.493
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 5.493,
+       "end": 5.631
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 5.631,
+       "end": 5.832
+      },
+      {
+       "w": "fueron",
+       "hl": false,
+       "start": 5.832,
+       "end": 6.283
+      },
+      {
+       "w": "sin",
+       "hl": true,
+       "start": 6.283,
+       "end": 6.546
+      },
+      {
+       "w": "mí.",
+       "hl": true,
+       "start": 6.546,
+       "end": 6.747
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0
+   },
+   "mood": {
+    "pad": 0.5,
+    "drone": 0.4
+   }
+  },
+  {
+   "id": "flashback",
+   "start": 26.0,
+   "duration": 8.933333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hace veinte años, sus amigos se contaron con prisas... y se marcharon.",
+     "start": 0.4,
+     "end": 4.7,
+     "words": [
+      {
+       "w": "Hace",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.755
+      },
+      {
+       "w": "veinte",
+       "hl": false,
+       "start": 0.755,
+       "end": 1.204
+      },
+      {
+       "w": "años,",
+       "hl": false,
+       "start": 1.204,
+       "end": 1.529
+      },
+      {
+       "w": "sus",
+       "hl": false,
+       "start": 1.529,
+       "end": 1.791
+      },
+      {
+       "w": "amigos",
+       "hl": false,
+       "start": 1.791,
+       "end": 2.24
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 2.24,
+       "end": 2.44
+      },
+      {
+       "w": "contaron",
+       "hl": false,
+       "start": 2.44,
+       "end": 3.014
+      },
+      {
+       "w": "con",
+       "hl": false,
+       "start": 3.014,
+       "end": 3.277
+      },
+      {
+       "w": "prisas...",
+       "hl": true,
+       "start": 3.277,
+       "end": 3.726
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 3.726,
+       "end": 3.863
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 3.863,
+       "end": 4.063
+      },
+      {
+       "w": "marcharon.",
+       "hl": false,
+       "start": 4.063,
+       "end": 4.7
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Hugo se quedó junto al fuego. Esperando.",
+     "start": 5.2,
+     "end": 7.59,
+     "words": [
+      {
+       "w": "Hugo",
+       "hl": false,
+       "start": 5.23,
+       "end": 5.534
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 5.534,
+       "end": 5.721
+      },
+      {
+       "w": "quedó",
+       "hl": false,
+       "start": 5.721,
+       "end": 6.083
+      },
+      {
+       "w": "junto",
+       "hl": false,
+       "start": 6.083,
+       "end": 6.445
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 6.445,
+       "end": 6.632
+      },
+      {
+       "w": "fuego.",
+       "hl": false,
+       "start": 6.632,
+       "end": 6.994
+      },
+      {
+       "w": "Esperando.",
+       "hl": true,
+       "start": 6.994,
+       "end": 7.59
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "whoosh": -0.2,
+    "steps": 1.5
+   },
+   "mood": {
+    "pad": 0.7,
+    "pluck": 0.3
+   }
+  },
+  {
+   "id": "realize",
+   "start": 34.9333,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Dani lo entendió de golpe.",
+     "start": 0.3,
+     "end": 2.0,
+     "words": [
+      {
+       "w": "Dani",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.652
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 0.652,
+       "end": 0.85
+      },
+      {
+       "w": "entendió",
+       "hl": false,
+       "start": 0.85,
+       "end": 1.419
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.419,
+       "end": 1.617
+      },
+      {
+       "w": "golpe.",
+       "hl": false,
+       "start": 1.617,
+       "end": 2.0
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "No quiere a Iker. Quiere que le cuenten.",
+     "start": 2.3,
+     "end": 4.274,
+     "words": [
+      {
+       "w": "No",
+       "hl": false,
+       "start": 2.326,
+       "end": 2.479
+      },
+      {
+       "w": "quiere",
+       "hl": false,
+       "start": 2.479,
+       "end": 2.825
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.825,
+       "end": 2.93
+      },
+      {
+       "w": "Iker.",
+       "hl": false,
+       "start": 2.93,
+       "end": 3.18
+      },
+      {
+       "w": "Quiere",
+       "hl": false,
+       "start": 3.18,
+       "end": 3.526
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 3.526,
+       "end": 3.727
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 3.727,
+       "end": 3.881
+      },
+      {
+       "w": "cuenten.",
+       "hl": true,
+       "start": 3.881,
+       "end": 4.274
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "chime": 3.881
+   },
+   "mood": {
+    "drone": 0.6,
+    "pad": 0.5
+   }
+  },
+  {
+   "id": "hurry",
+   "start": 40.9333,
+   "duration": 7.833333333333333,
+   "lines": [
+    {
+     "speaker": "iker",
+     "text": "Chicos... no me siento las manos.",
+     "start": 0.3,
+     "end": 2.081,
+     "words": [
+      {
+       "w": "Chicos...",
+       "hl": false,
+       "start": 0.329,
+       "end": 0.733
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 0.733,
+       "end": 0.913
+      },
+      {
+       "w": "me",
+       "hl": false,
+       "start": 0.913,
+       "end": 1.092
+      },
+      {
+       "w": "siento",
+       "hl": false,
+       "start": 1.092,
+       "end": 1.497
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 1.497,
+       "end": 1.733
+      },
+      {
+       "w": "manos.",
+       "hl": true,
+       "start": 1.733,
+       "end": 2.081
+      }
+     ]
+    },
+    {
+     "speaker": "marta",
+     "text": "¡Rápido! Sentaos todos alrededor del fuego.",
+     "start": 2.381,
+     "end": 4.861,
+     "words": [
+      {
+       "w": "¡Rápido!",
+       "hl": false,
+       "start": 2.411,
+       "end": 4.421
+      },
+      {
+       "w": "Sentaos",
+       "hl": false,
+       "start": 4.541,
+       "end": 4.616
+      },
+      {
+       "w": "todos",
+       "hl": false,
+       "start": 4.616,
+       "end": 4.673
+      },
+      {
+       "w": "alrededor",
+       "hl": false,
+       "start": 4.673,
+       "end": 4.766
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 4.766,
+       "end": 4.804
+      },
+      {
+       "w": "fuego.",
+       "hl": true,
+       "start": 4.804,
+       "end": 4.861
+      }
+     ]
+    },
+    {
+     "speaker": "dani",
+     "text": "Y dejad un sitio libre.",
+     "start": 5.161,
+     "end": 6.67,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 5.187,
+       "end": 5.323
+      },
+      {
+       "w": "dejad",
+       "hl": false,
+       "start": 5.323,
+       "end": 5.706
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 5.706,
+       "end": 5.903
+      },
+      {
+       "w": "sitio",
+       "hl": false,
+       "start": 5.903,
+       "end": 6.287
+      },
+      {
+       "w": "libre.",
+       "hl": true,
+       "start": 6.287,
+       "end": 6.67
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fire": 0.0,
+    "heart": 0.0,
+    "riser": 2.381
+   },
+   "mood": {
+    "drone": 1.0,
+    "cluster": 0.9,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "end",
+   "start": 48.7667,
+   "duration": 4.3,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Llegarán a tiempo?",
+     "start": 0.4,
+     "end": 1.66,
+     "words": [
+      {
+       "w": "¿Llegarán",
+       "hl": false,
+       "start": 0.43,
+       "end": 1.038
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.038,
+       "end": 1.184
+      },
+      {
+       "w": "tiempo?",
+       "hl": true,
+       "start": 1.184,
+       "end": 1.66
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.4
+   }
+  }
+ ],
+ "durationInFrames": 1592
+}
