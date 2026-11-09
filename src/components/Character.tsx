@@ -1,9 +1,9 @@
 import React, {useId} from 'react';
 import {useCurrentFrame} from 'remotion';
 
-export type CharId = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'mateo' | 'lucia' | 'carlos' | 'vera' | 'alex' | 'bea' | 'masked';
+export type CharId = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'mateo' | 'lucia' | 'carlos' | 'vera' | 'alex' | 'bea' | 'masked' | 'tomas';
 /** Head/hair style families (several characters can share one with different colours). */
-type Style = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'bea' | 'masked';
+type Style = 'leo' | 'marta' | 'dani' | 'sara' | 'iker' | 'sixth' | 'bea' | 'masked' | 'tomas';
 export type Mouth = 'smile' | 'grin' | 'open' | 'flat' | 'worried' | 'creepy' | 'o';
 export type Brows = 'neutral' | 'worried' | 'angry' | 'raised';
 
@@ -36,6 +36,7 @@ export const CAST: Record<CharId, Look> = {
 	vera: {name: 'Vera', style: 'sara', skin: '#f5d0b0', skinShade: '#dcae8a', jacket: '#e25d8f', jacketDark: '#a83a66', pants: '#2b2b38', shoes: '#262626', hair: '#e8c25a', accent: '#38b2ac', width: 0.95},
 	alex: {name: 'Álex', style: 'iker', skin: '#6f4320', skinShade: '#55320f', jacket: '#6a3fb5', jacketDark: '#4a2a85', pants: '#3a3a44', shoes: '#1a1a1a', hair: '#120d0a', accent: '#d63a3a', width: 1.1},
 	bea: {name: 'Bea', style: 'bea', skin: '#c98b5a', skinShade: '#a86d40', jacket: '#ece8dc', jacketDark: '#bdb6a4', pants: '#3a4a5a', shoes: '#2a2a2a', hair: '#2a1830', accent: '#8e5bd6', width: 0.95},
+	tomas: {name: 'Tomás', style: 'tomas', skin: '#e8b98c', skinShade: '#c9966a', jacket: '#4a5a3a', jacketDark: '#33402a', pants: '#3a3226', shoes: '#2a1e14', hair: '#d8d4cc', accent: '#6a4a2a', width: 1.1},
 	masked: {name: 'El Guarda', style: 'masked', skin: '#2a2620', skinShade: '#1a1612', jacket: '#d9b32a', jacketDark: '#a8861a', pants: '#2a2a26', shoes: '#1a1a1a', hair: '#d9b32a', accent: '#a8861a', width: 1.25},
 };
 
@@ -78,7 +79,7 @@ const limb = (sx: number, sy: number, a1: number, a2: number, l1: number, l2: nu
 	return {ex, ey, hx, hy};
 };
 
-const SEEDS: Record<CharId, number> = {leo: 0, marta: 23, dani: 51, sara: 77, iker: 13, sixth: 999, mateo: 5, lucia: 31, carlos: 57, vera: 83, alex: 19, bea: 41, masked: 777};
+const SEEDS: Record<CharId, number> = {leo: 0, marta: 23, dani: 51, sara: 77, iker: 13, sixth: 999, mateo: 5, lucia: 31, carlos: 57, vera: 83, alex: 19, bea: 41, masked: 777, tomas: 61};
 
 export const Character: React.FC<{
 	id: CharId;
@@ -233,6 +234,15 @@ export const Character: React.FC<{
 
 	const overHead = () => {
 		switch (st) {
+			case 'tomas':
+				return (
+					<g fill={c(L.hair)}>
+						<path d={`M -66 ${headCY + 4} Q -70 ${headCY - 40} -46 ${headCY - 44} Q -52 ${headCY - 20} -54 ${headCY + 8} Z`} />
+						<path d={`M 66 ${headCY + 4} Q 70 ${headCY - 40} 46 ${headCY - 44} Q 52 ${headCY - 20} 54 ${headCY + 8} Z`} />
+						{!back && !sil && <path d={`M ${-26 + fx} ${headCY + 26} Q ${fx} ${headCY + 14} ${26 + fx} ${headCY + 26} Q ${fx} ${headCY + 36} ${-26 + fx} ${headCY + 26} Z`} />}
+						{!back && !sil && <path d={`M ${-40 + fx} ${headCY - 34} l 26 -4 M ${14 + fx} ${headCY - 38} l 26 4`} stroke={L.hair} strokeWidth={6} />}
+					</g>
+				);
 			case 'bea':
 				return <path d={`M -66 ${headCY - 2} Q -70 ${headCY - 72} 0 ${headCY - 70} Q 70 ${headCY - 72} 66 ${headCY - 2} Q 50 ${headCY - 40} ${10 + fx} ${headCY - 44} Q -50 ${headCY - 40} -66 ${headCY - 2} Z`} fill={c(L.hair)} />;
 			case 'masked':

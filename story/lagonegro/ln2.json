@@ -1,0 +1,483 @@
+{
+ "slug": "ln2",
+ "title": {
+  "es": "LAGO NEGRO"
+ },
+ "part": {
+  "es": "CAPÍTULO 2 · EL BOSQUE"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "vera": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.92
+   },
+   "lucia": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 0.98,
+    "speed": 1.0
+   },
+   "mateo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "carlos": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.14,
+    "speed": 0.92
+   },
+   "radio": {
+    "voice": "em_alex",
+    "fx": "phone",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "bea": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.92
+   },
+   "alex": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.95
+   },
+   "tomas": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 0.96,
+    "speed": 0.9
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 5.0,
+   "tail": 0.4,
+   "mood": {
+    "drone": 1,
+    "pulse": 1,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Habéis elegido: *huir*.",
+     "at": 0.9
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y corrieron como nunca en su vida.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "scrape",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.8
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line0.start",
+     "offset": -0.1,
+     "gain": 0.9
+    },
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "minSeconds": 6.0,
+   "tail": 0.4,
+   "mood": {
+    "drone": 0.7,
+    "pulse": 0.8
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Quédate hasta el *final*: tú decides lo que pasa.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y *suscríbete* para no perderte el capítulo tres.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.5,
+     "span": "scene"
+    },
+    {
+     "id": "click",
+     "sound": "click",
+     "ref": "line1.start",
+     "offset": 1.0,
+     "gain": 0.8
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line1.start",
+     "offset": 1.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "run",
+   "minSeconds": 5.5,
+   "tail": 0.5,
+   "mood": {
+    "drone": 0.9,
+    "pulse": 1,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "La carretera estaba a tres kilómetros. Bosque a través.",
+     "at": 0.3
+    },
+    {
+     "speaker": "lucia",
+     "es": "¡No miréis atrás!",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6,
+     "span": "scene"
+    },
+    {
+     "id": "snap",
+     "sound": "snap",
+     "ref": "start",
+     "offset": 1.2,
+     "gain": 0.6
+    },
+    {
+     "id": "snap2",
+     "sound": "snap",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "ankle",
+   "minSeconds": 7.0,
+   "tail": 0.6,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Hasta que Bea se *torció* el tobillo.",
+     "at": 0.5
+    },
+    {
+     "speaker": "bea",
+     "es": "¡Seguid sin mí!",
+     "gap": 0.4
+    },
+    {
+     "speaker": "mateo",
+     "es": "Ni de broma. Agárrate a mí.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "fall",
+     "sound": "thud",
+     "ref": "word:torció",
+     "offset": -0.3,
+     "gain": 0.8
+    },
+    {
+     "id": "snap",
+     "sound": "snap",
+     "ref": "word:torció",
+     "offset": -0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "ahead",
+   "minSeconds": 7.5,
+   "tail": 0.8,
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Entonces lo oyeron. *Delante* de ellos.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "El Guarda no los seguía... los estaba *esperando*.",
+     "gap": 0.5
+    }
+   ],
+   "cues": [
+    {
+     "id": "scrape",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.8
+    },
+    {
+     "id": "snap",
+     "sound": "snap",
+     "ref": "line1.start",
+     "offset": -0.4,
+     "gain": 0.6
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:esperando",
+     "offset": 0.0,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "minSeconds": 6.0,
+   "tail": 1.0,
+   "mood": {
+    "pad": 0.5,
+    "pulse": 0.6,
+    "drone": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Pero llegaron a la *carretera*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "alex",
+     "es": "¡Eh! ¡Pare! ¡Por favor!",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "line1.start",
+     "offset": -0.6,
+     "gain": 0.6
+    },
+    {
+     "id": "screech",
+     "sound": "screech",
+     "ref": "line1.end",
+     "offset": 0.3,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "truck",
+   "minSeconds": 8.5,
+   "tail": 0.6,
+   "mood": {
+    "pad": 0.8,
+    "drone": 0.3
+   },
+   "lines": [
+    {
+     "speaker": "tomas",
+     "es": "Me llamo Tomás. Subid, rápido.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Detrás, en mitad de la carretera, El Guarda se hacía cada vez más *pequeño*.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "line0.end",
+     "offset": 0.3,
+     "gain": 0.5
+    },
+    {
+     "id": "car2",
+     "sound": "car",
+     "ref": "line1.start",
+     "offset": 1.5,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "id": "twist",
+   "minSeconds": 8.5,
+   "tail": 1.0,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "tomas",
+     "es": "Hace treinta años, yo también trabajaba en ese *campamento*.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y la camioneta no iba hacia el pueblo... iba de vuelta al *lago*.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.35
+    },
+    {
+     "id": "car2",
+     "sound": "car",
+     "ref": "start",
+     "offset": 3.8,
+     "gain": 0.35
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:lago",
+     "offset": 0.0,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "choice",
+   "minSeconds": 11.0,
+   "tail": 2.2,
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Qué deben *hacer*?",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "A: saltar de la camioneta en *marcha*.",
+     "gap": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "B: quedarse y descubrir quién es *Tomás*.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Comenta *A* o *B*... y suscríbete para ver qué pasa.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "a",
+     "sound": "tick",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "b",
+     "sound": "tick",
+     "ref": "line2.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line3.start",
+     "offset": 1.6,
+     "gain": 0.5
+    },
+    {
+     "id": "end",
+     "sound": "boom",
+     "ref": "line3.end",
+     "offset": 0.3,
+     "gain": 0.7
+    }
+   ]
+  }
+ ]
+}

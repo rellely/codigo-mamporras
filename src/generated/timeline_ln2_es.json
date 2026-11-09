@@ -1,0 +1,1201 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "LAGO NEGRO",
+ "part": "CAPÍTULO 2 · EL BOSQUE",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Habéis elegido: huir.",
+     "start": 0.9,
+     "end": 2.39,
+     "words": [
+      {
+       "w": "Habéis",
+       "hl": false,
+       "start": 0.93,
+       "end": 1.44
+      },
+      {
+       "w": "elegido:",
+       "hl": false,
+       "start": 1.44,
+       "end": 2.021
+      },
+      {
+       "w": "huir.",
+       "hl": true,
+       "start": 2.021,
+       "end": 2.39
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y corrieron como nunca en su vida.",
+     "start": 2.69,
+     "end": 4.79,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.72,
+       "end": 2.849
+      },
+      {
+       "w": "corrieron",
+       "hl": false,
+       "start": 2.849,
+       "end": 3.445
+      },
+      {
+       "w": "como",
+       "hl": false,
+       "start": 3.445,
+       "end": 3.749
+      },
+      {
+       "w": "nunca",
+       "hl": false,
+       "start": 3.749,
+       "end": 4.112
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 4.112,
+       "end": 4.299
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 4.299,
+       "end": 4.486
+      },
+      {
+       "w": "vida.",
+       "hl": false,
+       "start": 4.486,
+       "end": 4.79
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "scrape": 0.0,
+    "sting": 0.8,
+    "steps": 2.69
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 1,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "cta",
+   "start": 5.2,
+   "duration": 6.733333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Quédate hasta el final: tú decides lo que pasa.",
+     "start": 0.3,
+     "end": 3.16,
+     "words": [
+      {
+       "w": "Quédate",
+       "hl": false,
+       "start": 0.35,
+       "end": 0.781
+      },
+      {
+       "w": "hasta",
+       "hl": false,
+       "start": 0.781,
+       "end": 1.106
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.106,
+       "end": 1.274
+      },
+      {
+       "w": "final:",
+       "hl": true,
+       "start": 1.274,
+       "end": 1.6
+      },
+      {
+       "w": "tú",
+       "hl": false,
+       "start": 1.78,
+       "end": 1.964
+      },
+      {
+       "w": "decides",
+       "hl": false,
+       "start": 1.964,
+       "end": 2.436
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 2.436,
+       "end": 2.62
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 2.62,
+       "end": 2.861
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 2.861,
+       "end": 3.16
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y suscríbete para no perderte el capítulo tres.",
+     "start": 3.46,
+     "end": 6.33,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 3.49,
+       "end": 3.619
+      },
+      {
+       "w": "suscríbete",
+       "hl": true,
+       "start": 3.619,
+       "end": 4.273
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 4.273,
+       "end": 4.577
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 4.577,
+       "end": 4.764
+      },
+      {
+       "w": "perderte",
+       "hl": false,
+       "start": 4.764,
+       "end": 5.302
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 5.302,
+       "end": 5.489
+      },
+      {
+       "w": "capítulo",
+       "hl": false,
+       "start": 5.489,
+       "end": 6.026
+      },
+      {
+       "w": "tres.",
+       "hl": false,
+       "start": 6.026,
+       "end": 6.33
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "click": 4.46,
+    "bell": 4.76
+   },
+   "mood": {
+    "drone": 0.7,
+    "pulse": 0.8
+   }
+  },
+  {
+   "id": "run",
+   "start": 11.9333,
+   "duration": 5.533333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "La carretera estaba a tres kilómetros. Bosque a través.",
+     "start": 0.3,
+     "end": 3.61,
+     "words": [
+      {
+       "w": "La",
+       "hl": false,
+       "start": 0.33,
+       "end": 0.518
+      },
+      {
+       "w": "carretera",
+       "hl": false,
+       "start": 0.518,
+       "end": 1.118
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 1.118,
+       "end": 1.541
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.541,
+       "end": 1.67
+      },
+      {
+       "w": "tres",
+       "hl": false,
+       "start": 1.67,
+       "end": 1.976
+      },
+      {
+       "w": "kilómetros.",
+       "hl": false,
+       "start": 1.976,
+       "end": 2.634
+      },
+      {
+       "w": "Bosque",
+       "hl": false,
+       "start": 2.634,
+       "end": 3.057
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 3.057,
+       "end": 3.187
+      },
+      {
+       "w": "través.",
+       "hl": false,
+       "start": 3.187,
+       "end": 3.61
+      }
+     ]
+    },
+    {
+     "speaker": "lucia",
+     "text": "¡No miréis atrás!",
+     "start": 3.91,
+     "end": 5.043,
+     "words": [
+      {
+       "w": "¡No",
+       "hl": false,
+       "start": 3.941,
+       "end": 4.153
+      },
+      {
+       "w": "miréis",
+       "hl": false,
+       "start": 4.153,
+       "end": 4.631
+      },
+      {
+       "w": "atrás!",
+       "hl": false,
+       "start": 4.631,
+       "end": 5.043
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "snap": 1.2,
+    "snap2": 3.91
+   },
+   "mood": {
+    "drone": 0.9,
+    "pulse": 1,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "ankle",
+   "start": 17.4667,
+   "duration": 7.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Hasta que Bea se torció el tobillo.",
+     "start": 0.5,
+     "end": 2.67,
+     "words": [
+      {
+       "w": "Hasta",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.895
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 0.895,
+       "end": 1.141
+      },
+      {
+       "w": "Bea",
+       "hl": false,
+       "start": 1.141,
+       "end": 1.388
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.388,
+       "end": 1.576
+      },
+      {
+       "w": "torció",
+       "hl": true,
+       "start": 1.576,
+       "end": 2.0
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 2.0,
+       "end": 2.188
+      },
+      {
+       "w": "tobillo.",
+       "hl": false,
+       "start": 2.188,
+       "end": 2.67
+      }
+     ]
+    },
+    {
+     "speaker": "bea",
+     "text": "¡Seguid sin mí!",
+     "start": 3.07,
+     "end": 3.997,
+     "words": [
+      {
+       "w": "¡Seguid",
+       "hl": false,
+       "start": 3.097,
+       "end": 3.541
+      },
+      {
+       "w": "sin",
+       "hl": false,
+       "start": 3.541,
+       "end": 3.8
+      },
+      {
+       "w": "mí!",
+       "hl": false,
+       "start": 3.8,
+       "end": 3.997
+      }
+     ]
+    },
+    {
+     "speaker": "mateo",
+     "text": "Ni de broma. Agárrate a mí.",
+     "start": 4.297,
+     "end": 5.888,
+     "words": [
+      {
+       "w": "Ni",
+       "hl": false,
+       "start": 4.325,
+       "end": 4.509
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 4.509,
+       "end": 4.692
+      },
+      {
+       "w": "broma.",
+       "hl": false,
+       "start": 4.692,
+       "end": 5.049
+      },
+      {
+       "w": "Agárrate",
+       "hl": false,
+       "start": 5.049,
+       "end": 5.578
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.578,
+       "end": 5.704
+      },
+      {
+       "w": "mí.",
+       "hl": false,
+       "start": 5.704,
+       "end": 5.888
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "fall": 1.276,
+    "snap": 1.276
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   }
+  },
+  {
+   "id": "ahead",
+   "start": 24.4667,
+   "duration": 7.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Entonces lo oyeron. Delante de ellos.",
+     "start": 0.6,
+     "end": 3.05,
+     "words": [
+      {
+       "w": "Entonces",
+       "hl": false,
+       "start": 0.63,
+       "end": 1.228
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 1.228,
+       "end": 1.437
+      },
+      {
+       "w": "oyeron.",
+       "hl": false,
+       "start": 1.437,
+       "end": 1.905
+      },
+      {
+       "w": "Delante",
+       "hl": true,
+       "start": 1.905,
+       "end": 2.438
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.438,
+       "end": 2.647
+      },
+      {
+       "w": "ellos.",
+       "hl": false,
+       "start": 2.647,
+       "end": 3.05
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "El Guarda no los seguía... los estaba esperando.",
+     "start": 3.55,
+     "end": 6.33,
+     "words": [
+      {
+       "w": "El",
+       "hl": false,
+       "start": 3.58,
+       "end": 3.753
+      },
+      {
+       "w": "Guarda",
+       "hl": false,
+       "start": 3.753,
+       "end": 4.142
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 4.142,
+       "end": 4.314
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 4.314,
+       "end": 4.541
+      },
+      {
+       "w": "seguía...",
+       "hl": false,
+       "start": 4.541,
+       "end": 4.93
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 5.09,
+       "end": 5.331
+      },
+      {
+       "w": "estaba",
+       "hl": false,
+       "start": 5.331,
+       "end": 5.744
+      },
+      {
+       "w": "esperando.",
+       "hl": true,
+       "start": 5.744,
+       "end": 6.33
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "scrape": 0.2,
+    "snap": 3.15,
+    "sting": 5.744
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.4
+   }
+  },
+  {
+   "id": "road",
+   "start": 31.9667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Pero llegaron a la carretera.",
+     "start": 0.4,
+     "end": 2.15,
+     "words": [
+      {
+       "w": "Pero",
+       "hl": false,
+       "start": 0.44,
+       "end": 0.736
+      },
+      {
+       "w": "llegaron",
+       "hl": false,
+       "start": 0.736,
+       "end": 1.261
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 1.261,
+       "end": 1.386
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.386,
+       "end": 1.569
+      },
+      {
+       "w": "carretera.",
+       "hl": true,
+       "start": 1.569,
+       "end": 2.15
+      }
+     ]
+    },
+    {
+     "speaker": "alex",
+     "text": "¡Eh! ¡Pare! ¡Por favor!",
+     "start": 2.55,
+     "end": 3.735,
+     "words": [
+      {
+       "w": "¡Eh!",
+       "hl": false,
+       "start": 2.578,
+       "end": 2.775
+      },
+      {
+       "w": "¡Pare!",
+       "hl": false,
+       "start": 2.775,
+       "end": 3.095
+      },
+      {
+       "w": "¡Por",
+       "hl": false,
+       "start": 3.095,
+       "end": 3.353
+      },
+      {
+       "w": "favor!",
+       "hl": false,
+       "start": 3.353,
+       "end": 3.735
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 1.95,
+    "screech": 4.035
+   },
+   "mood": {
+    "pad": 0.5,
+    "pulse": 0.6,
+    "drone": 0.4
+   }
+  },
+  {
+   "id": "truck",
+   "start": 37.9667,
+   "duration": 8.5,
+   "lines": [
+    {
+     "speaker": "tomas",
+     "text": "Me llamo Tomás. Subid, rápido.",
+     "start": 0.4,
+     "end": 2.588,
+     "words": [
+      {
+       "w": "Me",
+       "hl": false,
+       "start": 0.431,
+       "end": 0.669
+      },
+      {
+       "w": "llamo",
+       "hl": false,
+       "start": 0.669,
+       "end": 1.13
+      },
+      {
+       "w": "Tomás.",
+       "hl": false,
+       "start": 1.13,
+       "end": 1.591
+      },
+      {
+       "w": "Subid,",
+       "hl": false,
+       "start": 1.591,
+       "end": 2.052
+      },
+      {
+       "w": "rápido.",
+       "hl": false,
+       "start": 2.052,
+       "end": 2.588
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Detrás, en mitad de la carretera, El Guarda se hacía cada vez más pequeño.",
+     "start": 3.188,
+     "end": 7.578,
+     "words": [
+      {
+       "w": "Detrás,",
+       "hl": false,
+       "start": 3.218,
+       "end": 3.637
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.637,
+       "end": 3.824
+      },
+      {
+       "w": "mitad",
+       "hl": false,
+       "start": 3.824,
+       "end": 4.185
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 4.185,
+       "end": 4.372
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 4.372,
+       "end": 4.558
+      },
+      {
+       "w": "carretera,",
+       "hl": false,
+       "start": 4.558,
+       "end": 5.153
+      },
+      {
+       "w": "El",
+       "hl": false,
+       "start": 5.153,
+       "end": 5.339
+      },
+      {
+       "w": "Guarda",
+       "hl": false,
+       "start": 5.339,
+       "end": 5.759
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 5.759,
+       "end": 5.945
+      },
+      {
+       "w": "hacía",
+       "hl": false,
+       "start": 5.945,
+       "end": 6.307
+      },
+      {
+       "w": "cada",
+       "hl": false,
+       "start": 6.307,
+       "end": 6.61
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 6.61,
+       "end": 6.855
+      },
+      {
+       "w": "más",
+       "hl": false,
+       "start": 6.855,
+       "end": 7.1
+      },
+      {
+       "w": "pequeño.",
+       "hl": true,
+       "start": 7.1,
+       "end": 7.578
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 2.888,
+    "car2": 4.688
+   },
+   "mood": {
+    "pad": 0.8,
+    "drone": 0.3
+   }
+  },
+  {
+   "id": "twist",
+   "start": 46.4667,
+   "duration": 9.633333333333333,
+   "lines": [
+    {
+     "speaker": "tomas",
+     "text": "Hace treinta años, yo también trabajaba en ese campamento.",
+     "start": 0.6,
+     "end": 4.433,
+     "words": [
+      {
+       "w": "Hace",
+       "hl": false,
+       "start": 0.631,
+       "end": 0.967
+      },
+      {
+       "w": "treinta",
+       "hl": false,
+       "start": 0.967,
+       "end": 1.498
+      },
+      {
+       "w": "años,",
+       "hl": false,
+       "start": 1.498,
+       "end": 1.834
+      },
+      {
+       "w": "yo",
+       "hl": false,
+       "start": 1.834,
+       "end": 2.041
+      },
+      {
+       "w": "también",
+       "hl": false,
+       "start": 2.041,
+       "end": 2.571
+      },
+      {
+       "w": "trabajaba",
+       "hl": false,
+       "start": 2.571,
+       "end": 3.231
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.231,
+       "end": 3.438
+      },
+      {
+       "w": "ese",
+       "hl": false,
+       "start": 3.438,
+       "end": 3.709
+      },
+      {
+       "w": "campamento.",
+       "hl": true,
+       "start": 3.709,
+       "end": 4.433
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y la camioneta no iba hacia el pueblo... iba de vuelta al lago.",
+     "start": 5.033,
+     "end": 8.623,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 5.063,
+       "end": 5.178
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 5.178,
+       "end": 5.344
+      },
+      {
+       "w": "camioneta",
+       "hl": false,
+       "start": 5.344,
+       "end": 5.875
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 5.875,
+       "end": 6.041
+      },
+      {
+       "w": "iba",
+       "hl": false,
+       "start": 6.041,
+       "end": 6.26
+      },
+      {
+       "w": "hacia",
+       "hl": false,
+       "start": 6.26,
+       "end": 6.582
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 6.582,
+       "end": 6.749
+      },
+      {
+       "w": "pueblo...",
+       "hl": false,
+       "start": 6.749,
+       "end": 7.123
+      },
+      {
+       "w": "iba",
+       "hl": false,
+       "start": 7.393,
+       "end": 7.618
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 7.618,
+       "end": 7.789
+      },
+      {
+       "w": "vuelta",
+       "hl": false,
+       "start": 7.789,
+       "end": 8.174
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 8.174,
+       "end": 8.345
+      },
+      {
+       "w": "lago.",
+       "hl": true,
+       "start": 8.345,
+       "end": 8.623
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 0.0,
+    "car2": 3.8,
+    "sting": 8.345
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "choice",
+   "start": 56.1,
+   "duration": 13.133333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Qué deben hacer?",
+     "start": 0.6,
+     "end": 1.78,
+     "words": [
+      {
+       "w": "¿Qué",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.928
+      },
+      {
+       "w": "deben",
+       "hl": false,
+       "start": 0.928,
+       "end": 1.354
+      },
+      {
+       "w": "hacer?",
+       "hl": true,
+       "start": 1.354,
+       "end": 1.78
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "A: saltar de la camioneta en marcha.",
+     "start": 2.38,
+     "end": 4.55,
+     "words": [
+      {
+       "w": "A:",
+       "hl": false,
+       "start": 2.41,
+       "end": 2.539
+      },
+      {
+       "w": "saltar",
+       "hl": false,
+       "start": 2.539,
+       "end": 2.963
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 2.963,
+       "end": 3.151
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 3.151,
+       "end": 3.339
+      },
+      {
+       "w": "camioneta",
+       "hl": false,
+       "start": 3.339,
+       "end": 3.939
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.939,
+       "end": 4.127
+      },
+      {
+       "w": "marcha.",
+       "hl": true,
+       "start": 4.127,
+       "end": 4.55
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "B: quedarse y descubrir quién es Tomás.",
+     "start": 5.05,
+     "end": 7.41,
+     "words": [
+      {
+       "w": "B:",
+       "hl": false,
+       "start": 5.08,
+       "end": 5.21
+      },
+      {
+       "w": "quedarse",
+       "hl": false,
+       "start": 5.21,
+       "end": 5.754
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 5.754,
+       "end": 5.884
+      },
+      {
+       "w": "descubrir",
+       "hl": false,
+       "start": 5.884,
+       "end": 6.487
+      },
+      {
+       "w": "quién",
+       "hl": false,
+       "start": 6.487,
+       "end": 6.854
+      },
+      {
+       "w": "es",
+       "hl": false,
+       "start": 6.854,
+       "end": 7.043
+      },
+      {
+       "w": "Tomás.",
+       "hl": true,
+       "start": 7.043,
+       "end": 7.41
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Comenta A o B... y suscríbete para ver qué pasa.",
+     "start": 8.01,
+     "end": 10.95,
+     "words": [
+      {
+       "w": "Comenta",
+       "hl": false,
+       "start": 8.05,
+       "end": 8.556
+      },
+      {
+       "w": "A",
+       "hl": true,
+       "start": 8.556,
+       "end": 8.692
+      },
+      {
+       "w": "o",
+       "hl": false,
+       "start": 8.692,
+       "end": 8.827
+      },
+      {
+       "w": "B...",
+       "hl": true,
+       "start": 8.827,
+       "end": 8.963
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 8.963,
+       "end": 9.099
+      },
+      {
+       "w": "suscríbete",
+       "hl": false,
+       "start": 9.099,
+       "end": 9.79
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 9.79,
+       "end": 10.111
+      },
+      {
+       "w": "ver",
+       "hl": false,
+       "start": 10.111,
+       "end": 10.37
+      },
+      {
+       "w": "qué",
+       "hl": false,
+       "start": 10.37,
+       "end": 10.629
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 10.629,
+       "end": 10.95
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "a": 2.38,
+    "b": 5.05,
+    "bell": 9.61,
+    "end": 11.25
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   }
+  }
+ ],
+ "durationInFrames": 2077
+}

@@ -585,6 +585,31 @@ def sfx_thud():
     return norm(x + roll, 0.8)
 
 
+def sfx_car(dur=4.0):
+    t = t_axis(dur)
+    f = 48 + 10 * np.sin(2 * np.pi * 0.3 * t)
+    x = signal.sawtooth(2 * np.pi * np.cumsum(f) / SR) * 0.5 + bandpass(noise(len(t)), 100, 900) * 0.5
+    x = lowpass(x, 900) * np.minimum(1, t / 0.6)
+    return norm(x, 0.6)
+
+
+def sfx_screech():
+    n = int(1.4 * SR)
+    t = np.arange(n) / SR
+    f = 2400 - 600 * t
+    x = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.4 + bandpass(noise(n), 1500, 6000) * 0.6
+    return norm(x * np.exp(-t * 1.4) * np.minimum(1, t / 0.03), 0.8)
+
+
+def sfx_snap():
+    x = np.zeros(int(1.2 * SR))
+    for k in range(3):
+        n = int(0.06 * SR)
+        a = int(RNG.uniform(0, 0.8) * SR)
+        x[a:a + n] += highpass(noise(n), 1200) * env_ad(n, 0.0005, 0.012) * RNG.uniform(0.5, 1)
+    return norm(reverb(x, 1.2, 0.3), 0.8)
+
+
 SFX = {
     "boom": lambda d: sfx_boom(),
     "sting": lambda d: sfx_sting(),
@@ -617,6 +642,9 @@ SFX = {
     "breath": sfx_breath,
     "scrape": lambda d: sfx_scrape(),
     "thud": lambda d: sfx_thud(),
+    "car": lambda d: sfx_car(),
+    "screech": lambda d: sfx_screech(),
+    "snap": lambda d: sfx_snap(),
 }
 
 

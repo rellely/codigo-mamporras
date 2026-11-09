@@ -108,11 +108,14 @@ opción ganadora.
   hoja de modelo en la composición `LagoNegro-Cast`).
 - **Sets:** `src/components/sets/LakeCamp.tsx` (lago con muelle, entrada del campamento,
   hoguera junto al lago con cabañas y guirnalda de luces, caseta del generador).
-- **Tarjeta de decisión:** `src/lagonegro/ChoiceCard.tsx`.
+- **Tarjeta de decisión:** `src/lagonegro/ChoiceCard.tsx` (con botón de suscripción).
+- **Llamada a la acción inicial:** `src/lagonegro/Subscribe.tsx` — justo después del gancho, «quédate hasta el final, elige en comentarios y suscríbete» con botón animado.
+- **Sets del cap. 2:** `src/components/sets/Road.tsx` (bosque en persecución lateral, carretera nocturna, camioneta, vista trasera).
 
 | Capítulo | Archivo | Final abierto |
 |---|---|---|
-| 1 · La primera noche | `renders/lago-negro-capitulo-1.mp4` | **A:** huir por el bosque hasta la carretera · **B:** encerrarse en la cabaña principal |
+| 1 · La primera noche | `renders/lago-negro-capitulo-1.mp4` | **A:** huir por el bosque hasta la carretera · **B:** encerrarse en la cabaña principal → *ganó A* |
+| 2 · El bosque | `renders/lago-negro-capitulo-2.mp4` | **A:** saltar de la camioneta en marcha · **B:** quedarse y descubrir quién es Tomás |
 
 ### Añadir el siguiente capítulo
 

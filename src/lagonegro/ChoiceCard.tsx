@@ -1,8 +1,9 @@
 import React from 'react';
 import {AbsoluteFill, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {kf} from '../lib/anim';
+import {SubscribeButton} from './Subscribe';
 
-export type Option = {key: 'A' | 'B'; text: string; at: number; icon: 'road' | 'cabin' | 'boat' | 'hide' | 'fight' | 'split'};
+export type Option = {key: 'A' | 'B'; text: string; at: number; icon: 'road' | 'cabin' | 'jump' | 'question'};
 
 const Icon: React.FC<{kind: Option['icon']}> = ({kind}) => (
 	<svg viewBox="0 0 200 200" width={170} height={170}>
@@ -16,6 +17,26 @@ const Icon: React.FC<{kind: Option['icon']}> = ({kind}) => (
 				<path d="M 100 190 L 100 170 M 100 150 L 100 135 M 100 118 L 100 106" stroke="#ffd60a" strokeWidth={4} />
 				<rect x={140} y={70} width={8} height={70} fill="#888" />
 				<rect x={124} y={56} width={40} height={24} rx={4} fill="#2a7a3a" />
+			</g>
+		)}
+		{kind === 'jump' && (
+			<g>
+				<rect x={20} y={110} width={110} height={40} rx={6} fill="#2f4a3a" />
+				<rect x={110} y={84} width={50} height={66} rx={6} fill="#355442" />
+				<circle cx={50} cy={156} r={14} fill="#111" />
+				<circle cx={140} cy={156} r={14} fill="#111" />
+				<circle cx={60} cy={58} r={13} fill="#ffd7b5" />
+				<path d="M 60 72 L 40 100 M 52 82 L 28 74 M 56 84 L 82 66 M 40 100 L 22 116 M 40 100 L 56 120" stroke="#2f6fd1" strokeWidth={9} strokeLinecap="round" />
+				<path d="M 150 40 q 20 -10 30 10" stroke="#ffd60a" strokeWidth={5} fill="none" />
+			</g>
+		)}
+		{kind === 'question' && (
+			<g>
+				<circle cx={80} cy={88} r={34} fill="#e8b98c" />
+				<path d="M 50 80 q -4 -26 12 -28 M 110 80 q 4 -26 -12 -28" stroke="#d8d4cc" strokeWidth={8} fill="none" />
+				<path d="M 64 104 q 16 -8 32 0" stroke="#d8d4cc" strokeWidth={7} fill="none" />
+				<rect x={46} y={124} width={68} height={60} rx={18} fill="#4a5a3a" />
+				<text x={152} y={110} textAnchor="middle" fontFamily="InterBlack" fontSize={90} fill="#ffd60a">?</text>
 			</g>
 		)}
 		{kind === 'cabin' && (
@@ -32,7 +53,8 @@ const Icon: React.FC<{kind: Option['icon']}> = ({kind}) => (
 );
 
 /** "What should they do?" end card with two options for the audience. */
-export const ChoiceCard: React.FC<{title: string; chapter: string; question: string; options: Option[]; ctaAt: number; ctaText: string}> = ({
+export const ChoiceCard: React.FC<{title: string; chapter: string; question: string; options: Option[]; ctaAt: number; ctaText: string; subscribeAt?: number}> = ({
+	subscribeAt,
 	title,
 	chapter,
 	question,
@@ -114,6 +136,11 @@ export const ChoiceCard: React.FC<{title: string; chapter: string; question: str
 			>
 				{ctaText}
 			</div>
+			{subscribeAt !== undefined && (
+				<div style={{position: 'absolute', top: 1580, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+					<SubscribeButton clickAt={subscribeAt} appearAt={subscribeAt - 40} scale={0.9} />
+				</div>
+			)}
 		</AbsoluteFill>
 	);
 };

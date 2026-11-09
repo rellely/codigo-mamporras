@@ -42,6 +42,24 @@
     "fx": "phone",
     "pitch": 1.1,
     "speed": 0.95
+   },
+   "bea": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.92
+   },
+   "alex": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.95
+   },
+   "tomas": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 0.96,
+    "speed": 0.9
    }
   }
  },
