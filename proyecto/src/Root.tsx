@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition, Still} from 'remotion';
 import {Gallery} from './Gallery';
+import {Banner} from './Banner';
 import {episodeFrames, Timing} from '../components/Episode';
 import {UrssVideo} from '../scenes/urss/Video';
 import tUrss from '../scenes/urss/timing.json';
@@ -32,6 +33,7 @@ import t_secesion from '../scenes/secesion/timing.json';
 
 export const Root: React.FC = () => (
   <>
+    <Still id="Banner" component={Banner} width={2048} height={1152} />
     <Still id="Gallery" component={Gallery} width={1080} height={1920} defaultProps={{page: 0}} />
     {comp('urss', UrssVideo, tUrss)}
     {comp('napoleon', NapoleonVideo, tNap)}
