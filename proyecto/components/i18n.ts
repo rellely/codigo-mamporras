@@ -9,6 +9,7 @@ export const fmtNum = (v: number, decimals = 0) => v.toLocaleString(LANG === 'en
 export const EN: Record<string, string> = {
   // --- serie
   '¿Y SI…?': 'WHAT IF…?', 'ESCENARIO HIPOTÉTICO': 'HYPOTHETICAL SCENARIO', 'SÍGUEME PARA MÁS ¿Y SI…?': 'FOLLOW FOR MORE WHAT IF…?',
+  '¿Y SI…? HISTORIA': 'WHAT IF…? HISTORY', 'Historia alternativa en 1 minuto': 'Alternate history in 1 minute', 'SUSCRITO ✓': 'SUBSCRIBED ✓', 'SUSCRÍBETE': 'SUBSCRIBE',
   // --- URSS
   '25·12·1991': 'DEC 25, 1991', 'MOSCÚ, KREMLIN': 'MOSCOW, KREMLIN', 'repúblicas': 'republics', 'la sexta parte de la tierra firme': 'one sixth of the world’s land',
   'de habitantes (aprox.)': 'people (approx.)', 'ECONOMÍA': 'ECONOMY', 'PETRÓLEO': 'OIL', 'AFGANISTÁN': 'AFGHANISTAN', 'VACÍO': 'EMPTY',

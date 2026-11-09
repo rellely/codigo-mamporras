@@ -1,0 +1,34 @@
+{
+  "id": "sinhumanos", "titulo": "¿Y si el ser humano nunca hubiera existido?",
+  "voice": "em_alex", "speed": 1.06,
+  "scenes": [
+    {"id": "s1_tierra", "lines": [
+      {"t": "La Tierra tiene unos *4.500 millones* de años. Nuestra especie, apenas *300.000*.", "say": "La Tierra tiene unos cuatro mil quinientos millones de años. Nuestra especie, apenas trescientos mil."},
+      {"t": "¿Y si el ser humano *nunca* hubiera existido?"},
+      {"t": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*", "say": "Antes de seguir, suscríbete para no perderte ningún vídeo de Y si.", "cta": true}]},
+    {"id": "s2_megafauna", "lines": [
+      {"t": "Muchos científicos creen que la caza humana, junto al cambio del clima, ayudó a extinguir a gigantes como el *mamut* o el *perezoso gigante*."},
+      {"t": "Sin nosotros, quizá seguirían aquí."}]},
+    {"id": "s3_bosques", "lines": [
+      {"t": "Hoy, cerca de la *mitad* de la tierra habitable se dedica a la *agricultura*."},
+      {"t": "Sin humanos, todo eso serían *bosques*, praderas y humedales."}]},
+    {"id": "s4_mamiferos", "lines": [
+      {"t": "Y fíjate en esto: de todos los mamíferos del planeta, por peso, solo el *4%* son salvajes.", "say": "Y fíjate en esto: de todos los mamíferos del planeta, por peso, solo el cuatro por ciento son salvajes."},
+      {"t": "El resto somos *nosotros* y nuestro *ganado*."}]},
+    {"id": "s5_perros", "lines": [
+      {"t": "Tampoco existirían los *perros*: los domesticamos a partir de lobos hace más de *15.000 años*.", "say": "Tampoco existirían los perros: los domesticamos a partir de lobos hace más de quince mil años."},
+      {"t": "Ni las *vacas*, ni el *trigo*, ni el *maíz* tal y como los conocemos."}]},
+    {"id": "s6_clima", "lines": [
+      {"t": "El aire tendría unas *280 partes por millón* de CO₂, como antes de la Revolución Industrial,", "say": "El aire tendría unas doscientas ochenta partes por millón de dióxido de carbono, como antes de la Revolución Industrial,"},
+      {"t": "en lugar de las más de *420* de hoy.", "say": "en lugar de las más de cuatrocientas veinte de hoy."}]},
+    {"id": "s7_neandertales", "lines": [
+      {"t": "¿Y quién dominaría el planeta? Quizá nadie..."},
+      {"t": "o quizá nuestros primos, los *neandertales*, que desaparecieron hace unos *40.000 años*.", "say": "o quizá nuestros primos, los neandertales, que desaparecieron hace unos cuarenta mil años."}]},
+    {"id": "s8_noche", "lines": [
+      {"t": "De noche, la Tierra vista desde el espacio estaría *completamente a oscuras*."},
+      {"t": "Sin ciudades, sin satélites... y sin nadie que la mirara."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Un planeta *salvaje*... sin nadie para contarlo."},
+      {"t": "¿Crees que la Tierra estaría *mejor sin nosotros*? Te leo en comentarios."}]}
+  ]
+}

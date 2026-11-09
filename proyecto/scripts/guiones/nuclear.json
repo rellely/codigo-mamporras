@@ -1,0 +1,34 @@
+{
+  "id": "nuclear", "titulo": "¿Y si estallara una bomba nuclear en medio de Europa?",
+  "voice": "em_alex", "speed": 1.06,
+  "scenes": [
+    {"id": "s1_destello", "lines": [
+      {"t": "Un destello más brillante que *mil soles*, en pleno corazón de Europa."},
+      {"t": "¿Qué pasaría si estallara una *bomba nuclear* en medio del continente?"},
+      {"t": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*", "say": "Antes de seguir, suscríbete para no perderte ningún vídeo de Y si.", "cta": true}]},
+    {"id": "s2_hiroshima", "lines": [
+      {"t": "Solo se han usado dos bombas atómicas en una guerra: *Hiroshima* y *Nagasaki*, en agosto de 1945.", "say": "Solo se han usado dos bombas atómicas en una guerra: Hiroshima y Nagasaki, en agosto de mil novecientos cuarenta y cinco."},
+      {"t": "La de Hiroshima, de unos *15 kilotones*, mató a decenas de miles de personas al instante", "say": "La de Hiroshima, de unos quince kilotones, mató a decenas de miles de personas al instante"},
+      {"t": "y a unas *140.000* antes de acabar el año.", "say": "y a unas ciento cuarenta mil antes de acabar el año."}]},
+    {"id": "s3_hoy", "lines": [
+      {"t": "Hoy, muchas cabezas nucleares son *decenas de veces* más potentes."}]},
+    {"id": "s4_estallido", "lines": [
+      {"t": "Imagina una de ellas sobre una gran ciudad de *Europa central*."},
+      {"t": "Primero, una *bola de fuego* más caliente que la superficie del Sol."},
+      {"t": "Después, una *onda expansiva* que derriba edificios a kilómetros de distancia, y un calor capaz de causar quemaduras mucho más lejos."}]},
+    {"id": "s5_lluvia", "lines": [
+      {"t": "Pero el peligro no acaba ahí: los vientos del oeste arrastrarían la *lluvia radiactiva* hacia el este, cruzando fronteras."},
+      {"t": "Ya pasó con *Chernóbil* en 1986: su nube radiactiva alcanzó gran parte de Europa.", "say": "Ya pasó con Chernóbil en mil novecientos ochenta y seis: su nube radiactiva alcanzó gran parte de Europa."}]},
+    {"id": "s6_otan", "lines": [
+      {"t": "Si el ataque viniera de otro país, entraría en juego el *artículo 5* de la *OTAN*:", "say": "Si el ataque viniera de otro país, entraría en juego el artículo cinco de la OTAN:"},
+      {"t": "un ataque contra uno es un ataque contra *todos*. El mundo estaría al borde de una *guerra nuclear*."}]},
+    {"id": "s7_caos", "lines": [
+      {"t": "Las *bolsas* se hundirían, se cerraría el *espacio aéreo* y millones de personas buscarían *refugio*."}]},
+    {"id": "s8_invierno", "lines": [
+      {"t": "Un solo estallido no provocaría un *invierno nuclear*: para eso harían falta *cientos* de bombas."},
+      {"t": "Pero cada una nos acercaría un poco más."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Hoy existen unas *12.000 cabezas nucleares*. Desde 1945, ninguna se ha vuelto a usar en una guerra.", "say": "Hoy existen unas doce mil cabezas nucleares. Desde mil novecientos cuarenta y cinco, ninguna se ha vuelto a usar en una guerra."},
+      {"t": "¿Crees que seguirá siendo así? Te leo en comentarios."}]}
+  ]
+}

@@ -1,0 +1,1525 @@
+{
+ "id": "sinhumanos",
+ "lang": "es",
+ "cues": {},
+ "titulo": "¿Y si el ser humano nunca hubiera existido?",
+ "total": 87.051,
+ "scenes": [
+  {
+   "id": "s1_tierra",
+   "s": 0.0,
+   "e": 12.844,
+   "lines": [
+    {
+     "text": "La Tierra tiene unos *4.500 millones* de años. Nuestra especie, apenas *300.000*.",
+     "s": 0.25,
+     "e": 5.79,
+     "words": [
+      {
+       "w": "La",
+       "s": 0.25,
+       "e": 0.399,
+       "hl": false
+      },
+      {
+       "w": "Tierra",
+       "s": 0.399,
+       "e": 0.719,
+       "hl": false
+      },
+      {
+       "w": "tiene",
+       "s": 0.719,
+       "e": 0.996,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 0.996,
+       "e": 1.23,
+       "hl": false
+      },
+      {
+       "w": "4.500",
+       "s": 1.23,
+       "e": 2.146,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 2.146,
+       "e": 2.551,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 2.551,
+       "e": 2.7,
+       "hl": false
+      },
+      {
+       "w": "años.",
+       "s": 2.7,
+       "e": 3.105,
+       "hl": false
+      },
+      {
+       "w": "Nuestra",
+       "s": 3.105,
+       "e": 3.468,
+       "hl": false
+      },
+      {
+       "w": "especie,",
+       "s": 3.468,
+       "e": 3.958,
+       "hl": false
+      },
+      {
+       "w": "apenas",
+       "s": 3.958,
+       "e": 4.277,
+       "hl": false
+      },
+      {
+       "w": "300.000.",
+       "s": 4.277,
+       "e": 5.79,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "¿Y si el ser humano *nunca* hubiera existido?",
+     "s": 6.09,
+     "e": 8.504,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 6.09,
+       "e": 6.211,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 6.211,
+       "e": 6.38,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 6.38,
+       "e": 6.549,
+       "hl": false
+      },
+      {
+       "w": "ser",
+       "s": 6.549,
+       "e": 6.766,
+       "hl": false
+      },
+      {
+       "w": "humano",
+       "s": 6.766,
+       "e": 7.128,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 7.128,
+       "e": 7.442,
+       "hl": true
+      },
+      {
+       "w": "hubiera",
+       "s": 7.442,
+       "e": 7.852,
+       "hl": false
+      },
+      {
+       "w": "existido?",
+       "s": 7.852,
+       "e": 8.504,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*",
+     "s": 8.804,
+     "e": 12.344,
+     "words": [
+      {
+       "w": "Antes",
+       "s": 8.804,
+       "e": 9.142,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 9.142,
+       "e": 9.324,
+       "hl": false
+      },
+      {
+       "w": "seguir,",
+       "s": 9.324,
+       "e": 9.871,
+       "hl": false
+      },
+      {
+       "w": "suscríbete",
+       "s": 9.871,
+       "e": 10.47,
+       "hl": true
+      },
+      {
+       "w": "para",
+       "s": 10.47,
+       "e": 10.756,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 10.756,
+       "e": 10.939,
+       "hl": false
+      },
+      {
+       "w": "perderte",
+       "s": 10.939,
+       "e": 11.433,
+       "hl": false
+      },
+      {
+       "w": "ningún",
+       "s": 11.433,
+       "e": 11.824,
+       "hl": false
+      },
+      {
+       "w": "¿Y",
+       "s": 11.824,
+       "e": 11.954,
+       "hl": true
+      },
+      {
+       "w": "si...?",
+       "s": 11.954,
+       "e": 12.344,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_megafauna",
+   "s": 12.844,
+   "e": 23.609,
+   "lines": [
+    {
+     "text": "Muchos científicos creen que la caza humana, junto al cambio del clima, ayudó a extinguir a gigantes como el *mamut* o el *perezoso gigante*.",
+     "s": 13.094,
+     "e": 20.778,
+     "words": [
+      {
+       "w": "Muchos",
+       "s": 13.094,
+       "e": 13.461,
+       "hl": false
+      },
+      {
+       "w": "científicos",
+       "s": 13.461,
+       "e": 14.073,
+       "hl": false
+      },
+      {
+       "w": "creen",
+       "s": 14.073,
+       "e": 14.391,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 14.391,
+       "e": 14.612,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 14.612,
+       "e": 14.783,
+       "hl": false
+      },
+      {
+       "w": "caza",
+       "s": 14.783,
+       "e": 15.052,
+       "hl": false
+      },
+      {
+       "w": "humana,",
+       "s": 15.052,
+       "e": 15.566,
+       "hl": false
+      },
+      {
+       "w": "junto",
+       "s": 15.566,
+       "e": 15.884,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 15.884,
+       "e": 16.055,
+       "hl": false
+      },
+      {
+       "w": "cambio",
+       "s": 16.055,
+       "e": 16.422,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 16.422,
+       "e": 16.643,
+       "hl": false
+      },
+      {
+       "w": "clima,",
+       "s": 16.643,
+       "e": 17.108,
+       "hl": false
+      },
+      {
+       "w": "ayudó",
+       "s": 17.108,
+       "e": 17.426,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 17.426,
+       "e": 17.548,
+       "hl": false
+      },
+      {
+       "w": "extinguir",
+       "s": 17.548,
+       "e": 18.062,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 18.062,
+       "e": 18.184,
+       "hl": false
+      },
+      {
+       "w": "gigantes",
+       "s": 18.184,
+       "e": 18.649,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 18.649,
+       "e": 18.918,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 18.918,
+       "e": 19.09,
+       "hl": false
+      },
+      {
+       "w": "mamut",
+       "s": 19.09,
+       "e": 19.408,
+       "hl": true
+      },
+      {
+       "w": "o",
+       "s": 19.408,
+       "e": 19.53,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 19.53,
+       "e": 19.702,
+       "hl": false
+      },
+      {
+       "w": "perezoso",
+       "s": 19.702,
+       "e": 20.166,
+       "hl": true
+      },
+      {
+       "w": "gigante.",
+       "s": 20.166,
+       "e": 20.778,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Sin nosotros, quizá seguirían aquí.",
+     "s": 21.078,
+     "e": 23.109,
+     "words": [
+      {
+       "w": "Sin",
+       "s": 21.078,
+       "e": 21.288,
+       "hl": false
+      },
+      {
+       "w": "nosotros,",
+       "s": 21.288,
+       "e": 21.872,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 21.872,
+       "e": 22.175,
+       "hl": false
+      },
+      {
+       "w": "seguirían",
+       "s": 22.175,
+       "e": 22.666,
+       "hl": false
+      },
+      {
+       "w": "aquí.",
+       "s": 22.666,
+       "e": 23.109,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_bosques",
+   "s": 23.609,
+   "e": 31.643,
+   "lines": [
+    {
+     "text": "Hoy, cerca de la *mitad* de la tierra habitable se dedica a la *agricultura*.",
+     "s": 23.859,
+     "e": 27.639,
+     "words": [
+      {
+       "w": "Hoy,",
+       "s": 23.859,
+       "e": 24.189,
+       "hl": false
+      },
+      {
+       "w": "cerca",
+       "s": 24.189,
+       "e": 24.474,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 24.474,
+       "e": 24.628,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 24.628,
+       "e": 24.782,
+       "hl": false
+      },
+      {
+       "w": "mitad",
+       "s": 24.782,
+       "e": 25.068,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 25.068,
+       "e": 25.222,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 25.222,
+       "e": 25.375,
+       "hl": false
+      },
+      {
+       "w": "tierra",
+       "s": 25.375,
+       "e": 25.705,
+       "hl": false
+      },
+      {
+       "w": "habitable",
+       "s": 25.705,
+       "e": 26.167,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 26.167,
+       "e": 26.32,
+       "hl": false
+      },
+      {
+       "w": "dedica",
+       "s": 26.32,
+       "e": 26.65,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 26.65,
+       "e": 26.76,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 26.76,
+       "e": 26.914,
+       "hl": false
+      },
+      {
+       "w": "agricultura.",
+       "s": 26.914,
+       "e": 27.639,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Sin humanos, todo eso serían *bosques*, praderas y humedales.",
+     "s": 27.939,
+     "e": 31.143,
+     "words": [
+      {
+       "w": "Sin",
+       "s": 27.939,
+       "e": 28.141,
+       "hl": false
+      },
+      {
+       "w": "humanos,",
+       "s": 28.141,
+       "e": 28.656,
+       "hl": false
+      },
+      {
+       "w": "todo",
+       "s": 28.656,
+       "e": 28.902,
+       "hl": false
+      },
+      {
+       "w": "eso",
+       "s": 28.902,
+       "e": 29.104,
+       "hl": false
+      },
+      {
+       "w": "serían",
+       "s": 29.104,
+       "e": 29.44,
+       "hl": false
+      },
+      {
+       "w": "bosques,",
+       "s": 29.44,
+       "e": 29.956,
+       "hl": true
+      },
+      {
+       "w": "praderas",
+       "s": 29.956,
+       "e": 30.381,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 30.381,
+       "e": 30.493,
+       "hl": false
+      },
+      {
+       "w": "humedales.",
+       "s": 30.493,
+       "e": 31.143,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_mamiferos",
+   "s": 31.643,
+   "e": 40.934,
+   "lines": [
+    {
+     "text": "Y fíjate en esto: de todos los mamíferos del planeta, por peso, solo el *4%* son salvajes.",
+     "s": 31.893,
+     "e": 37.721,
+     "words": [
+      {
+       "w": "Y",
+       "s": 31.893,
+       "e": 32.025,
+       "hl": false
+      },
+      {
+       "w": "fíjate",
+       "s": 32.025,
+       "e": 32.42,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 32.42,
+       "e": 32.605,
+       "hl": false
+      },
+      {
+       "w": "esto:",
+       "s": 32.605,
+       "e": 33.053,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 33.053,
+       "e": 33.238,
+       "hl": false
+      },
+      {
+       "w": "todos",
+       "s": 33.238,
+       "e": 33.581,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 33.581,
+       "e": 33.818,
+       "hl": false
+      },
+      {
+       "w": "mamíferos",
+       "s": 33.818,
+       "e": 34.372,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 34.372,
+       "e": 34.609,
+       "hl": false
+      },
+      {
+       "w": "planeta,",
+       "s": 34.609,
+       "e": 35.216,
+       "hl": false
+      },
+      {
+       "w": "por",
+       "s": 35.216,
+       "e": 35.453,
+       "hl": false
+      },
+      {
+       "w": "peso,",
+       "s": 35.453,
+       "e": 35.901,
+       "hl": false
+      },
+      {
+       "w": "solo",
+       "s": 35.901,
+       "e": 36.191,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 36.191,
+       "e": 36.376,
+       "hl": false
+      },
+      {
+       "w": "4%",
+       "s": 36.376,
+       "e": 36.771,
+       "hl": true
+      },
+      {
+       "w": "son",
+       "s": 36.771,
+       "e": 37.009,
+       "hl": false
+      },
+      {
+       "w": "salvajes.",
+       "s": 37.009,
+       "e": 37.721,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "El resto somos *nosotros* y nuestro *ganado*.",
+     "s": 38.021,
+     "e": 40.434,
+     "words": [
+      {
+       "w": "El",
+       "s": 38.021,
+       "e": 38.195,
+       "hl": false
+      },
+      {
+       "w": "resto",
+       "s": 38.195,
+       "e": 38.518,
+       "hl": false
+      },
+      {
+       "w": "somos",
+       "s": 38.518,
+       "e": 38.842,
+       "hl": false
+      },
+      {
+       "w": "nosotros",
+       "s": 38.842,
+       "e": 39.315,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 39.315,
+       "e": 39.439,
+       "hl": false
+      },
+      {
+       "w": "nuestro",
+       "s": 39.439,
+       "e": 39.862,
+       "hl": false
+      },
+      {
+       "w": "ganado.",
+       "s": 39.862,
+       "e": 40.434,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_perros",
+   "s": 40.934,
+   "e": 50.991,
+   "lines": [
+    {
+     "text": "Tampoco existirían los *perros*: los domesticamos a partir de lobos hace más de *15.000 años*.",
+     "s": 41.184,
+     "e": 46.689,
+     "words": [
+      {
+       "w": "Tampoco",
+       "s": 41.184,
+       "e": 41.566,
+       "hl": false
+      },
+      {
+       "w": "existirían",
+       "s": 41.566,
+       "e": 42.083,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 42.083,
+       "e": 42.285,
+       "hl": false
+      },
+      {
+       "w": "perros:",
+       "s": 42.285,
+       "e": 42.757,
+       "hl": true
+      },
+      {
+       "w": "los",
+       "s": 42.757,
+       "e": 42.959,
+       "hl": false
+      },
+      {
+       "w": "domesticamos",
+       "s": 42.959,
+       "e": 43.566,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 43.566,
+       "e": 43.678,
+       "hl": false
+      },
+      {
+       "w": "partir",
+       "s": 43.678,
+       "e": 44.015,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 44.015,
+       "e": 44.173,
+       "hl": false
+      },
+      {
+       "w": "lobos",
+       "s": 44.173,
+       "e": 44.465,
+       "hl": false
+      },
+      {
+       "w": "hace",
+       "s": 44.465,
+       "e": 44.712,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 44.712,
+       "e": 44.914,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 44.914,
+       "e": 45.071,
+       "hl": false
+      },
+      {
+       "w": "15.000",
+       "s": 45.071,
+       "e": 46.262,
+       "hl": true
+      },
+      {
+       "w": "años.",
+       "s": 46.262,
+       "e": 46.689,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Ni las *vacas*, ni el *trigo*, ni el *maíz* tal y como los conocemos.",
+     "s": 46.989,
+     "e": 50.491,
+     "words": [
+      {
+       "w": "Ni",
+       "s": 46.989,
+       "e": 47.146,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 47.146,
+       "e": 47.348,
+       "hl": false
+      },
+      {
+       "w": "vacas,",
+       "s": 47.348,
+       "e": 47.775,
+       "hl": true
+      },
+      {
+       "w": "ni",
+       "s": 47.775,
+       "e": 47.932,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 47.932,
+       "e": 48.089,
+       "hl": false
+      },
+      {
+       "w": "trigo,",
+       "s": 48.089,
+       "e": 48.516,
+       "hl": true
+      },
+      {
+       "w": "ni",
+       "s": 48.516,
+       "e": 48.673,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 48.673,
+       "e": 48.83,
+       "hl": false
+      },
+      {
+       "w": "maíz",
+       "s": 48.83,
+       "e": 49.077,
+       "hl": true
+      },
+      {
+       "w": "tal",
+       "s": 49.077,
+       "e": 49.279,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 49.279,
+       "e": 49.391,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 49.391,
+       "e": 49.638,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 49.638,
+       "e": 49.84,
+       "hl": false
+      },
+      {
+       "w": "conocemos.",
+       "s": 49.84,
+       "e": 50.492,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_clima",
+   "s": 50.991,
+   "e": 61.383,
+   "lines": [
+    {
+     "text": "El aire tendría unas *280 partes por millón* de CO₂, como antes de la Revolución Industrial,",
+     "s": 51.241,
+     "e": 57.814,
+     "words": [
+      {
+       "w": "El",
+       "s": 51.241,
+       "e": 51.442,
+       "hl": false
+      },
+      {
+       "w": "aire",
+       "s": 51.442,
+       "e": 51.756,
+       "hl": false
+      },
+      {
+       "w": "tendría",
+       "s": 51.756,
+       "e": 52.242,
+       "hl": false
+      },
+      {
+       "w": "unas",
+       "s": 52.242,
+       "e": 52.556,
+       "hl": false
+      },
+      {
+       "w": "280",
+       "s": 52.556,
+       "e": 53.499,
+       "hl": true
+      },
+      {
+       "w": "partes",
+       "s": 53.499,
+       "e": 53.928,
+       "hl": true
+      },
+      {
+       "w": "por",
+       "s": 53.928,
+       "e": 54.185,
+       "hl": true
+      },
+      {
+       "w": "millón",
+       "s": 54.185,
+       "e": 54.614,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 54.614,
+       "e": 54.814,
+       "hl": false
+      },
+      {
+       "w": "CO₂,",
+       "s": 54.814,
+       "e": 55.242,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 55.242,
+       "e": 55.557,
+       "hl": false
+      },
+      {
+       "w": "antes",
+       "s": 55.557,
+       "e": 55.928,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 55.928,
+       "e": 56.128,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 56.128,
+       "e": 56.328,
+       "hl": false
+      },
+      {
+       "w": "Revolución",
+       "s": 56.328,
+       "e": 56.985,
+       "hl": false
+      },
+      {
+       "w": "Industrial,",
+       "s": 56.985,
+       "e": 57.814,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "en lugar de las más de *420* de hoy.",
+     "s": 58.114,
+     "e": 60.883,
+     "words": [
+      {
+       "w": "en",
+       "s": 58.114,
+       "e": 58.292,
+       "hl": false
+      },
+      {
+       "w": "lugar",
+       "s": 58.292,
+       "e": 58.622,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 58.622,
+       "e": 58.8,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 58.8,
+       "e": 59.029,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 59.029,
+       "e": 59.257,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 59.257,
+       "e": 59.435,
+       "hl": false
+      },
+      {
+       "w": "420",
+       "s": 59.435,
+       "e": 60.274,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 60.274,
+       "e": 60.451,
+       "hl": false
+      },
+      {
+       "w": "hoy.",
+       "s": 60.451,
+       "e": 60.883,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_neandertales",
+   "s": 61.383,
+   "e": 69.881,
+   "lines": [
+    {
+     "text": "¿Y quién dominaría el planeta? Quizá nadie...",
+     "s": 61.633,
+     "e": 64.064,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 61.633,
+       "e": 61.749,
+       "hl": false
+      },
+      {
+       "w": "quién",
+       "s": 61.749,
+       "e": 62.05,
+       "hl": false
+      },
+      {
+       "w": "dominaría",
+       "s": 62.05,
+       "e": 62.536,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 62.536,
+       "e": 62.698,
+       "hl": false
+      },
+      {
+       "w": "planeta?",
+       "s": 62.698,
+       "e": 63.277,
+       "hl": false
+      },
+      {
+       "w": "Quizá",
+       "s": 63.277,
+       "e": 63.578,
+       "hl": false
+      },
+      {
+       "w": "nadie...",
+       "s": 63.578,
+       "e": 64.064,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "o quizá nuestros primos, los *neandertales*, que desaparecieron hace unos *40.000 años*.",
+     "s": 64.364,
+     "e": 69.381,
+     "words": [
+      {
+       "w": "o",
+       "s": 64.364,
+       "e": 64.471,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 64.471,
+       "e": 64.75,
+       "hl": false
+      },
+      {
+       "w": "nuestros",
+       "s": 64.75,
+       "e": 65.157,
+       "hl": false
+      },
+      {
+       "w": "primos,",
+       "s": 65.157,
+       "e": 65.607,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 65.607,
+       "e": 65.8,
+       "hl": false
+      },
+      {
+       "w": "neandertales,",
+       "s": 65.8,
+       "e": 66.508,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 66.508,
+       "e": 66.701,
+       "hl": false
+      },
+      {
+       "w": "desaparecieron",
+       "s": 66.701,
+       "e": 67.366,
+       "hl": false
+      },
+      {
+       "w": "hace",
+       "s": 67.366,
+       "e": 67.601,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 67.601,
+       "e": 67.837,
+       "hl": false
+      },
+      {
+       "w": "40.000",
+       "s": 67.837,
+       "e": 68.974,
+       "hl": true
+      },
+      {
+       "w": "años.",
+       "s": 68.974,
+       "e": 69.381,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_noche",
+   "s": 69.881,
+   "e": 77.936,
+   "lines": [
+    {
+     "text": "De noche, la Tierra vista desde el espacio estaría *completamente a oscuras*.",
+     "s": 70.131,
+     "e": 74.103,
+     "words": [
+      {
+       "w": "De",
+       "s": 70.131,
+       "e": 70.291,
+       "hl": false
+      },
+      {
+       "w": "noche,",
+       "s": 70.291,
+       "e": 70.725,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 70.725,
+       "e": 70.884,
+       "hl": false
+      },
+      {
+       "w": "Tierra",
+       "s": 70.884,
+       "e": 71.227,
+       "hl": false
+      },
+      {
+       "w": "vista",
+       "s": 71.227,
+       "e": 71.524,
+       "hl": false
+      },
+      {
+       "w": "desde",
+       "s": 71.524,
+       "e": 71.82,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 71.82,
+       "e": 71.98,
+       "hl": false
+      },
+      {
+       "w": "espacio",
+       "s": 71.98,
+       "e": 72.368,
+       "hl": false
+      },
+      {
+       "w": "estaría",
+       "s": 72.368,
+       "e": 72.756,
+       "hl": false
+      },
+      {
+       "w": "completamente",
+       "s": 72.756,
+       "e": 73.418,
+       "hl": true
+      },
+      {
+       "w": "a",
+       "s": 73.418,
+       "e": 73.532,
+       "hl": true
+      },
+      {
+       "w": "oscuras.",
+       "s": 73.532,
+       "e": 74.103,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Sin ciudades, sin satélites... y sin nadie que la mirara.",
+     "s": 74.403,
+     "e": 77.436,
+     "words": [
+      {
+       "w": "Sin",
+       "s": 74.403,
+       "e": 74.601,
+       "hl": false
+      },
+      {
+       "w": "ciudades,",
+       "s": 74.601,
+       "e": 75.15,
+       "hl": false
+      },
+      {
+       "w": "sin",
+       "s": 75.15,
+       "e": 75.348,
+       "hl": false
+      },
+      {
+       "w": "satélites...",
+       "s": 75.348,
+       "e": 75.986,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 75.986,
+       "e": 76.095,
+       "hl": false
+      },
+      {
+       "w": "sin",
+       "s": 76.095,
+       "e": 76.293,
+       "hl": false
+      },
+      {
+       "w": "nadie",
+       "s": 76.293,
+       "e": 76.579,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 76.579,
+       "e": 76.777,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 76.777,
+       "e": 76.931,
+       "hl": false
+      },
+      {
+       "w": "mirara.",
+       "s": 76.931,
+       "e": 77.436,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 77.936,
+   "e": 87.051,
+   "lines": [
+    {
+     "text": "Un planeta *salvaje*... sin nadie para contarlo.",
+     "s": 78.186,
+     "e": 80.771,
+     "words": [
+      {
+       "w": "Un",
+       "s": 78.186,
+       "e": 78.352,
+       "hl": false
+      },
+      {
+       "w": "planeta",
+       "s": 78.352,
+       "e": 78.755,
+       "hl": false
+      },
+      {
+       "w": "salvaje...",
+       "s": 78.755,
+       "e": 79.348,
+       "hl": true
+      },
+      {
+       "w": "sin",
+       "s": 79.348,
+       "e": 79.562,
+       "hl": false
+      },
+      {
+       "w": "nadie",
+       "s": 79.562,
+       "e": 79.87,
+       "hl": false
+      },
+      {
+       "w": "para",
+       "s": 79.87,
+       "e": 80.131,
+       "hl": false
+      },
+      {
+       "w": "contarlo.",
+       "s": 80.131,
+       "e": 80.771,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Crees que la Tierra estaría *mejor sin nosotros*? Te leo en comentarios.",
+     "s": 81.071,
+     "e": 84.851,
+     "words": [
+      {
+       "w": "¿Crees",
+       "s": 81.071,
+       "e": 81.367,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 81.367,
+       "e": 81.572,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 81.572,
+       "e": 81.732,
+       "hl": false
+      },
+      {
+       "w": "Tierra",
+       "s": 81.732,
+       "e": 82.073,
+       "hl": false
+      },
+      {
+       "w": "estaría",
+       "s": 82.073,
+       "e": 82.46,
+       "hl": false
+      },
+      {
+       "w": "mejor",
+       "s": 82.46,
+       "e": 82.756,
+       "hl": true
+      },
+      {
+       "w": "sin",
+       "s": 82.756,
+       "e": 82.961,
+       "hl": true
+      },
+      {
+       "w": "nosotros?",
+       "s": 82.961,
+       "e": 83.576,
+       "hl": true
+      },
+      {
+       "w": "Te",
+       "s": 83.576,
+       "e": 83.735,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 83.735,
+       "e": 83.94,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 83.94,
+       "e": 84.1,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 84.1,
+       "e": 84.851,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

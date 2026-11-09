@@ -21,10 +21,10 @@ export interface Design {
     type: 'military' | 'suit' | 'tunic' | 'combat' | 'court' | 'smock' | 'cleanroom' | 'dhoti' | 'greatcoat' | 'robe';
     coat: string; accent?: string; shirt?: string; pants: string; boots?: string; tie?: string;
     epaulettes?: string; sash?: string; medals?: number; tails?: boolean; collar?: string; buttons?: string; belt?: string;
-    vest?: string; cape?: string; glove?: string; embroidery?: string; armband?: string;
+    vest?: string; cape?: string; glove?: string; embroidery?: string; armband?: string; bowtie?: boolean;
   };
   extras?: {glasses?: 'round' | 'pince' | 'square'; birthmark?: boolean; cigar?: boolean; pipe?: boolean; eyepatch?: boolean;
-    wrinkles?: boolean; blush?: boolean; mask?: boolean; earring?: boolean};
+    wrinkles?: boolean; blush?: boolean; mask?: boolean; earring?: boolean; heavyBrow?: boolean; mole?: boolean};
   prop?: string; // 'sword' | 'flag' | 'umbrella' | 'paper' | 'brush' | 'telescope' | 'rifle' | 'microphone' | 'chip' | 'pointer'
   propColor?: string;
   hideHandR?: boolean;
@@ -188,7 +188,8 @@ export const Character: React.FC<CharProps> = (p) => {
     els.push(<path key="sh" d={`M${sw * 0.38},${shY - 30} Q${sw * 0.6},${(shY + hipY) / 2} ${sw * 0.3},40 L${sw + 80},40 L${sw + 80},${shY - 30}Z`} fill={coatD} opacity={0.5} clipPath={`url(#${cid})`} />);
     if (o.type === 'suit') {
       els.push(<path key="shirt" d={`M-22,${shY - 6} L0,${shY + 75} L22,${shY - 6}Z`} fill={o.shirt ?? '#f4f1ea'} stroke={O} strokeWidth={4} />);
-      if (o.tie) els.push(<path key="tie" d={`M-8,${shY + 2} L8,${shY + 2} L5,${shY + 14} L12,${shY + 66} L0,${shY + 82} L-12,${shY + 66} L-5,${shY + 14}Z`} fill={o.tie} stroke={O} strokeWidth={3.5} />);
+      if (o.tie && o.bowtie) els.push(<path key="bow" d={`M0,${shY + 12} L-26,${shY} L-26,${shY + 26}Z M0,${shY + 12} L26,${shY} L26,${shY + 26}Z`} fill={o.tie} stroke={O} strokeWidth={3.5} strokeLinejoin="round" />);
+      if (o.tie && !o.bowtie) els.push(<path key="tie" d={`M-8,${shY + 2} L8,${shY + 2} L5,${shY + 14} L12,${shY + 66} L0,${shY + 82} L-12,${shY + 66} L-5,${shY + 14}Z`} fill={o.tie} stroke={O} strokeWidth={3.5} />);
       els.push(<path key="lap" d={`M-24,${shY - 6} L-6,${shY + 80} M24,${shY - 6} L6,${shY + 80}`} stroke={O} strokeWidth={4} />);
       els.push(<circle key="bt" cx={0} cy={shY + 112} r={5} fill={O} />);
       els.push(<path key="pk" d={`M${sw - 34},${shY + 40} l22,-3`} stroke={O} strokeWidth={4} />);
@@ -340,6 +341,8 @@ const HeadGfx: React.FC<{d: Design; expr: Expr; blink: number; talk: number; loo
       {/* sombra cel lateral */}
       {facePath ? <path d={`M${rx * 0.45},${-ry} C${rx * 1.05},${-ry * 0.5} ${rx * 1.05},${ry * 0.6} ${rx * 0.2},${ry + 20} C${rx * 0.85},${ry * 0.4} ${rx * 0.9},${-ry * 0.4} ${rx * 0.45},${-ry}Z`} fill={skinD} opacity={0.35} /> :
         <path d={`M${rx * 0.35},${-ry * 0.95} C${rx * 1.1},${-ry * 0.6} ${rx * 1.1},${ry * 0.6} ${rx * 0.35},${ry * 0.95} C${rx * 0.85},${ry * 0.4} ${rx * 0.85},${-ry * 0.4} ${rx * 0.35},${-ry * 0.95}Z`} fill={skinD} opacity={0.35} />}
+      {d.extras?.heavyBrow && <path d={`M${-rx * 0.8},-30 Q0,-58 ${rx * 0.8},-30 Q0,-40 ${-rx * 0.8},-30Z`} fill={shade(skin, -0.2)} stroke={O} strokeWidth={4} />}
+      {d.extras?.mole && <circle cx={-34 + lx} cy={30} r={4} fill="#5a3a2a" />}
       {d.extras?.birthmark && <path d="M-6,-78 c14,-6 30,-2 34,8 c6,10 -4,14 2,22 c-8,6 -22,2 -26,-6 c-10,4 -18,-4 -14,-12 c-8,-4 -4,-10 4,-12z" fill="#b5475c" opacity={0.75} />}
       {d.extras?.blush !== false && <><ellipse cx={-40 + lx} cy={26} rx={13} ry={7} fill="#e8707a" opacity={0.25} /><ellipse cx={40 + lx} cy={26} rx={13} ry={7} fill="#e8707a" opacity={0.25} /></>}
       {d.extras?.wrinkles && <path d={`M${-50 + lx},${8} q8,6 4,14 M${50 + lx},8 q-8,6 -4,14 M${-20 + lx},-58 q20,-6 40,0`} stroke={shade(skin, -0.35)} strokeWidth={3} fill="none" />}
@@ -402,6 +405,7 @@ const FacialHair: React.FC<{d: Design; lx: number; talk: number}> = ({d, lx, tal
   if (!d.facial) return null; const c = d.facial.color; const x = lx * 0.9; const s = d.facial.style;
   const els: React.ReactNode[] = [];
   if (s === 'walrus') els.push(<path key="w" d={`M${x - 46},${44} Q${x - 40},${16} ${x - 8},${22} Q${x},${18} ${x + 8},${22} Q${x + 40},${16} ${x + 46},${44} Q${x + 30},${38} ${x + 18},${40} Q${x},${34 + talk * 4} ${x - 18},${40} Q${x - 30},${38} ${x - 46},${44}Z`} fill={c} stroke={O} strokeWidth={4} strokeLinejoin="round" />);
+  if (s === 'pencil') els.push(<path key="pc" d={`M${x - 22},${32} Q${x},${24} ${x + 22},${32}`} stroke={c} strokeWidth={9} fill="none" strokeLinecap="round" />);
   if (s === 'toothbrush') els.push(<rect key="t" x={x - 12} y={24} width={24} height={14} rx={3} fill={c} stroke={O} strokeWidth={3} />);
   if (s === 'mustache') els.push(<path key="m" d={`M${x - 30},${38} Q${x - 16},${20} ${x},${28} Q${x + 16},${20} ${x + 30},${38} Q${x + 14},${34} ${x},${36} Q${x - 14},${34} ${x - 30},${38}Z`} fill={c} stroke={O} strokeWidth={3.5} />);
   if (s === 'fullBeard' || s === 'beard') els.push(<path key="b" d={`M-68,0 Q-70,60 -30,${86} Q0,${102} 30,${86} Q70,60 68,0 L58,-2 Q54,40 30,50 Q0,${40 + talk * 20} -30,50 Q-54,40 -58,-2Z`} fill={c} stroke={O} strokeWidth={4} />,
@@ -411,6 +415,7 @@ const FacialHair: React.FC<{d: Design; lx: number; talk: number}> = ({d, lx, tal
     els.push(<path key="sl" d={`M-70,-30 L-70,${s === 'bigSideburns' ? 48 : 30} Q${-70 + w},${s === 'bigSideburns' ? 56 : 34} ${-70 + w},-30Z`} fill={c} stroke={O} strokeWidth={3.5} />,
       <path key="sr" d={`M70,-30 L70,${s === 'bigSideburns' ? 48 : 30} Q${70 - w},${s === 'bigSideburns' ? 56 : 34} ${70 - w},-30Z`} fill={c} stroke={O} strokeWidth={3.5} />);
   }
+  if (s === 'chinstrap') els.push(<path key="cs" d={`M-70,-10 Q-74,70 -30,${92} Q0,${104} 30,${92} Q74,70 70,-10 L60,-8 Q58,50 28,66 Q0,${60 + talk * 16} -28,66 Q-58,50 -60,-8Z`} fill={c} stroke={O} strokeWidth={4} />);
   if (s === 'goatee') els.push(<path key="g" d={`M${x - 14},64 Q${x},90 ${x + 14},64 Q${x},72 ${x - 14},64Z`} fill={c} stroke={O} strokeWidth={3} />);
   if (s === 'stubble') els.push(<path key="st" d={`M-56,30 Q0,110 56,30 Q40,70 0,78 Q-40,70 -56,30Z`} fill={c} opacity={0.18} />);
   return <g>{els}</g>;
@@ -537,6 +542,33 @@ const Hat: React.FC<{d: Design; rx: number; ry: number; lx: number; f: number}> 
         <path d="M-60,0 L-66,-70 L-34,-40 L0,-86 L34,-40 L66,-70 L60,0Z" fill={a} {...st} />
         <rect x={-62} y={-14} width={124} height={16} fill={h.accent2 ?? '#c0392b'} {...st} strokeWidth={3} />
         <circle cy={-86} r={8} fill="#2e86de" {...st} strokeWidth={2} />
+      </g>;
+    case 'stovepipe':
+      return <g transform={`translate(${lx * 0.4},${top + 26})`}>
+        <path d="M-58,-4 L-62,-190 Q0,-200 62,-190 L58,-4Z" fill={c} {...st} />
+        <rect x={-60} y={-40} width={120} height={22} fill={a} />
+        <path d="M-100,0 Q0,-24 100,0 Q96,14 60,8 Q0,0 -60,8 Q-96,14 -100,0Z" fill={c} {...st} />
+      </g>;
+    case 'kepi':
+      return <g transform={`translate(${lx * 0.5},${top + 22})`}>
+        <path d="M-74,0 L-60,-96 Q-20,-110 50,-80 L72,0Z" fill={c} {...st} />
+        <path d="M-74,0 L72,0 L72,-14 L-74,-14Z" fill={shade(c, -0.2)} {...st} strokeWidth={3} />
+        <path d="M-10,0 Q50,4 100,24 Q40,30 -10,14Z" fill="#141414" {...st} strokeWidth={4} />
+        {h.accent && <circle cx={-6} cy={-40} r={10} fill={a} stroke={O} strokeWidth={2} />}
+      </g>;
+    case 'cuartelera':
+      return <g transform={`translate(${lx * 0.5},${top + 24})`}>
+        <path d="M-80,0 Q-70,-70 0,-76 Q70,-70 80,0 Q0,-14 -80,0Z" fill={c} {...st} />
+        <path d="M-80,0 Q0,-14 80,0" stroke={shade(c, -0.25)} strokeWidth={5} fill="none" />
+        <path d="M0,-76 Q8,-96 2,-112" stroke={O} strokeWidth={3} fill="none" />
+        <path d="M-6,-112 L10,-112 L14,-84 L-10,-84Z" fill={h.accent2 ?? '#c0202e'} stroke={O} strokeWidth={3} />
+        {h.accent && <path d="M-24,-30 l8,-14 l8,14 l-8,-4Z" fill={a} stroke={O} strokeWidth={2} />}
+      </g>;
+    case 'slouch':
+      return <g transform={`translate(${lx * 0.4},${top + 24})`}>
+        <path d="M-64,-2 Q-60,-92 0,-96 Q60,-92 64,-2Z" fill={c} {...st} />
+        <path d="M-120,4 Q0,-28 120,4 Q90,26 0,12 Q-90,26 -120,4Z" fill={c} {...st} />
+        <rect x={-62} y={-28} width={124} height={14} fill={a} />
       </g>;
     case 'laurel':
       return <g transform={`translate(${lx * 0.4},${top + 30})`}>

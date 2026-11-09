@@ -1,0 +1,33 @@
+{
+  "id": "republica", "titulo": "¿Y si nunca hubiera habido una dictadura en España?",
+  "voice": "em_alex", "speed": 1.06,
+  "scenes": [
+    {"id": "s1_golpe", "lines": [
+      {"t": "17 de julio de 1936. Un *golpe de Estado* militar parte España en dos.", "say": "Diecisiete de julio de mil novecientos treinta y seis. Un golpe de Estado militar parte España en dos."},
+      {"t": "¿Y si nunca hubiera habido una *dictadura*?"},
+      {"t": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*", "say": "Antes de seguir, suscríbete para no perderte ningún vídeo de Y si.", "cta": true}]},
+    {"id": "s2_republica", "lines": [
+      {"t": "En 1931 se había proclamado la *Segunda República*.", "say": "En mil novecientos treinta y uno se había proclamado la Segunda República."},
+      {"t": "Con ella llegó el *voto femenino*, que se estrenó en las elecciones de 1933.", "say": "Con ella llegó el voto femenino, que se estrenó en las elecciones de mil novecientos treinta y tres."}]},
+    {"id": "s3_guerra", "lines": [
+      {"t": "Pero el golpe fracasa en media España y estalla una *guerra civil* de casi *tres años*."},
+      {"t": "Cientos de miles de muertos, *represión* en ambos bandos y cerca de *medio millón* de exiliados."}]},
+    {"id": "s4_franco", "lines": [
+      {"t": "En 1939 gana el bando sublevado, y *Francisco Franco* gobierna como dictador durante *36 años*.", "say": "En mil novecientos treinta y nueve gana el bando sublevado, y Francisco Franco gobierna como dictador durante treinta y seis años."},
+      {"t": "Represión, *censura* y años de *aislamiento* internacional."}]},
+    {"id": "s5_giro", "lines": [
+      {"t": "Ahora imagina que el golpe *fracasa* en julio de 1936.", "say": "Ahora imagina que el golpe fracasa en julio de mil novecientos treinta y seis."},
+      {"t": "La República sobrevive y la guerra *nunca* llega a estallar."}]},
+    {"id": "s6_aliados", "lines": [
+      {"t": "En la Segunda Guerra Mundial, quizá España habría acabado del lado de los *Aliados*."},
+      {"t": "Y después habría recibido el *Plan Marshall*, que en la realidad nunca llegó."}]},
+    {"id": "s7_europa", "lines": [
+      {"t": "Quizá habría entrado en la *Comunidad Europea* desde el principio,"},
+      {"t": "y no en *1986*, casi treinta años después de su fundación.", "say": "y no en mil novecientos ochenta y seis, casi treinta años después de su fundación."}]},
+    {"id": "s8_talento", "lines": [
+      {"t": "Y no se habría perdido a miles de *científicos*, *artistas* y *maestros* que murieron o tuvieron que exiliarse."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "La democracia llegó finalmente con la *Constitución de 1978*.", "say": "La democracia llegó finalmente con la Constitución de mil novecientos setenta y ocho."},
+      {"t": "¿Cómo sería hoy España si hubiera llegado *40 años antes*? Te leo en comentarios.", "say": "¿Cómo sería hoy España si hubiera llegado cuarenta años antes? Te leo en comentarios."}]}
+  ]
+}

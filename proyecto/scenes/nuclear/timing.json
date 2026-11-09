@@ -1,0 +1,1765 @@
+{
+ "id": "nuclear",
+ "lang": "es",
+ "cues": {},
+ "titulo": "¿Y si estallara una bomba nuclear en medio de Europa?",
+ "total": 99.759,
+ "scenes": [
+  {
+   "id": "s1_destello",
+   "s": 0.0,
+   "e": 12.154,
+   "lines": [
+    {
+     "text": "Un destello más brillante que *mil soles*, en pleno corazón de Europa.",
+     "s": 0.25,
+     "e": 3.881,
+     "words": [
+      {
+       "w": "Un",
+       "s": 0.25,
+       "e": 0.409,
+       "hl": false
+      },
+      {
+       "w": "destello",
+       "s": 0.409,
+       "e": 0.84,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 0.84,
+       "e": 1.044,
+       "hl": false
+      },
+      {
+       "w": "brillante",
+       "s": 1.044,
+       "e": 1.521,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 1.521,
+       "e": 1.725,
+       "hl": false
+      },
+      {
+       "w": "mil",
+       "s": 1.725,
+       "e": 1.929,
+       "hl": true
+      },
+      {
+       "w": "soles,",
+       "s": 1.929,
+       "e": 2.36,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 2.36,
+       "e": 2.519,
+       "hl": false
+      },
+      {
+       "w": "pleno",
+       "s": 2.519,
+       "e": 2.814,
+       "hl": false
+      },
+      {
+       "w": "corazón",
+       "s": 2.814,
+       "e": 3.2,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 3.2,
+       "e": 3.359,
+       "hl": false
+      },
+      {
+       "w": "Europa.",
+       "s": 3.359,
+       "e": 3.881,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Qué pasaría si estallara una *bomba nuclear* en medio del continente?",
+     "s": 4.181,
+     "e": 7.814,
+     "words": [
+      {
+       "w": "¿Qué",
+       "s": 4.181,
+       "e": 4.394,
+       "hl": false
+      },
+      {
+       "w": "pasaría",
+       "s": 4.394,
+       "e": 4.798,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 4.798,
+       "e": 4.964,
+       "hl": false
+      },
+      {
+       "w": "estallara",
+       "s": 4.964,
+       "e": 5.463,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 5.463,
+       "e": 5.677,
+       "hl": false
+      },
+      {
+       "w": "bomba",
+       "s": 5.677,
+       "e": 5.985,
+       "hl": true
+      },
+      {
+       "w": "nuclear",
+       "s": 5.985,
+       "e": 6.389,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 6.389,
+       "e": 6.555,
+       "hl": false
+      },
+      {
+       "w": "medio",
+       "s": 6.555,
+       "e": 6.864,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 6.864,
+       "e": 7.078,
+       "hl": false
+      },
+      {
+       "w": "continente?",
+       "s": 7.078,
+       "e": 7.814,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*",
+     "s": 8.114,
+     "e": 11.654,
+     "words": [
+      {
+       "w": "Antes",
+       "s": 8.114,
+       "e": 8.452,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 8.452,
+       "e": 8.634,
+       "hl": false
+      },
+      {
+       "w": "seguir,",
+       "s": 8.634,
+       "e": 9.181,
+       "hl": false
+      },
+      {
+       "w": "suscríbete",
+       "s": 9.181,
+       "e": 9.78,
+       "hl": true
+      },
+      {
+       "w": "para",
+       "s": 9.78,
+       "e": 10.066,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 10.066,
+       "e": 10.249,
+       "hl": false
+      },
+      {
+       "w": "perderte",
+       "s": 10.249,
+       "e": 10.743,
+       "hl": false
+      },
+      {
+       "w": "ningún",
+       "s": 10.743,
+       "e": 11.134,
+       "hl": false
+      },
+      {
+       "w": "¿Y",
+       "s": 11.134,
+       "e": 11.264,
+       "hl": true
+      },
+      {
+       "w": "si...?",
+       "s": 11.264,
+       "e": 11.654,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_hiroshima",
+   "s": 12.154,
+   "e": 28.25,
+   "lines": [
+    {
+     "text": "Solo se han usado dos bombas atómicas en una guerra: *Hiroshima* y *Nagasaki*, en agosto de 1945.",
+     "s": 12.404,
+     "e": 19.313,
+     "words": [
+      {
+       "w": "Solo",
+       "s": 12.404,
+       "e": 12.707,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 12.707,
+       "e": 12.9,
+       "hl": false
+      },
+      {
+       "w": "han",
+       "s": 12.9,
+       "e": 13.148,
+       "hl": false
+      },
+      {
+       "w": "usado",
+       "s": 13.148,
+       "e": 13.505,
+       "hl": false
+      },
+      {
+       "w": "dos",
+       "s": 13.505,
+       "e": 13.753,
+       "hl": false
+      },
+      {
+       "w": "bombas",
+       "s": 13.753,
+       "e": 14.166,
+       "hl": false
+      },
+      {
+       "w": "atómicas",
+       "s": 14.166,
+       "e": 14.689,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 14.689,
+       "e": 14.882,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 14.882,
+       "e": 15.129,
+       "hl": false
+      },
+      {
+       "w": "guerra:",
+       "s": 15.129,
+       "e": 15.707,
+       "hl": false
+      },
+      {
+       "w": "Hiroshima",
+       "s": 15.707,
+       "e": 16.285,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 16.285,
+       "e": 16.423,
+       "hl": false
+      },
+      {
+       "w": "Nagasaki,",
+       "s": 16.423,
+       "e": 17.111,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 17.111,
+       "e": 17.304,
+       "hl": false
+      },
+      {
+       "w": "agosto",
+       "s": 17.304,
+       "e": 17.717,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 17.717,
+       "e": 17.909,
+       "hl": false
+      },
+      {
+       "w": "1945.",
+       "s": 17.909,
+       "e": 19.313,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "La de Hiroshima, de unos *15 kilotones*, mató a decenas de miles de personas al instante",
+     "s": 19.613,
+     "e": 24.524,
+     "words": [
+      {
+       "w": "La",
+       "s": 19.613,
+       "e": 19.774,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 19.774,
+       "e": 19.934,
+       "hl": false
+      },
+      {
+       "w": "Hiroshima,",
+       "s": 19.934,
+       "e": 20.554,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 20.554,
+       "e": 20.715,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 20.715,
+       "e": 20.967,
+       "hl": false
+      },
+      {
+       "w": "15",
+       "s": 20.967,
+       "e": 21.495,
+       "hl": true
+      },
+      {
+       "w": "kilotones,",
+       "s": 21.495,
+       "e": 22.114,
+       "hl": true
+      },
+      {
+       "w": "mató",
+       "s": 22.114,
+       "e": 22.367,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 22.367,
+       "e": 22.482,
+       "hl": false
+      },
+      {
+       "w": "decenas",
+       "s": 22.482,
+       "e": 22.872,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 22.872,
+       "e": 23.032,
+       "hl": false
+      },
+      {
+       "w": "miles",
+       "s": 23.032,
+       "e": 23.331,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 23.331,
+       "e": 23.491,
+       "hl": false
+      },
+      {
+       "w": "personas",
+       "s": 23.491,
+       "e": 23.927,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 23.927,
+       "e": 24.088,
+       "hl": false
+      },
+      {
+       "w": "instante",
+       "s": 24.088,
+       "e": 24.524,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y a unas *140.000* antes de acabar el año.",
+     "s": 24.824,
+     "e": 27.75,
+     "words": [
+      {
+       "w": "y",
+       "s": 24.824,
+       "e": 24.926,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 24.926,
+       "e": 25.029,
+       "hl": false
+      },
+      {
+       "w": "unas",
+       "s": 25.029,
+       "e": 25.254,
+       "hl": false
+      },
+      {
+       "w": "140.000",
+       "s": 25.254,
+       "e": 26.543,
+       "hl": true
+      },
+      {
+       "w": "antes",
+       "s": 26.543,
+       "e": 26.809,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 26.809,
+       "e": 26.952,
+       "hl": false
+      },
+      {
+       "w": "acabar",
+       "s": 26.952,
+       "e": 27.259,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 27.259,
+       "e": 27.402,
+       "hl": false
+      },
+      {
+       "w": "año.",
+       "s": 27.402,
+       "e": 27.75,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_hoy",
+   "s": 28.25,
+   "e": 32.759,
+   "lines": [
+    {
+     "text": "Hoy, muchas cabezas nucleares son *decenas de veces* más potentes.",
+     "s": 28.5,
+     "e": 32.259,
+     "words": [
+      {
+       "w": "Hoy,",
+       "s": 28.5,
+       "e": 28.876,
+       "hl": false
+      },
+      {
+       "w": "muchas",
+       "s": 28.876,
+       "e": 29.252,
+       "hl": false
+      },
+      {
+       "w": "cabezas",
+       "s": 29.252,
+       "e": 29.678,
+       "hl": false
+      },
+      {
+       "w": "nucleares",
+       "s": 29.678,
+       "e": 30.204,
+       "hl": false
+      },
+      {
+       "w": "son",
+       "s": 30.204,
+       "e": 30.43,
+       "hl": false
+      },
+      {
+       "w": "decenas",
+       "s": 30.43,
+       "e": 30.856,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 30.856,
+       "e": 31.031,
+       "hl": true
+      },
+      {
+       "w": "veces",
+       "s": 31.031,
+       "e": 31.357,
+       "hl": true
+      },
+      {
+       "w": "más",
+       "s": 31.357,
+       "e": 31.582,
+       "hl": false
+      },
+      {
+       "w": "potentes.",
+       "s": 31.582,
+       "e": 32.259,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_estallido",
+   "s": 32.759,
+   "e": 48.279,
+   "lines": [
+    {
+     "text": "Imagina una de ellas sobre una gran ciudad de *Europa central*.",
+     "s": 33.009,
+     "e": 36.348,
+     "words": [
+      {
+       "w": "Imagina",
+       "s": 33.009,
+       "e": 33.412,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 33.412,
+       "e": 33.625,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 33.625,
+       "e": 33.79,
+       "hl": false
+      },
+      {
+       "w": "ellas",
+       "s": 33.79,
+       "e": 34.098,
+       "hl": false
+      },
+      {
+       "w": "sobre",
+       "s": 34.098,
+       "e": 34.406,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 34.406,
+       "e": 34.619,
+       "hl": false
+      },
+      {
+       "w": "gran",
+       "s": 34.619,
+       "e": 34.88,
+       "hl": false
+      },
+      {
+       "w": "ciudad",
+       "s": 34.88,
+       "e": 35.235,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 35.235,
+       "e": 35.401,
+       "hl": false
+      },
+      {
+       "w": "Europa",
+       "s": 35.401,
+       "e": 35.756,
+       "hl": true
+      },
+      {
+       "w": "central.",
+       "s": 35.756,
+       "e": 36.348,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Primero, una *bola de fuego* más caliente que la superficie del Sol.",
+     "s": 36.648,
+     "e": 40.074,
+     "words": [
+      {
+       "w": "Primero,",
+       "s": 36.648,
+       "e": 37.153,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 37.153,
+       "e": 37.351,
+       "hl": false
+      },
+      {
+       "w": "bola",
+       "s": 37.351,
+       "e": 37.593,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 37.593,
+       "e": 37.746,
+       "hl": true
+      },
+      {
+       "w": "fuego",
+       "s": 37.746,
+       "e": 38.032,
+       "hl": true
+      },
+      {
+       "w": "más",
+       "s": 38.032,
+       "e": 38.23,
+       "hl": false
+      },
+      {
+       "w": "caliente",
+       "s": 38.23,
+       "e": 38.647,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 38.647,
+       "e": 38.845,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 38.845,
+       "e": 38.998,
+       "hl": false
+      },
+      {
+       "w": "superficie",
+       "s": 38.998,
+       "e": 39.503,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 39.503,
+       "e": 39.701,
+       "hl": false
+      },
+      {
+       "w": "Sol.",
+       "s": 39.701,
+       "e": 40.074,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Después, una *onda expansiva* que derriba edificios a kilómetros de distancia, y un calor capaz de causar quemaduras mucho más lejos.",
+     "s": 40.374,
+     "e": 47.779,
+     "words": [
+      {
+       "w": "Después,",
+       "s": 40.374,
+       "e": 40.944,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 40.944,
+       "e": 41.167,
+       "hl": false
+      },
+      {
+       "w": "onda",
+       "s": 41.167,
+       "e": 41.439,
+       "hl": true
+      },
+      {
+       "w": "expansiva",
+       "s": 41.439,
+       "e": 41.959,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 41.959,
+       "e": 42.182,
+       "hl": false
+      },
+      {
+       "w": "derriba",
+       "s": 42.182,
+       "e": 42.603,
+       "hl": false
+      },
+      {
+       "w": "edificios",
+       "s": 42.603,
+       "e": 43.123,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 43.123,
+       "e": 43.247,
+       "hl": false
+      },
+      {
+       "w": "kilómetros",
+       "s": 43.247,
+       "e": 43.817,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 43.817,
+       "e": 43.99,
+       "hl": false
+      },
+      {
+       "w": "distancia,",
+       "s": 43.99,
+       "e": 44.659,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 44.659,
+       "e": 44.783,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 44.783,
+       "e": 44.956,
+       "hl": false
+      },
+      {
+       "w": "calor",
+       "s": 44.956,
+       "e": 45.278,
+       "hl": false
+      },
+      {
+       "w": "capaz",
+       "s": 45.278,
+       "e": 45.6,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 45.6,
+       "e": 45.773,
+       "hl": false
+      },
+      {
+       "w": "causar",
+       "s": 45.773,
+       "e": 46.145,
+       "hl": false
+      },
+      {
+       "w": "quemaduras",
+       "s": 46.145,
+       "e": 46.714,
+       "hl": false
+      },
+      {
+       "w": "mucho",
+       "s": 46.714,
+       "e": 47.036,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 47.036,
+       "e": 47.259,
+       "hl": false
+      },
+      {
+       "w": "lejos.",
+       "s": 47.259,
+       "e": 47.779,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_lluvia",
+   "s": 48.279,
+   "e": 61.686,
+   "lines": [
+    {
+     "text": "Pero el peligro no acaba ahí: los vientos del oeste arrastrarían la *lluvia radiactiva* hacia el este, cruzando fronteras.",
+     "s": 48.529,
+     "e": 54.848,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 48.529,
+       "e": 48.782,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 48.782,
+       "e": 48.943,
+       "hl": false
+      },
+      {
+       "w": "peligro",
+       "s": 48.943,
+       "e": 49.333,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 49.333,
+       "e": 49.494,
+       "hl": false
+      },
+      {
+       "w": "acaba",
+       "s": 49.494,
+       "e": 49.793,
+       "hl": false
+      },
+      {
+       "w": "ahí:",
+       "s": 49.793,
+       "e": 50.138,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 50.138,
+       "e": 50.344,
+       "hl": false
+      },
+      {
+       "w": "vientos",
+       "s": 50.344,
+       "e": 50.735,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 50.735,
+       "e": 50.942,
+       "hl": false
+      },
+      {
+       "w": "oeste",
+       "s": 50.942,
+       "e": 51.241,
+       "hl": false
+      },
+      {
+       "w": "arrastrarían",
+       "s": 51.241,
+       "e": 51.861,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 51.861,
+       "e": 52.022,
+       "hl": false
+      },
+      {
+       "w": "lluvia",
+       "s": 52.022,
+       "e": 52.366,
+       "hl": true
+      },
+      {
+       "w": "radiactiva",
+       "s": 52.366,
+       "e": 52.895,
+       "hl": true
+      },
+      {
+       "w": "hacia",
+       "s": 52.895,
+       "e": 53.194,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 53.194,
+       "e": 53.354,
+       "hl": false
+      },
+      {
+       "w": "este,",
+       "s": 53.354,
+       "e": 53.745,
+       "hl": false
+      },
+      {
+       "w": "cruzando",
+       "s": 53.745,
+       "e": 54.182,
+       "hl": false
+      },
+      {
+       "w": "fronteras.",
+       "s": 54.182,
+       "e": 54.848,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Ya pasó con *Chernóbil* en 1986: su nube radiactiva alcanzó gran parte de Europa.",
+     "s": 55.148,
+     "e": 61.186,
+     "words": [
+      {
+       "w": "Ya",
+       "s": 55.148,
+       "e": 55.344,
+       "hl": false
+      },
+      {
+       "w": "pasó",
+       "s": 55.344,
+       "e": 55.651,
+       "hl": false
+      },
+      {
+       "w": "con",
+       "s": 55.651,
+       "e": 55.903,
+       "hl": false
+      },
+      {
+       "w": "Chernóbil",
+       "s": 55.903,
+       "e": 56.49,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 56.49,
+       "e": 56.685,
+       "hl": false
+      },
+      {
+       "w": "1986:",
+       "s": 56.685,
+       "e": 58.055,
+       "hl": false
+      },
+      {
+       "w": "su",
+       "s": 58.055,
+       "e": 58.251,
+       "hl": false
+      },
+      {
+       "w": "nube",
+       "s": 58.251,
+       "e": 58.558,
+       "hl": false
+      },
+      {
+       "w": "radiactiva",
+       "s": 58.558,
+       "e": 59.201,
+       "hl": false
+      },
+      {
+       "w": "alcanzó",
+       "s": 59.201,
+       "e": 59.676,
+       "hl": false
+      },
+      {
+       "w": "gran",
+       "s": 59.676,
+       "e": 59.984,
+       "hl": false
+      },
+      {
+       "w": "parte",
+       "s": 59.984,
+       "e": 60.347,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 60.347,
+       "e": 60.543,
+       "hl": false
+      },
+      {
+       "w": "Europa.",
+       "s": 60.543,
+       "e": 61.186,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_otan",
+   "s": 61.686,
+   "e": 72.344,
+   "lines": [
+    {
+     "text": "Si el ataque viniera de otro país, entraría en juego el *artículo 5* de la *OTAN*:",
+     "s": 61.936,
+     "e": 66.292,
+     "words": [
+      {
+       "w": "Si",
+       "s": 61.936,
+       "e": 62.096,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 62.096,
+       "e": 62.257,
+       "hl": false
+      },
+      {
+       "w": "ataque",
+       "s": 62.257,
+       "e": 62.601,
+       "hl": false
+      },
+      {
+       "w": "viniera",
+       "s": 62.601,
+       "e": 62.99,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 62.99,
+       "e": 63.151,
+       "hl": false
+      },
+      {
+       "w": "otro",
+       "s": 63.151,
+       "e": 63.403,
+       "hl": false
+      },
+      {
+       "w": "país,",
+       "s": 63.403,
+       "e": 63.793,
+       "hl": false
+      },
+      {
+       "w": "entraría",
+       "s": 63.793,
+       "e": 64.228,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 64.228,
+       "e": 64.389,
+       "hl": false
+      },
+      {
+       "w": "juego",
+       "s": 64.389,
+       "e": 64.687,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 64.687,
+       "e": 64.847,
+       "hl": false
+      },
+      {
+       "w": "artículo",
+       "s": 64.847,
+       "e": 65.283,
+       "hl": true
+      },
+      {
+       "w": "5",
+       "s": 65.283,
+       "e": 65.581,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 65.581,
+       "e": 65.742,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 65.742,
+       "e": 65.902,
+       "hl": false
+      },
+      {
+       "w": "OTAN:",
+       "s": 65.902,
+       "e": 66.292,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "un ataque contra uno es un ataque contra *todos*. El mundo estaría al borde de una *guerra nuclear*.",
+     "s": 66.592,
+     "e": 71.844,
+     "words": [
+      {
+       "w": "un",
+       "s": 66.592,
+       "e": 66.756,
+       "hl": false
+      },
+      {
+       "w": "ataque",
+       "s": 66.756,
+       "e": 67.108,
+       "hl": false
+      },
+      {
+       "w": "contra",
+       "s": 67.108,
+       "e": 67.459,
+       "hl": false
+      },
+      {
+       "w": "uno",
+       "s": 67.459,
+       "e": 67.67,
+       "hl": false
+      },
+      {
+       "w": "es",
+       "s": 67.67,
+       "e": 67.834,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 67.834,
+       "e": 67.999,
+       "hl": false
+      },
+      {
+       "w": "ataque",
+       "s": 67.999,
+       "e": 68.35,
+       "hl": false
+      },
+      {
+       "w": "contra",
+       "s": 68.35,
+       "e": 68.702,
+       "hl": false
+      },
+      {
+       "w": "todos.",
+       "s": 68.702,
+       "e": 69.194,
+       "hl": true
+      },
+      {
+       "w": "El",
+       "s": 69.194,
+       "e": 69.358,
+       "hl": false
+      },
+      {
+       "w": "mundo",
+       "s": 69.358,
+       "e": 69.663,
+       "hl": false
+      },
+      {
+       "w": "estaría",
+       "s": 69.663,
+       "e": 70.062,
+       "hl": false
+      },
+      {
+       "w": "al",
+       "s": 70.062,
+       "e": 70.226,
+       "hl": false
+      },
+      {
+       "w": "borde",
+       "s": 70.226,
+       "e": 70.531,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 70.531,
+       "e": 70.695,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 70.695,
+       "e": 70.906,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 70.906,
+       "e": 71.257,
+       "hl": true
+      },
+      {
+       "w": "nuclear.",
+       "s": 71.257,
+       "e": 71.844,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_caos",
+   "s": 72.344,
+   "e": 78.346,
+   "lines": [
+    {
+     "text": "Las *bolsas* se hundirían, se cerraría el *espacio aéreo* y millones de personas buscarían *refugio*.",
+     "s": 72.594,
+     "e": 77.846,
+     "words": [
+      {
+       "w": "Las",
+       "s": 72.594,
+       "e": 72.811,
+       "hl": false
+      },
+      {
+       "w": "bolsas",
+       "s": 72.811,
+       "e": 73.174,
+       "hl": true
+      },
+      {
+       "w": "se",
+       "s": 73.174,
+       "e": 73.344,
+       "hl": false
+      },
+      {
+       "w": "hundirían,",
+       "s": 73.344,
+       "e": 73.997,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 73.997,
+       "e": 74.167,
+       "hl": false
+      },
+      {
+       "w": "cerraría",
+       "s": 74.167,
+       "e": 74.627,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 74.627,
+       "e": 74.796,
+       "hl": false
+      },
+      {
+       "w": "espacio",
+       "s": 74.796,
+       "e": 75.208,
+       "hl": true
+      },
+      {
+       "w": "aéreo",
+       "s": 75.208,
+       "e": 75.522,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 75.522,
+       "e": 75.643,
+       "hl": false
+      },
+      {
+       "w": "millones",
+       "s": 75.643,
+       "e": 76.103,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 76.103,
+       "e": 76.272,
+       "hl": false
+      },
+      {
+       "w": "personas",
+       "s": 76.272,
+       "e": 76.732,
+       "hl": false
+      },
+      {
+       "w": "buscarían",
+       "s": 76.732,
+       "e": 77.241,
+       "hl": false
+      },
+      {
+       "w": "refugio.",
+       "s": 77.241,
+       "e": 77.846,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_invierno",
+   "s": 78.346,
+   "e": 87.19,
+   "lines": [
+    {
+     "text": "Un solo estallido no provocaría un *invierno nuclear*: para eso harían falta *cientos* de bombas.",
+     "s": 78.596,
+     "e": 83.805,
+     "words": [
+      {
+       "w": "Un",
+       "s": 78.596,
+       "e": 78.767,
+       "hl": false
+      },
+      {
+       "w": "solo",
+       "s": 78.767,
+       "e": 79.036,
+       "hl": false
+      },
+      {
+       "w": "estallido",
+       "s": 79.036,
+       "e": 79.549,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 79.549,
+       "e": 79.721,
+       "hl": false
+      },
+      {
+       "w": "provocaría",
+       "s": 79.721,
+       "e": 80.283,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 80.283,
+       "e": 80.454,
+       "hl": false
+      },
+      {
+       "w": "invierno",
+       "s": 80.454,
+       "e": 80.919,
+       "hl": true
+      },
+      {
+       "w": "nuclear:",
+       "s": 80.919,
+       "e": 81.481,
+       "hl": true
+      },
+      {
+       "w": "para",
+       "s": 81.481,
+       "e": 81.75,
+       "hl": false
+      },
+      {
+       "w": "eso",
+       "s": 81.75,
+       "e": 81.97,
+       "hl": false
+      },
+      {
+       "w": "harían",
+       "s": 81.97,
+       "e": 82.337,
+       "hl": false
+      },
+      {
+       "w": "falta",
+       "s": 82.337,
+       "e": 82.655,
+       "hl": false
+      },
+      {
+       "w": "cientos",
+       "s": 82.655,
+       "e": 83.071,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 83.071,
+       "e": 83.242,
+       "hl": false
+      },
+      {
+       "w": "bombas.",
+       "s": 83.242,
+       "e": 83.805,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Pero cada una nos acercaría un poco más.",
+     "s": 84.105,
+     "e": 86.69,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 84.105,
+       "e": 84.401,
+       "hl": false
+      },
+      {
+       "w": "cada",
+       "s": 84.401,
+       "e": 84.697,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 84.697,
+       "e": 84.939,
+       "hl": false
+      },
+      {
+       "w": "nos",
+       "s": 84.939,
+       "e": 85.182,
+       "hl": false
+      },
+      {
+       "w": "acercaría",
+       "s": 85.182,
+       "e": 85.747,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 85.747,
+       "e": 85.936,
+       "hl": false
+      },
+      {
+       "w": "poco",
+       "s": 85.936,
+       "e": 86.232,
+       "hl": false
+      },
+      {
+       "w": "más.",
+       "s": 86.232,
+       "e": 86.69,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 87.19,
+   "e": 99.759,
+   "lines": [
+    {
+     "text": "Hoy existen unas *12.000 cabezas nucleares*. Desde 1945, ninguna se ha vuelto a usar en una guerra.",
+     "s": 87.44,
+     "e": 94.42,
+     "words": [
+      {
+       "w": "Hoy",
+       "s": 87.44,
+       "e": 87.65,
+       "hl": false
+      },
+      {
+       "w": "existen",
+       "s": 87.65,
+       "e": 88.047,
+       "hl": false
+      },
+      {
+       "w": "unas",
+       "s": 88.047,
+       "e": 88.303,
+       "hl": false
+      },
+      {
+       "w": "12.000",
+       "s": 88.303,
+       "e": 89.541,
+       "hl": true
+      },
+      {
+       "w": "cabezas",
+       "s": 89.541,
+       "e": 89.937,
+       "hl": true
+      },
+      {
+       "w": "nucleares.",
+       "s": 89.937,
+       "e": 90.614,
+       "hl": true
+      },
+      {
+       "w": "Desde",
+       "s": 90.614,
+       "e": 90.918,
+       "hl": false
+      },
+      {
+       "w": "1945,",
+       "s": 90.918,
+       "e": 92.062,
+       "hl": false
+      },
+      {
+       "w": "ninguna",
+       "s": 92.062,
+       "e": 92.459,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 92.459,
+       "e": 92.622,
+       "hl": false
+      },
+      {
+       "w": "ha",
+       "s": 92.622,
+       "e": 92.786,
+       "hl": false
+      },
+      {
+       "w": "vuelto",
+       "s": 92.786,
+       "e": 93.136,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 93.136,
+       "e": 93.252,
+       "hl": false
+      },
+      {
+       "w": "usar",
+       "s": 93.252,
+       "e": 93.509,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 93.509,
+       "e": 93.673,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 93.673,
+       "e": 93.883,
+       "hl": false
+      },
+      {
+       "w": "guerra.",
+       "s": 93.883,
+       "e": 94.42,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Crees que seguirá siendo así? Te leo en comentarios.",
+     "s": 94.72,
+     "e": 97.559,
+     "words": [
+      {
+       "w": "¿Crees",
+       "s": 94.72,
+       "e": 95.01,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 95.01,
+       "e": 95.211,
+       "hl": false
+      },
+      {
+       "w": "seguirá",
+       "s": 95.211,
+       "e": 95.591,
+       "hl": false
+      },
+      {
+       "w": "siendo",
+       "s": 95.591,
+       "e": 95.927,
+       "hl": false
+      },
+      {
+       "w": "así?",
+       "s": 95.927,
+       "e": 96.307,
+       "hl": false
+      },
+      {
+       "w": "Te",
+       "s": 96.307,
+       "e": 96.463,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 96.463,
+       "e": 96.665,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 96.665,
+       "e": 96.821,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 96.821,
+       "e": 97.559,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

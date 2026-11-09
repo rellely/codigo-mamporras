@@ -1,0 +1,1325 @@
+{
+ "id": "secesion",
+ "lang": "es",
+ "cues": {},
+ "titulo": "¿Y si el Sur hubiera ganado la guerra civil de EE. UU.?",
+ "total": 81.826,
+ "scenes": [
+  {
+   "id": "s1_appomattox",
+   "s": 0.0,
+   "e": 13.319,
+   "lines": [
+    {
+     "text": "9 de abril de 1865. El general *Lee* se rinde en Appomattox y la *Unión* gana la guerra civil.",
+     "s": 0.25,
+     "e": 7.115,
+     "words": [
+      {
+       "w": "9",
+       "s": 0.25,
+       "e": 0.603,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 0.603,
+       "e": 0.793,
+       "hl": false
+      },
+      {
+       "w": "abril",
+       "s": 0.793,
+       "e": 1.145,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 1.145,
+       "e": 1.335,
+       "hl": false
+      },
+      {
+       "w": "1865.",
+       "s": 1.335,
+       "e": 2.719,
+       "hl": false
+      },
+      {
+       "w": "El",
+       "s": 2.719,
+       "e": 2.909,
+       "hl": false
+      },
+      {
+       "w": "general",
+       "s": 2.909,
+       "e": 3.371,
+       "hl": false
+      },
+      {
+       "w": "Lee",
+       "s": 3.371,
+       "e": 3.615,
+       "hl": true
+      },
+      {
+       "w": "se",
+       "s": 3.615,
+       "e": 3.805,
+       "hl": false
+      },
+      {
+       "w": "rinde",
+       "s": 3.805,
+       "e": 4.157,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 4.157,
+       "e": 4.347,
+       "hl": false
+      },
+      {
+       "w": "Appomattox",
+       "s": 4.347,
+       "e": 4.971,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 4.971,
+       "e": 5.107,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 5.107,
+       "e": 5.297,
+       "hl": false
+      },
+      {
+       "w": "Unión",
+       "s": 5.297,
+       "e": 5.65,
+       "hl": true
+      },
+      {
+       "w": "gana",
+       "s": 5.65,
+       "e": 5.948,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 5.948,
+       "e": 6.138,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 6.138,
+       "e": 6.545,
+       "hl": false
+      },
+      {
+       "w": "civil.",
+       "s": 6.545,
+       "e": 7.115,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Y si hubiera ganado el *Sur*?",
+     "s": 7.415,
+     "e": 8.978,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 7.415,
+       "e": 7.53,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 7.53,
+       "e": 7.691,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 7.691,
+       "e": 8.082,
+       "hl": false
+      },
+      {
+       "w": "ganado",
+       "s": 8.082,
+       "e": 8.427,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 8.427,
+       "e": 8.588,
+       "hl": false
+      },
+      {
+       "w": "Sur?",
+       "s": 8.588,
+       "e": 8.978,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*",
+     "s": 9.278,
+     "e": 12.819,
+     "words": [
+      {
+       "w": "Antes",
+       "s": 9.278,
+       "e": 9.617,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 9.617,
+       "e": 9.799,
+       "hl": false
+      },
+      {
+       "w": "seguir,",
+       "s": 9.799,
+       "e": 10.346,
+       "hl": false
+      },
+      {
+       "w": "suscríbete",
+       "s": 10.346,
+       "e": 10.944,
+       "hl": true
+      },
+      {
+       "w": "para",
+       "s": 10.944,
+       "e": 11.231,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 11.231,
+       "e": 11.413,
+       "hl": false
+      },
+      {
+       "w": "perderte",
+       "s": 11.413,
+       "e": 11.908,
+       "hl": false
+      },
+      {
+       "w": "ningún",
+       "s": 11.908,
+       "e": 12.298,
+       "hl": false
+      },
+      {
+       "w": "¿Y",
+       "s": 12.298,
+       "e": 12.428,
+       "hl": true
+      },
+      {
+       "w": "si...?",
+       "s": 12.428,
+       "e": 12.819,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_secesion",
+   "s": 13.319,
+   "e": 23.254,
+   "lines": [
+    {
+     "text": "En 1861, *once estados* del Sur se separan y forman los *Estados Confederados de América*.",
+     "s": 13.569,
+     "e": 20.143,
+     "words": [
+      {
+       "w": "En",
+       "s": 13.569,
+       "e": 13.768,
+       "hl": false
+      },
+      {
+       "w": "1861,",
+       "s": 13.768,
+       "e": 15.163,
+       "hl": false
+      },
+      {
+       "w": "once",
+       "s": 15.163,
+       "e": 15.476,
+       "hl": true
+      },
+      {
+       "w": "estados",
+       "s": 15.476,
+       "e": 15.959,
+       "hl": true
+      },
+      {
+       "w": "del",
+       "s": 15.959,
+       "e": 16.216,
+       "hl": false
+      },
+      {
+       "w": "Sur",
+       "s": 16.216,
+       "e": 16.472,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 16.472,
+       "e": 16.671,
+       "hl": false
+      },
+      {
+       "w": "separan",
+       "s": 16.671,
+       "e": 17.155,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 17.155,
+       "e": 17.297,
+       "hl": false
+      },
+      {
+       "w": "forman",
+       "s": 17.297,
+       "e": 17.724,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 17.724,
+       "e": 17.98,
+       "hl": false
+      },
+      {
+       "w": "Estados",
+       "s": 17.98,
+       "e": 18.464,
+       "hl": true
+      },
+      {
+       "w": "Confederados",
+       "s": 18.464,
+       "e": 19.232,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 19.232,
+       "e": 19.431,
+       "hl": true
+      },
+      {
+       "w": "América.",
+       "s": 19.431,
+       "e": 20.143,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Su gran motivo: mantener la *esclavitud*.",
+     "s": 20.443,
+     "e": 22.754,
+     "words": [
+      {
+       "w": "Su",
+       "s": 20.443,
+       "e": 20.611,
+       "hl": false
+      },
+      {
+       "w": "gran",
+       "s": 20.611,
+       "e": 20.876,
+       "hl": false
+      },
+      {
+       "w": "motivo:",
+       "s": 20.876,
+       "e": 21.382,
+       "hl": false
+      },
+      {
+       "w": "mantener",
+       "s": 21.382,
+       "e": 21.839,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 21.839,
+       "e": 22.008,
+       "hl": false
+      },
+      {
+       "w": "esclavitud.",
+       "s": 22.008,
+       "e": 22.754,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_esclavitud",
+   "s": 23.254,
+   "e": 29.058,
+   "lines": [
+    {
+     "text": "En 1860 había en el país unos *cuatro millones* de personas esclavizadas.",
+     "s": 23.504,
+     "e": 28.558,
+     "words": [
+      {
+       "w": "En",
+       "s": 23.504,
+       "e": 23.687,
+       "hl": false
+      },
+      {
+       "w": "1860",
+       "s": 23.687,
+       "e": 24.807,
+       "hl": false
+      },
+      {
+       "w": "había",
+       "s": 24.807,
+       "e": 25.145,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 25.145,
+       "e": 25.328,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 25.328,
+       "e": 25.51,
+       "hl": false
+      },
+      {
+       "w": "país",
+       "s": 25.51,
+       "e": 25.797,
+       "hl": false
+      },
+      {
+       "w": "unos",
+       "s": 25.797,
+       "e": 26.083,
+       "hl": false
+      },
+      {
+       "w": "cuatro",
+       "s": 26.083,
+       "e": 26.474,
+       "hl": true
+      },
+      {
+       "w": "millones",
+       "s": 26.474,
+       "e": 26.969,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 26.969,
+       "e": 27.151,
+       "hl": false
+      },
+      {
+       "w": "personas",
+       "s": 27.151,
+       "e": 27.646,
+       "hl": false
+      },
+      {
+       "w": "esclavizadas.",
+       "s": 27.646,
+       "e": 28.558,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_guerra",
+   "s": 29.058,
+   "e": 36.148,
+   "lines": [
+    {
+     "text": "La guerra dura *cuatro años* y causa más de *600.000 muertos*:",
+     "s": 29.308,
+     "e": 32.96,
+     "words": [
+      {
+       "w": "La",
+       "s": 29.308,
+       "e": 29.451,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 29.451,
+       "e": 29.757,
+       "hl": false
+      },
+      {
+       "w": "dura",
+       "s": 29.757,
+       "e": 29.981,
+       "hl": false
+      },
+      {
+       "w": "cuatro",
+       "s": 29.981,
+       "e": 30.287,
+       "hl": true
+      },
+      {
+       "w": "años",
+       "s": 30.287,
+       "e": 30.511,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 30.511,
+       "e": 30.613,
+       "hl": false
+      },
+      {
+       "w": "causa",
+       "s": 30.613,
+       "e": 30.879,
+       "hl": false
+      },
+      {
+       "w": "más",
+       "s": 30.879,
+       "e": 31.062,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 31.062,
+       "e": 31.205,
+       "hl": false
+      },
+      {
+       "w": "600.000",
+       "s": 31.205,
+       "e": 32.49,
+       "hl": true
+      },
+      {
+       "w": "muertos:",
+       "s": 32.49,
+       "e": 32.96,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "más que cualquier otra guerra de su historia.",
+     "s": 33.26,
+     "e": 35.648,
+     "words": [
+      {
+       "w": "más",
+       "s": 33.26,
+       "e": 33.462,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 33.462,
+       "e": 33.665,
+       "hl": false
+      },
+      {
+       "w": "cualquier",
+       "s": 33.665,
+       "e": 34.138,
+       "hl": false
+      },
+      {
+       "w": "otra",
+       "s": 34.138,
+       "e": 34.386,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 34.386,
+       "e": 34.724,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 34.724,
+       "e": 34.882,
+       "hl": false
+      },
+      {
+       "w": "su",
+       "s": 34.882,
+       "e": 35.04,
+       "hl": false
+      },
+      {
+       "w": "historia.",
+       "s": 35.04,
+       "e": 35.648,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_gettysburg",
+   "s": 36.148,
+   "e": 48.043,
+   "lines": [
+    {
+     "text": "En julio de 1863, el Sur pierde en *Gettysburg*, y ya no se recupera.",
+     "s": 36.398,
+     "e": 41.671,
+     "words": [
+      {
+       "w": "En",
+       "s": 36.398,
+       "e": 36.586,
+       "hl": false
+      },
+      {
+       "w": "julio",
+       "s": 36.586,
+       "e": 36.936,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 36.936,
+       "e": 37.124,
+       "hl": false
+      },
+      {
+       "w": "1863,",
+       "s": 37.124,
+       "e": 38.443,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 38.443,
+       "e": 38.631,
+       "hl": false
+      },
+      {
+       "w": "Sur",
+       "s": 38.631,
+       "e": 38.873,
+       "hl": false
+      },
+      {
+       "w": "pierde",
+       "s": 38.873,
+       "e": 39.277,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 39.277,
+       "e": 39.465,
+       "hl": false
+      },
+      {
+       "w": "Gettysburg,",
+       "s": 39.465,
+       "e": 40.245,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 40.245,
+       "e": 40.38,
+       "hl": false
+      },
+      {
+       "w": "ya",
+       "s": 40.38,
+       "e": 40.568,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 40.568,
+       "e": 40.756,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 40.756,
+       "e": 40.945,
+       "hl": false
+      },
+      {
+       "w": "recupera.",
+       "s": 40.945,
+       "e": 41.671,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "En 1865, la *13.ª Enmienda* abole la esclavitud en todo el país.",
+     "s": 41.971,
+     "e": 47.543,
+     "words": [
+      {
+       "w": "En",
+       "s": 41.971,
+       "e": 42.172,
+       "hl": false
+      },
+      {
+       "w": "1865,",
+       "s": 42.172,
+       "e": 43.579,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 43.579,
+       "e": 43.78,
+       "hl": false
+      },
+      {
+       "w": "13.ª",
+       "s": 43.78,
+       "e": 44.498,
+       "hl": true
+      },
+      {
+       "w": "Enmienda",
+       "s": 44.498,
+       "e": 45.044,
+       "hl": true
+      },
+      {
+       "w": "abole",
+       "s": 45.044,
+       "e": 45.417,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 45.417,
+       "e": 45.618,
+       "hl": false
+      },
+      {
+       "w": "esclavitud",
+       "s": 45.618,
+       "e": 46.279,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 46.279,
+       "e": 46.48,
+       "hl": false
+      },
+      {
+       "w": "todo",
+       "s": 46.48,
+       "e": 46.796,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 46.796,
+       "e": 46.997,
+       "hl": false
+      },
+      {
+       "w": "país.",
+       "s": 46.997,
+       "e": 47.543,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_giro",
+   "s": 48.043,
+   "e": 57.474,
+   "lines": [
+    {
+     "text": "Ahora imagina que *Lee* gana en Gettysburg",
+     "s": 48.293,
+     "e": 50.569,
+     "words": [
+      {
+       "w": "Ahora",
+       "s": 48.293,
+       "e": 48.625,
+       "hl": false
+      },
+      {
+       "w": "imagina",
+       "s": 48.625,
+       "e": 49.06,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 49.06,
+       "e": 49.29,
+       "hl": false
+      },
+      {
+       "w": "Lee",
+       "s": 49.29,
+       "e": 49.521,
+       "hl": true
+      },
+      {
+       "w": "gana",
+       "s": 49.521,
+       "e": 49.802,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 49.802,
+       "e": 49.981,
+       "hl": false
+      },
+      {
+       "w": "Gettysburg",
+       "s": 49.981,
+       "e": 50.569,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y que *Lincoln* pierde las elecciones de 1864. El Norte, agotado, *firma la paz*.",
+     "s": 50.869,
+     "e": 56.974,
+     "words": [
+      {
+       "w": "y",
+       "s": 50.869,
+       "e": 51.007,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 51.007,
+       "e": 51.254,
+       "hl": false
+      },
+      {
+       "w": "Lincoln",
+       "s": 51.254,
+       "e": 51.722,
+       "hl": true
+      },
+      {
+       "w": "pierde",
+       "s": 51.722,
+       "e": 52.134,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 52.134,
+       "e": 52.382,
+       "hl": false
+      },
+      {
+       "w": "elecciones",
+       "s": 52.382,
+       "e": 53.014,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 53.014,
+       "e": 53.207,
+       "hl": false
+      },
+      {
+       "w": "1864.",
+       "s": 53.207,
+       "e": 54.609,
+       "hl": false
+      },
+      {
+       "w": "El",
+       "s": 54.609,
+       "e": 54.802,
+       "hl": false
+      },
+      {
+       "w": "Norte,",
+       "s": 54.802,
+       "e": 55.324,
+       "hl": false
+      },
+      {
+       "w": "agotado,",
+       "s": 55.324,
+       "e": 55.957,
+       "hl": false
+      },
+      {
+       "w": "firma",
+       "s": 55.957,
+       "e": 56.314,
+       "hl": true
+      },
+      {
+       "w": "la",
+       "s": 56.314,
+       "e": 56.507,
+       "hl": true
+      },
+      {
+       "w": "paz.",
+       "s": 56.507,
+       "e": 56.974,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_dospaises",
+   "s": 57.474,
+   "e": 67.485,
+   "lines": [
+    {
+     "text": "Norteamérica quedaría partida en *dos países* rivales.",
+     "s": 57.724,
+     "e": 60.758,
+     "words": [
+      {
+       "w": "Norteamérica",
+       "s": 57.724,
+       "e": 58.413,
+       "hl": false
+      },
+      {
+       "w": "quedaría",
+       "s": 58.413,
+       "e": 58.897,
+       "hl": false
+      },
+      {
+       "w": "partida",
+       "s": 58.897,
+       "e": 59.33,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 59.33,
+       "e": 59.509,
+       "hl": false
+      },
+      {
+       "w": "dos",
+       "s": 59.509,
+       "e": 59.738,
+       "hl": true
+      },
+      {
+       "w": "países",
+       "s": 59.738,
+       "e": 60.12,
+       "hl": true
+      },
+      {
+       "w": "rivales.",
+       "s": 60.12,
+       "e": 60.758,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "Y la esclavitud podría haber durado décadas más: *Brasil* no la abolió hasta 1888.",
+     "s": 61.058,
+     "e": 66.985,
+     "words": [
+      {
+       "w": "Y",
+       "s": 61.058,
+       "e": 61.194,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 61.194,
+       "e": 61.384,
+       "hl": false
+      },
+      {
+       "w": "esclavitud",
+       "s": 61.384,
+       "e": 62.009,
+       "hl": false
+      },
+      {
+       "w": "podría",
+       "s": 62.009,
+       "e": 62.417,
+       "hl": false
+      },
+      {
+       "w": "haber",
+       "s": 62.417,
+       "e": 62.771,
+       "hl": false
+      },
+      {
+       "w": "durado",
+       "s": 62.771,
+       "e": 63.179,
+       "hl": false
+      },
+      {
+       "w": "décadas",
+       "s": 63.179,
+       "e": 63.641,
+       "hl": false
+      },
+      {
+       "w": "más:",
+       "s": 63.641,
+       "e": 64.049,
+       "hl": false
+      },
+      {
+       "w": "Brasil",
+       "s": 64.049,
+       "e": 64.456,
+       "hl": true
+      },
+      {
+       "w": "no",
+       "s": 64.456,
+       "e": 64.647,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 64.647,
+       "e": 64.837,
+       "hl": false
+      },
+      {
+       "w": "abolió",
+       "s": 64.837,
+       "e": 65.245,
+       "hl": false
+      },
+      {
+       "w": "hasta",
+       "s": 65.245,
+       "e": 65.598,
+       "hl": false
+      },
+      {
+       "w": "1888.",
+       "s": 65.598,
+       "e": 66.985,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_superpotencia",
+   "s": 67.485,
+   "e": 73.99,
+   "lines": [
+    {
+     "text": "Sin un país unido, quizá no habría surgido la *superpotencia* que fue decisiva en las *dos guerras mundiales*.",
+     "s": 67.735,
+     "e": 73.49,
+     "words": [
+      {
+       "w": "Sin",
+       "s": 67.735,
+       "e": 67.949,
+       "hl": false
+      },
+      {
+       "w": "un",
+       "s": 67.949,
+       "e": 68.116,
+       "hl": false
+      },
+      {
+       "w": "país",
+       "s": 68.116,
+       "e": 68.377,
+       "hl": false
+      },
+      {
+       "w": "unido,",
+       "s": 68.377,
+       "e": 68.829,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 68.829,
+       "e": 69.138,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 69.138,
+       "e": 69.305,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 69.305,
+       "e": 69.661,
+       "hl": false
+      },
+      {
+       "w": "surgido",
+       "s": 69.661,
+       "e": 70.065,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 70.065,
+       "e": 70.232,
+       "hl": false
+      },
+      {
+       "w": "superpotencia",
+       "s": 70.232,
+       "e": 70.921,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 70.921,
+       "e": 71.135,
+       "hl": false
+      },
+      {
+       "w": "fue",
+       "s": 71.135,
+       "e": 71.349,
+       "hl": false
+      },
+      {
+       "w": "decisiva",
+       "s": 71.349,
+       "e": 71.801,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 71.801,
+       "e": 71.968,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 71.968,
+       "e": 72.182,
+       "hl": false
+      },
+      {
+       "w": "dos",
+       "s": 72.182,
+       "e": 72.396,
+       "hl": true
+      },
+      {
+       "w": "guerras",
+       "s": 72.396,
+       "e": 72.8,
+       "hl": true
+      },
+      {
+       "w": "mundiales.",
+       "s": 72.8,
+       "e": 73.49,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 73.99,
+   "e": 81.826,
+   "lines": [
+    {
+     "text": "Todo el *siglo XX* sería distinto.",
+     "s": 74.24,
+     "e": 76.441,
+     "words": [
+      {
+       "w": "Todo",
+       "s": 74.24,
+       "e": 74.55,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 74.55,
+       "e": 74.748,
+       "hl": false
+      },
+      {
+       "w": "siglo",
+       "s": 74.748,
+       "e": 75.115,
+       "hl": true
+      },
+      {
+       "w": "XX",
+       "s": 75.115,
+       "e": 75.312,
+       "hl": true
+      },
+      {
+       "w": "sería",
+       "s": 75.312,
+       "e": 75.679,
+       "hl": false
+      },
+      {
+       "w": "distinto.",
+       "s": 75.679,
+       "e": 76.441,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Tú qué crees que habría pasado? Te leo en comentarios.",
+     "s": 76.741,
+     "e": 79.626,
+     "words": [
+      {
+       "w": "¿Tú",
+       "s": 76.741,
+       "e": 76.894,
+       "hl": false
+      },
+      {
+       "w": "qué",
+       "s": 76.894,
+       "e": 77.091,
+       "hl": false
+      },
+      {
+       "w": "crees",
+       "s": 77.091,
+       "e": 77.375,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 77.375,
+       "e": 77.572,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 77.572,
+       "e": 77.9,
+       "hl": false
+      },
+      {
+       "w": "pasado?",
+       "s": 77.9,
+       "e": 78.402,
+       "hl": false
+      },
+      {
+       "w": "Te",
+       "s": 78.402,
+       "e": 78.555,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 78.555,
+       "e": 78.752,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 78.752,
+       "e": 78.905,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 78.905,
+       "e": 79.626,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

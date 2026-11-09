@@ -198,7 +198,7 @@ export const Flash: React.FC<{at: number; color?: string; dur?: number}> = ({at,
 };
 
 // ---------------- banderas ----------------
-type FlagKind = 'ussr' | 'russia' | 'france' | 'uk' | 'prussia' | 'burgundy' | 'spain' | 'prc' | 'roc' | 'usa' | 'japan' | 'ukraine' | 'india' | 'white' | 'gran_colombia' | 'argentina' | 'mexico' | 'eu' | 'germany1871' | 'austria';
+type FlagKind = 'republica' | 'csa' | 'usa1861' | 'nato' | 'germany' | 'ussr' | 'russia' | 'france' | 'uk' | 'prussia' | 'burgundy' | 'spain' | 'prc' | 'roc' | 'usa' | 'japan' | 'ukraine' | 'india' | 'white' | 'gran_colombia' | 'argentina' | 'mexico' | 'eu' | 'germany1871' | 'austria';
 export const FlagFace: React.FC<{kind: FlagKind; w: number; h: number}> = ({kind, w, h}) => {
   const tri = (a: string, b: string, c: string, vert = true) => vert
     ? <><rect width={w / 3} height={h} fill={a} /><rect x={w / 3} width={w / 3} height={h} fill={b} /><rect x={(2 * w) / 3} width={w / 3} height={h} fill={c} /></>
@@ -238,6 +238,14 @@ export const FlagFace: React.FC<{kind: FlagKind; w: number; h: number}> = ({kind
     case 'mexico': return <g>{tri('#006847', '#fff', '#ce1126')}<circle cx={w / 2} cy={h / 2} r={h * 0.12} fill="#8a5a2b" /></g>;
     case 'eu': return <g><rect width={w} height={h} fill="#003399" />{Array.from({length: 12}).map((_, i) => { const a = (i / 12) * Math.PI * 2; return <g key={i}>{star(w / 2 + Math.cos(a) * h * 0.33, h / 2 + Math.sin(a) * h * 0.33, h * 0.06, '#ffcc00')}</g>; })}</g>;
     case 'austria': return tri('#ed2939', '#fff', '#ed2939', false);
+    case 'republica': return tri('#c60b1e', '#ffc400', '#6c2c7c', false);
+    case 'germany': return tri('#111', '#dd0000', '#ffce00', false);
+    case 'csa': return <g><rect width={w} height={h / 3} fill="#c8102e" /><rect y={h / 3} width={w} height={h / 3} fill="#fff" /><rect y={(2 * h) / 3} width={w} height={h / 3} fill="#c8102e" />
+      <rect width={w * 0.38} height={(2 * h) / 3} fill="#1f2f6f" />{Array.from({length: 7}).map((_, i) => { const a = (i / 7) * Math.PI * 2 - Math.PI / 2; return <g key={i}>{star(w * 0.19 + Math.cos(a) * h * 0.2, h / 3 + Math.sin(a) * h * 0.2, h * 0.05, '#fff')}</g>; })}</g>;
+    case 'usa1861': return <g>{Array.from({length: 13}).map((_, i) => <rect key={i} y={(i * h) / 13} width={w} height={h / 13} fill={i % 2 ? '#fff' : '#b22234'} />)}
+      <rect width={w * 0.4} height={(h * 7) / 13} fill="#3c3b6e" />{Array.from({length: 34}).map((_, i) => <circle key={i} cx={w * 0.03 + (i % 7) * w * 0.055} cy={h * 0.05 + Math.floor(i / 7) * h * 0.1} r={h * 0.016} fill="#fff" />)}</g>;
+    case 'nato': return <g><rect width={w} height={h} fill="#004990" /><g transform={`translate(${w / 2},${h / 2})`}><circle r={h * 0.18} fill="none" stroke="#fff" strokeWidth={h * 0.03} />
+      <path d={`M0,${-h * 0.36} L${h * 0.06},0 L0,${h * 0.36} L${-h * 0.06},0Z M${-h * 0.36},0 L0,${h * 0.06} L${h * 0.36},0 L0,${-h * 0.06}Z`} fill="#fff" /></g></g>;
     case 'germany1871': return tri('#111', '#fff', '#d7263d', false);
     default: return <rect width={w} height={h} fill="#fff" />;
   }

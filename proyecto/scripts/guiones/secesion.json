@@ -1,0 +1,32 @@
+{
+  "id": "secesion", "titulo": "¿Y si el Sur hubiera ganado la guerra civil de EE. UU.?",
+  "voice": "em_alex", "speed": 1.06,
+  "scenes": [
+    {"id": "s1_appomattox", "lines": [
+      {"t": "9 de abril de 1865. El general *Lee* se rinde en Appomattox y la *Unión* gana la guerra civil.", "say": "Nueve de abril de mil ochocientos sesenta y cinco. El general Lee se rinde en Appomattox y la Unión gana la guerra civil."},
+      {"t": "¿Y si hubiera ganado el *Sur*?"},
+      {"t": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*", "say": "Antes de seguir, suscríbete para no perderte ningún vídeo de Y si.", "cta": true}]},
+    {"id": "s2_secesion", "lines": [
+      {"t": "En 1861, *once estados* del Sur se separan y forman los *Estados Confederados de América*.", "say": "En mil ochocientos sesenta y uno, once estados del Sur se separan y forman los Estados Confederados de América."},
+      {"t": "Su gran motivo: mantener la *esclavitud*."}]},
+    {"id": "s3_esclavitud", "lines": [
+      {"t": "En 1860 había en el país unos *cuatro millones* de personas esclavizadas.", "say": "En mil ochocientos sesenta había en el país unos cuatro millones de personas esclavizadas."}]},
+    {"id": "s4_guerra", "lines": [
+      {"t": "La guerra dura *cuatro años* y causa más de *600.000 muertos*:", "say": "La guerra dura cuatro años y causa más de seiscientos mil muertos:"},
+      {"t": "más que cualquier otra guerra de su historia."}]},
+    {"id": "s5_gettysburg", "lines": [
+      {"t": "En julio de 1863, el Sur pierde en *Gettysburg*, y ya no se recupera.", "say": "En julio de mil ochocientos sesenta y tres, el Sur pierde en Gettysburg, y ya no se recupera."},
+      {"t": "En 1865, la *13.ª Enmienda* abole la esclavitud en todo el país.", "say": "En mil ochocientos sesenta y cinco, la decimotercera enmienda abole la esclavitud en todo el país."}]},
+    {"id": "s6_giro", "lines": [
+      {"t": "Ahora imagina que *Lee* gana en Gettysburg"},
+      {"t": "y que *Lincoln* pierde las elecciones de 1864. El Norte, agotado, *firma la paz*.", "say": "y que Lincoln pierde las elecciones de mil ochocientos sesenta y cuatro. El Norte, agotado, firma la paz."}]},
+    {"id": "s7_dospaises", "lines": [
+      {"t": "Norteamérica quedaría partida en *dos países* rivales."},
+      {"t": "Y la esclavitud podría haber durado décadas más: *Brasil* no la abolió hasta 1888.", "say": "Y la esclavitud podría haber durado décadas más: Brasil no la abolió hasta mil ochocientos ochenta y ocho."}]},
+    {"id": "s8_superpotencia", "lines": [
+      {"t": "Sin un país unido, quizá no habría surgido la *superpotencia* que fue decisiva en las *dos guerras mundiales*."}]},
+    {"id": "s9_final", "tail": 2.2, "lines": [
+      {"t": "Todo el *siglo XX* sería distinto.", "say": "Todo el siglo veinte sería distinto."},
+      {"t": "¿Tú qué crees que habría pasado? Te leo en comentarios."}]}
+  ]
+}

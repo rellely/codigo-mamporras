@@ -178,3 +178,40 @@ export const Amb: React.FC<{name: string; vol?: number; from?: number; dur: numb
     <Audio src={staticFile(`audio/sfx/${name}.wav`)} loop volume={(f) => vol * clamp(f / 12) * clamp((dur - f) / 12)} />
   </Sequence>
 );
+
+/** llamada a la suscripción tras la introducción: tarjeta del canal, clic en SUSCRÍBETE y campana */
+export const SubscribeCTA: React.FC<{from: number; dur: number}> = ({from, dur}) => {
+  const f = useCurrentFrame() - from; if (f < 0 || f > dur) return null;
+  const {fps} = useVideoConfig();
+  const inK = spring({frame: f, fps, config: {damping: 12, stiffness: 180}}); const out = 1 - clamp((f - dur + 10) / 10);
+  const click = Math.round(dur * 0.42); const done = f >= click;
+  const hx = tween(f, 8, click - 4, 900, 610), hy = tween(f, 8, click - 4, 1180, 905);
+  const press = f >= click - 3 && f < click + 4 ? 0.9 : 1;
+  const bell = f > click + 6 ? Math.sin((f - click) / 2) * 22 * Math.max(0, 1 - (f - click - 6) / 30) : 0;
+  return <AbsoluteFill style={{pointerEvents: 'none'}}>
+    <div style={{position: 'absolute', inset: 0, background: 'rgba(5,0,15,0.35)', opacity: inK * out}} />
+    <div style={{position: 'absolute', left: 70, right: 70, top: 760, opacity: out, transform: `scale(${0.6 + 0.4 * inK}) translateY(${(1 - inK) * 80}px)`}}>
+      <div style={{background: '#fffaf0', border: `7px solid ${C.ink}`, borderRadius: 30, padding: '26px 30px', boxShadow: '0 14px 0 #0d0a12', display: 'flex', alignItems: 'center', gap: 22}}>
+        <div style={{width: 110, height: 110, borderRadius: 60, background: C.yellow, border: `6px solid ${C.ink}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: FONT_TITLE, fontSize: 25, color: C.ink, flexShrink: 0, whiteSpace: 'nowrap'}}>{L('¿Y SI…?')}</div>
+        <div style={{flex: 1}}>
+          <div style={{fontFamily: FONT_TITLE, fontSize: 46, color: C.ink, lineHeight: 1}}>{L('¿Y SI…? HISTORIA')}</div>
+          <div style={{fontFamily: FONT_UI, fontWeight: 800, fontSize: 24, color: '#6a6070', marginTop: 4}}>{L('Historia alternativa en 1 minuto')}</div>
+          <div style={{display: 'flex', alignItems: 'center', gap: 14, marginTop: 14}}>
+            <div style={{background: done ? '#d9d4dc' : '#e8202a', color: done ? '#3a3440' : '#fff', fontFamily: FONT_UI, fontWeight: 900, fontSize: 34, padding: '12px 26px', borderRadius: 40, border: `5px solid ${C.ink}`, transform: `scale(${press})`, letterSpacing: 1}}>
+              {done ? L('SUSCRITO ✓') : L('SUSCRÍBETE')}</div>
+            <svg width={64} height={64} viewBox="-32 -32 64 64" style={{transform: `rotate(${bell}deg)`}}>
+              <path d="M-18,12 Q-18,-20 0,-22 Q18,-20 18,12 L24,18 L-24,18Z" fill={done ? C.yellow : '#fff'} stroke={C.ink} strokeWidth={4} strokeLinejoin="round" />
+              <circle cy={24} r={6} fill={C.ink} />{done && <path d="M-28,-14 q-6,10 0,20 M28,-14 q6,10 0,20" stroke={C.ink} strokeWidth={4} fill="none" />}</svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg width={1080} height={1920} style={{position: 'absolute', inset: 0, opacity: out}}>
+      <g transform={`translate(${hx},${hy}) scale(${press}) rotate(-20)`} stroke={C.ink} strokeWidth={6} strokeLinejoin="round">
+        <path d="M0,0 L0,-70 Q0,-84 12,-84 Q24,-84 24,-70 L24,-30 Q36,-36 44,-28 Q56,-34 62,-24 Q74,-28 78,-16 L78,30 Q70,70 30,70 L10,70 Q-10,50 -24,20 Q-34,4 -20,-2 Q-10,-6 0,10Z" fill="#fff" />
+      </g>
+      {done && f < click + 14 && <circle cx={610} cy={905} r={(f - click) * 8} fill="none" stroke={C.yellow} strokeWidth={8} opacity={1 - (f - click) / 14} />}
+    </svg>
+    <Sfx name="pop" at={from + click} vol={0.6} /><Sfx name="ding" at={from + click + 4} vol={0.45} />
+  </AbsoluteFill>;
+};

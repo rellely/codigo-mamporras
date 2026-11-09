@@ -65,3 +65,57 @@ Las fronteras históricas de los mapas son aproximaciones construidas con paíse
 ## Decisiones de representación
 - No se muestran esvásticas ni simbología nazi; Hitler aparece solo como estudiante de arte en 1907.
 - Los rasgos de los personajes buscan reconocimiento iconográfico (peinado, bigote, sombrero, uniforme, accesorios), no retratos.
+
+---
+
+## 6 · ¿Y si estallara una bomba nuclear en medio de Europa? (escenario hipotético, divulgativo)
+| Dato | Valor usado | Nota |
+|---|---|---|
+| Únicos usos en guerra | Hiroshima (6-8-1945) y Nagasaki (9-8-1945) | |
+| Bomba de Hiroshima | ~15 kilotones; decenas de miles de muertos al instante, ~140.000 a finales de 1945 | Estimaciones habituales |
+| Ojivas actuales | 300 kt y 800 kt como ejemplos | "Decenas de veces más potentes": 300/15 = 20 |
+| Lluvia radiactiva | Arrastrada por los vientos dominantes del oeste | Sin radios concretos: los círculos del mapa son ilustrativos |
+| Chernóbil | Accidente de 1986; nube sobre gran parte de Europa | Se aclara en pantalla que fue un accidente, no una bomba |
+| Artículo 5 de la OTAN | Defensa colectiva; 32 miembros | |
+| Invierno nuclear | Requiere cientos de detonaciones según los estudios | |
+| Arsenal mundial | ~12.000 cabezas | SIPRI 2025: 12.241; [FAS](https://fas.org/initiative/status-world-nuclear-forces/) |
+| Representación | Ciudad ficticia, sin víctimas visibles | |
+
+## 7 · ¿Y si el ser humano nunca hubiera existido?
+| Dato | Valor usado | Nota |
+|---|---|---|
+| Edad de la Tierra / Homo sapiens | ~4.500 M años / ~300.000 años | Jebel Irhoud |
+| Megafauna | La caza humana, junto al clima, contribuyó a la extinción (debate científico abierto) | Se dice "muchos científicos creen" |
+| Tierra habitable agrícola | ~50 % | Our World in Data |
+| Biomasa de mamíferos | 60 % ganado, 36 % humanos, 4 % salvajes | Bar-On, Phillips y Milo, PNAS 2018 |
+| Perros | Domesticados a partir de lobos hace más de 15.000 años | |
+| CO₂ | ~280 ppm preindustrial; >420 ppm hoy | |
+| Neandertales | Extintos hace ~40.000 años | Que dominaran el planeta es especulación |
+
+## 8 · ¿Y si nunca hubiera habido una dictadura en España?
+| Dato | Valor usado | Nota |
+|---|---|---|
+| Golpe de Estado | 17-18 de julio de 1936 (comienza en Melilla) | |
+| Segunda República | 14-4-1931; primer voto femenino en las elecciones generales de 1933 | |
+| Guerra civil | 1936-1939; cientos de miles de muertos; represión en ambos bandos | |
+| Exilio | ~450.000 personas en "La Retirada" (1939) | Las estimaciones oscilan entre 440.000 y 500.000 |
+| Dictadura de Franco | 1939-1975 (36 años); censura y aislamiento internacional | |
+| Plan Marshall | España quedó excluida | |
+| Comunidad Europea | Fundada en 1957 por seis países; España entra en 1986 | |
+| Talento perdido | Severo Ochoa (Nobel 1959 en EE. UU.), García Lorca (asesinado en 1936), Antonio Machado (muere en el exilio en 1939) | |
+| Constitución | 1978 | |
+| Especulativo | Golpe fallido, España con los Aliados, Plan Marshall, entrada temprana en la CEE | |
+
+## 9 · ¿Y si el Sur hubiera ganado la guerra civil de EE. UU.?
+| Dato | Valor usado | Nota |
+|---|---|---|
+| Rendición de Lee | 9-4-1865, Appomattox | |
+| Secesión | 11 estados (1861) | Motivo central: la esclavitud, según sus declaraciones de secesión |
+| Personas esclavizadas | ~4 millones (censo de 1860) | Escena solemne, sin representación de personas |
+| Muertos | Más de 600.000 (estimación clásica: 620.000; estudios recientes: ~750.000) | |
+| Gettysburg | 1-3 de julio de 1863 | |
+| 13.ª Enmienda | 1865 | |
+| Brasil | Abolición en 1888 | |
+| Mapa | Fronteras de estados actuales; los territorios del oeste aún no eran estados | |
+| Bandera confederada | Se usa la primera bandera nacional ("Stars and Bars"), no la de batalla | |
+| Especulativo | Victoria en Gettysburg, derrota de Lincoln en 1864, dos países, sin superpotencia | |

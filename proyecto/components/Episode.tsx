@@ -4,7 +4,7 @@ import React, {useMemo} from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile, useCurrentFrame} from 'remotion';
 import {FPS, useFonts} from './core';
 import {setLang} from './i18n';
-import {EndCard, Grade, HookTitle, HypoTag, InkWipe, LineT, SeriesBug, Sfx, Subtitles, WhatIfBurst} from './Overlays';
+import {SubscribeCTA, EndCard, Grade, HookTitle, HypoTag, InkWipe, LineT, SeriesBug, Sfx, Subtitles, WhatIfBurst} from './Overlays';
 
 export interface SceneTiming {id: string; s: number; e: number; lines: LineT[]}
 export interface Timing {id: string; titulo: string; total: number; scenes: SceneTiming[]; lang?: 'es' | 'en'; cues?: Record<string, string>}
@@ -54,6 +54,8 @@ export const Episode: React.FC<{timing: Timing; scenes: Record<string, SceneFC>;
         </Sequence>;
       })}
       <Grade tint={tint} />
+      {(() => { const ln = allLines.find((l) => /suscr|subscrib/i.test(l.text)); if (!ln) return null;
+        const a = Math.round(ln.s * FPS) - 4; return <SubscribeCTA from={a} dur={Math.round((ln.e - ln.s) * FPS) + 22} />; })()}
       <Subtitles lines={allLines} raiseFrom={Math.round((last.lines[last.lines.length - 1].s) * FPS) - 4} />
       <Sequence from={0} durationInFrames={110} layout="none"><HookTitle text={hook.text} hl={hook.hl} dur={105} /></Sequence>
       {f > 100 && <SeriesBug title={timing.titulo.replace(/^¿Y si /i, '').replace(/^What if /i, '').replace(/\?$/, '').toUpperCase()} />}

@@ -10,6 +10,9 @@ import {C, FONT_TITLE, FONT_UI, clamp, tween, easeOut} from './core';
 
 const fc50: any = feature(world50 as any, (world50 as any).objects.countries);
 const fc110: any = feature(world110 as any, (world110 as any).objects.countries);
+import usStates from '../assets/maps/states-10m.json';
+const fcUS: any = feature(usStates as any, (usStates as any).objects.states);
+const fcWorldUS: any = {type: 'FeatureCollection', features: [...fc50.features.filter((f: any) => f.properties.name !== 'United States of America'), ...fcUS.features]};
 
 export type ProjCfg = {type: 'mercator' | 'conic' | 'ortho'; center: [number, number]; scale: number; rotate?: [number, number, number]; parallels?: [number, number]; detail?: 50 | 110};
 export const makeProj = (p: ProjCfg): GeoProjection => {
@@ -40,8 +43,8 @@ export const MapView: React.FC<{
   zoom?: [number, number][]; // [frame, z] centrado en foco
   focus?: [number, number]; // lon,lat del punto que se mantiene centrado al hacer zoom
   rotateKeys?: [number, number, number][]; // globo: [frame, lon, lat]
-  children?: React.ReactNode; hideGrid?: boolean; dim?: string[]; dimColor?: string;
-}> = ({proj, theme = 'parchment', fills = [], arrows = [], labels = [], pins = [], zoom, focus, rotateKeys, children, hideGrid, dim}) => {
+  children?: React.ReactNode; hideGrid?: boolean; dim?: string[]; dimColor?: string; dataset?: 'world' | 'us';
+}> = ({proj, theme = 'parchment', fills = [], arrows = [], labels = [], pins = [], zoom, focus, rotateKeys, children, hideGrid, dim, dataset = 'world'}) => {
   const f = useCurrentFrame(); const T = THEMES[theme];
   const isGlobe = proj.type === 'ortho';
   // rotación del globo por fotogramas
@@ -52,8 +55,8 @@ export const MapView: React.FC<{
     rot = [-lon, -lat, 0];
   }
   const cfg = {...proj, rotate: rot};
-  const key = JSON.stringify(cfg);
-  const data = proj.detail === 110 || isGlobe ? fc110 : fc50;
+  const key = JSON.stringify(cfg) + dataset;
+  const data = dataset === 'us' ? fcWorldUS : proj.detail === 110 || isGlobe ? fc110 : fc50;
   const {paths, projection, grid, sphere} = useMemo(() => {
     const pr = makeProj(cfg); const gp = geoPath(pr);
     const paths: Record<string, string> = {};

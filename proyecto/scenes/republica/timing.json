@@ -1,0 +1,1494 @@
+{
+ "id": "republica",
+ "lang": "es",
+ "cues": {},
+ "titulo": "¿Y si nunca hubiera habido una dictadura en España?",
+ "total": 91.998,
+ "scenes": [
+  {
+   "id": "s1_golpe",
+   "s": 0.0,
+   "e": 12.894,
+   "lines": [
+    {
+     "text": "17 de julio de 1936. Un *golpe de Estado* militar parte España en dos.",
+     "s": 0.25,
+     "e": 5.989,
+     "words": [
+      {
+       "w": "17",
+       "s": 0.25,
+       "e": 0.873,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 0.873,
+       "e": 1.062,
+       "hl": false
+      },
+      {
+       "w": "julio",
+       "s": 1.062,
+       "e": 1.414,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 1.414,
+       "e": 1.604,
+       "hl": false
+      },
+      {
+       "w": "1936.",
+       "s": 1.604,
+       "e": 2.984,
+       "hl": false
+      },
+      {
+       "w": "Un",
+       "s": 2.984,
+       "e": 3.174,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 3.174,
+       "e": 3.525,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 3.525,
+       "e": 3.715,
+       "hl": true
+      },
+      {
+       "w": "Estado",
+       "s": 3.715,
+       "e": 4.121,
+       "hl": true
+      },
+      {
+       "w": "militar",
+       "s": 4.121,
+       "e": 4.581,
+       "hl": false
+      },
+      {
+       "w": "parte",
+       "s": 4.581,
+       "e": 4.933,
+       "hl": false
+      },
+      {
+       "w": "España",
+       "s": 4.933,
+       "e": 5.339,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 5.339,
+       "e": 5.529,
+       "hl": false
+      },
+      {
+       "w": "dos.",
+       "s": 5.529,
+       "e": 5.989,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "¿Y si nunca hubiera habido una *dictadura*?",
+     "s": 6.289,
+     "e": 8.553,
+     "words": [
+      {
+       "w": "¿Y",
+       "s": 6.289,
+       "e": 6.408,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 6.408,
+       "e": 6.575,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 6.575,
+       "e": 6.885,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 6.885,
+       "e": 7.29,
+       "hl": false
+      },
+      {
+       "w": "habido",
+       "s": 7.29,
+       "e": 7.647,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 7.647,
+       "e": 7.862,
+       "hl": false
+      },
+      {
+       "w": "dictadura?",
+       "s": 7.862,
+       "e": 8.553,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Antes de seguir, *suscríbete* para no perderte ningún *¿Y si...?*",
+     "s": 8.853,
+     "e": 12.394,
+     "words": [
+      {
+       "w": "Antes",
+       "s": 8.853,
+       "e": 9.191,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 9.191,
+       "e": 9.374,
+       "hl": false
+      },
+      {
+       "w": "seguir,",
+       "s": 9.374,
+       "e": 9.92,
+       "hl": false
+      },
+      {
+       "w": "suscríbete",
+       "s": 9.92,
+       "e": 10.519,
+       "hl": true
+      },
+      {
+       "w": "para",
+       "s": 10.519,
+       "e": 10.806,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 10.806,
+       "e": 10.988,
+       "hl": false
+      },
+      {
+       "w": "perderte",
+       "s": 10.988,
+       "e": 11.482,
+       "hl": false
+      },
+      {
+       "w": "ningún",
+       "s": 11.482,
+       "e": 11.873,
+       "hl": false
+      },
+      {
+       "w": "¿Y",
+       "s": 11.873,
+       "e": 12.003,
+       "hl": true
+      },
+      {
+       "w": "si...?",
+       "s": 12.003,
+       "e": 12.394,
+       "hl": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_republica",
+   "s": 12.894,
+   "e": 23.461,
+   "lines": [
+    {
+     "text": "En 1931 se había proclamado la *Segunda República*.",
+     "s": 13.144,
+     "e": 17.282,
+     "words": [
+      {
+       "w": "En",
+       "s": 13.144,
+       "e": 13.342,
+       "hl": false
+      },
+      {
+       "w": "1931",
+       "s": 13.342,
+       "e": 14.561,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 14.561,
+       "e": 14.759,
+       "hl": false
+      },
+      {
+       "w": "había",
+       "s": 14.759,
+       "e": 15.128,
+       "hl": false
+      },
+      {
+       "w": "proclamado",
+       "s": 15.128,
+       "e": 15.779,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 15.779,
+       "e": 15.978,
+       "hl": false
+      },
+      {
+       "w": "Segunda",
+       "s": 15.978,
+       "e": 16.46,
+       "hl": true
+      },
+      {
+       "w": "República.",
+       "s": 16.46,
+       "e": 17.282,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Con ella llegó el *voto femenino*, que se estrenó en las elecciones de 1933.",
+     "s": 17.582,
+     "e": 22.961,
+     "words": [
+      {
+       "w": "Con",
+       "s": 17.582,
+       "e": 17.817,
+       "hl": false
+      },
+      {
+       "w": "ella",
+       "s": 17.817,
+       "e": 18.104,
+       "hl": false
+      },
+      {
+       "w": "llegó",
+       "s": 18.104,
+       "e": 18.443,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 18.443,
+       "e": 18.626,
+       "hl": false
+      },
+      {
+       "w": "voto",
+       "s": 18.626,
+       "e": 18.914,
+       "hl": true
+      },
+      {
+       "w": "femenino,",
+       "s": 18.914,
+       "e": 19.566,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 19.566,
+       "e": 19.801,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 19.801,
+       "e": 19.984,
+       "hl": false
+      },
+      {
+       "w": "estrenó",
+       "s": 19.984,
+       "e": 20.428,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 20.428,
+       "e": 20.611,
+       "hl": false
+      },
+      {
+       "w": "las",
+       "s": 20.611,
+       "e": 20.846,
+       "hl": false
+      },
+      {
+       "w": "elecciones",
+       "s": 20.846,
+       "e": 21.447,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 21.447,
+       "e": 21.63,
+       "hl": false
+      },
+      {
+       "w": "1933.",
+       "s": 21.63,
+       "e": 22.961,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3_guerra",
+   "s": 23.461,
+   "e": 34.117,
+   "lines": [
+    {
+     "text": "Pero el golpe fracasa en media España y estalla una *guerra civil* de casi *tres años*.",
+     "s": 23.711,
+     "e": 28.387,
+     "words": [
+      {
+       "w": "Pero",
+       "s": 23.711,
+       "e": 23.982,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 23.982,
+       "e": 24.154,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 24.154,
+       "e": 24.474,
+       "hl": false
+      },
+      {
+       "w": "fracasa",
+       "s": 24.474,
+       "e": 24.893,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 24.893,
+       "e": 25.065,
+       "hl": false
+      },
+      {
+       "w": "media",
+       "s": 25.065,
+       "e": 25.385,
+       "hl": false
+      },
+      {
+       "w": "España",
+       "s": 25.385,
+       "e": 25.754,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 25.754,
+       "e": 25.877,
+       "hl": false
+      },
+      {
+       "w": "estalla",
+       "s": 25.877,
+       "e": 26.295,
+       "hl": false
+      },
+      {
+       "w": "una",
+       "s": 26.295,
+       "e": 26.517,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 26.517,
+       "e": 26.886,
+       "hl": true
+      },
+      {
+       "w": "civil",
+       "s": 26.886,
+       "e": 27.206,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 27.206,
+       "e": 27.378,
+       "hl": false
+      },
+      {
+       "w": "casi",
+       "s": 27.378,
+       "e": 27.649,
+       "hl": false
+      },
+      {
+       "w": "tres",
+       "s": 27.649,
+       "e": 27.92,
+       "hl": true
+      },
+      {
+       "w": "años.",
+       "s": 27.92,
+       "e": 28.387,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Cientos de miles de muertos, *represión* en ambos bandos y cerca de *medio millón* de exiliados.",
+     "s": 28.687,
+     "e": 33.617,
+     "words": [
+      {
+       "w": "Cientos",
+       "s": 28.687,
+       "e": 29.083,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 29.083,
+       "e": 29.245,
+       "hl": false
+      },
+      {
+       "w": "miles",
+       "s": 29.245,
+       "e": 29.548,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 29.548,
+       "e": 29.71,
+       "hl": false
+      },
+      {
+       "w": "muertos,",
+       "s": 29.71,
+       "e": 30.245,
+       "hl": false
+      },
+      {
+       "w": "represión",
+       "s": 30.245,
+       "e": 30.734,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 30.734,
+       "e": 30.896,
+       "hl": false
+      },
+      {
+       "w": "ambos",
+       "s": 30.896,
+       "e": 31.199,
+       "hl": false
+      },
+      {
+       "w": "bandos",
+       "s": 31.199,
+       "e": 31.547,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 31.547,
+       "e": 31.664,
+       "hl": false
+      },
+      {
+       "w": "cerca",
+       "s": 31.664,
+       "e": 31.966,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 31.966,
+       "e": 32.129,
+       "hl": false
+      },
+      {
+       "w": "medio",
+       "s": 32.129,
+       "e": 32.431,
+       "hl": true
+      },
+      {
+       "w": "millón",
+       "s": 32.431,
+       "e": 32.78,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 32.78,
+       "e": 32.943,
+       "hl": false
+      },
+      {
+       "w": "exiliados.",
+       "s": 32.943,
+       "e": 33.617,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4_franco",
+   "s": 34.117,
+   "e": 46.08,
+   "lines": [
+    {
+     "text": "En 1939 gana el bando sublevado, y *Francisco Franco* gobierna como dictador durante *36 años*.",
+     "s": 34.367,
+     "e": 42.072,
+     "words": [
+      {
+       "w": "En",
+       "s": 34.367,
+       "e": 34.577,
+       "hl": false
+      },
+      {
+       "w": "1939",
+       "s": 34.577,
+       "e": 35.866,
+       "hl": false
+      },
+      {
+       "w": "gana",
+       "s": 35.866,
+       "e": 36.196,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 36.196,
+       "e": 36.405,
+       "hl": false
+      },
+      {
+       "w": "bando",
+       "s": 36.405,
+       "e": 36.795,
+       "hl": false
+      },
+      {
+       "w": "sublevado,",
+       "s": 36.795,
+       "e": 37.605,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 37.605,
+       "e": 37.755,
+       "hl": false
+      },
+      {
+       "w": "Francisco",
+       "s": 37.755,
+       "e": 38.384,
+       "hl": true
+      },
+      {
+       "w": "Franco",
+       "s": 38.384,
+       "e": 38.834,
+       "hl": true
+      },
+      {
+       "w": "gobierna",
+       "s": 38.834,
+       "e": 39.403,
+       "hl": false
+      },
+      {
+       "w": "como",
+       "s": 39.403,
+       "e": 39.733,
+       "hl": false
+      },
+      {
+       "w": "dictador",
+       "s": 39.733,
+       "e": 40.303,
+       "hl": false
+      },
+      {
+       "w": "durante",
+       "s": 40.303,
+       "e": 40.813,
+       "hl": false
+      },
+      {
+       "w": "36",
+       "s": 40.813,
+       "e": 41.502,
+       "hl": true
+      },
+      {
+       "w": "años.",
+       "s": 41.502,
+       "e": 42.072,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Represión, *censura* y años de *aislamiento* internacional.",
+     "s": 42.372,
+     "e": 45.58,
+     "words": [
+      {
+       "w": "Represión,",
+       "s": 42.372,
+       "e": 43.043,
+       "hl": false
+      },
+      {
+       "w": "censura",
+       "s": 43.043,
+       "e": 43.466,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 43.466,
+       "e": 43.59,
+       "hl": false
+      },
+      {
+       "w": "años",
+       "s": 43.59,
+       "e": 43.864,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 43.864,
+       "e": 44.038,
+       "hl": false
+      },
+      {
+       "w": "aislamiento",
+       "s": 44.038,
+       "e": 44.66,
+       "hl": true
+      },
+      {
+       "w": "internacional.",
+       "s": 44.66,
+       "e": 45.58,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s5_giro",
+   "s": 46.08,
+   "e": 54.642,
+   "lines": [
+    {
+     "text": "Ahora imagina que el golpe *fracasa* en julio de 1936.",
+     "s": 46.33,
+     "e": 50.638,
+     "words": [
+      {
+       "w": "Ahora",
+       "s": 46.33,
+       "e": 46.694,
+       "hl": false
+      },
+      {
+       "w": "imagina",
+       "s": 46.694,
+       "e": 47.169,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 47.169,
+       "e": 47.421,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 47.421,
+       "e": 47.617,
+       "hl": false
+      },
+      {
+       "w": "golpe",
+       "s": 47.617,
+       "e": 47.98,
+       "hl": false
+      },
+      {
+       "w": "fracasa",
+       "s": 47.98,
+       "e": 48.456,
+       "hl": true
+      },
+      {
+       "w": "en",
+       "s": 48.456,
+       "e": 48.652,
+       "hl": false
+      },
+      {
+       "w": "julio",
+       "s": 48.652,
+       "e": 49.015,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 49.015,
+       "e": 49.211,
+       "hl": false
+      },
+      {
+       "w": "1936.",
+       "s": 49.211,
+       "e": 50.638,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "La República sobrevive y la guerra *nunca* llega a estallar.",
+     "s": 50.938,
+     "e": 54.142,
+     "words": [
+      {
+       "w": "La",
+       "s": 50.938,
+       "e": 51.105,
+       "hl": false
+      },
+      {
+       "w": "República",
+       "s": 51.105,
+       "e": 51.607,
+       "hl": false
+      },
+      {
+       "w": "sobrevive",
+       "s": 51.607,
+       "e": 52.109,
+       "hl": false
+      },
+      {
+       "w": "y",
+       "s": 52.109,
+       "e": 52.229,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 52.229,
+       "e": 52.396,
+       "hl": false
+      },
+      {
+       "w": "guerra",
+       "s": 52.396,
+       "e": 52.755,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 52.755,
+       "e": 53.066,
+       "hl": true
+      },
+      {
+       "w": "llega",
+       "s": 53.066,
+       "e": 53.377,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 53.377,
+       "e": 53.496,
+       "hl": false
+      },
+      {
+       "w": "estallar.",
+       "s": 53.496,
+       "e": 54.142,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s6_aliados",
+   "s": 54.642,
+   "e": 63.996,
+   "lines": [
+    {
+     "text": "En la Segunda Guerra Mundial, quizá España habría acabado del lado de los *Aliados*.",
+     "s": 54.892,
+     "e": 59.201,
+     "words": [
+      {
+       "w": "En",
+       "s": 54.892,
+       "e": 55.051,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 55.051,
+       "e": 55.209,
+       "hl": false
+      },
+      {
+       "w": "Segunda",
+       "s": 55.209,
+       "e": 55.595,
+       "hl": false
+      },
+      {
+       "w": "Guerra",
+       "s": 55.595,
+       "e": 55.935,
+       "hl": false
+      },
+      {
+       "w": "Mundial,",
+       "s": 55.935,
+       "e": 56.457,
+       "hl": false
+      },
+      {
+       "w": "quizá",
+       "s": 56.457,
+       "e": 56.751,
+       "hl": false
+      },
+      {
+       "w": "España",
+       "s": 56.751,
+       "e": 57.092,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 57.092,
+       "e": 57.432,
+       "hl": false
+      },
+      {
+       "w": "acabado",
+       "s": 57.432,
+       "e": 57.817,
+       "hl": false
+      },
+      {
+       "w": "del",
+       "s": 57.817,
+       "e": 58.021,
+       "hl": false
+      },
+      {
+       "w": "lado",
+       "s": 58.021,
+       "e": 58.271,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 58.271,
+       "e": 58.43,
+       "hl": false
+      },
+      {
+       "w": "los",
+       "s": 58.43,
+       "e": 58.634,
+       "hl": false
+      },
+      {
+       "w": "Aliados.",
+       "s": 58.634,
+       "e": 59.201,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "Y después habría recibido el *Plan Marshall*, que en la realidad nunca llegó.",
+     "s": 59.501,
+     "e": 63.496,
+     "words": [
+      {
+       "w": "Y",
+       "s": 59.501,
+       "e": 59.615,
+       "hl": false
+      },
+      {
+       "w": "después",
+       "s": 59.615,
+       "e": 60.003,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 60.003,
+       "e": 60.346,
+       "hl": false
+      },
+      {
+       "w": "recibido",
+       "s": 60.346,
+       "e": 60.779,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 60.779,
+       "e": 60.939,
+       "hl": false
+      },
+      {
+       "w": "Plan",
+       "s": 60.939,
+       "e": 61.19,
+       "hl": true
+      },
+      {
+       "w": "Marshall,",
+       "s": 61.19,
+       "e": 61.761,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 61.761,
+       "e": 61.967,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 61.967,
+       "e": 62.127,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 62.127,
+       "e": 62.286,
+       "hl": false
+      },
+      {
+       "w": "realidad",
+       "s": 62.286,
+       "e": 62.72,
+       "hl": false
+      },
+      {
+       "w": "nunca",
+       "s": 62.72,
+       "e": 63.017,
+       "hl": false
+      },
+      {
+       "w": "llegó.",
+       "s": 63.017,
+       "e": 63.496,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s7_europa",
+   "s": 63.996,
+   "e": 73.214,
+   "lines": [
+    {
+     "text": "Quizá habría entrado en la *Comunidad Europea* desde el principio,",
+     "s": 64.246,
+     "e": 67.76,
+     "words": [
+      {
+       "w": "Quizá",
+       "s": 64.246,
+       "e": 64.564,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 64.564,
+       "e": 64.93,
+       "hl": false
+      },
+      {
+       "w": "entrado",
+       "s": 64.93,
+       "e": 65.344,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 65.344,
+       "e": 65.515,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 65.515,
+       "e": 65.686,
+       "hl": false
+      },
+      {
+       "w": "Comunidad",
+       "s": 65.686,
+       "e": 66.198,
+       "hl": true
+      },
+      {
+       "w": "Europea",
+       "s": 66.198,
+       "e": 66.613,
+       "hl": true
+      },
+      {
+       "w": "desde",
+       "s": 66.613,
+       "e": 66.93,
+       "hl": false
+      },
+      {
+       "w": "el",
+       "s": 66.93,
+       "e": 67.101,
+       "hl": false
+      },
+      {
+       "w": "principio,",
+       "s": 67.101,
+       "e": 67.76,
+       "hl": false
+      }
+     ]
+    },
+    {
+     "text": "y no en *1986*, casi treinta años después de su fundación.",
+     "s": 68.06,
+     "e": 72.714,
+     "words": [
+      {
+       "w": "y",
+       "s": 68.06,
+       "e": 68.199,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 68.199,
+       "e": 68.394,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 68.394,
+       "e": 68.589,
+       "hl": false
+      },
+      {
+       "w": "1986,",
+       "s": 68.589,
+       "e": 69.955,
+       "hl": true
+      },
+      {
+       "w": "casi",
+       "s": 69.955,
+       "e": 70.262,
+       "hl": false
+      },
+      {
+       "w": "treinta",
+       "s": 70.262,
+       "e": 70.735,
+       "hl": false
+      },
+      {
+       "w": "años",
+       "s": 70.735,
+       "e": 71.042,
+       "hl": false
+      },
+      {
+       "w": "después",
+       "s": 71.042,
+       "e": 71.516,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 71.516,
+       "e": 71.711,
+       "hl": false
+      },
+      {
+       "w": "su",
+       "s": 71.711,
+       "e": 71.906,
+       "hl": false
+      },
+      {
+       "w": "fundación.",
+       "s": 71.906,
+       "e": 72.714,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s8_talento",
+   "s": 73.214,
+   "e": 79.813,
+   "lines": [
+    {
+     "text": "Y no se habría perdido a miles de *científicos*, *artistas* y *maestros* que murieron o tuvieron que exiliarse.",
+     "s": 73.464,
+     "e": 79.313,
+     "words": [
+      {
+       "w": "Y",
+       "s": 73.464,
+       "e": 73.586,
+       "hl": false
+      },
+      {
+       "w": "no",
+       "s": 73.586,
+       "e": 73.757,
+       "hl": false
+      },
+      {
+       "w": "se",
+       "s": 73.757,
+       "e": 73.927,
+       "hl": false
+      },
+      {
+       "w": "habría",
+       "s": 73.927,
+       "e": 74.293,
+       "hl": false
+      },
+      {
+       "w": "perdido",
+       "s": 74.293,
+       "e": 74.707,
+       "hl": false
+      },
+      {
+       "w": "a",
+       "s": 74.707,
+       "e": 74.829,
+       "hl": false
+      },
+      {
+       "w": "miles",
+       "s": 74.829,
+       "e": 75.146,
+       "hl": false
+      },
+      {
+       "w": "de",
+       "s": 75.146,
+       "e": 75.316,
+       "hl": false
+      },
+      {
+       "w": "científicos,",
+       "s": 75.316,
+       "e": 76.072,
+       "hl": true
+      },
+      {
+       "w": "artistas",
+       "s": 76.072,
+       "e": 76.535,
+       "hl": true
+      },
+      {
+       "w": "y",
+       "s": 76.535,
+       "e": 76.657,
+       "hl": false
+      },
+      {
+       "w": "maestros",
+       "s": 76.657,
+       "e": 77.12,
+       "hl": true
+      },
+      {
+       "w": "que",
+       "s": 77.12,
+       "e": 77.339,
+       "hl": false
+      },
+      {
+       "w": "murieron",
+       "s": 77.339,
+       "e": 77.802,
+       "hl": false
+      },
+      {
+       "w": "o",
+       "s": 77.802,
+       "e": 77.924,
+       "hl": false
+      },
+      {
+       "w": "tuvieron",
+       "s": 77.924,
+       "e": 78.387,
+       "hl": false
+      },
+      {
+       "w": "que",
+       "s": 78.387,
+       "e": 78.606,
+       "hl": false
+      },
+      {
+       "w": "exiliarse.",
+       "s": 78.606,
+       "e": 79.313,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s9_final",
+   "s": 79.813,
+   "e": 91.998,
+   "lines": [
+    {
+     "text": "La democracia llegó finalmente con la *Constitución de 1978*.",
+     "s": 80.063,
+     "e": 84.867,
+     "words": [
+      {
+       "w": "La",
+       "s": 80.063,
+       "e": 80.265,
+       "hl": false
+      },
+      {
+       "w": "democracia",
+       "s": 80.265,
+       "e": 80.926,
+       "hl": false
+      },
+      {
+       "w": "llegó",
+       "s": 80.926,
+       "e": 81.3,
+       "hl": false
+      },
+      {
+       "w": "finalmente",
+       "s": 81.3,
+       "e": 81.962,
+       "hl": false
+      },
+      {
+       "w": "con",
+       "s": 81.962,
+       "e": 82.221,
+       "hl": false
+      },
+      {
+       "w": "la",
+       "s": 82.221,
+       "e": 82.422,
+       "hl": false
+      },
+      {
+       "w": "Constitución",
+       "s": 82.422,
+       "e": 83.199,
+       "hl": true
+      },
+      {
+       "w": "de",
+       "s": 83.199,
+       "e": 83.4,
+       "hl": true
+      },
+      {
+       "w": "1978.",
+       "s": 83.4,
+       "e": 84.867,
+       "hl": true
+      }
+     ]
+    },
+    {
+     "text": "¿Cómo sería hoy España si hubiera llegado *40 años antes*? Te leo en comentarios.",
+     "s": 85.167,
+     "e": 89.798,
+     "words": [
+      {
+       "w": "¿Cómo",
+       "s": 85.167,
+       "e": 85.422,
+       "hl": false
+      },
+      {
+       "w": "sería",
+       "s": 85.422,
+       "e": 85.723,
+       "hl": false
+      },
+      {
+       "w": "hoy",
+       "s": 85.723,
+       "e": 85.931,
+       "hl": false
+      },
+      {
+       "w": "España",
+       "s": 85.931,
+       "e": 86.279,
+       "hl": false
+      },
+      {
+       "w": "si",
+       "s": 86.279,
+       "e": 86.441,
+       "hl": false
+      },
+      {
+       "w": "hubiera",
+       "s": 86.441,
+       "e": 86.834,
+       "hl": false
+      },
+      {
+       "w": "llegado",
+       "s": 86.834,
+       "e": 87.228,
+       "hl": false
+      },
+      {
+       "w": "40",
+       "s": 87.228,
+       "e": 87.76,
+       "hl": true
+      },
+      {
+       "w": "años",
+       "s": 87.76,
+       "e": 88.015,
+       "hl": true
+      },
+      {
+       "w": "antes?",
+       "s": 88.015,
+       "e": 88.501,
+       "hl": true
+      },
+      {
+       "w": "Te",
+       "s": 88.501,
+       "e": 88.663,
+       "hl": false
+      },
+      {
+       "w": "leo",
+       "s": 88.663,
+       "e": 88.872,
+       "hl": false
+      },
+      {
+       "w": "en",
+       "s": 88.872,
+       "e": 89.034,
+       "hl": false
+      },
+      {
+       "w": "comentarios.",
+       "s": 89.034,
+       "e": 89.798,
+       "hl": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

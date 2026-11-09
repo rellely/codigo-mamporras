@@ -21,6 +21,15 @@ import ttaiwanEn from '../scenes/taiwan/timing.en.json';
 import tespanaEn from '../scenes/espana/timing.en.json';
 import tww2En from '../scenes/ww2/timing.en.json';
 
+import {NuclearVideo} from '../scenes/nuclear/Video';
+import t_nuclear from '../scenes/nuclear/timing.json';
+import {SinHumanosVideo} from '../scenes/sinhumanos/Video';
+import t_sinhumanos from '../scenes/sinhumanos/timing.json';
+import {RepublicaVideo} from '../scenes/republica/Video';
+import t_republica from '../scenes/republica/timing.json';
+import {SecesionVideo} from '../scenes/secesion/Video';
+import t_secesion from '../scenes/secesion/timing.json';
+
 export const Root: React.FC = () => (
   <>
     <Still id="Gallery" component={Gallery} width={1080} height={1920} defaultProps={{page: 0}} />
@@ -34,5 +43,9 @@ export const Root: React.FC = () => (
     {comp('taiwan-en', TaiwanVideo, ttaiwanEn, 'en')}
     {comp('espana-en', EspanaVideo, tespanaEn, 'en')}
     {comp('ww2-en', Ww2Video, tww2En, 'en')}
+    {comp('nuclear', NuclearVideo, t_nuclear)}
+    {comp('sinhumanos', SinHumanosVideo, t_sinhumanos)}
+    {comp('republica', RepublicaVideo, t_republica)}
+    {comp('secesion', SecesionVideo, t_secesion)}
   </>
 );
