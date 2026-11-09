@@ -181,8 +181,8 @@ export const Amb: React.FC<{name: string; vol?: number; from?: number; dur: numb
 
 /** llamada a la suscripción tras la introducción: tarjeta del canal, clic en SUSCRÍBETE y campana */
 export const SubscribeCTA: React.FC<{from: number; dur: number}> = ({from, dur}) => {
-  const f = useCurrentFrame() - from; if (f < 0 || f > dur) return null;
   const {fps} = useVideoConfig();
+  const f = useCurrentFrame() - from; if (f < 0 || f > dur) return null;
   const inK = spring({frame: f, fps, config: {damping: 12, stiffness: 180}}); const out = 1 - clamp((f - dur + 10) / 10);
   const click = Math.round(dur * 0.42); const done = f >= click;
   const hx = tween(f, 8, click - 4, 900, 610), hy = tween(f, 8, click - 4, 1180, 905);
