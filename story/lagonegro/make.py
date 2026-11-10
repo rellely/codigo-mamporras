@@ -16,6 +16,10 @@ VOICES = {
 }
 
 
+# Voice-forward mix for this series: quieter music/SFX, stronger ducking under dialogue.
+MIX = {"voice": 1.0, "music": 0.16, "sfx": 0.34, "duck": 0.72, "sfx_duck": 0.45}
+
+
 def L(speaker, text, at=None, gap=None, **kw):
     d = {"speaker": speaker, "es": text}
     if at is not None:
@@ -113,10 +117,45 @@ CHAPTERS = {
           {"drone": 0.8, "pulse": 0.5},
           [C("boom", "boom", gain=0.6), C("a", "tick", "line1.start", 0.0, 0.6), C("b", "tick", "line2.start", 0.0, 0.6), C("bell", "chime", "line3.start", 1.6, 0.5), C("end", "boom", "line3.end", 0.3, 0.7)], 11.0, 2.2),
     ]),
+    "ln3": ("CAPÍTULO 3", "EL COBERTIZO", [
+        S("hook", [L("narrator", "Habéis elegido: *saltar*.", at=0.6), L("narrator", "Y saltaron... en plena marcha.", gap=0.3)],
+          {"drone": 0.9, "pulse": 1, "cluster": 0.4},
+          [C("car", "car", "start", 0.0, 0.5), C("j1", "thud", "line1.start", 0.4, 0.7), C("j2", "thud", "line1.start", 0.9, 0.6), C("j3", "thud", "line1.start", 1.3, 0.6)], 5.2, 0.4),
+        S("cta", [L("narrator", "Quédate hasta el *final*: tú decides lo que pasa.", at=0.3),
+                  L("narrator", "Y *suscríbete* para no perderte el capítulo cuatro.", gap=0.3)],
+          {"drone": 0.6, "pulse": 0.6},
+          [C("screech", "screech", "start", 0.3, 0.5), C("click", "click", "line1.start", 1.0, 0.8), C("bell", "chime", "line1.start", 1.3, 0.5)], 6.0, 0.4),
+        S("tomas", [L("narrator", "Tomás frenó en seco y bajó con una linterna.", at=0.4),
+                    L("tomas", "¡Volved! ¡No sabéis lo que estáis haciendo!", gap=0.4)],
+          {"drone": 0.8, "cluster": 0.5},
+          [C("crickets", "crickets", "start", 0.0, 0.15, "scene")], 6.5, 0.6),
+        S("reeds", [L("narrator", "Se escondieron entre los juncos, junto a la orilla.", at=0.4),
+                    L("vera", "No respiréis.", gap=0.5, whisper=False)],
+          {"drone": 0.9, "cluster": 0.7},
+          [C("heart", "heartbeat", "line1.end", 0.3, 0.6, "scene"), C("steps", "footsteps", "start", 1.0, 0.25)], 8.0, 1.2),
+        S("boathouse", [L("narrator", "Al otro lado de la orilla había un viejo cobertizo de *barcas*.", at=0.4),
+                        L("mateo", "Mirad esa foto... Ese es Tomás, de joven.", gap=0.6),
+                        L("narrator", "Y a su lado, un chico con un impermeable *amarillo*.", gap=0.4)],
+          {"drone": 0.8, "cluster": 0.6},
+          [C("creak", "scrape", "start", 0.2, 0.35), C("sting", "sting", "word:amarillo", gain=0.7)], 9.0, 0.8),
+        S("carlos", [L("narrator", "Algo se movió detrás de las barcas.", at=0.5), L("lucia", "¡Carlos! ¡Estás vivo!", gap=0.5),
+                     L("carlos", "Escuchadme... El Guarda no está *solo*.", gap=0.4)],
+          {"drone": 1, "cluster": 0.9, "pulse": 0.4},
+          [C("thud", "thud", "start", 0.3, 0.6), C("sting", "sting", "word:solo", gain=0.9)], 8.0, 0.8),
+        S("door", [L("narrator", "Y entonces, algo empezó a arañar la *puerta*.", at=0.6)],
+          {"drone": 1, "cluster": 1, "pulse": 1},
+          [C("scrape", "scrape", "start", 0.2, 0.9), C("hit", "boom", "line0.end", 0.3, 1.0), C("hit2", "thud", "line0.end", 0.3, 0.9)], 5.5, 1.4),
+        S("choice", [L("narrator", "¿Qué deben *hacer*?", at=0.6),
+                     L("narrator", "A: escapar en barca cruzando el *lago*.", gap=0.6),
+                     L("narrator", "B: salir por la ventana y volver a la *carretera*.", gap=0.5),
+                     L("narrator", "Comenta *A* o *B*... y suscríbete para ver qué pasa.", gap=0.6)],
+          {"drone": 0.8, "pulse": 0.5},
+          [C("boom", "boom", gain=0.6), C("a", "tick", "line1.start", 0.0, 0.6), C("b", "tick", "line2.start", 0.0, 0.6), C("bell", "chime", "line3.start", 1.6, 0.5), C("end", "boom", "line3.end", 0.3, 0.7)], 11.0, 2.2),
+    ]),
 }
 
 for slug, (chap, subtitle, scenes) in CHAPTERS.items():
-    data = {"slug": slug, "title": {"es": "LAGO NEGRO"}, "part": {"es": f"{chap} · {subtitle}"}, "voices": {"es": VOICES},
+    data = {"slug": slug, **({"mix": MIX} if slug not in ("ln1", "ln2") else {}), "title": {"es": "LAGO NEGRO"}, "part": {"es": f"{chap} · {subtitle}"}, "voices": {"es": VOICES},
             "langCodes": {"es": "es"}, "scenes": scenes}
     with open(os.path.join(HERE, f"{slug}.json"), "w") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)

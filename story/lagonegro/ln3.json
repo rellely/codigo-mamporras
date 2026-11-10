@@ -1,0 +1,437 @@
+{
+ "slug": "ln3",
+ "mix": {
+  "voice": 1.0,
+  "music": 0.16,
+  "sfx": 0.34,
+  "duck": 0.72,
+  "sfx_duck": 0.45
+ },
+ "title": {
+  "es": "LAGO NEGRO"
+ },
+ "part": {
+  "es": "CAPÍTULO 3 · EL COBERTIZO"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "vera": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.92
+   },
+   "lucia": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 0.98,
+    "speed": 1.0
+   },
+   "mateo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "carlos": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.14,
+    "speed": 0.92
+   },
+   "radio": {
+    "voice": "em_alex",
+    "fx": "phone",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "bea": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.92
+   },
+   "alex": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.95
+   },
+   "tomas": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 0.96,
+    "speed": 0.9
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 5.2,
+   "tail": 0.4,
+   "mood": {
+    "drone": 0.9,
+    "pulse": 1,
+    "cluster": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Habéis elegido: *saltar*.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y saltaron... en plena marcha.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "j1",
+     "sound": "thud",
+     "ref": "line1.start",
+     "offset": 0.4,
+     "gain": 0.7
+    },
+    {
+     "id": "j2",
+     "sound": "thud",
+     "ref": "line1.start",
+     "offset": 0.9,
+     "gain": 0.6
+    },
+    {
+     "id": "j3",
+     "sound": "thud",
+     "ref": "line1.start",
+     "offset": 1.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "minSeconds": 6.0,
+   "tail": 0.4,
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Quédate hasta el *final*: tú decides lo que pasa.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y *suscríbete* para no perderte el capítulo cuatro.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "screech",
+     "sound": "screech",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.5
+    },
+    {
+     "id": "click",
+     "sound": "click",
+     "ref": "line1.start",
+     "offset": 1.0,
+     "gain": 0.8
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line1.start",
+     "offset": 1.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "tomas",
+   "minSeconds": 6.5,
+   "tail": 0.6,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Tomás frenó en seco y bajó con una linterna.",
+     "at": 0.4
+    },
+    {
+     "speaker": "tomas",
+     "es": "¡Volved! ¡No sabéis lo que estáis haciendo!",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "crickets",
+     "sound": "crickets",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.15,
+     "span": "scene"
+    }
+   ]
+  },
+  {
+   "id": "reeds",
+   "minSeconds": 8.0,
+   "tail": 1.2,
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.7
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Se escondieron entre los juncos, junto a la orilla.",
+     "at": 0.4
+    },
+    {
+     "speaker": "vera",
+     "es": "No respiréis.",
+     "gap": 0.5,
+     "whisper": false
+    }
+   ],
+   "cues": [
+    {
+     "id": "heart",
+     "sound": "heartbeat",
+     "ref": "line1.end",
+     "offset": 0.3,
+     "gain": 0.6,
+     "span": "scene"
+    },
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 1.0,
+     "gain": 0.25
+    }
+   ]
+  },
+  {
+   "id": "boathouse",
+   "minSeconds": 9.0,
+   "tail": 0.8,
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Al otro lado de la orilla había un viejo cobertizo de *barcas*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "mateo",
+     "es": "Mirad esa foto... Ese es Tomás, de joven.",
+     "gap": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y a su lado, un chico con un impermeable *amarillo*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "creak",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.35
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:amarillo",
+     "offset": 0.0,
+     "gain": 0.7
+    }
+   ]
+  },
+  {
+   "id": "carlos",
+   "minSeconds": 8.0,
+   "tail": 0.8,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9,
+    "pulse": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Algo se movió detrás de las barcas.",
+     "at": 0.5
+    },
+    {
+     "speaker": "lucia",
+     "es": "¡Carlos! ¡Estás vivo!",
+     "gap": 0.5
+    },
+    {
+     "speaker": "carlos",
+     "es": "Escuchadme... El Guarda no está *solo*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "thud",
+     "sound": "thud",
+     "ref": "start",
+     "offset": 0.3,
+     "gain": 0.6
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:solo",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "door",
+   "minSeconds": 5.5,
+   "tail": 1.4,
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 1
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Y entonces, algo empezó a arañar la *puerta*.",
+     "at": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "scrape",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 0.2,
+     "gain": 0.9
+    },
+    {
+     "id": "hit",
+     "sound": "boom",
+     "ref": "line0.end",
+     "offset": 0.3,
+     "gain": 1.0
+    },
+    {
+     "id": "hit2",
+     "sound": "thud",
+     "ref": "line0.end",
+     "offset": 0.3,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "choice",
+   "minSeconds": 11.0,
+   "tail": 2.2,
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Qué deben *hacer*?",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "A: escapar en barca cruzando el *lago*.",
+     "gap": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "B: salir por la ventana y volver a la *carretera*.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Comenta *A* o *B*... y suscríbete para ver qué pasa.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "a",
+     "sound": "tick",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "b",
+     "sound": "tick",
+     "ref": "line2.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line3.start",
+     "offset": 1.6,
+     "gain": 0.5
+    },
+    {
+     "id": "end",
+     "sound": "boom",
+     "ref": "line3.end",
+     "offset": 0.3,
+     "gain": 0.7
+    }
+   ]
+  }
+ ]
+}

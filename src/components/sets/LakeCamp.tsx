@@ -325,3 +325,106 @@ export const Shed: React.FC<{generatorOn?: number; figure?: number; darkness?: n
 };
 
 export {Log, Fog, noise2D};
+
+/** Tall reeds by the shore; draw in front of hidden characters. */
+export const Reeds: React.FC<{y0: number; y1: number; count: number; seed?: number; color?: string; x0?: number; x1?: number}> = ({y0, y1, count, seed = 5, color = '#1d2a1a', x0 = -200, x1 = 1280}) => {
+	const frame = useCurrentFrame();
+	return (
+		<g>
+			{new Array(count).fill(0).map((_, i) => {
+				const x = x0 + rand(i, seed) * (x1 - x0);
+				const base = y0 + rand(i, seed + 1) * (y1 - y0);
+				const h = 260 + rand(i, seed + 2) * 260;
+				const sw = Math.sin(frame / 28 + i) * 14 + noise2D('rd' + i, frame * 0.01, 0) * 10;
+				return (
+					<g key={i}>
+						<path d={`M ${x - 8} ${base} Q ${x + sw * 0.5} ${base - h * 0.6} ${x + sw} ${base - h} L ${x + 8} ${base} Z`} fill={color} />
+						{rand(i, seed + 3) > 0.6 && <ellipse cx={x + sw} cy={base - h + 10} rx={7} ry={26} fill="#3a2a1a" />}
+					</g>
+				);
+			})}
+		</g>
+	);
+};
+
+/** Interior of the old boathouse. */
+export const BOATHOUSE = {door: {x: 830, y: 880, w: 220, h: 620}, photo: {x: 380, y: 560, w: 340, h: 250}, boat: {x: 300, y: 1500}};
+export const Boathouse: React.FC<{
+	doorOpen?: number;
+	doorShake?: number;
+	hook?: number; // 0..1 hook tip pierced through the door
+	darkness?: number;
+	lights?: Light[];
+	photo?: React.ReactNode;
+	children?: React.ReactNode;
+	front?: React.ReactNode;
+}> = ({doorOpen = 0, doorShake = 0, hook = 0, darkness = 0.9, lights = [], photo, children, front}) => {
+	const frame = useCurrentFrame();
+	const D = BOATHOUSE.door;
+	const P = BOATHOUSE.photo;
+	const shake = doorShake * Math.sin(frame * 2.3) * 6;
+	return (
+		<g>
+			<rect x={-800} y={-800} width={2700} height={2400} fill="#2c2119" />
+			{new Array(32).fill(0).map((_, i) => (
+				<line key={i} x1={-800 + i * 85} x2={-800 + i * 85} y1={-800} y2={1500} stroke="#1e1610" strokeWidth={7} />
+			))}
+			{/* moonlit window */}
+			<rect x={80} y={600} width={220} height={240} fill="#0d1636" />
+			<circle cx={230} cy={660} r={26} fill="#e8ecff" opacity={0.8} />
+			<line x1={190} x2={190} y1={600} y2={840} stroke="#3a2a1c" strokeWidth={10} />
+			<line x1={80} x2={300} y1={720} y2={720} stroke="#3a2a1c" strokeWidth={10} />
+			<rect x={80} y={600} width={220} height={240} fill="none" stroke="#3a2a1c" strokeWidth={16} />
+			{/* old staff photo */}
+			<g>
+				<rect x={P.x - 16} y={P.y - 16} width={P.w + 32} height={P.h + 32} fill="#5a3e26" />
+				<g style={{filter: 'sepia(0.45) contrast(1.05) saturate(1.2)'}}>
+					<svg x={P.x} y={P.y} width={P.w} height={P.h} viewBox="0 0 1080 794" preserveAspectRatio="xMidYMid slice">
+						{photo}
+					</svg>
+				</g>
+				<rect x={P.x + 70} y={P.y + P.h + 28} width={200} height={34} fill="#d8ccb0" />
+				<text x={P.x + 170} y={P.y + P.h + 52} textAnchor="middle" fontFamily="InterBlack" fontSize={17} fill="#3a2a1a">
+					PERSONAL · VERANO 1996
+				</text>
+			</g>
+			{/* oars */}
+			<line x1={760} y1={560} x2={980} y2={820} stroke="#7a5a3a" strokeWidth={12} />
+			<ellipse cx={985} cy={826} rx={20} ry={44} fill="#7a5a3a" transform="rotate(-40 985 826)" />
+			<line x1={980} y1={560} x2={760} y2={820} stroke="#6a4a2a" strokeWidth={12} />
+			<ellipse cx={756} cy={826} rx={20} ry={44} fill="#6a4a2a" transform="rotate(40 756 826)" />
+			{/* door (right) */}
+			<rect x={D.x} y={D.y} width={D.w} height={D.h} fill="#0a0f1e" />
+			<g transform={`translate(${D.x + shake} ${D.y}) scale(${1 - doorOpen * 0.85} 1)`}>
+				<rect width={D.w} height={D.h} fill="#5a3a24" />
+				{[0, 1, 2, 3].map((i) => (
+					<line key={i} x1={i * 55 + 27} x2={i * 55 + 27} y1={0} y2={D.h} stroke="#3e2816" strokeWidth={6} />
+				))}
+				<rect x={0} y={120} width={D.w} height={22} fill="#3e2816" />
+				<rect x={0} y={460} width={D.w} height={22} fill="#3e2816" />
+				<circle cx={30} cy={320} r={9} fill="#c9a66b" />
+				{hook > 0 && (
+					<g opacity={Math.min(1, hook * 2)}>
+						<path d={`M 90 ${300 - hook * 10} l -14 -30 l 22 8 l 10 -26 l 8 34 z`} fill="#2a1a0e" />
+						<path d={`M 110 300 q ${-60 * hook} -10 ${-80 * hook} ${-50 * hook}`} stroke="#8a8780" strokeWidth={14} fill="none" strokeLinecap="round" />
+					</g>
+				)}
+			</g>
+			<rect x={D.x - 14} y={D.y - 14} width={D.w + 28} height={D.h + 14} fill="none" stroke="#3a2a1c" strokeWidth={20} />
+			{/* floor */}
+			<rect x={-800} y={1500} width={2700} height={900} fill="#211810" />
+			{new Array(10).fill(0).map((_, i) => (
+				<line key={i} x1={-800} x2={1900} y1={1520 + i * 45 + i * i * 6} y2={1520 + i * 45 + i * i * 6} stroke="#160f0a" strokeWidth={5} />
+			))}
+			{children}
+			{/* rowboat on the floor (left) — characters can hide behind it */}
+			<g transform={`translate(${BOATHOUSE.boat.x} ${BOATHOUSE.boat.y})`}>
+				<path d="M -330 -150 Q 0 -110 330 -150 Q 290 10 0 20 Q -290 10 -330 -150 Z" fill="#3a5a6a" />
+				<path d="M -330 -150 Q 0 -110 330 -150 L 320 -126 Q 0 -90 -320 -126 Z" fill="#c8b48a" />
+				<rect x={-200} y={-130} width={40} height={20} fill="#2a3a44" />
+			</g>
+			{front}
+			<Darkness opacity={darkness} color="#020305" lights={[{x: 190, y: 720, r: 380, color: '#8a9cff', glow: 0.25}, ...lights]} />
+		</g>
+	);
+};

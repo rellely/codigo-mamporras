@@ -786,8 +786,16 @@ def resolve_ref(ref, scene_rel_lines):
     raise ValueError(ref)
 
 
+# Default mix (legacy). A script may override any key with a top-level "mix" object.
+MIX_DEFAULT = {"voice": 1.0, "music": 0.28, "sfx": 0.55, "duck": 0.55, "sfx_duck": 0.0}
+MIXCFG = dict(MIX_DEFAULT)
+
+
 def build(lang, script_path):
     script = json.load(open(script_path))
+    MIXCFG.clear()
+    MIXCFG.update(MIX_DEFAULT)
+    MIXCFG.update(script.get("mix", {}))
     slug = script.get("slug")
     out_name = f"{slug}_{lang}" if slug else lang
     voices = script["voices"][lang]
@@ -859,13 +867,14 @@ def build(lang, script_path):
         layer = norm(layer, 1.0)
         g = gain_curve(timeline["scenes"], name, total)
         m = min(len(layer), len(g))
-        music[:m] += layer[:m] * g[:m] * 0.28
+        music[:m] += layer[:m] * g[:m] * MIXCFG['music']
     # duck music under voice
     venv = lowpass(np.abs(voice_bus), 8)
     venv = np.clip(venv / (venv.max() + 1e-9) * 4, 0, 1)
     venv = signal.fftconvolve(venv, np.hanning(int(0.3 * SR)) / (0.15 * SR), mode="same")
-    duck = 1 - 0.55 * np.clip(venv, 0, 1)
-    mix = voice_bus * 1.0 + sfx_bus * 0.55 + music * duck
+    duck = 1 - MIXCFG['duck'] * np.clip(venv, 0, 1)
+    sfx_duck = 1 - MIXCFG['sfx_duck'] * np.clip(venv, 0, 1)
+    mix = voice_bus * MIXCFG['voice'] + sfx_bus * MIXCFG['sfx'] * sfx_duck + music * duck
     end = int((total) * SR)
     mix = mix[:end]
     fade = int(0.8 * SR)

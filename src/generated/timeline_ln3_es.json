@@ -1,0 +1,1106 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "LAGO NEGRO",
+ "part": "CAPÍTULO 3 · EL COBERTIZO",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.2,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Habéis elegido: saltar.",
+     "start": 0.6,
+     "end": 2.17,
+     "words": [
+      {
+       "w": "Habéis",
+       "hl": false,
+       "start": 0.65,
+       "end": 1.134
+      },
+      {
+       "w": "elegido:",
+       "hl": false,
+       "start": 1.134,
+       "end": 1.686
+      },
+      {
+       "w": "saltar.",
+       "hl": true,
+       "start": 1.686,
+       "end": 2.17
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y saltaron... en plena marcha.",
+     "start": 2.47,
+     "end": 4.35,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.5,
+       "end": 2.645
+      },
+      {
+       "w": "saltaron...",
+       "hl": false,
+       "start": 2.645,
+       "end": 3.253
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.253,
+       "end": 3.465
+      },
+      {
+       "w": "plena",
+       "hl": false,
+       "start": 3.465,
+       "end": 3.874
+      },
+      {
+       "w": "marcha.",
+       "hl": false,
+       "start": 3.874,
+       "end": 4.35
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 0.0,
+    "j1": 2.87,
+    "j2": 3.37,
+    "j3": 3.77
+   },
+   "mood": {
+    "drone": 0.9,
+    "pulse": 1,
+    "cluster": 0.4
+   }
+  },
+  {
+   "id": "cta",
+   "start": 5.2,
+   "duration": 6.833333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Quédate hasta el final: tú decides lo que pasa.",
+     "start": 0.3,
+     "end": 3.16,
+     "words": [
+      {
+       "w": "Quédate",
+       "hl": false,
+       "start": 0.35,
+       "end": 0.781
+      },
+      {
+       "w": "hasta",
+       "hl": false,
+       "start": 0.781,
+       "end": 1.106
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.106,
+       "end": 1.274
+      },
+      {
+       "w": "final:",
+       "hl": true,
+       "start": 1.274,
+       "end": 1.6
+      },
+      {
+       "w": "tú",
+       "hl": false,
+       "start": 1.78,
+       "end": 1.964
+      },
+      {
+       "w": "decides",
+       "hl": false,
+       "start": 1.964,
+       "end": 2.436
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 2.436,
+       "end": 2.62
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 2.62,
+       "end": 2.861
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 2.861,
+       "end": 3.16
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y suscríbete para no perderte el capítulo cuatro.",
+     "start": 3.46,
+     "end": 6.43,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 3.49,
+       "end": 3.618
+      },
+      {
+       "w": "suscríbete",
+       "hl": true,
+       "start": 3.618,
+       "end": 4.269
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 4.269,
+       "end": 4.571
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 4.571,
+       "end": 4.757
+      },
+      {
+       "w": "perderte",
+       "hl": false,
+       "start": 4.757,
+       "end": 5.291
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 5.291,
+       "end": 5.477
+      },
+      {
+       "w": "capítulo",
+       "hl": false,
+       "start": 5.477,
+       "end": 6.012
+      },
+      {
+       "w": "cuatro.",
+       "hl": false,
+       "start": 6.012,
+       "end": 6.43
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "screech": 0.3,
+    "click": 4.46,
+    "bell": 4.76
+   },
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.6
+   }
+  },
+  {
+   "id": "tomas",
+   "start": 12.0333,
+   "duration": 6.633333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Tomás frenó en seco y bajó con una linterna.",
+     "start": 0.4,
+     "end": 3.16,
+     "words": [
+      {
+       "w": "Tomás",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.8
+      },
+      {
+       "w": "frenó",
+       "hl": false,
+       "start": 0.8,
+       "end": 1.169
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 1.169,
+       "end": 1.36
+      },
+      {
+       "w": "seco",
+       "hl": false,
+       "start": 1.36,
+       "end": 1.67
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 1.67,
+       "end": 1.801
+      },
+      {
+       "w": "bajó",
+       "hl": false,
+       "start": 1.801,
+       "end": 2.111
+      },
+      {
+       "w": "con",
+       "hl": false,
+       "start": 2.111,
+       "end": 2.361
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 2.361,
+       "end": 2.612
+      },
+      {
+       "w": "linterna.",
+       "hl": false,
+       "start": 2.612,
+       "end": 3.16
+      }
+     ]
+    },
+    {
+     "speaker": "tomas",
+     "text": "¡Volved! ¡No sabéis lo que estáis haciendo!",
+     "start": 3.56,
+     "end": 6.05,
+     "words": [
+      {
+       "w": "¡Volved!",
+       "hl": false,
+       "start": 3.591,
+       "end": 4.019
+      },
+      {
+       "w": "¡No",
+       "hl": false,
+       "start": 4.019,
+       "end": 4.209
+      },
+      {
+       "w": "sabéis",
+       "hl": false,
+       "start": 4.209,
+       "end": 4.636
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 4.636,
+       "end": 4.826
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 4.826,
+       "end": 5.076
+      },
+      {
+       "w": "estáis",
+       "hl": false,
+       "start": 5.076,
+       "end": 5.503
+      },
+      {
+       "w": "haciendo!",
+       "hl": false,
+       "start": 5.503,
+       "end": 6.05
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "crickets": 0.0
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.5
+   }
+  },
+  {
+   "id": "reeds",
+   "start": 18.6667,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Se escondieron entre los juncos, junto a la orilla.",
+     "start": 0.4,
+     "end": 3.27,
+     "words": [
+      {
+       "w": "Se",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.601
+      },
+      {
+       "w": "escondieron",
+       "hl": false,
+       "start": 0.601,
+       "end": 1.251
+      },
+      {
+       "w": "entre",
+       "hl": false,
+       "start": 1.251,
+       "end": 1.582
+      },
+      {
+       "w": "los",
+       "hl": false,
+       "start": 1.582,
+       "end": 1.806
+      },
+      {
+       "w": "juncos,",
+       "hl": false,
+       "start": 1.806,
+       "end": 2.19
+      },
+      {
+       "w": "junto",
+       "hl": false,
+       "start": 2.3,
+       "end": 2.62
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.62,
+       "end": 2.733
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 2.733,
+       "end": 2.899
+      },
+      {
+       "w": "orilla.",
+       "hl": false,
+       "start": 2.899,
+       "end": 3.27
+      }
+     ]
+    },
+    {
+     "speaker": "vera",
+     "text": "No respiréis.",
+     "start": 3.77,
+     "end": 4.684,
+     "words": [
+      {
+       "w": "No",
+       "hl": false,
+       "start": 3.799,
+       "end": 4.01
+      },
+      {
+       "w": "respiréis.",
+       "hl": false,
+       "start": 4.01,
+       "end": 4.684
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "heart": 4.984,
+    "steps": 1.0
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.7
+   }
+  },
+  {
+   "id": "boathouse",
+   "start": 26.6667,
+   "duration": 11.233333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Al otro lado de la orilla había un viejo cobertizo de barcas.",
+     "start": 0.4,
+     "end": 4.17,
+     "words": [
+      {
+       "w": "Al",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.619
+      },
+      {
+       "w": "otro",
+       "hl": false,
+       "start": 0.619,
+       "end": 0.926
+      },
+      {
+       "w": "lado",
+       "hl": false,
+       "start": 0.926,
+       "end": 1.232
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.232,
+       "end": 1.421
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.421,
+       "end": 1.61
+      },
+      {
+       "w": "orilla",
+       "hl": false,
+       "start": 1.61,
+       "end": 2.035
+      },
+      {
+       "w": "había",
+       "hl": false,
+       "start": 2.035,
+       "end": 2.4
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 2.4,
+       "end": 2.589
+      },
+      {
+       "w": "viejo",
+       "hl": false,
+       "start": 2.589,
+       "end": 2.955
+      },
+      {
+       "w": "cobertizo",
+       "hl": false,
+       "start": 2.955,
+       "end": 3.556
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 3.556,
+       "end": 3.745
+      },
+      {
+       "w": "barcas.",
+       "hl": true,
+       "start": 3.745,
+       "end": 4.17
+      }
+     ]
+    },
+    {
+     "speaker": "mateo",
+     "text": "Mirad esa foto... Ese es Tomás, de joven.",
+     "start": 4.77,
+     "end": 7.034,
+     "words": [
+      {
+       "w": "Mirad",
+       "hl": false,
+       "start": 4.797,
+       "end": 5.156
+      },
+      {
+       "w": "esa",
+       "hl": false,
+       "start": 5.156,
+       "end": 5.4
+      },
+      {
+       "w": "foto...",
+       "hl": false,
+       "start": 5.4,
+       "end": 5.701
+      },
+      {
+       "w": "Ese",
+       "hl": false,
+       "start": 5.701,
+       "end": 5.944
+      },
+      {
+       "w": "es",
+       "hl": false,
+       "start": 5.944,
+       "end": 6.13
+      },
+      {
+       "w": "Tomás,",
+       "hl": false,
+       "start": 6.13,
+       "end": 6.489
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 6.489,
+       "end": 6.674
+      },
+      {
+       "w": "joven.",
+       "hl": false,
+       "start": 6.674,
+       "end": 7.034
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y a su lado, un chico con un impermeable amarillo.",
+     "start": 7.434,
+     "end": 10.434,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 7.464,
+       "end": 7.584
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 7.584,
+       "end": 7.704
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 7.704,
+       "end": 7.879
+      },
+      {
+       "w": "lado,",
+       "hl": false,
+       "start": 7.879,
+       "end": 8.164
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 8.294,
+       "end": 8.473
+      },
+      {
+       "w": "chico",
+       "hl": false,
+       "start": 8.473,
+       "end": 8.82
+      },
+      {
+       "w": "con",
+       "hl": false,
+       "start": 8.82,
+       "end": 9.056
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 9.056,
+       "end": 9.235
+      },
+      {
+       "w": "impermeable",
+       "hl": false,
+       "start": 9.235,
+       "end": 9.918
+      },
+      {
+       "w": "amarillo.",
+       "hl": true,
+       "start": 9.918,
+       "end": 10.434
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "creak": 0.2,
+    "sting": 9.918
+   },
+   "mood": {
+    "drone": 0.8,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "carlos",
+   "start": 37.9,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Algo se movió detrás de las barcas.",
+     "start": 0.5,
+     "end": 2.77,
+     "words": [
+      {
+       "w": "Algo",
+       "hl": false,
+       "start": 0.53,
+       "end": 0.85
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 0.85,
+       "end": 1.047
+      },
+      {
+       "w": "movió",
+       "hl": false,
+       "start": 1.047,
+       "end": 1.428
+      },
+      {
+       "w": "detrás",
+       "hl": false,
+       "start": 1.428,
+       "end": 1.872
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.872,
+       "end": 2.068
+      },
+      {
+       "w": "las",
+       "hl": false,
+       "start": 2.068,
+       "end": 2.327
+      },
+      {
+       "w": "barcas.",
+       "hl": false,
+       "start": 2.327,
+       "end": 2.77
+      }
+     ]
+    },
+    {
+     "speaker": "lucia",
+     "text": "¡Carlos! ¡Estás vivo!",
+     "start": 3.27,
+     "end": 4.566,
+     "words": [
+      {
+       "w": "¡Carlos!",
+       "hl": false,
+       "start": 3.311,
+       "end": 3.797
+      },
+      {
+       "w": "¡Estás",
+       "hl": false,
+       "start": 3.797,
+       "end": 4.215
+      },
+      {
+       "w": "vivo!",
+       "hl": false,
+       "start": 4.215,
+       "end": 4.566
+      }
+     ]
+    },
+    {
+     "speaker": "carlos",
+     "text": "Escuchadme... El Guarda no está solo.",
+     "start": 4.966,
+     "end": 6.992,
+     "words": [
+      {
+       "w": "Escuchadme...",
+       "hl": false,
+       "start": 4.992,
+       "end": 5.629
+      },
+      {
+       "w": "El",
+       "hl": false,
+       "start": 5.629,
+       "end": 5.81
+      },
+      {
+       "w": "Guarda",
+       "hl": false,
+       "start": 5.81,
+       "end": 6.22
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 6.22,
+       "end": 6.401
+      },
+      {
+       "w": "está",
+       "hl": false,
+       "start": 6.401,
+       "end": 6.697
+      },
+      {
+       "w": "solo.",
+       "hl": true,
+       "start": 6.697,
+       "end": 6.992
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "thud": 0.3,
+    "sting": 6.697
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9,
+    "pulse": 0.4
+   }
+  },
+  {
+   "id": "door",
+   "start": 45.9,
+   "duration": 5.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Y entonces, algo empezó a arañar la puerta.",
+     "start": 0.6,
+     "end": 3.44,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 0.63,
+       "end": 0.772
+      },
+      {
+       "w": "entonces,",
+       "hl": false,
+       "start": 0.772,
+       "end": 1.365
+      },
+      {
+       "w": "algo",
+       "hl": false,
+       "start": 1.365,
+       "end": 1.7
+      },
+      {
+       "w": "empezó",
+       "hl": false,
+       "start": 1.7,
+       "end": 2.164
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 2.164,
+       "end": 2.306
+      },
+      {
+       "w": "arañar",
+       "hl": false,
+       "start": 2.306,
+       "end": 2.77
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 2.77,
+       "end": 2.976
+      },
+      {
+       "w": "puerta.",
+       "hl": true,
+       "start": 2.976,
+       "end": 3.44
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "scrape": 0.2,
+    "hit": 3.74,
+    "hit2": 3.74
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 1
+   }
+  },
+  {
+   "id": "choice",
+   "start": 51.4,
+   "duration": 13.733333333333333,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Qué deben hacer?",
+     "start": 0.6,
+     "end": 1.78,
+     "words": [
+      {
+       "w": "¿Qué",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.928
+      },
+      {
+       "w": "deben",
+       "hl": false,
+       "start": 0.928,
+       "end": 1.354
+      },
+      {
+       "w": "hacer?",
+       "hl": true,
+       "start": 1.354,
+       "end": 1.78
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "A: escapar en barca cruzando el lago.",
+     "start": 2.38,
+     "end": 4.69,
+     "words": [
+      {
+       "w": "A:",
+       "hl": false,
+       "start": 2.41,
+       "end": 2.544
+      },
+      {
+       "w": "escapar",
+       "hl": false,
+       "start": 2.544,
+       "end": 3.044
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 3.044,
+       "end": 3.239
+      },
+      {
+       "w": "barca",
+       "hl": false,
+       "start": 3.239,
+       "end": 3.617
+      },
+      {
+       "w": "cruzando",
+       "hl": false,
+       "start": 3.617,
+       "end": 4.178
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 4.178,
+       "end": 4.373
+      },
+      {
+       "w": "lago.",
+       "hl": true,
+       "start": 4.373,
+       "end": 4.69
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "B: salir por la ventana y volver a la carretera.",
+     "start": 5.19,
+     "end": 8.01,
+     "words": [
+      {
+       "w": "B:",
+       "hl": false,
+       "start": 5.22,
+       "end": 5.345
+      },
+      {
+       "w": "salir",
+       "hl": false,
+       "start": 5.345,
+       "end": 5.698
+      },
+      {
+       "w": "por",
+       "hl": false,
+       "start": 5.698,
+       "end": 5.937
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 5.937,
+       "end": 6.12
+      },
+      {
+       "w": "ventana",
+       "hl": false,
+       "start": 6.12,
+       "end": 6.587
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 6.587,
+       "end": 6.712
+      },
+      {
+       "w": "volver",
+       "hl": false,
+       "start": 6.712,
+       "end": 7.122
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 7.122,
+       "end": 7.247
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 7.247,
+       "end": 7.429
+      },
+      {
+       "w": "carretera.",
+       "hl": true,
+       "start": 7.429,
+       "end": 8.01
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Comenta A o B... y suscríbete para ver qué pasa.",
+     "start": 8.61,
+     "end": 11.55,
+     "words": [
+      {
+       "w": "Comenta",
+       "hl": false,
+       "start": 8.65,
+       "end": 9.156
+      },
+      {
+       "w": "A",
+       "hl": true,
+       "start": 9.156,
+       "end": 9.292
+      },
+      {
+       "w": "o",
+       "hl": false,
+       "start": 9.292,
+       "end": 9.427
+      },
+      {
+       "w": "B...",
+       "hl": true,
+       "start": 9.427,
+       "end": 9.563
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 9.563,
+       "end": 9.699
+      },
+      {
+       "w": "suscríbete",
+       "hl": false,
+       "start": 9.699,
+       "end": 10.39
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 10.39,
+       "end": 10.711
+      },
+      {
+       "w": "ver",
+       "hl": false,
+       "start": 10.711,
+       "end": 10.97
+      },
+      {
+       "w": "qué",
+       "hl": false,
+       "start": 10.97,
+       "end": 11.229
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 11.229,
+       "end": 11.55
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "a": 2.38,
+    "b": 5.19,
+    "bell": 10.21,
+    "end": 11.85
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   }
+  }
+ ],
+ "durationInFrames": 1954
+}
