@@ -127,3 +127,20 @@ opción ganadora.
 3. Crea `src/lagonegro/ln2.tsx` (reutiliza sets y personajes) y regístralo en
    `src/lagonegro/registry.ts`.
 4. `npx remotion render LagoNegro-CAP2 out/lago-negro-cap-2.mp4`
+
+---
+
+# Identidad del canal
+
+| Pieza | Archivo | Formato |
+|---|---|---|
+| Foto de perfil | `brand/foto-perfil.png` | 800×800 (se recorta en círculo) |
+| Banner | `brand/banner.png` | 2560×1440, texto dentro de la zona segura 1546×423 (móvil) |
+
+Se generan desde código (`src/brand/Brand.tsx`). Para cambiar el nombre o el lema del canal,
+edita `CHANNEL` y vuelve a ejecutar:
+
+```bash
+npx remotion still Brand-Avatar brand/foto-perfil.png --image-format=png
+npx remotion still Brand-Banner brand/banner.png --image-format=png
+```

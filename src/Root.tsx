@@ -5,6 +5,7 @@ import {TIMELINES} from './lib/timeline';
 import {Episode} from './series/Episode';
 import {EPISODES} from './series/registry';
 import {CastSheet} from './lagonegro/CastSheet';
+import {Avatar, Banner} from './brand/Brand';
 import {LAGO_NEGRO} from './lagonegro/registry';
 
 const ALL_EPISODES = [...EPISODES, ...LAGO_NEGRO];
@@ -23,6 +24,8 @@ export const RemotionRoot: React.FC = () => (
 		{LAGO_NEGRO.map((ep) => (
 			<Composition key={ep.slug} id={`LagoNegro-${ep.slug.replace('ln', 'CAP')}`} component={EpisodeBySlug} durationInFrames={ep.timelines.es!.durationInFrames} fps={30} width={1080} height={1920} defaultProps={{slug: ep.slug, lang: 'es' as const}} />
 		))}
+		<Composition id="Brand-Avatar" component={Avatar} durationInFrames={1} fps={30} width={800} height={800} />
+		<Composition id="Brand-Banner" component={Banner} durationInFrames={1} fps={30} width={2560} height={1440} />
 		<Composition id="LagoNegro-Cast" component={CastSheet} durationInFrames={30} fps={30} width={1080} height={1920} />
 	</>
 );
