@@ -134,7 +134,7 @@ opción ganadora.
 
 | Pieza | Archivo | Formato |
 |---|---|---|
-| Foto de perfil | `brand/foto-perfil.png` | 800×800 (se recorta en círculo) |
+| Foto de perfil | `brand/foto-perfil.png` · `brand/foto-perfil-98.png` | 800×800 y 98×98 (se recorta en círculo) |
 | Banner | `brand/banner.png` | 2560×1440, texto dentro de la zona segura 1546×423 (móvil) |
 
 Se generan desde código (`src/brand/Brand.tsx`). Para cambiar el nombre o el lema del canal,
