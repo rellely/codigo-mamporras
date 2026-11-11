@@ -92,8 +92,12 @@ export const RoadNight: React.FC<{scroll: number; darkness?: number; lights?: Li
 	</g>
 );
 
+/** Seated passengers sit high enough for their heads to clear the bed wall. */
+export const PASSENGER_Y = -140;
+
 /** Old pickup truck, side view facing right. Origin = ground under the rear wheel. */
-export const Pickup: React.FC<{x: number; y: number; s?: number; wheel: number; headlights?: number; driver?: Pose; passengers?: {id: CharId; dx: number; pose?: Pose}[]}> = ({
+export const Pickup: React.FC<{x: number; y: number; s?: number; wheel: number; headlights?: number; driver?: Pose; driverId?: CharId | null; passengers?: {id: CharId; dx: number; pose?: Pose}[]}> = ({
+	driverId = 'tomas',
 	x,
 	y,
 	s = 1,
@@ -119,7 +123,7 @@ export const Pickup: React.FC<{x: number; y: number; s?: number; wheel: number; 
 			<g transform={`translate(0 ${bob})`}>
 				{/* passengers in the bed (behind bed wall) */}
 				{passengers.map((p) => (
-					<Character key={p.id} id={p.id} x={-40 + p.dx} y={-60} scale={0.62} pose={{sit: true, ...(p.pose ?? {})}} />
+					<Character key={p.id} id={p.id} x={-40 + p.dx} y={PASSENGER_Y} scale={0.62} pose={{sit: true, ...(p.pose ?? {})}} />
 				))}
 				<path d="M -160 -90 L -160 -250 L 380 -250 L 380 -90 Z" fill="#2f4a3a" />
 				<rect x={-170} y={-262} width={560} height={22} rx={6} fill="#3d5c49" />
@@ -127,7 +131,7 @@ export const Pickup: React.FC<{x: number; y: number; s?: number; wheel: number; 
 				<path d="M 380 -90 L 380 -380 L 560 -380 L 650 -250 L 760 -240 Q 790 -236 790 -200 L 790 -90 Z" fill="#355442" />
 				<path d="M 400 -360 L 548 -360 L 622 -255 L 400 -255 Z" fill="#0d1620" />
 				<svg x={400} y={-360} width={222} height={105} viewBox="0 0 222 105" overflow="hidden">
-					<Character id="tomas" x={100} y={240} scale={0.55} pose={{turn: 0.5, ...driver}} />
+					{driverId && <Character id={driverId} x={100} y={240} scale={0.55} pose={{turn: 0.5, ...driver}} />}
 				</svg>
 				<path d="M 400 -360 L 548 -360 L 622 -255 L 400 -255 Z" fill="#9fc8e8" opacity={0.12} />
 				<rect x={750} y={-200} width={36} height={26} rx={6} fill="#fff3b0" />

@@ -174,7 +174,7 @@ const ReedsScene: React.FC = () => {
 };
 
 /** The 1996 staff photo: young Tomás and a boy in a yellow raincoat. */
-const StaffPhoto: React.FC = () => (
+export const StaffPhoto: React.FC = () => (
 	<g>
 		<Sky stops={[[0, '#9ab'], [1, '#dde']]} />
 		<Forest count={20} y={560} hMin={200} hMax={320} color="#5a6a5a" seed={3} sway={0} />

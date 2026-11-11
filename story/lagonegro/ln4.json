@@ -1,0 +1,471 @@
+{
+ "slug": "ln4",
+ "mix": {
+  "voice": 1.0,
+  "music": 0.16,
+  "sfx": 0.34,
+  "duck": 0.72,
+  "sfx_duck": 0.45
+ },
+ "title": {
+  "es": "LAGO NEGRO"
+ },
+ "part": {
+  "es": "CAPÍTULO 4 · LA CAPUCHA AMARILLA"
+ },
+ "voices": {
+  "es": {
+   "narrator": {
+    "voice": "em_alex",
+    "fx": "narrator",
+    "speed": 0.92
+   },
+   "vera": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.05,
+    "speed": 0.92
+   },
+   "lucia": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 0.98,
+    "speed": 1.0
+   },
+   "mateo": {
+    "voice": "em_alex",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "carlos": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.14,
+    "speed": 0.92
+   },
+   "radio": {
+    "voice": "em_alex",
+    "fx": "phone",
+    "pitch": 1.1,
+    "speed": 0.95
+   },
+   "bea": {
+    "voice": "ef_dora",
+    "fx": "room",
+    "pitch": 1.1,
+    "speed": 0.92
+   },
+   "alex": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 1.08,
+    "speed": 0.95
+   },
+   "tomas": {
+    "voice": "em_santa",
+    "fx": "room",
+    "pitch": 0.96,
+    "speed": 0.9
+   }
+  }
+ },
+ "langCodes": {
+  "es": "es"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "minSeconds": 5.4,
+   "tail": 0.5,
+   "mood": {
+    "drone": 1,
+    "pulse": 1,
+    "cluster": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Habéis elegido: la *ventana*.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y salieron justo cuando la puerta *cedió*.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "scrape",
+     "sound": "scrape",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.7
+    },
+    {
+     "id": "hit1",
+     "sound": "thud",
+     "ref": "start",
+     "offset": 1.0,
+     "gain": 0.8
+    },
+    {
+     "id": "hit2",
+     "sound": "thud",
+     "ref": "line1.start",
+     "offset": 0.2,
+     "gain": 0.8
+    },
+    {
+     "id": "break",
+     "sound": "boom",
+     "ref": "word:cedió",
+     "offset": 0.0,
+     "gain": 1.0
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "minSeconds": 6.0,
+   "tail": 0.4,
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.7
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Quédate hasta el *final*: tú decides lo que pasa.",
+     "at": 0.3
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y *suscríbete* para no perderte el capítulo cinco.",
+     "gap": 0.3
+    }
+   ],
+   "cues": [
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "click",
+     "sound": "click",
+     "ref": "line1.start",
+     "offset": 1.0,
+     "gain": 0.8
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line1.start",
+     "offset": 1.3,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "id": "secret",
+   "minSeconds": 8.0,
+   "tail": 0.5,
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "carlos",
+     "es": "Tomás tenía un hijo. Se ahogó en este lago en el noventa y seis.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "El chico de la foto. El del impermeable *amarillo*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "steps",
+     "sound": "footsteps",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4,
+     "span": "scene"
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:amarillo",
+     "offset": 0.0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "helping",
+   "minSeconds": 4.5,
+   "tail": 0.8,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9
+   },
+   "lines": [
+    {
+     "speaker": "carlos",
+     "es": "Tomás no le persigue... le está *ayudando*.",
+     "at": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:ayudando",
+     "offset": 0.0,
+     "gain": 0.8
+    },
+    {
+     "id": "snap",
+     "sound": "snap",
+     "ref": "line0.end",
+     "offset": 0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "minSeconds": 6.5,
+   "tail": 0.8,
+   "mood": {
+    "pad": 0.5,
+    "drone": 0.4,
+    "pulse": 0.4
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "La camioneta de Tomás seguía en la carretera. *Vacía*.",
+     "at": 0.4
+    },
+    {
+     "speaker": "alex",
+     "es": "¡Las llaves están puestas!",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "crickets",
+     "sound": "crickets",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.15,
+     "span": "scene"
+    },
+    {
+     "id": "start",
+     "sound": "car",
+     "ref": "line1.end",
+     "offset": 0.3,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "id": "drive",
+   "minSeconds": 6.5,
+   "tail": 0.6,
+   "mood": {
+    "pad": 0.9,
+    "pluck": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Álex arrancó y no miró atrás.",
+     "at": 0.4
+    },
+    {
+     "speaker": "narrator",
+     "es": "Por primera vez esa noche, *respiraron*.",
+     "gap": 0.4
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.4
+    },
+    {
+     "id": "car2",
+     "sound": "car",
+     "ref": "start",
+     "offset": 3.8,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "id": "count",
+   "minSeconds": 7.5,
+   "tail": 1.4,
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "lucia",
+     "es": "Uno, dos, tres, cuatro, cinco...",
+     "at": 0.6,
+     "slow": 0.9
+    },
+    {
+     "speaker": "narrator",
+     "es": "...y una capucha *amarilla*.",
+     "gap": 0.7
+    }
+   ],
+   "cues": [
+    {
+     "id": "car",
+     "sound": "car",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.3
+    },
+    {
+     "id": "c1",
+     "sound": "tick",
+     "ref": "word:uno",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c2",
+     "sound": "tick",
+     "ref": "word:dos",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c3",
+     "sound": "tick",
+     "ref": "word:tres",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c4",
+     "sound": "tick",
+     "ref": "word:cuatro",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c5",
+     "sound": "tick",
+     "ref": "word:cinco",
+     "offset": 0.0,
+     "gain": 0.5
+    },
+    {
+     "id": "c6",
+     "sound": "sting",
+     "ref": "word:amarilla",
+     "offset": 0.0,
+     "gain": 1.0
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:amarilla",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "choice",
+   "minSeconds": 11.0,
+   "tail": 2.2,
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "¿Qué deben *hacer*?",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "A: frenar en seco para *lanzarlo* fuera.",
+     "gap": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "B: saltar todos y dejarle la *camioneta*.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Comenta *A* o *B*... y suscríbete para ver qué pasa.",
+     "gap": 0.6
+    }
+   ],
+   "cues": [
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "a",
+     "sound": "tick",
+     "ref": "line1.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "b",
+     "sound": "tick",
+     "ref": "line2.start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "bell",
+     "sound": "chime",
+     "ref": "line3.start",
+     "offset": 1.6,
+     "gain": 0.5
+    },
+    {
+     "id": "end",
+     "sound": "boom",
+     "ref": "line3.end",
+     "offset": 0.3,
+     "gain": 0.7
+    }
+   ]
+  }
+ ]
+}

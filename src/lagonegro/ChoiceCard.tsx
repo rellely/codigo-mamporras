@@ -3,7 +3,7 @@ import {AbsoluteFill, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {kf} from '../lib/anim';
 import {SubscribeButton} from './Subscribe';
 
-export type Option = {key: 'A' | 'B'; text: string; at: number; icon: 'road' | 'cabin' | 'jump' | 'question' | 'boat' | 'window'};
+export type Option = {key: 'A' | 'B'; text: string; at: number; icon: 'road' | 'cabin' | 'jump' | 'question' | 'boat' | 'window' | 'brake'};
 
 const Icon: React.FC<{kind: Option['icon']}> = ({kind}) => (
 	<svg viewBox="0 0 200 200" width={170} height={170}>
@@ -54,6 +54,20 @@ const Icon: React.FC<{kind: Option['icon']}> = ({kind}) => (
 				<line x1={100} x2={100} y1={40} y2={160} stroke="#7a5a3a" strokeWidth={8} />
 				<circle cx={130} cy={70} r={12} fill="#e8ecff" />
 				<path d="M 60 150 l 40 -50 l 18 20" stroke="#ffd7b5" strokeWidth={10} fill="none" strokeLinecap="round" />
+			</g>
+		)}
+		{kind === 'brake' && (
+			<g>
+				<rect x={30} y={100} width={110} height={40} rx={6} fill="#2f4a3a" />
+				<rect x={120} y={74} width={50} height={66} rx={6} fill="#355442" />
+				<circle cx={60} cy={146} r={14} fill="#111" />
+				<circle cx={150} cy={146} r={14} fill="#111" />
+				<path d="M 20 166 L 180 166" stroke="#333" strokeWidth={6} />
+				{[0, 1, 2].map((i) => (
+					<line key={i} x1={6} x2={26} y1={110 + i * 14} y2={110 + i * 14} stroke="#ffd60a" strokeWidth={5} strokeLinecap="round" />
+				))}
+				<path d="M 40 80 q 10 -30 40 -34" stroke="#d9b32a" strokeWidth={12} fill="none" strokeLinecap="round" />
+				<circle cx={86} cy={44} r={12} fill="#d9b32a" />
 			</g>
 		)}
 		{kind === 'cabin' && (

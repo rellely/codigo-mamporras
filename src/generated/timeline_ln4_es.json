@@ -1,0 +1,995 @@
+{
+ "lang": "es",
+ "fps": 30,
+ "title": "LAGO NEGRO",
+ "part": "CAPÍTULO 4 · LA CAPUCHA AMARILLA",
+ "scenes": [
+  {
+   "id": "hook",
+   "start": 0.0,
+   "duration": 5.666666666666667,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Habéis elegido: la ventana.",
+     "start": 0.6,
+     "end": 2.35,
+     "words": [
+      {
+       "w": "Habéis",
+       "hl": false,
+       "start": 0.63,
+       "end": 1.092
+      },
+      {
+       "w": "elegido:",
+       "hl": false,
+       "start": 1.092,
+       "end": 1.618
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 1.618,
+       "end": 1.824
+      },
+      {
+       "w": "ventana.",
+       "hl": true,
+       "start": 1.824,
+       "end": 2.35
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y salieron justo cuando la puerta cedió.",
+     "start": 2.65,
+     "end": 5.16,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 2.68,
+       "end": 2.812
+      },
+      {
+       "w": "salieron",
+       "hl": false,
+       "start": 2.812,
+       "end": 3.363
+      },
+      {
+       "w": "justo",
+       "hl": false,
+       "start": 3.363,
+       "end": 3.734
+      },
+      {
+       "w": "cuando",
+       "hl": false,
+       "start": 3.734,
+       "end": 4.166
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 4.166,
+       "end": 4.357
+      },
+      {
+       "w": "puerta",
+       "hl": false,
+       "start": 4.357,
+       "end": 4.789
+      },
+      {
+       "w": "cedió.",
+       "hl": true,
+       "start": 4.789,
+       "end": 5.16
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "scrape": 0.0,
+    "hit1": 1.0,
+    "hit2": 2.85,
+    "break": 4.789
+   },
+   "mood": {
+    "drone": 1,
+    "pulse": 1,
+    "cluster": 0.6
+   }
+  },
+  {
+   "id": "cta",
+   "start": 5.6667,
+   "duration": 6.8,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Quédate hasta el final: tú decides lo que pasa.",
+     "start": 0.3,
+     "end": 3.16,
+     "words": [
+      {
+       "w": "Quédate",
+       "hl": false,
+       "start": 0.35,
+       "end": 0.781
+      },
+      {
+       "w": "hasta",
+       "hl": false,
+       "start": 0.781,
+       "end": 1.106
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 1.106,
+       "end": 1.274
+      },
+      {
+       "w": "final:",
+       "hl": true,
+       "start": 1.274,
+       "end": 1.6
+      },
+      {
+       "w": "tú",
+       "hl": false,
+       "start": 1.78,
+       "end": 1.964
+      },
+      {
+       "w": "decides",
+       "hl": false,
+       "start": 1.964,
+       "end": 2.436
+      },
+      {
+       "w": "lo",
+       "hl": false,
+       "start": 2.436,
+       "end": 2.62
+      },
+      {
+       "w": "que",
+       "hl": false,
+       "start": 2.62,
+       "end": 2.861
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 2.861,
+       "end": 3.16
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y suscríbete para no perderte el capítulo cinco.",
+     "start": 3.46,
+     "end": 6.4,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 3.49,
+       "end": 3.619
+      },
+      {
+       "w": "suscríbete",
+       "hl": true,
+       "start": 3.619,
+       "end": 4.276
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 4.276,
+       "end": 4.581
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 4.581,
+       "end": 4.769
+      },
+      {
+       "w": "perderte",
+       "hl": false,
+       "start": 4.769,
+       "end": 5.309
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 5.309,
+       "end": 5.496
+      },
+      {
+       "w": "capítulo",
+       "hl": false,
+       "start": 5.496,
+       "end": 6.036
+      },
+      {
+       "w": "cinco.",
+       "hl": false,
+       "start": 6.036,
+       "end": 6.4
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "click": 4.46,
+    "bell": 4.76
+   },
+   "mood": {
+    "drone": 0.6,
+    "pulse": 0.7
+   }
+  },
+  {
+   "id": "secret",
+   "start": 12.4667,
+   "duration": 8.0,
+   "lines": [
+    {
+     "speaker": "carlos",
+     "text": "Tomás tenía un hijo. Se ahogó en este lago en el noventa y seis.",
+     "start": 0.4,
+     "end": 3.812,
+     "words": [
+      {
+       "w": "Tomás",
+       "hl": false,
+       "start": 0.435,
+       "end": 0.757
+      },
+      {
+       "w": "tenía",
+       "hl": false,
+       "start": 0.757,
+       "end": 1.078
+      },
+      {
+       "w": "un",
+       "hl": false,
+       "start": 1.078,
+       "end": 1.244
+      },
+      {
+       "w": "hijo.",
+       "hl": false,
+       "start": 1.244,
+       "end": 1.514
+      },
+      {
+       "w": "Se",
+       "hl": false,
+       "start": 1.742,
+       "end": 1.889
+      },
+      {
+       "w": "ahogó",
+       "hl": false,
+       "start": 1.889,
+       "end": 2.175
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 2.175,
+       "end": 2.322
+      },
+      {
+       "w": "este",
+       "hl": false,
+       "start": 2.322,
+       "end": 2.561
+      },
+      {
+       "w": "lago",
+       "hl": false,
+       "start": 2.561,
+       "end": 2.8
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 2.8,
+       "end": 2.947
+      },
+      {
+       "w": "el",
+       "hl": false,
+       "start": 2.947,
+       "end": 3.095
+      },
+      {
+       "w": "noventa",
+       "hl": false,
+       "start": 3.095,
+       "end": 3.472
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 3.472,
+       "end": 3.573
+      },
+      {
+       "w": "seis.",
+       "hl": false,
+       "start": 3.573,
+       "end": 3.812
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "El chico de la foto. El del impermeable amarillo.",
+     "start": 4.212,
+     "end": 7.182,
+     "words": [
+      {
+       "w": "El",
+       "hl": false,
+       "start": 4.242,
+       "end": 4.413
+      },
+      {
+       "w": "chico",
+       "hl": false,
+       "start": 4.413,
+       "end": 4.744
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 4.744,
+       "end": 4.914
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 4.914,
+       "end": 5.085
+      },
+      {
+       "w": "foto.",
+       "hl": false,
+       "start": 5.085,
+       "end": 5.362
+      },
+      {
+       "w": "El",
+       "hl": false,
+       "start": 5.542,
+       "end": 5.725
+      },
+      {
+       "w": "del",
+       "hl": false,
+       "start": 5.725,
+       "end": 5.964
+      },
+      {
+       "w": "impermeable",
+       "hl": false,
+       "start": 5.964,
+       "end": 6.658
+      },
+      {
+       "w": "amarillo.",
+       "hl": true,
+       "start": 6.658,
+       "end": 7.182
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "steps": 0.0,
+    "sting": 6.658
+   },
+   "mood": {
+    "drone": 0.9,
+    "cluster": 0.6,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "helping",
+   "start": 20.4667,
+   "duration": 4.5,
+   "lines": [
+    {
+     "speaker": "carlos",
+     "text": "Tomás no le persigue... le está ayudando.",
+     "start": 0.4,
+     "end": 2.619,
+     "words": [
+      {
+       "w": "Tomás",
+       "hl": false,
+       "start": 0.435,
+       "end": 0.762
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 0.762,
+       "end": 0.931
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 0.931,
+       "end": 1.099
+      },
+      {
+       "w": "persigue...",
+       "hl": false,
+       "start": 1.099,
+       "end": 1.584
+      },
+      {
+       "w": "le",
+       "hl": false,
+       "start": 1.698,
+       "end": 1.866
+      },
+      {
+       "w": "está",
+       "hl": false,
+       "start": 1.866,
+       "end": 2.138
+      },
+      {
+       "w": "ayudando.",
+       "hl": true,
+       "start": 2.138,
+       "end": 2.619
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "sting": 2.138,
+    "snap": 2.919
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.9
+   }
+  },
+  {
+   "id": "road",
+   "start": 24.9667,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "La camioneta de Tomás seguía en la carretera. Vacía.",
+     "start": 0.4,
+     "end": 3.56,
+     "words": [
+      {
+       "w": "La",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.6
+      },
+      {
+       "w": "camioneta",
+       "hl": false,
+       "start": 0.6,
+       "end": 1.14
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 1.14,
+       "end": 1.31
+      },
+      {
+       "w": "Tomás",
+       "hl": false,
+       "start": 1.31,
+       "end": 1.638
+      },
+      {
+       "w": "seguía",
+       "hl": false,
+       "start": 1.638,
+       "end": 2.02
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 2.02,
+       "end": 2.19
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 2.19,
+       "end": 2.359
+      },
+      {
+       "w": "carretera.",
+       "hl": false,
+       "start": 2.359,
+       "end": 2.9
+      },
+      {
+       "w": "Vacía.",
+       "hl": true,
+       "start": 3.07,
+       "end": 3.56
+      }
+     ]
+    },
+    {
+     "speaker": "alex",
+     "text": "¡Las llaves están puestas!",
+     "start": 3.96,
+     "end": 5.506,
+     "words": [
+      {
+       "w": "¡Las",
+       "hl": false,
+       "start": 3.988,
+       "end": 4.235
+      },
+      {
+       "w": "llaves",
+       "hl": false,
+       "start": 4.235,
+       "end": 4.659
+      },
+      {
+       "w": "están",
+       "hl": false,
+       "start": 4.659,
+       "end": 5.024
+      },
+      {
+       "w": "puestas!",
+       "hl": false,
+       "start": 5.024,
+       "end": 5.506
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "crickets": 0.0,
+    "start": 5.806
+   },
+   "mood": {
+    "pad": 0.5,
+    "drone": 0.4,
+    "pulse": 0.4
+   }
+  },
+  {
+   "id": "drive",
+   "start": 31.4667,
+   "duration": 6.5,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Álex arrancó y no miró atrás.",
+     "start": 0.4,
+     "end": 2.53,
+     "words": [
+      {
+       "w": "Álex",
+       "hl": false,
+       "start": 0.43,
+       "end": 0.792
+      },
+      {
+       "w": "arrancó",
+       "hl": false,
+       "start": 0.792,
+       "end": 1.362
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 1.362,
+       "end": 1.515
+      },
+      {
+       "w": "no",
+       "hl": false,
+       "start": 1.515,
+       "end": 1.737
+      },
+      {
+       "w": "miró",
+       "hl": false,
+       "start": 1.737,
+       "end": 2.099
+      },
+      {
+       "w": "atrás.",
+       "hl": false,
+       "start": 2.099,
+       "end": 2.53
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Por primera vez esa noche, respiraron.",
+     "start": 2.93,
+     "end": 5.54,
+     "words": [
+      {
+       "w": "Por",
+       "hl": false,
+       "start": 2.97,
+       "end": 3.253
+      },
+      {
+       "w": "primera",
+       "hl": false,
+       "start": 3.253,
+       "end": 3.804
+      },
+      {
+       "w": "vez",
+       "hl": false,
+       "start": 3.804,
+       "end": 4.087
+      },
+      {
+       "w": "esa",
+       "hl": false,
+       "start": 4.087,
+       "end": 4.369
+      },
+      {
+       "w": "noche,",
+       "hl": false,
+       "start": 4.369,
+       "end": 4.786
+      },
+      {
+       "w": "respiraron.",
+       "hl": true,
+       "start": 4.786,
+       "end": 5.54
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 0.0,
+    "car2": 3.8
+   },
+   "mood": {
+    "pad": 0.9,
+    "pluck": 0.5
+   }
+  },
+  {
+   "id": "count",
+   "start": 37.9667,
+   "duration": 7.5,
+   "lines": [
+    {
+     "speaker": "lucia",
+     "text": "Uno, dos, tres, cuatro, cinco...",
+     "start": 0.6,
+     "end": 2.61,
+     "words": [
+      {
+       "w": "Uno,",
+       "hl": false,
+       "start": 0.631,
+       "end": 0.939
+      },
+      {
+       "w": "dos,",
+       "hl": false,
+       "start": 0.939,
+       "end": 1.246
+      },
+      {
+       "w": "tres,",
+       "hl": false,
+       "start": 1.246,
+       "end": 1.628
+      },
+      {
+       "w": "cuatro,",
+       "hl": false,
+       "start": 1.628,
+       "end": 2.156
+      },
+      {
+       "w": "cinco...",
+       "hl": false,
+       "start": 2.156,
+       "end": 2.61
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "...y una capucha amarilla.",
+     "start": 3.31,
+     "end": 4.87,
+     "words": [
+      {
+       "w": "...y",
+       "hl": false,
+       "start": 3.35,
+       "end": 3.491
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 3.491,
+       "end": 3.759
+      },
+      {
+       "w": "capucha",
+       "hl": false,
+       "start": 3.759,
+       "end": 4.283
+      },
+      {
+       "w": "amarilla.",
+       "hl": true,
+       "start": 4.283,
+       "end": 4.87
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "car": 0.0,
+    "c1": 0.631,
+    "c2": 0.939,
+    "c3": 1.246,
+    "c4": 1.628,
+    "c5": 2.156,
+    "c6": 4.283,
+    "boom": 4.283
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.6
+   }
+  },
+  {
+   "id": "choice",
+   "start": 45.4667,
+   "duration": 13.333333333333334,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "¿Qué deben hacer?",
+     "start": 0.6,
+     "end": 1.78,
+     "words": [
+      {
+       "w": "¿Qué",
+       "hl": false,
+       "start": 0.64,
+       "end": 0.928
+      },
+      {
+       "w": "deben",
+       "hl": false,
+       "start": 0.928,
+       "end": 1.354
+      },
+      {
+       "w": "hacer?",
+       "hl": true,
+       "start": 1.354,
+       "end": 1.78
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "A: frenar en seco para lanzarlo fuera.",
+     "start": 2.38,
+     "end": 4.6,
+     "words": [
+      {
+       "w": "A:",
+       "hl": false,
+       "start": 2.41,
+       "end": 2.535
+      },
+      {
+       "w": "frenar",
+       "hl": false,
+       "start": 2.535,
+       "end": 2.946
+      },
+      {
+       "w": "en",
+       "hl": false,
+       "start": 2.946,
+       "end": 3.129
+      },
+      {
+       "w": "seco",
+       "hl": false,
+       "start": 3.129,
+       "end": 3.425
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 3.425,
+       "end": 3.722
+      },
+      {
+       "w": "lanzarlo",
+       "hl": true,
+       "start": 3.722,
+       "end": 4.246
+      },
+      {
+       "w": "fuera.",
+       "hl": false,
+       "start": 4.246,
+       "end": 4.6
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "B: saltar todos y dejarle la camioneta.",
+     "start": 5.1,
+     "end": 7.6,
+     "words": [
+      {
+       "w": "B:",
+       "hl": false,
+       "start": 5.13,
+       "end": 5.268
+      },
+      {
+       "w": "saltar",
+       "hl": false,
+       "start": 5.268,
+       "end": 5.719
+      },
+      {
+       "w": "todos",
+       "hl": false,
+       "start": 5.719,
+       "end": 6.108
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 6.108,
+       "end": 6.246
+      },
+      {
+       "w": "dejarle",
+       "hl": false,
+       "start": 6.246,
+       "end": 6.76
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 6.76,
+       "end": 6.961
+      },
+      {
+       "w": "camioneta.",
+       "hl": true,
+       "start": 6.961,
+       "end": 7.6
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Comenta A o B... y suscríbete para ver qué pasa.",
+     "start": 8.2,
+     "end": 11.14,
+     "words": [
+      {
+       "w": "Comenta",
+       "hl": false,
+       "start": 8.24,
+       "end": 8.746
+      },
+      {
+       "w": "A",
+       "hl": true,
+       "start": 8.746,
+       "end": 8.882
+      },
+      {
+       "w": "o",
+       "hl": false,
+       "start": 8.882,
+       "end": 9.017
+      },
+      {
+       "w": "B...",
+       "hl": true,
+       "start": 9.017,
+       "end": 9.153
+      },
+      {
+       "w": "y",
+       "hl": false,
+       "start": 9.153,
+       "end": 9.289
+      },
+      {
+       "w": "suscríbete",
+       "hl": false,
+       "start": 9.289,
+       "end": 9.98
+      },
+      {
+       "w": "para",
+       "hl": false,
+       "start": 9.98,
+       "end": 10.301
+      },
+      {
+       "w": "ver",
+       "hl": false,
+       "start": 10.301,
+       "end": 10.56
+      },
+      {
+       "w": "qué",
+       "hl": false,
+       "start": 10.56,
+       "end": 10.819
+      },
+      {
+       "w": "pasa.",
+       "hl": false,
+       "start": 10.819,
+       "end": 11.14
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "boom": 0.0,
+    "a": 2.38,
+    "b": 5.1,
+    "bell": 9.8,
+    "end": 11.44
+   },
+   "mood": {
+    "drone": 0.8,
+    "pulse": 0.5
+   }
+  }
+ ],
+ "durationInFrames": 1764
+}
