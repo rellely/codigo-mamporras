@@ -119,7 +119,8 @@ opción ganadora.
 | 1 · La primera noche | `renders/lago-negro-capitulo-1.mp4` | **A:** huir por el bosque hasta la carretera · **B:** encerrarse en la cabaña principal → *ganó A* |
 | 2 · El bosque | `renders/lago-negro-capitulo-2.mp4` | **A:** saltar de la camioneta en marcha · **B:** quedarse y descubrir quién es Tomás → *ganó A* |
 | 3 · El cobertizo | `renders/lago-negro-capitulo-3.mp4` | **A:** escapar en barca cruzando el lago · **B:** salir por la ventana y volver a la carretera → *ganó B* |
-| 4 · La capucha amarilla | `renders/lago-negro-capitulo-4.mp4` | **A:** frenar en seco para lanzarlo fuera · **B:** saltar todos y dejarle la camioneta |
+| 4 · La capucha amarilla | `renders/lago-negro-capitulo-4.mp4` | **A:** frenar en seco para lanzarlo fuera · **B:** saltar todos y dejarle la camioneta → *ganó A* |
+| 5 · Bajo la máscara | `renders/lago-negro-capitulo-5.mp4` | **A:** acelerar y pasar a su lado sin parar · **B:** bajar y hablar con Tomás |
 
 ### Añadir el siguiente capítulo
 

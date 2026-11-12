@@ -68,6 +68,8 @@ export type Pose = {
 	colors?: Partial<Look>;
 	/** Normal (non-uncanny) eyes for the sixth. */
 	humanEyes?: boolean;
+	/** El Guarda only: 0..1, the right half of the mask is broken off, revealing a human face. */
+	maskBroken?: number;
 };
 
 const rad = (d: number) => (d * Math.PI) / 180;
@@ -385,7 +387,17 @@ export const Character: React.FC<{
 							{[-14, 0, 14].map((dx) => (
 								<line key={dx} x1={dx} x2={dx} y1={headCY + 28} y2={headCY + 40} stroke="#0b0806" strokeWidth={3} />
 							))}
-						</g>
+						{(pose.maskBroken ?? 0) > 0 && (
+								<g opacity={pose.maskBroken}>
+									<path d={`M 2 ${headCY - 56} L 10 ${headCY - 30} L -4 ${headCY - 8} L 12 ${headCY + 14} L 0 ${headCY + 36} L 8 ${headCY + 62} Q 52 ${headCY + 50} 52 ${headCY + 4} Q 52 ${headCY - 50} 2 ${headCY - 56} Z`} fill="#d6ad88" />
+									<path d={`M 2 ${headCY - 56} L 10 ${headCY - 30} L -4 ${headCY - 8} L 12 ${headCY + 14} L 0 ${headCY + 36} L 8 ${headCY + 62}`} stroke="#5a4630" strokeWidth={4} fill="none" />
+									<ellipse cx={26} cy={headCY - 8} rx={11} ry={13 * (pose.eyeOpen ?? 1)} fill="#fff" />
+									{(pose.eyeOpen ?? 1) > 0.2 && <circle cx={26 + lookX * 0.6} cy={headCY - 7} r={6} fill="#3a2a1a" />}
+									<line x1={14} x2={38} y1={headCY - 28} y2={headCY - 31} stroke="#3a2a1a" strokeWidth={4} strokeLinecap="round" />
+									<path d={`M 14 ${headCY + 30} Q 26 ${headCY + 34} 36 ${headCY + 28}`} stroke="#5a3a2a" strokeWidth={3.5} fill="none" />
+								</g>
+							)}
+							</g>
 					)}
 					{!back && st !== 'masked' && (
 						<g>
