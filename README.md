@@ -120,7 +120,8 @@ opción ganadora.
 | 2 · El bosque | `renders/lago-negro-capitulo-2.mp4` | **A:** saltar de la camioneta en marcha · **B:** quedarse y descubrir quién es Tomás → *ganó A* |
 | 3 · El cobertizo | `renders/lago-negro-capitulo-3.mp4` | **A:** escapar en barca cruzando el lago · **B:** salir por la ventana y volver a la carretera → *ganó B* |
 | 4 · La capucha amarilla | `renders/lago-negro-capitulo-4.mp4` | **A:** frenar en seco para lanzarlo fuera · **B:** saltar todos y dejarle la camioneta → *ganó A* |
-| 5 · Bajo la máscara | `renders/lago-negro-capitulo-5.mp4` | **A:** acelerar y pasar a su lado sin parar · **B:** bajar y hablar con Tomás |
+| 5 · Bajo la máscara | `renders/lago-negro-capitulo-5.mp4` | **A:** acelerar y pasar a su lado sin parar · **B:** bajar y hablar con Tomás → *ganó B* |
+| 6 · Samuel | `renders/lago-negro-capitulo-6.mp4` | **A:** ir a buscar a Álex al bosque · **B:** quedarse con Tomás y Samuel |
 
 ### Añadir el siguiente capítulo
 
