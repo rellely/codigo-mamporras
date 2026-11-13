@@ -11,7 +11,7 @@
   "es": "LAGO NEGRO"
  },
  "part": {
-  "es": "CAPÍTULO 6 · SAMUEL"
+  "es": "CAPÍTULO 6 · LA VERDAD"
  },
  "voices": {
   "es": {
@@ -73,6 +73,12 @@
     "fx": "hugo",
     "pitch": 0.9,
     "speed": 0.85
+   },
+   "tomas_dark": {
+    "voice": "em_santa",
+    "fx": "sixth",
+    "pitch": 0.92,
+    "speed": 0.82
    }
   }
  },
@@ -187,8 +193,8 @@
    ]
   },
   {
-   "id": "flashback",
-   "minSeconds": 8.5,
+   "id": "told",
+   "minSeconds": 8.0,
    "tail": 0.8,
    "mood": {
     "pad": 0.8,
@@ -197,12 +203,12 @@
    "lines": [
     {
      "speaker": "narrator",
-     "es": "Nadie le ayudó. Tomás lo sacó del agua, medio *muerto*.",
+     "es": "Esa fue la historia que contó Tomás.",
      "at": 0.4
     },
     {
      "speaker": "tomas",
-     "es": "Vivió. Pero nunca volvió a ser el *mismo*.",
+     "es": "Yo lo saqué del agua. Nadie más le *ayudó*.",
      "gap": 0.6
     }
    ],
@@ -217,25 +223,133 @@
    ]
   },
   {
-   "id": "why",
-   "minSeconds": 5.5,
+   "id": "signal",
+   "minSeconds": 9.0,
    "tail": 0.8,
    "mood": {
-    "pad": 0.6,
-    "drone": 0.5
+    "drone": 0.9,
+    "cluster": 0.7
    },
    "lines": [
     {
-     "speaker": "tomas",
-     "es": "Cada vez que alguien abre el campamento... cree que vienen a *reírse* otra vez.",
-     "at": 0.4
+     "speaker": "narrator",
+     "es": "Pero Samuel negaba con la cabeza.",
+     "at": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Levantó el gancho... y señaló a su *padre*.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "bea",
+     "es": "Nos está... *avisando*.",
+     "gap": 0.7
     }
    ],
-   "cues": []
+   "cues": [
+    {
+     "id": "raise",
+     "sound": "scrape",
+     "ref": "line1.start",
+     "offset": 0.3,
+     "gain": 0.5
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "word:padre",
+     "offset": 0.0,
+     "gain": 0.8
+    }
+   ]
+  },
+  {
+   "id": "lie",
+   "minSeconds": 12.0,
+   "tail": 1.0,
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.5
+   },
+   "lines": [
+    {
+     "speaker": "narrator",
+     "es": "Aquel verano nadie se *rió*.",
+     "at": 0.6
+    },
+    {
+     "speaker": "narrator",
+     "es": "Los monitores vieron cómo Tomás *empujaba* a su propio hijo al agua.",
+     "gap": 0.5
+    },
+    {
+     "speaker": "narrator",
+     "es": "Y ninguno de ellos volvió a *casa*.",
+     "gap": 0.7
+    }
+   ],
+   "cues": [
+    {
+     "id": "glitch",
+     "sound": "glitch",
+     "ref": "start",
+     "offset": 0.0,
+     "gain": 0.6
+    },
+    {
+     "id": "push",
+     "sound": "splash",
+     "ref": "word:empujaba",
+     "offset": 0.3,
+     "gain": 0.8
+    },
+    {
+     "id": "boom",
+     "sound": "boom",
+     "ref": "word:casa",
+     "offset": 0.0,
+     "gain": 0.9
+    }
+   ]
+  },
+  {
+   "id": "cold",
+   "minSeconds": 6.0,
+   "tail": 1.0,
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.6
+   },
+   "lines": [
+    {
+     "speaker": "tomas_dark",
+     "es": "Samuel siempre ha hablado *demasiado*.",
+     "at": 1.2
+    }
+   ],
+   "cues": [
+    {
+     "id": "click",
+     "sound": "click",
+     "ref": "start",
+     "offset": 0.5,
+     "gain": 0.7
+    },
+    {
+     "id": "sting",
+     "sound": "sting",
+     "ref": "line0.end",
+     "offset": 0.2,
+     "gain": 0.9
+    }
+   ]
   },
   {
    "id": "missing",
-   "minSeconds": 6.0,
+   "minSeconds": 6.5,
    "tail": 0.8,
    "mood": {
     "drone": 1,
@@ -244,7 +358,7 @@
    "lines": [
     {
      "speaker": "carlos",
-     "es": "Esperad... ¿dónde está Álex?",
+     "es": "¿Dónde... dónde está Álex?",
      "at": 0.5
     },
     {
@@ -265,7 +379,7 @@
   },
   {
    "id": "second",
-   "minSeconds": 9.0,
+   "minSeconds": 12.0,
    "tail": 1.4,
    "mood": {
     "drone": 1,
@@ -275,17 +389,17 @@
    "lines": [
     {
      "speaker": "narrator",
-     "es": "Al borde del bosque, junto a la gorra de Álex...",
+     "es": "Al borde del bosque esperaba otro impermeable amarillo.",
      "at": 0.5
     },
     {
-     "speaker": "narrator",
-     "es": "había *otro* impermeable amarillo.",
-     "gap": 0.4
+     "speaker": "tomas_dark",
+     "es": "Ese es mi *nuevo* Guarda.",
+     "gap": 0.8
     },
     {
-     "speaker": "tomas",
-     "es": "No... ese no es mi hijo.",
+     "speaker": "narrator",
+     "es": "Y bajo la capucha... asomaba una gorra *roja*.",
      "gap": 0.8
     }
    ],
@@ -300,16 +414,16 @@
     {
      "id": "boom",
      "sound": "boom",
-     "ref": "word:otro",
+     "ref": "word:nuevo",
      "offset": 0.0,
-     "gain": 1.0
+     "gain": 0.9
     },
     {
      "id": "sting",
      "sound": "sting",
-     "ref": "line2.start",
+     "ref": "word:roja",
      "offset": 0.0,
-     "gain": 0.8
+     "gain": 1.0
     }
    ]
   },
@@ -329,12 +443,12 @@
     },
     {
      "speaker": "narrator",
-     "es": "A: ir a buscar a Álex al *bosque*.",
+     "es": "A: ayudar a Samuel contra *Tomás*.",
      "gap": 0.6
     },
     {
      "speaker": "narrator",
-     "es": "B: quedarse con Tomás y *Samuel*.",
+     "es": "B: correr hacia Álex y quitarle la *máscara*.",
      "gap": 0.5
     },
     {

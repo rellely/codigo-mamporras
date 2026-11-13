@@ -110,6 +110,8 @@ opción ganadora.
   hoguera junto al lago con cabañas y guirnalda de luces, caseta del generador).
 - **Tarjeta de decisión:** `src/lagonegro/ChoiceCard.tsx` (con botón de suscripción).
 - **Llamada a la acción inicial:** `src/lagonegro/Subscribe.tsx` — justo después del gancho, «quédate hasta el final, elige en comentarios y suscríbete» con botón animado.
+- **Duración (desde el cap. 6):** ~80–90 s por capítulo.
+- **Giro de la serie (cap. 6):** Tomás es el villano: empujó a su hijo Samuel al lago en 1996 y convierte a sus víctimas en nuevos «Guardas».
 - **Mezcla de audio (desde el cap. 3):** música y efectos más bajos y más *ducking* bajo la voz (`MIX` en `story/lagonegro/make.py`).
 - **Sets del cap. 3:** juncos de la orilla y cobertizo de barcas (`LakeCamp.tsx`).
 - **Sets del cap. 2:** `src/components/sets/Road.tsx` (bosque en persecución lateral, carretera nocturna, camioneta, vista trasera).
@@ -121,7 +123,7 @@ opción ganadora.
 | 3 · El cobertizo | `renders/lago-negro-capitulo-3.mp4` | **A:** escapar en barca cruzando el lago · **B:** salir por la ventana y volver a la carretera → *ganó B* |
 | 4 · La capucha amarilla | `renders/lago-negro-capitulo-4.mp4` | **A:** frenar en seco para lanzarlo fuera · **B:** saltar todos y dejarle la camioneta → *ganó A* |
 | 5 · Bajo la máscara | `renders/lago-negro-capitulo-5.mp4` | **A:** acelerar y pasar a su lado sin parar · **B:** bajar y hablar con Tomás → *ganó B* |
-| 6 · Samuel | `renders/lago-negro-capitulo-6.mp4` | **A:** ir a buscar a Álex al bosque · **B:** quedarse con Tomás y Samuel |
+| 6 · La verdad | `renders/lago-negro-capitulo-6.mp4` | **A:** ayudar a Samuel contra Tomás · **B:** correr hacia Álex y quitarle la máscara |
 
 ### Añadir el siguiente capítulo
 

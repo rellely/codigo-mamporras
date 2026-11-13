@@ -2,7 +2,7 @@
  "lang": "es",
  "fps": 30,
  "title": "LAGO NEGRO",
- "part": "CAPÍTULO 6 · SAMUEL",
+ "part": "CAPÍTULO 6 · LA VERDAD",
  "scenes": [
   {
    "id": "hook",
@@ -374,131 +374,119 @@
    }
   },
   {
-   "id": "flashback",
+   "id": "told",
    "start": 19.7667,
-   "duration": 8.5,
+   "duration": 8.0,
    "lines": [
     {
      "speaker": "narrator",
-     "text": "Nadie le ayudó. Tomás lo sacó del agua, medio muerto.",
+     "text": "Esa fue la historia que contó Tomás.",
      "start": 0.4,
-     "end": 3.73,
+     "end": 2.65,
      "words": [
       {
-       "w": "Nadie",
+       "w": "Esa",
        "hl": false,
        "start": 0.43,
-       "end": 0.816
+       "end": 0.679
       },
       {
-       "w": "le",
+       "w": "fue",
        "hl": false,
-       "start": 0.816,
-       "end": 1.015
+       "start": 0.679,
+       "end": 0.929
       },
       {
-       "w": "ayudó.",
+       "w": "la",
        "hl": false,
-       "start": 1.015,
-       "end": 1.401
+       "start": 0.929,
+       "end": 1.119
       },
       {
-       "w": "Tomás",
+       "w": "historia",
        "hl": false,
-       "start": 1.401,
-       "end": 1.787
+       "start": 1.119,
+       "end": 1.665
       },
       {
-       "w": "lo",
+       "w": "que",
        "hl": false,
-       "start": 1.787,
-       "end": 1.987
+       "start": 1.665,
+       "end": 1.914
       },
       {
-       "w": "sacó",
+       "w": "contó",
        "hl": false,
-       "start": 1.987,
-       "end": 2.31
+       "start": 1.914,
+       "end": 2.282
       },
       {
-       "w": "del",
+       "w": "Tomás.",
        "hl": false,
-       "start": 2.31,
-       "end": 2.572
-      },
-      {
-       "w": "agua,",
-       "hl": false,
-       "start": 2.572,
-       "end": 2.896
-      },
-      {
-       "w": "medio",
-       "hl": false,
-       "start": 2.896,
-       "end": 3.282
-      },
-      {
-       "w": "muerto.",
-       "hl": true,
-       "start": 3.282,
-       "end": 3.73
+       "start": 2.282,
+       "end": 2.65
       }
      ]
     },
     {
      "speaker": "tomas",
-     "text": "Vivió. Pero nunca volvió a ser el mismo.",
-     "start": 4.33,
-     "end": 6.872,
+     "text": "Yo lo saqué del agua. Nadie más le ayudó.",
+     "start": 3.25,
+     "end": 5.927,
      "words": [
       {
-       "w": "Vivió.",
+       "w": "Yo",
        "hl": false,
-       "start": 4.361,
-       "end": 4.809
+       "start": 3.292,
+       "end": 3.493
       },
       {
-       "w": "Pero",
+       "w": "lo",
        "hl": false,
-       "start": 4.924,
-       "end": 5.218
+       "start": 3.493,
+       "end": 3.695
       },
       {
-       "w": "nunca",
+       "w": "saqué",
        "hl": false,
-       "start": 5.218,
-       "end": 5.569
+       "start": 3.695,
+       "end": 4.086
       },
       {
-       "w": "volvió",
+       "w": "del",
        "hl": false,
-       "start": 5.569,
-       "end": 5.977
+       "start": 4.086,
+       "end": 4.351
       },
       {
-       "w": "a",
+       "w": "agua.",
        "hl": false,
-       "start": 5.977,
-       "end": 6.102
+       "start": 4.351,
+       "end": 4.679
       },
       {
-       "w": "ser",
+       "w": "Nadie",
        "hl": false,
-       "start": 6.102,
-       "end": 6.339
+       "start": 4.679,
+       "end": 5.07
       },
       {
-       "w": "el",
+       "w": "más",
        "hl": false,
-       "start": 6.339,
-       "end": 6.521
+       "start": 5.07,
+       "end": 5.334
       },
       {
-       "w": "mismo.",
+       "w": "le",
+       "hl": false,
+       "start": 5.334,
+       "end": 5.536
+      },
+      {
+       "w": "ayudó.",
        "hl": true,
-       "start": 6.521,
-       "end": 6.872
+       "start": 5.536,
+       "end": 5.927
       }
      ]
     }
@@ -512,193 +500,469 @@
    }
   },
   {
-   "id": "why",
-   "start": 28.2667,
-   "duration": 5.966666666666667,
+   "id": "signal",
+   "start": 27.7667,
+   "duration": 9.0,
    "lines": [
     {
-     "speaker": "tomas",
-     "text": "Cada vez que alguien abre el campamento... cree que vienen a reírse otra vez.",
-     "start": 0.4,
-     "end": 5.171,
+     "speaker": "narrator",
+     "text": "Pero Samuel negaba con la cabeza.",
+     "start": 0.5,
+     "end": 2.59,
      "words": [
       {
-       "w": "Cada",
+       "w": "Pero",
        "hl": false,
-       "start": 0.442,
-       "end": 0.735
+       "start": 0.54,
+       "end": 0.852
       },
       {
-       "w": "vez",
+       "w": "Samuel",
        "hl": false,
-       "start": 0.735,
-       "end": 0.971
+       "start": 0.852,
+       "end": 1.283
       },
       {
-       "w": "que",
+       "w": "negaba",
        "hl": false,
-       "start": 0.971,
-       "end": 1.208
+       "start": 1.283,
+       "end": 1.715
       },
       {
-       "w": "alguien",
+       "w": "con",
        "hl": false,
-       "start": 1.208,
-       "end": 1.67
+       "start": 1.715,
+       "end": 1.967
       },
       {
-       "w": "abre",
+       "w": "la",
        "hl": false,
-       "start": 1.67,
-       "end": 1.963
+       "start": 1.967,
+       "end": 2.158
+      },
+      {
+       "w": "cabeza.",
+       "hl": false,
+       "start": 2.158,
+       "end": 2.59
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Levantó el gancho... y señaló a su padre.",
+     "start": 3.09,
+     "end": 5.56,
+     "words": [
+      {
+       "w": "Levantó",
+       "hl": false,
+       "start": 3.12,
+       "end": 3.64
       },
       {
        "w": "el",
        "hl": false,
-       "start": 1.963,
-       "end": 2.144
+       "start": 3.64,
+       "end": 3.843
       },
       {
-       "w": "campamento...",
+       "w": "gancho...",
        "hl": false,
-       "start": 2.144,
-       "end": 2.775
+       "start": 3.843,
+       "end": 4.3
       },
       {
-       "w": "cree",
+       "w": "y",
        "hl": false,
-       "start": 3.077,
-       "end": 3.385
+       "start": 4.42,
+       "end": 4.539
       },
       {
-       "w": "que",
+       "w": "señaló",
        "hl": false,
-       "start": 3.385,
-       "end": 3.633
-      },
-      {
-       "w": "vienen",
-       "hl": false,
-       "start": 3.633,
-       "end": 4.059
+       "start": 4.539,
+       "end": 4.93
       },
       {
        "w": "a",
        "hl": false,
-       "start": 4.059,
-       "end": 4.189
+       "start": 4.93,
+       "end": 5.05
       },
       {
-       "w": "reírse",
+       "w": "su",
+       "hl": false,
+       "start": 5.05,
+       "end": 5.223
+      },
+      {
+       "w": "padre.",
        "hl": true,
-       "start": 4.189,
-       "end": 4.615
+       "start": 5.223,
+       "end": 5.56
+      }
+     ]
+    },
+    {
+     "speaker": "bea",
+     "text": "Nos está... avisando.",
+     "start": 6.26,
+     "end": 7.56,
+     "words": [
+      {
+       "w": "Nos",
+       "hl": false,
+       "start": 6.287,
+       "end": 6.575
       },
       {
-       "w": "otra",
+       "w": "está...",
        "hl": false,
-       "start": 4.615,
-       "end": 4.922
+       "start": 6.575,
+       "end": 6.93
       },
       {
-       "w": "vez.",
-       "hl": false,
-       "start": 4.922,
-       "end": 5.171
+       "w": "avisando.",
+       "hl": true,
+       "start": 6.93,
+       "end": 7.56
       }
      ]
     }
    ],
-   "cues": {},
+   "cues": {
+    "raise": 3.39,
+    "sting": 5.223
+   },
    "mood": {
-    "pad": 0.6,
-    "drone": 0.5
+    "drone": 0.9,
+    "cluster": 0.7
+   }
+  },
+  {
+   "id": "lie",
+   "start": 36.7667,
+   "duration": 12.0,
+   "lines": [
+    {
+     "speaker": "narrator",
+     "text": "Aquel verano nadie se rió.",
+     "start": 0.6,
+     "end": 2.36,
+     "words": [
+      {
+       "w": "Aquel",
+       "hl": false,
+       "start": 0.63,
+       "end": 1.027
+      },
+      {
+       "w": "verano",
+       "hl": false,
+       "start": 1.027,
+       "end": 1.489
+      },
+      {
+       "w": "nadie",
+       "hl": false,
+       "start": 1.489,
+       "end": 1.886
+      },
+      {
+       "w": "se",
+       "hl": false,
+       "start": 1.886,
+       "end": 2.091
+      },
+      {
+       "w": "rió.",
+       "hl": true,
+       "start": 2.091,
+       "end": 2.36
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Los monitores vieron cómo Tomás empujaba a su propio hijo al agua.",
+     "start": 2.86,
+     "end": 6.97,
+     "words": [
+      {
+       "w": "Los",
+       "hl": false,
+       "start": 2.89,
+       "end": 3.141
+      },
+      {
+       "w": "monitores",
+       "hl": false,
+       "start": 3.141,
+       "end": 3.749
+      },
+      {
+       "w": "vieron",
+       "hl": false,
+       "start": 3.749,
+       "end": 4.178
+      },
+      {
+       "w": "cómo",
+       "hl": false,
+       "start": 4.178,
+       "end": 4.489
+      },
+      {
+       "w": "Tomás",
+       "hl": false,
+       "start": 4.489,
+       "end": 4.858
+      },
+      {
+       "w": "empujaba",
+       "hl": true,
+       "start": 4.858,
+       "end": 5.407
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 5.407,
+       "end": 5.538
+      },
+      {
+       "w": "su",
+       "hl": false,
+       "start": 5.538,
+       "end": 5.729
+      },
+      {
+       "w": "propio",
+       "hl": false,
+       "start": 5.729,
+       "end": 6.159
+      },
+      {
+       "w": "hijo",
+       "hl": false,
+       "start": 6.159,
+       "end": 6.469
+      },
+      {
+       "w": "al",
+       "hl": false,
+       "start": 6.469,
+       "end": 6.66
+      },
+      {
+       "w": "agua.",
+       "hl": false,
+       "start": 6.66,
+       "end": 6.97
+      }
+     ]
+    },
+    {
+     "speaker": "narrator",
+     "text": "Y ninguno de ellos volvió a casa.",
+     "start": 7.67,
+     "end": 9.91,
+     "words": [
+      {
+       "w": "Y",
+       "hl": false,
+       "start": 7.7,
+       "end": 7.841
+      },
+      {
+       "w": "ninguno",
+       "hl": false,
+       "start": 7.841,
+       "end": 8.368
+      },
+      {
+       "w": "de",
+       "hl": false,
+       "start": 8.368,
+       "end": 8.574
+      },
+      {
+       "w": "ellos",
+       "hl": false,
+       "start": 8.574,
+       "end": 8.972
+      },
+      {
+       "w": "volvió",
+       "hl": false,
+       "start": 8.972,
+       "end": 9.435
+      },
+      {
+       "w": "a",
+       "hl": false,
+       "start": 9.435,
+       "end": 9.576
+      },
+      {
+       "w": "casa.",
+       "hl": true,
+       "start": 9.576,
+       "end": 9.91
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "glitch": 0.0,
+    "push": 5.158,
+    "boom": 9.576
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 1,
+    "pulse": 0.5
+   }
+  },
+  {
+   "id": "cold",
+   "start": 48.7667,
+   "duration": 6.0,
+   "lines": [
+    {
+     "speaker": "tomas_dark",
+     "text": "Samuel siempre ha hablado demasiado.",
+     "start": 1.2,
+     "end": 3.961,
+     "words": [
+      {
+       "w": "Samuel",
+       "hl": false,
+       "start": 1.233,
+       "end": 1.764
+      },
+      {
+       "w": "siempre",
+       "hl": false,
+       "start": 1.764,
+       "end": 2.368
+      },
+      {
+       "w": "ha",
+       "hl": false,
+       "start": 2.368,
+       "end": 2.604
+      },
+      {
+       "w": "hablado",
+       "hl": false,
+       "start": 2.604,
+       "end": 3.209
+      },
+      {
+       "w": "demasiado.",
+       "hl": true,
+       "start": 3.209,
+       "end": 3.961
+      }
+     ]
+    }
+   ],
+   "cues": {
+    "click": 0.5,
+    "sting": 4.161
+   },
+   "mood": {
+    "drone": 1,
+    "cluster": 0.8,
+    "pulse": 0.6
    }
   },
   {
    "id": "missing",
-   "start": 34.2333,
-   "duration": 6.0,
+   "start": 54.7667,
+   "duration": 6.5,
    "lines": [
     {
      "speaker": "carlos",
-     "text": "Esperad... ¿dónde está Álex?",
+     "text": "¿Dónde... dónde está Álex?",
      "start": 0.5,
-     "end": 1.974,
+     "end": 1.851,
      "words": [
       {
-       "w": "Esperad...",
+       "w": "¿Dónde...",
        "hl": false,
-       "start": 0.535,
-       "end": 1.011
+       "start": 0.526,
+       "end": 0.887
       },
       {
-       "w": "¿dónde",
+       "w": "dónde",
        "hl": false,
-       "start": 1.011,
-       "end": 1.37
+       "start": 0.887,
+       "end": 1.247
       },
       {
        "w": "está",
        "hl": false,
-       "start": 1.37,
-       "end": 1.672
+       "start": 1.247,
+       "end": 1.549
       },
       {
        "w": "Álex?",
        "hl": false,
-       "start": 1.672,
-       "end": 1.974
+       "start": 1.549,
+       "end": 1.851
       }
      ]
     },
     {
      "speaker": "narrator",
      "text": "El asiento del conductor estaba vacío.",
-     "start": 2.574,
-     "end": 5.124,
+     "start": 2.451,
+     "end": 5.001,
      "words": [
       {
        "w": "El",
        "hl": false,
-       "start": 2.604,
-       "end": 2.809
+       "start": 2.481,
+       "end": 2.687
       },
       {
        "w": "asiento",
        "hl": false,
-       "start": 2.809,
-       "end": 3.337
+       "start": 2.687,
+       "end": 3.214
       },
       {
        "w": "del",
        "hl": false,
-       "start": 3.337,
-       "end": 3.607
+       "start": 3.214,
+       "end": 3.484
       },
       {
        "w": "conductor",
        "hl": false,
-       "start": 3.607,
-       "end": 4.262
+       "start": 3.484,
+       "end": 4.139
       },
       {
        "w": "estaba",
        "hl": false,
-       "start": 4.262,
-       "end": 4.725
+       "start": 4.139,
+       "end": 4.602
       },
       {
        "w": "vacío.",
        "hl": true,
-       "start": 4.725,
-       "end": 5.124
+       "start": 4.602,
+       "end": 5.001
       }
      ]
     }
    ],
    "cues": {
-    "sting": 4.725
+    "sting": 4.602
    },
    "mood": {
     "drone": 1,
@@ -707,158 +971,164 @@
   },
   {
    "id": "second",
-   "start": 40.2333,
-   "duration": 9.466666666666667,
+   "start": 61.2667,
+   "duration": 12.0,
    "lines": [
     {
      "speaker": "narrator",
-     "text": "Al borde del bosque, junto a la gorra de Álex...",
+     "text": "Al borde del bosque esperaba otro impermeable amarillo.",
      "start": 0.5,
-     "end": 3.15,
+     "end": 3.89,
      "words": [
       {
        "w": "Al",
        "hl": false,
        "start": 0.53,
-       "end": 0.708
+       "end": 0.72
       },
       {
        "w": "borde",
        "hl": false,
-       "start": 0.708,
-       "end": 1.054
+       "start": 0.72,
+       "end": 1.088
       },
       {
        "w": "del",
        "hl": false,
-       "start": 1.054,
-       "end": 1.288
+       "start": 1.088,
+       "end": 1.337
       },
       {
-       "w": "bosque,",
+       "w": "bosque",
        "hl": false,
-       "start": 1.288,
-       "end": 1.689
+       "start": 1.337,
+       "end": 1.765
       },
       {
-       "w": "junto",
+       "w": "esperaba",
        "hl": false,
-       "start": 1.689,
-       "end": 2.035
+       "start": 1.765,
+       "end": 2.311
       },
       {
-       "w": "a",
+       "w": "otro",
        "hl": false,
-       "start": 2.035,
-       "end": 2.158
+       "start": 2.311,
+       "end": 2.62
       },
       {
-       "w": "la",
+       "w": "impermeable",
        "hl": false,
-       "start": 2.158,
-       "end": 2.336
+       "start": 2.62,
+       "end": 3.344
       },
       {
-       "w": "gorra",
+       "w": "amarillo.",
        "hl": false,
-       "start": 2.336,
-       "end": 2.682
+       "start": 3.344,
+       "end": 3.89
+      }
+     ]
+    },
+    {
+     "speaker": "tomas_dark",
+     "text": "Ese es mi nuevo Guarda.",
+     "start": 4.69,
+     "end": 6.755,
+     "words": [
+      {
+       "w": "Ese",
+       "hl": false,
+       "start": 4.744,
+       "end": 5.096
       },
       {
-       "w": "de",
+       "w": "es",
        "hl": false,
-       "start": 2.682,
-       "end": 2.86
+       "start": 5.096,
+       "end": 5.364
       },
       {
-       "w": "Álex...",
+       "w": "mi",
        "hl": false,
-       "start": 2.86,
-       "end": 3.15
+       "start": 5.364,
+       "end": 5.632
+      },
+      {
+       "w": "nuevo",
+       "hl": true,
+       "start": 5.632,
+       "end": 6.152
+      },
+      {
+       "w": "Guarda.",
+       "hl": false,
+       "start": 6.152,
+       "end": 6.755
       }
      ]
     },
     {
      "speaker": "narrator",
-     "text": "había otro impermeable amarillo.",
-     "start": 3.55,
-     "end": 5.71,
+     "text": "Y bajo la capucha... asomaba una gorra roja.",
+     "start": 7.555,
+     "end": 10.245,
      "words": [
       {
-       "w": "había",
+       "w": "Y",
        "hl": false,
-       "start": 3.58,
-       "end": 3.983
+       "start": 7.585,
+       "end": 7.72
       },
       {
-       "w": "otro",
+       "w": "bajo",
+       "hl": false,
+       "start": 7.72,
+       "end": 8.038
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 8.038,
+       "end": 8.234
+      },
+      {
+       "w": "capucha...",
+       "hl": false,
+       "start": 8.234,
+       "end": 8.735
+      },
+      {
+       "w": "asomaba",
+       "hl": false,
+       "start": 8.865,
+       "end": 9.341
+      },
+      {
+       "w": "una",
+       "hl": false,
+       "start": 9.341,
+       "end": 9.584
+      },
+      {
+       "w": "gorra",
+       "hl": false,
+       "start": 9.584,
+       "end": 9.944
+      },
+      {
+       "w": "roja.",
        "hl": true,
-       "start": 3.983,
-       "end": 4.32
-      },
-      {
-       "w": "impermeable",
-       "hl": false,
-       "start": 4.32,
-       "end": 5.113
-      },
-      {
-       "w": "amarillo.",
-       "hl": false,
-       "start": 5.113,
-       "end": 5.71
-      }
-     ]
-    },
-    {
-     "speaker": "tomas",
-     "text": "No... ese no es mi hijo.",
-     "start": 6.51,
-     "end": 8.072,
-     "words": [
-      {
-       "w": "No...",
-       "hl": false,
-       "start": 6.562,
-       "end": 6.78
-      },
-      {
-       "w": "ese",
-       "hl": false,
-       "start": 6.78,
-       "end": 7.066
-      },
-      {
-       "w": "no",
-       "hl": false,
-       "start": 7.066,
-       "end": 7.283
-      },
-      {
-       "w": "es",
-       "hl": false,
-       "start": 7.283,
-       "end": 7.501
-      },
-      {
-       "w": "mi",
-       "hl": false,
-       "start": 7.501,
-       "end": 7.719
-      },
-      {
-       "w": "hijo.",
-       "hl": false,
-       "start": 7.719,
-       "end": 8.072
+       "start": 9.944,
+       "end": 10.245
       }
      ]
     }
    ],
    "cues": {
     "snap": 0.2,
-    "boom": 3.983,
-    "sting": 6.51
+    "boom": 5.632,
+    "sting": 9.944
    },
    "mood": {
     "drone": 1,
@@ -868,8 +1138,8 @@
   },
   {
    "id": "choice",
-   "start": 49.7,
-   "duration": 12.6,
+   "start": 73.2667,
+   "duration": 13.366666666666667,
    "lines": [
     {
      "speaker": "narrator",
@@ -899,169 +1169,169 @@
     },
     {
      "speaker": "narrator",
-     "text": "A: ir a buscar a Álex al bosque.",
+     "text": "A: ayudar a Samuel contra Tomás.",
      "start": 2.38,
-     "end": 4.35,
+     "end": 4.54,
      "words": [
       {
        "w": "A:",
        "hl": false,
        "start": 2.41,
-       "end": 2.541
+       "end": 2.556
       },
       {
-       "w": "ir",
+       "w": "ayudar",
        "hl": false,
-       "start": 2.541,
-       "end": 2.731
+       "start": 2.556,
+       "end": 3.032
       },
       {
        "w": "a",
        "hl": false,
-       "start": 2.731,
-       "end": 2.862
+       "start": 3.032,
+       "end": 3.177
       },
       {
-       "w": "buscar",
+       "w": "Samuel",
        "hl": false,
-       "start": 2.862,
-       "end": 3.291
+       "start": 3.177,
+       "end": 3.654
       },
       {
-       "w": "a",
+       "w": "contra",
        "hl": false,
-       "start": 3.291,
-       "end": 3.422
+       "start": 3.654,
+       "end": 4.13
       },
       {
-       "w": "Álex",
-       "hl": false,
-       "start": 3.422,
-       "end": 3.731
-      },
-      {
-       "w": "al",
-       "hl": false,
-       "start": 3.731,
-       "end": 3.922
-      },
-      {
-       "w": "bosque.",
+       "w": "Tomás.",
        "hl": true,
-       "start": 3.922,
-       "end": 4.35
+       "start": 4.13,
+       "end": 4.54
       }
      ]
     },
     {
      "speaker": "narrator",
-     "text": "B: quedarse con Tomás y Samuel.",
-     "start": 4.85,
-     "end": 6.85,
+     "text": "B: correr hacia Álex y quitarle la máscara.",
+     "start": 5.04,
+     "end": 7.61,
      "words": [
       {
        "w": "B:",
        "hl": false,
-       "start": 4.88,
-       "end": 5.019
+       "start": 5.07,
+       "end": 5.198
       },
       {
-       "w": "quedarse",
+       "w": "correr",
        "hl": false,
-       "start": 5.019,
-       "end": 5.6
+       "start": 5.198,
+       "end": 5.618
       },
       {
-       "w": "con",
+       "w": "hacia",
        "hl": false,
-       "start": 5.6,
-       "end": 5.865
+       "start": 5.618,
+       "end": 5.979
       },
       {
-       "w": "Tomás",
+       "w": "Álex",
        "hl": false,
-       "start": 5.865,
-       "end": 6.256
+       "start": 5.979,
+       "end": 6.282
       },
       {
        "w": "y",
        "hl": false,
-       "start": 6.256,
-       "end": 6.395
+       "start": 6.282,
+       "end": 6.41
       },
       {
-       "w": "Samuel.",
+       "w": "quitarle",
+       "hl": false,
+       "start": 6.41,
+       "end": 6.946
+      },
+      {
+       "w": "la",
+       "hl": false,
+       "start": 6.946,
+       "end": 7.132
+      },
+      {
+       "w": "máscara.",
        "hl": true,
-       "start": 6.395,
-       "end": 6.85
+       "start": 7.132,
+       "end": 7.61
       }
      ]
     },
     {
      "speaker": "narrator",
      "text": "Comenta A o B... y suscríbete para ver qué pasa.",
-     "start": 7.45,
-     "end": 10.39,
+     "start": 8.21,
+     "end": 11.15,
      "words": [
       {
        "w": "Comenta",
        "hl": false,
-       "start": 7.49,
-       "end": 7.996
+       "start": 8.25,
+       "end": 8.756
       },
       {
        "w": "A",
        "hl": true,
-       "start": 7.996,
-       "end": 8.132
+       "start": 8.756,
+       "end": 8.892
       },
       {
        "w": "o",
        "hl": false,
-       "start": 8.132,
-       "end": 8.267
+       "start": 8.892,
+       "end": 9.027
       },
       {
        "w": "B...",
        "hl": true,
-       "start": 8.267,
-       "end": 8.403
+       "start": 9.027,
+       "end": 9.163
       },
       {
        "w": "y",
        "hl": false,
-       "start": 8.403,
-       "end": 8.539
+       "start": 9.163,
+       "end": 9.299
       },
       {
        "w": "suscríbete",
        "hl": false,
-       "start": 8.539,
-       "end": 9.23
+       "start": 9.299,
+       "end": 9.99
       },
       {
        "w": "para",
        "hl": false,
-       "start": 9.23,
-       "end": 9.551
+       "start": 9.99,
+       "end": 10.311
       },
       {
        "w": "ver",
        "hl": false,
-       "start": 9.551,
-       "end": 9.81
+       "start": 10.311,
+       "end": 10.57
       },
       {
        "w": "qué",
        "hl": false,
-       "start": 9.81,
-       "end": 10.069
+       "start": 10.57,
+       "end": 10.829
       },
       {
        "w": "pasa.",
        "hl": false,
-       "start": 10.069,
-       "end": 10.39
+       "start": 10.829,
+       "end": 11.15
       }
      ]
     }
@@ -1069,9 +1339,9 @@
    "cues": {
     "boom": 0.0,
     "a": 2.38,
-    "b": 4.85,
-    "bell": 9.05,
-    "end": 10.69
+    "b": 5.04,
+    "bell": 9.81,
+    "end": 11.45
    },
    "mood": {
     "drone": 0.8,
@@ -1079,5 +1349,5 @@
    }
   }
  ],
- "durationInFrames": 1869
+ "durationInFrames": 2599
 }
